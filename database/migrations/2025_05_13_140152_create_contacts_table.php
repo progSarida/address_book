@@ -38,7 +38,7 @@ return new class extends Migration
 
         Schema::create('referents', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('contact_id')->constrained();
+            $table->foreignId('contact_id')->constrained()->onDelete('cascade');
             $table->string('name');
             $table->string('title');
             $table->string('phone');

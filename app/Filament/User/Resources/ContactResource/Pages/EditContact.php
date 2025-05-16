@@ -13,7 +13,12 @@ class EditContact extends EditRecord
     protected function getHeaderActions(): array
     {
         return [
-            Actions\DeleteAction::make(),
+            Actions\DeleteAction::make()
+                ->requiresConfirmation()
+                ->modalHeading('Conferma eliminazione contatto')
+                ->modalDescription('Sei sicuro di voler eliminare questo contatto? Questa azione non può essere annullata.')
+                ->modalSubmitActionLabel('Elimina')
+                ->modalCancelActionLabel('Annulla'),
         ];
     }
 }

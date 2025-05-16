@@ -23,7 +23,10 @@ class User extends Authenticatable implements FilamentUser
     protected $fillable = [
         'name',
         'email',
+        'email_verified_at',
         'password',
+        'is_admin',
+        'company',
     ];
 
     /**

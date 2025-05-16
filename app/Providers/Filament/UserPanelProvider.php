@@ -2,6 +2,7 @@
 
 namespace App\Providers\Filament;
 
+use App\Filament\User\Pages\Login;
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
 use Filament\Http\Middleware\DisableBladeIconComponents;
@@ -27,14 +28,14 @@ class UserPanelProvider extends PanelProvider
             ->id('user')
             ->path('user')
             ->colors([
-                'primary' => Color::Green,
+                'primary' => Color::Blue,
             ])
             ->topNavigation()
-            ->login()
+            ->login(Login::class)
             ->discoverResources(in: app_path('Filament/User/Resources'), for: 'App\\Filament\\User\\Resources')
             ->discoverPages(in: app_path('Filament/User/Pages'), for: 'App\\Filament\\User\\Pages')
             ->pages([
-                Pages\Dashboard::class,
+                // Pages\Dashboard::class,
             ])
             ->discoverWidgets(in: app_path('Filament/User/Widgets'), for: 'App\\Filament\\User\\Widgets')
             ->widgets([
@@ -59,7 +60,7 @@ class UserPanelProvider extends PanelProvider
                 MenuItem::make()
                     ->label('Admin')
                     ->url('/admin')
-                    ->icon('heroicon-s-user')
+                    ->icon('ri-admin-fill')
                     ->visible(fn () => auth()->check() && auth()->user()->is_admin === 1),
                 // ...
             ]);
