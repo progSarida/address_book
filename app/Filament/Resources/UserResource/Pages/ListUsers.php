@@ -24,8 +24,8 @@ class ListUsers extends ListRecords
         ];
     }
 
-    public function getMaxContentWidth(): MaxWidth|string|null                                  // allarga la tabella a tutta pagina
-    {
-        return MaxWidth::Full;
-    }
+    // public function getMaxContentWidth(): MaxWidth|string|null                                  // allarga la tabella a tutta pagina
+    // {
+    //     return MaxWidth::Full;
+    // }
 }
