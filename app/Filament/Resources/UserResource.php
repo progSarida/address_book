@@ -81,7 +81,8 @@ class UserResource extends Resource
                     ->label('Azienda')
                     ->options(Companies::options())
                     ->searchable()
-                    ->sortable(),
+                    ->sortable()
+                    ->extraAttributes(['style' => 'max-width: 150px; white-space: nowrap;']),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()
@@ -95,9 +96,13 @@ class UserResource extends Resource
                 //
             ])
             ->actions([
-                Tables\Actions\EditAction::make()->iconButton(),
+                Tables\Actions\EditAction::make()
+                ->tooltip('Modifica utente')
+                // ->iconButton()
+                ,
                 Tables\Actions\DeleteAction::make()
-                    ->iconButton()
+                    ->tooltip('Elimina utente')
+                    // ->iconButton()
                     ->requiresConfirmation()
                     ->modalHeading('Conferma eliminazione utente')
                     ->modalDescription('Sei sicuro di voler eliminare questo utente? Questa azione non può essere annullata.')

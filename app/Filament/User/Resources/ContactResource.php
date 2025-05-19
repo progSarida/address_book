@@ -9,9 +9,11 @@ use App\Filament\User\Resources\ContactResource\RelationManagers;
 use App\Models\City;
 use App\Models\Contact;
 use App\Models\Province;
+use Barryvdh\DomPDF\Facade\Pdf;
 use Filament\Forms;
 use Filament\Forms\Components\Section;
 use Filament\Forms\Form;
+use Filament\Forms\Components\Hidden;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Filters\Filter;
@@ -19,6 +21,9 @@ use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Blade;
+
 
 class ContactResource extends Resource
 {
@@ -121,6 +126,9 @@ class ContactResource extends Resource
                                                             $set('cap', null);
                                                         }
                                                     })
+                                                    ->dehydrateStateUsing(function ($state) {
+                                                        return City::find($state)?->name;
+                                                    })
                                                     ->columnSpan(5),
                                                 Forms\Components\TextInput::make('province')
                                                     ->hiddenLabel()
@@ -188,7 +196,22 @@ class ContactResource extends Resource
                                                     ->hiddenLabel()
                                                     ->placeholder('Note')
                                                     ->rows(4)
-                                                    ->columnSpan(6),
+                                                    ->columnSpan(6)
+                                                    ->dehydrateStateUsing(function ($state) {
+                                                        if (empty($state)) {
+                                                            return null; // Gestisce il caso in cui il campo è vuoto
+                                                        }
+
+                                                        // Verifica se contiene tag HTML
+                                                        if (preg_match('/<[^>]+>/', $state)) {
+                                                            // HTML: sanitizza con Purify
+                                                            return Purify::clean(html_entity_decode($state));
+                                                        }
+
+                                                        // Testo normale: applica nl2br e sanitizza
+                                                        return Purify::clean(nl2br($state));
+                                                    })
+                                                    ,
                                             ]),
                                     ]),
                             ]),
@@ -238,7 +261,10 @@ class ContactResource extends Resource
             ->columns([
                 Tables\Columns\TextColumn::make('title')
                     ->label('Tipo')
-                    ->badge(),
+                    ->badge()
+                    ->formatStateUsing(function ($state) {
+                        return \App\Enum\Titles::tryFrom($state)?->getLabel() ?? $state;
+                    }),
                 Tables\Columns\TextColumn::make('denominazione')
                     ->label('Denominazione')
                     ->sortable(['surname', 'name'])
@@ -260,9 +286,13 @@ class ContactResource extends Resource
                     ->multiple()
             ])
             ->actions([
-                Tables\Actions\EditAction::make()->iconButton(),
+                Tables\Actions\EditAction::make()
+                    ->tooltip('Modifica contatto')
+                    // ->iconButton()                                  // mostro solo icona
+                    ,
                 Tables\Actions\DeleteAction::make()
-                    ->iconButton()
+                    ->tooltip('Elimina contatto')
+                    // ->iconButton()                                  // mostro solo icona
                     ->requiresConfirmation()
                     ->modalHeading('Conferma eliminazione contatto')
                     ->modalDescription('Sei sicuro di voler eliminare questo contatto? Questa azione non può essere annullata.')
@@ -277,11 +307,28 @@ class ContactResource extends Resource
                         ->modalDescription('Sei sicuro di voler eliminare i contatti selezionati? Questa azione non può essere annullata.')
                         ->modalSubmitActionLabel('Elimina')
                         ->modalCancelActionLabel('Annulla'),
+                    // Tables\Actions\BulkAction::make('Stampa')
+                    //     ->icon('heroicon-m-arrow-down-tray')
+                    //     ->openUrlInNewTab()
+                    //     ->deselectRecordsAfterCompletion()
+                    //     ->action(function (Collection $records, array $data, $livewire) {
+                    //         $activeFilters = $livewire->tableFilters ?? [];
+                    //         $searchTerm = $livewire->tableSearch ?? null;           // controllare
+                    //         return response()->streamDownload(function () use ($records, $activeFilters) {
+                    //             echo Pdf::loadHTML(
+                    //                 Blade::render('pdf.contacts', [
+                    //                     'contacts' => $records,
+                    //                     'filters' => $activeFilters,
+                    //                 ])
+                    //             )
+                    //             ->setPaper('A4', 'landscape')
+                    //             ->stream();
+                    //         }, 'Contatti.pdf');
+                    //     }),
                 ]),
             ])
             ->searchable()
             ->modifyQueryUsing(function (Builder $query) use ($table): Builder {
-                // Accedi alla stringa di ricerca tramite il componente Livewire
                 $search = $table->getLivewire()->getTableSearch();
                 if ($search) {
                     $query->where(function ($query) use ($search) {
