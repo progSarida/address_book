@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
 
 class ReferentsTableSeeder extends Seeder
 {
@@ -15,12 +14,12 @@ class ReferentsTableSeeder extends Seeder
      */
     public function run()
     {
+        
 
-
-        DB::table('referents')->delete();
-
-        DB::table('referents')->insert(array (
-            0 =>
+        \DB::table('referents')->delete();
+        
+        \DB::table('referents')->insert(array (
+            0 => 
             array (
                 'id' => 28,
                 'contact_id' => 113,
@@ -30,10 +29,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 7540506',
                 'email' => 'dario.oreglia@areariscossioni.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            1 =>
+            1 => 
             array (
                 'id' => 27,
                 'contact_id' => 108,
@@ -43,10 +42,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            2 =>
+            2 => 
             array (
                 'id' => 25,
                 'contact_id' => 106,
@@ -56,10 +55,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            3 =>
+            3 => 
             array (
                 'id' => 26,
                 'contact_id' => 107,
@@ -69,10 +68,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0115112304',
                 'smart' => '',
                 'email' => 'carlo.merani@allenovery.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            4 =>
+            4 => 
             array (
                 'id' => 22,
                 'contact_id' => 104,
@@ -82,10 +81,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 5993709',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            5 =>
+            5 => 
             array (
                 'id' => 23,
                 'contact_id' => 105,
@@ -95,10 +94,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            6 =>
+            6 => 
             array (
                 'id' => 24,
                 'contact_id' => 103,
@@ -108,10 +107,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'andreina.salvaderi@comune.sordio.lo.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            7 =>
+            7 => 
             array (
                 'id' => 21,
                 'contact_id' => NULL,
@@ -121,10 +120,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338 5433698',
                 'email' => 'riccardo.sambuceti@sarida.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            8 =>
+            8 => 
             array (
                 'id' => 20,
                 'contact_id' => NULL,
@@ -134,10 +133,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => ' 348 7128708 personale',
                 'email' => 'daniela.sambuceti@sarida.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            9 =>
+            9 => 
             array (
                 'id' => 335,
                 'contact_id' => 461,
@@ -147,10 +146,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3204843551',
                 'email' => 'info@savesistemi.eu',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            10 =>
+            10 => 
             array (
                 'id' => 30,
                 'contact_id' => 114,
@@ -160,10 +159,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            11 =>
+            11 => 
             array (
                 'id' => 31,
                 'contact_id' => 120,
@@ -173,10 +172,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            12 =>
+            12 => 
             array (
                 'id' => 32,
                 'contact_id' => 120,
@@ -186,10 +185,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            13 =>
+            13 => 
             array (
                 'id' => 33,
                 'contact_id' => 120,
@@ -199,10 +198,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '010 8361487',
                 'smart' => '338 7302026',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            14 =>
+            14 => 
             array (
                 'id' => 34,
                 'contact_id' => 117,
@@ -212,10 +211,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'mario.sandretto@ludogoroff.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            15 =>
+            15 => 
             array (
                 'id' => 389,
                 'contact_id' => 545,
@@ -225,10 +224,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            16 =>
+            16 => 
             array (
                 'id' => 36,
                 'contact_id' => 131,
@@ -238,23 +237,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '339 7200443',
                 'email' => 'giuseppe.caldarola@agenziaterritorio.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            17 =>
+            17 => 
             array (
                 'id' => 38,
-                'contact_id' => NULL,
+                'contact_id' => 131,
                 'name' => 'Sig. Parodi',
                 'title' => 'Geometra',
                 'phone' => '010 5384410',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'pierluigi.parodi@agenziaterritorio.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            18 =>
+            18 => 
             array (
                 'id' => 39,
                 'contact_id' => 131,
@@ -264,10 +263,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            19 =>
+            19 => 
             array (
                 'id' => 40,
                 'contact_id' => 132,
@@ -277,10 +276,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3474727049',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            20 =>
+            20 => 
             array (
                 'id' => 41,
                 'contact_id' => 132,
@@ -290,10 +289,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3472232021',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            21 =>
+            21 => 
             array (
                 'id' => 42,
                 'contact_id' => 133,
@@ -303,23 +302,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            22 =>
+            22 => 
             array (
                 'id' => 165,
                 'contact_id' => 298,
-                'name' => 'Ufficio Segreteria',
-                'title' => '',
-                'phone' => '0523 930212',
+                'name' => 'Nicoletta De Cristofaro',
+                'title' => 'Comandante PM',
+                'phone' => '0523 930122',
                 'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '333 4434986',
+                'email' => 'p.municipale@comune.ottone.pc.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            23 =>
+            23 => 
             array (
                 'id' => 43,
                 'contact_id' => 134,
@@ -329,10 +328,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            24 =>
+            24 => 
             array (
                 'id' => 44,
                 'contact_id' => 135,
@@ -342,10 +341,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'studiopetrocco@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            25 =>
+            25 => 
             array (
                 'id' => 45,
                 'contact_id' => 107,
@@ -355,10 +354,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'antonella.borsero@allenovery.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            26 =>
+            26 => 
             array (
                 'id' => 46,
                 'contact_id' => 106,
@@ -368,10 +367,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0185 485758',
                 'smart' => '335 7025364',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            27 =>
+            27 => 
             array (
                 'id' => 47,
                 'contact_id' => 144,
@@ -381,10 +380,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            28 =>
+            28 => 
             array (
                 'id' => 48,
                 'contact_id' => 144,
@@ -394,10 +393,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            29 =>
+            29 => 
             array (
                 'id' => 49,
                 'contact_id' => 144,
@@ -407,10 +406,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            30 =>
+            30 => 
             array (
                 'id' => 50,
                 'contact_id' => 145,
@@ -420,23 +419,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '370 3257019',
                 'email' => 'massimili.morabito@gmail.com -  segretario@comune.bargagli.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            31 =>
+            31 => 
             array (
                 'id' => 51,
                 'contact_id' => 145,
-                'name' => 'Alessia Mangini',
+                'name' => 'Stefania Cerulli',
                 'title' => 'Responsabile Ufficio Tributi',
-                'phone' => '',
+                'phone' => '010 900104 int. 7',
                 'fax' => '',
-                'smart' => '3470133683',
+                'smart' => '',
                 'email' => 'ragioneria@comune.bargagli.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            32 =>
+            32 => 
             array (
                 'id' => 52,
                 'contact_id' => 146,
@@ -446,10 +445,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'm.ficarelli@crema.cr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            33 =>
+            33 => 
             array (
                 'id' => 53,
                 'contact_id' => 147,
@@ -459,10 +458,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            34 =>
+            34 => 
             array (
                 'id' => 54,
                 'contact_id' => 147,
@@ -472,10 +471,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tributi@comune.felino.pr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            35 =>
+            35 => 
             array (
                 'id' => 55,
                 'contact_id' => 147,
@@ -485,10 +484,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            36 =>
+            36 => 
             array (
                 'id' => 56,
                 'contact_id' => 147,
@@ -498,10 +497,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            37 =>
+            37 => 
             array (
                 'id' => 57,
                 'contact_id' => 147,
@@ -511,10 +510,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '347 3649846',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            38 =>
+            38 => 
             array (
                 'id' => 58,
                 'contact_id' => 148,
@@ -524,10 +523,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            39 =>
+            39 => 
             array (
                 'id' => 59,
                 'contact_id' => 148,
@@ -537,23 +536,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tributaria@comunemonterosso5terre.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            40 =>
+            40 => 
             array (
                 'id' => 60,
                 'contact_id' => 149,
                 'name' => '',
-            'title' => 'Sindaco (int. 5)',
+            'title' => 'Sindaco (int. 5) cell. 3490928870',
             'phone' => '0185 354045 Ufficio privato (Ardesia Biggio)',
                 'fax' => '',
                 'smart' => '380 4537456 - 335 8160794',
                 'email' => 'sindaco@comune.orero.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            41 =>
+            41 => 
             array (
                 'id' => 61,
                 'contact_id' => 149,
@@ -563,10 +562,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tecnico@comune.orero.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            42 =>
+            42 => 
             array (
                 'id' => 62,
                 'contact_id' => 150,
@@ -576,10 +575,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'c.manini@comune.sala-baganza.pr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            43 =>
+            43 => 
             array (
                 'id' => 63,
                 'contact_id' => 151,
@@ -589,10 +588,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ragioneria@comune.maissana.sp.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            44 =>
+            44 => 
             array (
                 'id' => 64,
                 'contact_id' => 151,
@@ -602,10 +601,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'amministrativo@comune.maissana.sp.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            45 =>
+            45 => 
             array (
                 'id' => 65,
                 'contact_id' => 151,
@@ -615,10 +614,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '347 8305118',
                 'email' => 'isabatino@hotmail.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            46 =>
+            46 => 
             array (
                 'id' => 66,
                 'contact_id' => 151,
@@ -628,10 +627,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 7517351',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            47 =>
+            47 => 
             array (
                 'id' => 67,
                 'contact_id' => 152,
@@ -641,10 +640,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            48 =>
+            48 => 
             array (
                 'id' => 68,
                 'contact_id' => 152,
@@ -654,10 +653,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            49 =>
+            49 => 
             array (
                 'id' => 69,
                 'contact_id' => 153,
@@ -667,10 +666,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            50 =>
+            50 => 
             array (
                 'id' => 70,
                 'contact_id' => 157,
@@ -680,10 +679,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '349 3233109',
                 'email' => 'lorenzo@irtel.it     ,014441142@iol.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            51 =>
+            51 => 
             array (
                 'id' => 71,
                 'contact_id' => 157,
@@ -693,10 +692,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '328 7233428',
                 'email' => 'gollo@irtel.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            52 =>
+            52 => 
             array (
                 'id' => 72,
                 'contact_id' => 158,
@@ -706,23 +705,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '329 7392110',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            53 =>
+            53 => 
             array (
                 'id' => 73,
                 'contact_id' => 158,
-            'name' => 'Rag. Garibaldi Maria Elisa (Int. 3)',
-                'title' => '',
+                'name' => 'Monica Solari',
+                'title' => 'Responsabile ufficio Ragioneria e Tributi',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'ufficioragioneria@comune.leivi.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'ufficioragioneria@comune.leivi.ge.it - monica.solari@comune.leivi.ge.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            54 =>
+            54 => 
             array (
                 'id' => 74,
                 'contact_id' => 158,
@@ -732,10 +731,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'comleivi@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            55 =>
+            55 => 
             array (
                 'id' => 75,
                 'contact_id' => NULL,
@@ -745,10 +744,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            56 =>
+            56 => 
             array (
                 'id' => 76,
                 'contact_id' => 163,
@@ -758,10 +757,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ragioneria@comune.casarza-ligure.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            57 =>
+            57 => 
             array (
                 'id' => 77,
                 'contact_id' => 163,
@@ -771,10 +770,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            58 =>
+            58 => 
             array (
                 'id' => 78,
                 'contact_id' => 163,
@@ -784,10 +783,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '334 6138693',
                 'email' => 'clsindac@tin.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            59 =>
+            59 => 
             array (
                 'id' => 79,
                 'contact_id' => 165,
@@ -797,10 +796,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            60 =>
+            60 => 
             array (
                 'id' => 80,
                 'contact_id' => 165,
@@ -810,10 +809,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            61 =>
+            61 => 
             array (
                 'id' => 81,
                 'contact_id' => 166,
@@ -822,11 +821,11 @@ class ReferentsTableSeeder extends Seeder
                 'phone' => '',
                 'fax' => '',
                 'smart' => '339 3215376',
-                'email' => 'info@datastore.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'paolo@datastore.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            62 =>
+            62 => 
             array (
                 'id' => 82,
                 'contact_id' => 166,
@@ -836,10 +835,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '339 3524326',
                 'email' => 'simoneraso@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            63 =>
+            63 => 
             array (
                 'id' => 83,
                 'contact_id' => 167,
@@ -849,10 +848,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            64 =>
+            64 => 
             array (
                 'id' => 84,
                 'contact_id' => 167,
@@ -862,10 +861,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            65 =>
+            65 => 
             array (
                 'id' => 85,
                 'contact_id' => 153,
@@ -875,23 +874,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            66 =>
+            66 => 
             array (
                 'id' => 86,
                 'contact_id' => 153,
                 'name' => 'Stracuzza Carmela',
-                'title' => 'Segretario Comunale - Presenza nei giorni di Lunedì - Mercoledì Mattino',
+                'title' => 'Segretario Comunale - Presenza nei giorni di Luned? - Mercoled? Mattino',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            67 =>
+            67 => 
             array (
                 'id' => 87,
                 'contact_id' => 170,
@@ -901,23 +900,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => 'Uff. Lodi 0371 442211',
                 'smart' => '329 2107741',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            68 =>
+            68 => 
             array (
                 'id' => 88,
                 'contact_id' => 170,
-                'name' => 'Dott. Samuele Samà',
+                'name' => 'Dott. Samuele Sam',
                 'title' => 'Responsabile Ufficio Ragioneria',
                 'phone' => '02 98208237',
                 'fax' => '',
                 'smart' => '329 2107758',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            69 =>
+            69 => 
             array (
                 'id' => 89,
                 'contact_id' => 170,
@@ -927,10 +926,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '02 98208219',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            70 =>
+            70 => 
             array (
                 'id' => 90,
                 'contact_id' => 170,
@@ -940,23 +939,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 7517351',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            71 =>
+            71 => 
             array (
                 'id' => 91,
                 'contact_id' => 175,
-            'name' => 'Cappellano Cesare (è andato in pensione Cassola Giovanni)',
+            'name' => 'Cappellano Cesare (? andato in pensione Cassola Giovanni)',
                 'title' => 'Vigile',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '335 7725498',
                 'email' => 'vigiliferriere@email.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            72 =>
+            72 => 
             array (
                 'id' => 92,
                 'contact_id' => 175,
@@ -966,10 +965,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 7037776',
                 'email' => 'comunediferriere@email.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            73 =>
+            73 => 
             array (
                 'id' => 93,
                 'contact_id' => 149,
@@ -977,12 +976,12 @@ class ReferentsTableSeeder extends Seeder
                 'title' => 'Segretario Comunale',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '',
+                'smart' => '3929685129',
                 'email' => 'segretario.comunale@comune.orero.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            74 =>
+            74 => 
             array (
                 'id' => 94,
                 'contact_id' => 188,
@@ -992,10 +991,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            75 =>
+            75 => 
             array (
                 'id' => 95,
                 'contact_id' => 193,
@@ -1005,10 +1004,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '010 5755214',
                 'smart' => '329 3006607',
                 'email' => 'magnanic1@posteitaliane.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            76 =>
+            76 => 
             array (
                 'id' => 173,
                 'contact_id' => 236,
@@ -1018,10 +1017,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            77 =>
+            77 => 
             array (
                 'id' => 97,
                 'contact_id' => 204,
@@ -1031,10 +1030,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            78 =>
+            78 => 
             array (
                 'id' => 98,
                 'contact_id' => 205,
@@ -1044,10 +1043,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335402207',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            79 =>
+            79 => 
             array (
                 'id' => 99,
                 'contact_id' => 205,
@@ -1057,10 +1056,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0552974480',
                 'smart' => '335 462207',
                 'email' => 'raffaele.pengue@telecomitalia.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            80 =>
+            80 => 
             array (
                 'id' => 100,
                 'contact_id' => 144,
@@ -1070,10 +1069,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            81 =>
+            81 => 
             array (
                 'id' => 101,
                 'contact_id' => 207,
@@ -1083,10 +1082,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '337 258693',
                 'email' => 'miroli.g@icatributi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            82 =>
+            82 => 
             array (
                 'id' => 102,
                 'contact_id' => 193,
@@ -1096,10 +1095,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '010 8423008',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            83 =>
+            83 => 
             array (
                 'id' => 166,
                 'contact_id' => 298,
@@ -1109,10 +1108,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 7057656',
                 'email' => 'comune.ottone@sintranet.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            84 =>
+            84 => 
             array (
                 'id' => 103,
                 'contact_id' => 209,
@@ -1122,10 +1121,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            85 =>
+            85 => 
             array (
                 'id' => 104,
                 'contact_id' => 209,
@@ -1135,10 +1134,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            86 =>
+            86 => 
             array (
                 'id' => 105,
                 'contact_id' => 210,
@@ -1148,10 +1147,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            87 =>
+            87 => 
             array (
                 'id' => 106,
                 'contact_id' => 210,
@@ -1161,10 +1160,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            88 =>
+            88 => 
             array (
                 'id' => 107,
                 'contact_id' => 214,
@@ -1174,10 +1173,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            89 =>
+            89 => 
             array (
                 'id' => 108,
                 'contact_id' => 105,
@@ -1187,23 +1186,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            90 =>
+            90 => 
             array (
                 'id' => 111,
                 'contact_id' => 221,
-                'name' => 'zanchi nicole',
-                'title' => 'ufficio tributi',
+                'name' => 'Dott.ssa Vera Silvia Corna',
+                'title' => 'ufficio tributi Int. 4',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'info@comune.santomobonoterme.bg.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            91 =>
+            91 => 
             array (
                 'id' => 355,
                 'contact_id' => 401,
@@ -1213,10 +1212,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'i.egizi@mercurioservice.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            92 =>
+            92 => 
             array (
                 'id' => 110,
                 'contact_id' => 218,
@@ -1226,10 +1225,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 7277699',
                 'email' => 'm.bergamaschi@comune.roccabianca.pr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            93 =>
+            93 => 
             array (
                 'id' => 113,
                 'contact_id' => 222,
@@ -1239,10 +1238,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            94 =>
+            94 => 
             array (
                 'id' => 114,
                 'contact_id' => 175,
@@ -1252,10 +1251,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3488558767',
                 'email' => 'comune.ferriere@email.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            95 =>
+            95 => 
             array (
                 'id' => 115,
                 'contact_id' => 193,
@@ -1265,23 +1264,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '010 5755214',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            96 =>
+            96 => 
             array (
                 'id' => 116,
                 'contact_id' => 158,
-            'name' => 'Dott. Camberlingo Vincenzo (Int. 6)',
-                'title' => 'Segretario Comunale',
+                'name' => '',
+                'title' => '',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'comleivi@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            97 =>
+            97 => 
             array (
                 'id' => 117,
                 'contact_id' => 175,
@@ -1291,10 +1290,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tributi_ferriere@email.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            98 =>
+            98 => 
             array (
                 'id' => 118,
                 'contact_id' => 175,
@@ -1304,10 +1303,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0523 922849',
                 'smart' => '347 7975143',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            99 =>
+            99 => 
             array (
                 'id' => 119,
                 'contact_id' => 207,
@@ -1317,10 +1316,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '336 258165',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            100 =>
+            100 => 
             array (
                 'id' => 120,
                 'contact_id' => 230,
@@ -1330,10 +1329,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 4905512',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            101 =>
+            101 => 
             array (
                 'id' => 121,
                 'contact_id' => 232,
@@ -1343,10 +1342,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '334 9035092',
                 'email' => 'vivere@mclink.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            102 =>
+            102 => 
             array (
                 'id' => 122,
                 'contact_id' => 120,
@@ -1356,10 +1355,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '333 8482382',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            103 =>
+            103 => 
             array (
                 'id' => 123,
                 'contact_id' => 233,
@@ -1369,10 +1368,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '320 4320856',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            104 =>
+            104 => 
             array (
                 'id' => 124,
                 'contact_id' => 234,
@@ -1382,23 +1381,36 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'lucadirovegno@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            105 =>
+            105 => 
             array (
                 'id' => 125,
                 'contact_id' => 234,
-                'name' => 'Pepi Bruno',
-                'title' => 'Assessore alle Finanze',
-                'phone' => 'Negozio 010 95712',
+                'name' => '',
+                'title' => '',
+                'phone' => '',
                 'fax' => '',
-                'smart' => '347 2487298',
+                'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            106 =>
+            106 => 
+            array (
+                'id' => 1234,
+                'contact_id' => 1410,
+                'name' => 'Dott.ssa Nicole Zanchi',
+                'title' => 'Responsabile UT',
+                'phone' => '035 863180 - int. 2',
+                'fax' => '',
+                'smart' => '348 7631150',
+                'email' => 'ragioneria@comune.strozza.bg.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            107 => 
             array (
                 'id' => 126,
                 'contact_id' => 236,
@@ -1408,10 +1420,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0187 842352',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            107 =>
+            108 => 
             array (
                 'id' => 127,
                 'contact_id' => 237,
@@ -1421,10 +1433,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            108 =>
+            109 => 
             array (
                 'id' => 128,
                 'contact_id' => 237,
@@ -1434,10 +1446,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            109 =>
+            110 => 
             array (
                 'id' => 129,
                 'contact_id' => 237,
@@ -1447,10 +1459,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '349 8519780',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            110 =>
+            111 => 
             array (
                 'id' => 130,
                 'contact_id' => 236,
@@ -1460,10 +1472,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            111 =>
+            112 => 
             array (
                 'id' => 131,
                 'contact_id' => 238,
@@ -1473,10 +1485,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            112 =>
+            113 => 
             array (
                 'id' => 132,
                 'contact_id' => 238,
@@ -1486,10 +1498,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '347 6240134',
                 'email' => 'grgpm@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            113 =>
+            114 => 
             array (
                 'id' => 133,
                 'contact_id' => 238,
@@ -1499,10 +1511,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            114 =>
+            115 => 
             array (
                 'id' => 134,
                 'contact_id' => 238,
@@ -1512,10 +1524,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            115 =>
+            116 => 
             array (
                 'id' => 135,
                 'contact_id' => 239,
@@ -1525,10 +1537,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            116 =>
+            117 => 
             array (
                 'id' => 136,
                 'contact_id' => 240,
@@ -1538,10 +1550,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            117 =>
+            118 => 
             array (
                 'id' => 137,
                 'contact_id' => 243,
@@ -1551,10 +1563,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            118 =>
+            119 => 
             array (
                 'id' => 138,
                 'contact_id' => 234,
@@ -1562,12 +1574,12 @@ class ReferentsTableSeeder extends Seeder
                 'title' => 'Sindaco',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '347 2929830',
+                'smart' => '348 5738604',
                 'email' => 'isola.pin@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            119 =>
+            120 => 
             array (
                 'id' => 139,
                 'contact_id' => 214,
@@ -1577,23 +1589,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            120 =>
+            121 => 
             array (
                 'id' => 140,
                 'contact_id' => 246,
-                'name' => 'Dott. Emanuele Barone Ricciardelli',
+                'name' => 'Dott. Giancarlo Brusco',
             'title' => 'UFFICIO XI (Gestione Albo gestori tributi locali e regolamentazioni speciali)',
-                'phone' => '06 93836784',
+                'phone' => '06 93836922',
                 'fax' => '06 50171470',
                 'smart' => '',
-                'email' => 'emanuele.baronericciardelli@finanze.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'giancarlo.brusco@mef.gov.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            121 =>
+            122 => 
             array (
                 'id' => 143,
                 'contact_id' => 234,
@@ -1603,10 +1615,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 8369607',
                 'email' => '3403823980',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            122 =>
+            123 => 
             array (
                 'id' => 144,
                 'contact_id' => 255,
@@ -1616,10 +1628,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            123 =>
+            124 => 
             array (
                 'id' => 145,
                 'contact_id' => 163,
@@ -1629,10 +1641,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => ' roberto.lanata@comune.casarza-ligure.ge.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            124 =>
+            125 => 
             array (
                 'id' => 146,
                 'contact_id' => 256,
@@ -1642,23 +1654,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '010 2488216',
                 'smart' => '339 3068142',
                 'email' => '@enel.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            125 =>
+            126 => 
             array (
                 'id' => 147,
                 'contact_id' => 234,
                 'name' => 'Ballaera Silvana',
-                'title' => 'Contabilità',
+                'title' => 'Contabilit',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            126 =>
+            127 => 
             array (
                 'id' => 148,
                 'contact_id' => NULL,
@@ -1668,10 +1680,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0185 41499',
                 'smart' => '346 1226161',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            127 =>
+            128 => 
             array (
                 'id' => 149,
                 'contact_id' => 261,
@@ -1681,10 +1693,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 5808087',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            128 =>
+            129 => 
             array (
                 'id' => 150,
                 'contact_id' => NULL,
@@ -1694,10 +1706,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            129 =>
+            130 => 
             array (
                 'id' => 151,
                 'contact_id' => 265,
@@ -1707,10 +1719,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 7598022',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            130 =>
+            131 => 
             array (
                 'id' => 152,
                 'contact_id' => 266,
@@ -1720,10 +1732,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338 8757839',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            131 =>
+            132 => 
             array (
                 'id' => 153,
                 'contact_id' => 260,
@@ -1733,10 +1745,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '320 4370067',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            132 =>
+            133 => 
             array (
                 'id' => 154,
                 'contact_id' => 148,
@@ -1746,10 +1758,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 6209421',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            133 =>
+            134 => 
             array (
                 'id' => 155,
                 'contact_id' => 237,
@@ -1759,10 +1771,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            134 =>
+            135 => 
             array (
                 'id' => 156,
                 'contact_id' => 223,
@@ -1772,10 +1784,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            135 =>
+            136 => 
             array (
                 'id' => 157,
                 'contact_id' => 236,
@@ -1785,10 +1797,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            136 =>
+            137 => 
             array (
                 'id' => 158,
                 'contact_id' => 145,
@@ -1798,10 +1810,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '347 5744953',
                 'email' => 'polizia@comune.bargagli.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            137 =>
+            138 => 
             array (
                 'id' => 159,
                 'contact_id' => 145,
@@ -1811,10 +1823,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '347 8934474',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            138 =>
+            139 => 
             array (
                 'id' => 160,
                 'contact_id' => 261,
@@ -1824,10 +1836,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'paolo@eltraff.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            139 =>
+            140 => 
             array (
                 'id' => 161,
                 'contact_id' => 294,
@@ -1837,10 +1849,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'marinella.colturi@comune.valdisotto.so.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            140 =>
+            141 => 
             array (
                 'id' => 162,
                 'contact_id' => 191,
@@ -1850,10 +1862,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            141 =>
+            142 => 
             array (
                 'id' => 163,
                 'contact_id' => 296,
@@ -1863,10 +1875,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'massa@studioacquarone.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            142 =>
+            143 => 
             array (
                 'id' => 164,
                 'contact_id' => 265,
@@ -1876,10 +1888,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0185 336398',
                 'smart' => '328 9476695',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            143 =>
+            144 => 
             array (
                 'id' => 167,
                 'contact_id' => 299,
@@ -1889,10 +1901,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '010 6583855',
                 'smart' => '3486062702',
                 'email' => 'claudio.costa@elsag.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            144 =>
+            145 => 
             array (
                 'id' => 168,
                 'contact_id' => 239,
@@ -1902,36 +1914,36 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '334 8336155',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            145 =>
+            146 => 
             array (
                 'id' => 169,
                 'contact_id' => 185,
-                'name' => 'Cinzia Sanguineti per referenze bancarie',
-                'title' => 'Aiuto direttore, nel caso anche per referenze bancarie',
-                'phone' => '0185 487151',
-                'fax' => '0185 487169',
-                'smart' => '',
-                'email' => 'cinzia.sanguineti@bancobpm.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+            'name' => 'Vincenzo Trimboli (nostro referente dal 14/10/2024)',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '345 5825585',
+                'email' => 'vincenzo.trimboli@bancobpm.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            146 =>
+            147 => 
             array (
                 'id' => 170,
                 'contact_id' => 300,
                 'name' => 'Mozzi Agostino',
                 'title' => 'Vigile',
-                'phone' => '',
+                'phone' => '3384926672',
                 'fax' => '',
                 'smart' => '338 4926677',
-                'email' => 'polizia-municipale.cortebrugnatella@sintranet.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'polizia-municipale.cortebrugnatella@sintranet.it   -   polizia-municipale@comune.cortebrugnatella.pc.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            147 =>
+            148 => 
             array (
                 'id' => 171,
                 'contact_id' => 300,
@@ -1941,10 +1953,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'segretario.cortebrugnatella@sintranet.it - segretario.monticelli@sintranet.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            148 =>
+            149 => 
             array (
                 'id' => 172,
                 'contact_id' => 300,
@@ -1954,10 +1966,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 1008430',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            149 =>
+            150 => 
             array (
                 'id' => 174,
                 'contact_id' => 301,
@@ -1967,23 +1979,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'massimovallese@yahoo.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            150 =>
+            151 => 
             array (
                 'id' => 175,
                 'contact_id' => 163,
-                'name' => 'Sig.ra Luciana',
+                'name' => 'Dott. Nicola Nicolini',
                 'title' => 'Comandante di P.M.',
                 'phone' => '0185 469834-36',
                 'fax' => '',
                 'smart' => '3311551142',
-                'email' => 'comunecl@tin.it - poliziacasarza@libero.it - pm@comune.casarza-ligure.ge.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'polizialocale@gmail.com - pm@comune.casarza-ligure.ge.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            151 =>
+            152 => 
             array (
                 'id' => 176,
                 'contact_id' => 149,
@@ -1993,10 +2005,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ragioneria@comune.orero.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            152 =>
+            153 => 
             array (
                 'id' => 177,
                 'contact_id' => 298,
@@ -2005,11 +2017,11 @@ class ReferentsTableSeeder extends Seeder
                 'phone' => '0523 930212',
                 'fax' => '',
                 'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'ragioneria@comune.ottone.pc.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            153 =>
+            154 => 
             array (
                 'id' => 178,
                 'contact_id' => 308,
@@ -2019,10 +2031,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3383695090',
                 'email' => 'enzo.sivori@agenzie.unipolassicurazioni.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            154 =>
+            155 => 
             array (
                 'id' => 179,
                 'contact_id' => 283,
@@ -2032,10 +2044,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            155 =>
+            156 => 
             array (
                 'id' => 180,
                 'contact_id' => 210,
@@ -2045,23 +2057,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            156 =>
+            157 => 
             array (
                 'id' => 181,
                 'contact_id' => 298,
-                'name' => '',
-                'title' => '',
+                'name' => 'Pisotti Lucia',
+                'title' => 'Ragioniere',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '340 3560630',
+                'email' => 'comune.ottone@sintranet.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            157 =>
+            158 => 
             array (
                 'id' => 699,
                 'contact_id' => 317,
@@ -2071,10 +2083,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            158 =>
+            159 => 
             array (
                 'id' => 182,
                 'contact_id' => 309,
@@ -2084,10 +2096,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            159 =>
+            160 => 
             array (
                 'id' => 183,
                 'contact_id' => 309,
@@ -2097,10 +2109,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '347 7942017',
                 'email' => 'giovannigenco@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            160 =>
+            161 => 
             array (
                 'id' => 184,
                 'contact_id' => 309,
@@ -2110,10 +2122,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            161 =>
+            162 => 
             array (
                 'id' => 185,
                 'contact_id' => 310,
@@ -2123,10 +2135,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            162 =>
+            163 => 
             array (
                 'id' => 186,
                 'contact_id' => 135,
@@ -2136,10 +2148,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'servizifinanziari@comune.castiglione-chiavarese.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            163 =>
+            164 => 
             array (
                 'id' => 892,
                 'contact_id' => 1132,
@@ -2149,10 +2161,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'sistemisti@sipalinformatica.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            164 =>
+            165 => 
             array (
                 'id' => 188,
                 'contact_id' => 315,
@@ -2162,10 +2174,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            165 =>
+            166 => 
             array (
                 'id' => 189,
                 'contact_id' => 315,
@@ -2175,10 +2187,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            166 =>
+            167 => 
             array (
                 'id' => 190,
                 'contact_id' => 315,
@@ -2188,10 +2200,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            167 =>
+            168 => 
             array (
                 'id' => 191,
                 'contact_id' => 310,
@@ -2201,10 +2213,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '329 2606793',
                 'email' => 'segreteria@comune.montoggio.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            168 =>
+            169 => 
             array (
                 'id' => 192,
                 'contact_id' => 265,
@@ -2214,10 +2226,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 7435745',
                 'email' => 'polizia@comunemezzanego.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            169 =>
+            170 => 
             array (
                 'id' => 193,
                 'contact_id' => 145,
@@ -2227,10 +2239,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
             'smart' => '347 4907549 (personale)',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            170 =>
+            171 => 
             array (
                 'id' => 194,
                 'contact_id' => 317,
@@ -2240,10 +2252,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0774 926799',
                 'smart' => '347 1180551',
                 'email' => 'cauccicmaniene@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            171 =>
+            172 => 
             array (
                 'id' => 195,
                 'contact_id' => 317,
@@ -2251,12 +2263,12 @@ class ReferentsTableSeeder extends Seeder
                 'title' => 'Segretario Comunale',
             'phone' => '0774 920006 (int. 8)',
                 'fax' => '',
-                'smart' => '',
+                'smart' => '348 513 3244',
                 'email' => 'vpiccigallo@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            172 =>
+            173 => 
             array (
                 'id' => 196,
                 'contact_id' => 149,
@@ -2266,10 +2278,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'servizi.demografici@comune.orero.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            173 =>
+            174 => 
             array (
                 'id' => 197,
                 'contact_id' => 265,
@@ -2279,10 +2291,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            174 =>
+            175 => 
             array (
                 'id' => 198,
                 'contact_id' => 319,
@@ -2292,10 +2304,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0185 250073',
                 'smart' => '335 5784541',
                 'email' => 'pmzoagli@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            175 =>
+            176 => 
             array (
                 'id' => 199,
                 'contact_id' => 266,
@@ -2305,10 +2317,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338 9500367',
                 'email' => 'info@saptributi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            176 =>
+            177 => 
             array (
                 'id' => 200,
                 'contact_id' => 310,
@@ -2316,12 +2328,12 @@ class ReferentsTableSeeder extends Seeder
                 'title' => 'Vigile',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '3475515776',
+                'smart' => '347 5515776',
                 'email' => 'segreteria@comune.montoggio.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            177 =>
+            178 => 
             array (
                 'id' => 297,
                 'contact_id' => 409,
@@ -2331,10 +2343,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            178 =>
+            179 => 
             array (
                 'id' => 298,
                 'contact_id' => 409,
@@ -2344,10 +2356,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            179 =>
+            180 => 
             array (
                 'id' => 202,
                 'contact_id' => 319,
@@ -2357,10 +2369,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 5986526',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            180 =>
+            181 => 
             array (
                 'id' => 203,
                 'contact_id' => 323,
@@ -2370,10 +2382,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ragioneria.bobbio@sintranet.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            181 =>
+            182 => 
             array (
                 'id' => 204,
                 'contact_id' => 323,
@@ -2383,10 +2395,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            182 =>
+            183 => 
             array (
                 'id' => 205,
                 'contact_id' => 324,
@@ -2396,10 +2408,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'pm@comune.casella.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            183 =>
+            184 => 
             array (
                 'id' => 206,
                 'contact_id' => 324,
@@ -2409,10 +2421,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 0000438',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            184 =>
+            185 => 
             array (
                 'id' => 207,
                 'contact_id' => 150,
@@ -2422,10 +2434,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            185 =>
+            186 => 
             array (
                 'id' => 208,
                 'contact_id' => 325,
@@ -2435,10 +2447,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'chiara.cartasso@novellagl.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            186 =>
+            187 => 
             array (
                 'id' => 209,
                 'contact_id' => 325,
@@ -2448,10 +2460,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            187 =>
+            188 => 
             array (
                 'id' => 210,
                 'contact_id' => 326,
@@ -2461,10 +2473,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            188 =>
+            189 => 
             array (
                 'id' => 211,
                 'contact_id' => 319,
@@ -2474,10 +2486,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335412476-3387581127',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            189 =>
+            190 => 
             array (
                 'id' => 212,
                 'contact_id' => 332,
@@ -2487,10 +2499,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 6406775',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            190 =>
+            191 => 
             array (
                 'id' => 213,
                 'contact_id' => 333,
@@ -2500,10 +2512,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            191 =>
+            192 => 
             array (
                 'id' => 214,
                 'contact_id' => 333,
@@ -2511,12 +2523,12 @@ class ReferentsTableSeeder extends Seeder
                 'title' => 'Responsabile economico e finanziario',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '',
+                'smart' => '389 1506722',
                 'email' => 'anagrafe@comune.torriglia.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            192 =>
+            193 => 
             array (
                 'id' => 215,
                 'contact_id' => 334,
@@ -2526,36 +2538,49 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            193 =>
+            194 => 
             array (
                 'id' => 216,
                 'contact_id' => 333,
-                'name' => 'Cardamone Gianni',
+                'name' => 'Cani Cinzia',
                 'title' => 'Vigile',
             'phone' => '010 944038  (int. 5)',
                 'fax' => '',
-                'smart' => '334 6268990',
+                'smart' => '3478572872',
                 'email' => 'poliziamunicipale@comune.torriglia.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            194 =>
+            195 => 
             array (
                 'id' => 217,
                 'contact_id' => 321,
-            'name' => 'Giorgio     (Int. 27)',
-                'title' => 'Vigile',
+                'name' => 'Marro Giorgio',
+                'title' => '',
+                'phone' => '3315702209',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'giorgio.marro@comune.mignanego.ge.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            196 => 
+            array (
+                'id' => 1186,
+                'contact_id' => 246,
+                'name' => '',
+                'title' => '',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '348 2844932',
-                'email' => 'vigili.mignanego@alice.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            195 =>
+            197 => 
             array (
                 'id' => 218,
                 'contact_id' => 336,
@@ -2565,10 +2590,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '339 2105121',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            196 =>
+            198 => 
             array (
                 'id' => 219,
                 'contact_id' => 323,
@@ -2578,10 +2603,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0523 936666',
                 'smart' => '348 3973383',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            197 =>
+            199 => 
             array (
                 'id' => 220,
                 'contact_id' => 323,
@@ -2591,10 +2616,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0523 936666',
                 'smart' => '348 4416168',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            198 =>
+            200 => 
             array (
                 'id' => 556,
                 'contact_id' => 522,
@@ -2604,10 +2629,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            199 =>
+            201 => 
             array (
                 'id' => 221,
                 'contact_id' => 298,
@@ -2617,10 +2642,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            200 =>
+            202 => 
             array (
                 'id' => 222,
                 'contact_id' => 103,
@@ -2630,10 +2655,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '320 3514241',
                 'email' => 'simona.figini@comune.sordio.lo.it - figini@comune.chiavenna.so.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            201 =>
+            203 => 
             array (
                 'id' => 223,
                 'contact_id' => 341,
@@ -2643,10 +2668,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'callegari.g@provincia.genova.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            202 =>
+            204 => 
             array (
                 'id' => 224,
                 'contact_id' => 341,
@@ -2656,10 +2681,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            203 =>
+            205 => 
             array (
                 'id' => 227,
                 'contact_id' => 343,
@@ -2669,10 +2694,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            204 =>
+            206 => 
             array (
                 'id' => 228,
                 'contact_id' => 344,
@@ -2682,10 +2707,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '0523 397437',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            205 =>
+            207 => 
             array (
                 'id' => 229,
                 'contact_id' => 343,
@@ -2695,10 +2720,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            206 =>
+            208 => 
             array (
                 'id' => 244,
                 'contact_id' => 193,
@@ -2708,10 +2733,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0698681969',
                 'smart' => '377 1604887',
                 'email' => 'calcinaie@posteitaliane.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            207 =>
+            209 => 
             array (
                 'id' => 230,
                 'contact_id' => 103,
@@ -2721,10 +2746,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'm.ficarelli@comune.crema.cr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            208 =>
+            210 => 
             array (
                 'id' => 231,
                 'contact_id' => 113,
@@ -2734,10 +2759,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3356761287',
                 'email' => 'annalisa.todesco@areariscossioni.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            209 =>
+            211 => 
             array (
                 'id' => 233,
                 'contact_id' => 344,
@@ -2747,10 +2772,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            210 =>
+            212 => 
             array (
                 'id' => 234,
                 'contact_id' => 346,
@@ -2760,10 +2785,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            211 =>
+            213 => 
             array (
                 'id' => 235,
                 'contact_id' => 344,
@@ -2773,23 +2798,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            212 =>
+            214 => 
             array (
                 'id' => 238,
                 'contact_id' => 301,
-                'name' => 'Sig. Purro Mario',
+            'name' => 'Sig. Pichetto Enrico (sostituisce Purro Mario 338 9396700)',
                 'title' => '',
-                'phone' => '0185 385729',
+                'phone' => '0185 385726',
                 'fax' => '0185 1831507',
-                'smart' => '338 9396700 personale',
+                'smart' => '',
                 'email' => 'mpurro@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            213 =>
+            215 => 
             array (
                 'id' => 239,
                 'contact_id' => 301,
@@ -2799,10 +2824,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '339 1796086',
                 'email' => 'ssegale@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            214 =>
+            216 => 
             array (
                 'id' => 237,
                 'contact_id' => 112,
@@ -2812,10 +2837,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '06 57065345',
                 'smart' => '',
                 'email' => 'giuseppe.monni@gemmaspa.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            215 =>
+            217 => 
             array (
                 'id' => 240,
                 'contact_id' => 301,
@@ -2825,10 +2850,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            216 =>
+            218 => 
             array (
                 'id' => 241,
                 'contact_id' => 116,
@@ -2838,10 +2863,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            217 =>
+            219 => 
             array (
                 'id' => 242,
                 'contact_id' => 324,
@@ -2851,10 +2876,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '328 3007804 di servizio',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            218 =>
+            220 => 
             array (
                 'id' => 243,
                 'contact_id' => 300,
@@ -2864,23 +2889,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            219 =>
+            221 => 
             array (
                 'id' => 246,
                 'contact_id' => 321,
-                'name' => 'Sig. Salvarezza',
-                'title' => 'Ufficio Ragioneria',
-                'phone' => '010 7720381 -20- 21 - 22 - 34',
+                'name' => '',
+                'title' => '',
+                'phone' => '',
                 'fax' => '',
-                'smart' => '340 4626102',
+                'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            220 =>
+            222 => 
             array (
                 'id' => 247,
                 'contact_id' => 266,
@@ -2890,10 +2915,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '328 9853312',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            221 =>
+            223 => 
             array (
                 'id' => 248,
                 'contact_id' => 363,
@@ -2903,10 +2928,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 7181669',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            222 =>
+            224 => 
             array (
                 'id' => 249,
                 'contact_id' => 364,
@@ -2916,10 +2941,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '347 4228776',
                 'email' => 'guelfo4@alice.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            223 =>
+            225 => 
             array (
                 'id' => 250,
                 'contact_id' => 364,
@@ -2929,23 +2954,36 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3357764683',
                 'email' => 'gaudens@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            224 =>
+            226 => 
             array (
                 'id' => 251,
                 'contact_id' => 300,
-                'name' => 'Borsotti Enrico',
-                'title' => 'Ragioniere',
+                'name' => 'Malaspina Stefania',
+                'title' => 'Ragioneria',
                 'phone' => '0523 969011',
                 'fax' => '',
-                'smart' => '328 8051011',
-                'email' => 'ragioneria.cortebrugnatella@sintranet.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '',
+                'email' => 'ragioneria@comune.cortebrugnatella.pc.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            225 =>
+            227 => 
+            array (
+                'id' => 1231,
+                'contact_id' => 909,
+            'name' => 'Gianmarco Marzolla (referente su Genova)',
+                'title' => 'referente su Genova',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '345 4253972',
+                'email' => 'gianmarco.marzolla@partner.windtre.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            228 => 
             array (
                 'id' => 252,
                 'contact_id' => 366,
@@ -2955,10 +2993,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338 8175301',
                 'email' => 'polizialocale@comunedavagna.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            226 =>
+            229 => 
             array (
                 'id' => 253,
                 'contact_id' => 366,
@@ -2968,10 +3006,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'sindaco.davagna@comunedavagna.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            227 =>
+            230 => 
             array (
                 'id' => 254,
                 'contact_id' => 324,
@@ -2981,23 +3019,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ragioneria@comune.casella.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            228 =>
+            231 => 
             array (
                 'id' => 255,
                 'contact_id' => 329,
-            'name' => 'Sig.ra Loredana Pagogna (è andata in pensione)',
-                'title' => '',
-                'phone' => '06 41585835',
-                'fax' => '06 41585836',
+                'name' => 'Marco Laconi',
+                'title' => 'Rinnovo annuale',
+                'phone' => '06 44125829',
+                'fax' => '',
                 'smart' => '',
-                'email' => 'loredana.pagogna@mit.gov.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'marco.laconi@mit.gov.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            229 =>
+            232 => 
             array (
                 'id' => 256,
                 'contact_id' => 216,
@@ -3007,10 +3045,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'anicolinti@comune.corio.to.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            230 =>
+            233 => 
             array (
                 'id' => 257,
                 'contact_id' => 299,
@@ -3020,23 +3058,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'mariateresa.mainini@elsag.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            231 =>
+            234 => 
             array (
                 'id' => 259,
                 'contact_id' => 329,
-                'name' => 'Sig. Pietrarelli Paolo',
-                'title' => 'Referente tecnico per le procedure della motorizzazione',
-                'phone' => '06 41585844',
+                'name' => 'Galeffi Rossella',
+                'title' => 'Rinnovo novennale',
+                'phone' => '06 44125831',
                 'fax' => '',
-                'smart' => '06 41585804',
-                'email' => 'paolo.pietrarelli@mit.gov.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '',
+                'email' => 'galeffi.rossella@mit.gov.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            232 =>
+            235 => 
             array (
                 'id' => 260,
                 'contact_id' => 359,
@@ -3046,10 +3084,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            233 =>
+            236 => 
             array (
                 'id' => 261,
                 'contact_id' => 375,
@@ -3059,10 +3097,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '010 3471099',
                 'smart' => '335 361068',
                 'email' => 'poliziamunicipale@comune.bogliasco.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            234 =>
+            237 => 
             array (
                 'id' => 262,
                 'contact_id' => 375,
@@ -3072,10 +3110,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338 5436034',
                 'email' => 'contenzioso@comune.bogliasco.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            235 =>
+            238 => 
             array (
                 'id' => 263,
                 'contact_id' => 375,
@@ -3085,10 +3123,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '340 9014656',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            236 =>
+            239 => 
             array (
                 'id' => 264,
                 'contact_id' => 193,
@@ -3098,10 +3136,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '010 5755214',
                 'smart' => '329 3005588',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            237 =>
+            240 => 
             array (
                 'id' => 265,
                 'contact_id' => 227,
@@ -3111,10 +3149,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338 3051366',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            238 =>
+            241 => 
             array (
                 'id' => 266,
                 'contact_id' => 375,
@@ -3124,10 +3162,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            239 =>
+            242 => 
             array (
                 'id' => 267,
                 'contact_id' => 378,
@@ -3137,10 +3175,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'giovanna.procopio@selfsime.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            240 =>
+            243 => 
             array (
                 'id' => 268,
                 'contact_id' => 366,
@@ -3149,11 +3187,11 @@ class ReferentsTableSeeder extends Seeder
                 'phone' => '334-8953423',
                 'fax' => '',
                 'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'ragioneria@comunedavagna.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            241 =>
+            244 => 
             array (
                 'id' => 270,
                 'contact_id' => 381,
@@ -3163,10 +3201,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '010 60 40 846',
                 'smart' => '338 86 06 687',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            242 =>
+            245 => 
             array (
                 'id' => 272,
                 'contact_id' => 167,
@@ -3176,10 +3214,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 8228643',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            243 =>
+            246 => 
             array (
                 'id' => 276,
                 'contact_id' => 113,
@@ -3189,10 +3227,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            244 =>
+            247 => 
             array (
                 'id' => 277,
                 'contact_id' => 392,
@@ -3202,10 +3240,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3480771761',
                 'email' => 'marco.vannelli@microrexspa.com ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            245 =>
+            248 => 
             array (
                 'id' => 278,
                 'contact_id' => 392,
@@ -3215,10 +3253,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3492738845',
                 'email' => 'alessandro.ossi@fastwebnet.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            246 =>
+            249 => 
             array (
                 'id' => 279,
                 'contact_id' => 396,
@@ -3228,10 +3266,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '329 5908344',
                 'email' => 'tributi@comune.savignone.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            247 =>
+            250 => 
             array (
                 'id' => 280,
                 'contact_id' => 396,
@@ -3241,10 +3279,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            248 =>
+            251 => 
             array (
                 'id' => 281,
                 'contact_id' => 397,
@@ -3254,10 +3292,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 7628872',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            249 =>
+            252 => 
             array (
                 'id' => 282,
                 'contact_id' => 392,
@@ -3267,10 +3305,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            250 =>
+            253 => 
             array (
                 'id' => 283,
                 'contact_id' => 185,
@@ -3280,10 +3318,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'b.tanzarella@bancobpm.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            251 =>
+            254 => 
             array (
                 'id' => 284,
                 'contact_id' => 399,
@@ -3293,10 +3331,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 1427374',
                 'email' => 'nicola.mazzoni@italeasing.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            252 =>
+            255 => 
             array (
                 'id' => 285,
                 'contact_id' => 397,
@@ -3306,10 +3344,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'mcafferata@email.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            253 =>
+            256 => 
             array (
                 'id' => 286,
                 'contact_id' => 344,
@@ -3319,10 +3357,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            254 =>
+            257 => 
             array (
                 'id' => 623,
                 'contact_id' => 467,
@@ -3332,10 +3370,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'annaclaudia@ditechsrl.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            255 =>
+            258 => 
             array (
                 'id' => 288,
                 'contact_id' => 401,
@@ -3345,10 +3383,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '06 23328266',
                 'smart' => '348 5801796',
                 'email' => 's.ciocca@mercurioservice.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            256 =>
+            259 => 
             array (
                 'id' => 289,
                 'contact_id' => 401,
@@ -3358,10 +3396,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ced@mercurioservice.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            257 =>
+            260 => 
             array (
                 'id' => 290,
                 'contact_id' => 364,
@@ -3371,10 +3409,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '347 8246106',
                 'email' => 'gianpiero.schenone@comune.lumarzo.genova.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            258 =>
+            261 => 
             array (
                 'id' => 291,
                 'contact_id' => 402,
@@ -3384,10 +3422,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3478873657',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            259 =>
+            262 => 
             array (
                 'id' => 292,
                 'contact_id' => 403,
@@ -3397,10 +3435,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338 2899169',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            260 =>
+            263 => 
             array (
                 'id' => 388,
                 'contact_id' => 541,
@@ -3410,10 +3448,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3204656629',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            261 =>
+            264 => 
             array (
                 'id' => 293,
                 'contact_id' => 392,
@@ -3423,10 +3461,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 0771768',
                 'email' => 'massimo.fattorini@microrexspa.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            262 =>
+            265 => 
             array (
                 'id' => 294,
                 'contact_id' => 408,
@@ -3436,23 +3474,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            263 =>
+            266 => 
             array (
                 'id' => 622,
                 'contact_id' => 246,
                 'name' => 'Sig.ra Carla Badessi',
                 'title' => 'Assistente della segreteria',
-                'phone' => '06 93836 762',
+                'phone' => '06 9383 6762',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'carla.badessi@finanze.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            264 =>
+            267 => 
             array (
                 'id' => 696,
                 'contact_id' => 967,
@@ -3462,10 +3500,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 5328020',
                 'email' => 'marianna.marzocca@comune.spotorno.sv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            265 =>
+            268 => 
             array (
                 'id' => 296,
                 'contact_id' => 409,
@@ -3475,10 +3513,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 9000850',
                 'email' => 'paolo.bazzoli@velocar.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            266 =>
+            269 => 
             array (
                 'id' => 299,
                 'contact_id' => 413,
@@ -3488,10 +3526,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            267 =>
+            270 => 
             array (
                 'id' => 300,
                 'contact_id' => 413,
@@ -3501,23 +3539,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 7273924',
                 'email' => 'mpaladini@tesi101.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            268 =>
+            271 => 
             array (
                 'id' => 301,
                 'contact_id' => 301,
-                'name' => 'Sig.ra Di Biase',
+                'name' => 'Dott. Orlandi',
                 'title' => 'Ufficio Ragioneria',
                 'phone' => '0185 385737',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ragioneria@comune.cogorno.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            269 =>
+            272 => 
             array (
                 'id' => 302,
                 'contact_id' => 422,
@@ -3527,23 +3565,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'giovanni.garibaldi@villaggio.org',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            270 =>
+            273 => 
             array (
                 'id' => 303,
                 'contact_id' => 389,
-                'name' => 'Romagnoli Francesca',
+                'name' => '',
                 'title' => '',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            271 =>
+            274 => 
             array (
                 'id' => 304,
                 'contact_id' => 397,
@@ -3551,51 +3589,64 @@ class ReferentsTableSeeder extends Seeder
                 'title' => 'Sindaco',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '335 7628869',
+                'smart' => '',
                 'email' => 'sindaco@comunecarasco.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            272 =>
+            275 => 
             array (
                 'id' => 305,
                 'contact_id' => 321,
-            'name' => 'Carnevali Francesco      (Int. 27)',
-                'title' => 'Comandante P.M.',
+                'name' => '',
+                'title' => '',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '331 5702209',
-                'email' => 'fcarnevali@comune.genova.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            273 =>
+            276 => 
+            array (
+                'id' => 1185,
+                'contact_id' => 1340,
+                'name' => '',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'luciano.detoni@sarida.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            277 => 
             array (
                 'id' => 406,
                 'contact_id' => 310,
                 'name' => 'Dott.ssa Dacca',
                 'title' => 'Ragioneria e Tributi',
-                'phone' => '',
+                'phone' => '0109379323',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ragioneria@comune.montoggio.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            274 =>
+            278 => 
             array (
                 'id' => 306,
                 'contact_id' => 401,
                 'name' => 'Fogliaroni Loredana',
-                'title' => 'Contabilità',
+                'title' => 'Contabilita',
                 'phone' => '08621960601',
                 'fax' => '',
-                'smart' => '',
+                'smart' => '3400813035',
                 'email' => 'loredana.fogliaroni@mercurioservice.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            275 =>
+            279 => 
             array (
                 'id' => 308,
                 'contact_id' => 431,
@@ -3605,2857 +3656,2872 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 2467511',
                 'email' => 'simone.fontana@sarida.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            276 =>
+            280 => 
             array (
                 'id' => 309,
                 'contact_id' => 431,
-            'name' => 'Fontana Angelo (papà)',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '329 3017501',
-                'email' => 'angelo.fontana@sarida.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            277 =>
-            array (
-                'id' => 316,
-                'contact_id' => 434,
-                'name' => 'Torrassa Sergio',
-                'title' => 'Commissario P.M.',
-                'phone' => '010 7267131',
-                'fax' => '010 7267134',
-                'smart' => '335 1267351',
-                'email' => 'polizia.municipale@comune.santolcese.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            278 =>
-            array (
-                'id' => 317,
-                'contact_id' => 321,
-                'name' => 'Sanpellegrini Gian Paolo',
-                'title' => 'Vigile',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '347 4576834',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            279 =>
-            array (
-                'id' => 318,
-                'contact_id' => 366,
-                'name' => 'Ornella',
-                'title' => 'Ufficio Tributi',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '320 8073605',
-                'email' => 'rag.tributi@comunedavagna.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            280 =>
-            array (
-                'id' => 319,
-                'contact_id' => 438,
-                'name' => 'Ferrando Giampiero',
-                'title' => 'Comandante P.M.',
-                'phone' => '010 7267346',
-                'fax' => '',
-                'smart' => '347 1958381',
-                'email' => 'vigilanza@comune.serraricco.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            281 =>
-            array (
-                'id' => 320,
-                'contact_id' => 439,
-                'name' => 'STEFANIA PALUMBO',
-                'title' => 'Referente per estratti conto',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'palumbos@posteitaliane.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            282 =>
-            array (
-                'id' => 321,
-                'contact_id' => 217,
-                'name' => 'Dott.ssa Ferrario Loredana',
-            'title' => 'Responsabile Ufficio Finanziario (Tributi)',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            283 =>
-            array (
-                'id' => 322,
-                'contact_id' => 397,
-                'name' => 'Ghio Marina',
-            'title' => 'Responsabile Ufficio Contabilità (Interno 6)',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'area.ragioneria@comunecarasco.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            284 =>
-            array (
-                'id' => 636,
-                'contact_id' => 919,
-                'name' => 'Polizia Locale',
-                'title' => '',
-                'phone' => '010 3462245',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'polizialocale@comune.pieveligure.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            285 =>
-            array (
-                'id' => 324,
-                'contact_id' => 448,
-                'name' => '',
-                'title' => 'ragioneria',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            286 =>
-            array (
-                'id' => 325,
-                'contact_id' => 232,
-                'name' => 'Madde\' Antonio',
-                'title' => 'Responsabile Ufficio Tributi',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'antonio.madde@unioneoltreaddalodigiano.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            287 =>
-            array (
-                'id' => 326,
-                'contact_id' => 450,
-                'name' => 'QUECCHIA MARCELLO',
-                'title' => 'RESP SETTORE CONTABILE',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            288 =>
-            array (
-                'id' => 327,
-                'contact_id' => 451,
-                'name' => 'Dott.ssa Albero',
-            'title' => 'Addetta alle omologazioni (non più)',
-                'phone' => '06 4158 6631',
-                'fax' => '06 4158 6634',
-                'smart' => '',
-                'email' => 'manuela.albero@infrastrutturetrasporti.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            289 =>
-            array (
-                'id' => 328,
-                'contact_id' => 453,
-                'name' => 'Dott.ssa Federica Ciaurri',
-                'title' => 'Rilascio DURC',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            290 =>
-            array (
-                'id' => 329,
-                'contact_id' => 456,
-                'name' => 'Dott. Carbonara',
-                'title' => 'Segretario Comunale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'segretario@comune.busalla.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            291 =>
-            array (
-                'id' => 330,
-                'contact_id' => 104,
-                'name' => 'Dott.ssa Daniela De Paolis',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '333 3624307',
-                'email' => 'contratti@gestioneservizipubblici.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            292 =>
-            array (
-                'id' => 331,
-                'contact_id' => 232,
-                'name' => 'Spinoni Paolo',
-                'title' => 'Vigile',
-                'phone' => '0371 72231',
-                'fax' => '',
-                'smart' => '320 7516769',
-                'email' => 'polizialocale@comune.cortepalasio.lo.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            293 =>
-            array (
-                'id' => 332,
-                'contact_id' => 457,
-                'name' => 'Dott.ssa Alberici Paola',
-                'title' => 'Resposabile settore finanziario',
-                'phone' => '038 5284152',
-                'fax' => '0385 284158',
-                'smart' => '',
-                'email' => 'servizifinanziari@comune.cigognola.pv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            294 =>
-            array (
-                'id' => 333,
-                'contact_id' => 458,
-                'name' => 'Maggioni  Franco',
-                'title' => '',
-                'phone' => '',
-                'fax' => '0187 598615',
-                'smart' => '334 6247113',
-                'email' => 'maggionif@posteitaliane.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            295 =>
-            array (
-                'id' => 334,
-                'contact_id' => 460,
-                'name' => 'Ravizza Franco',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            296 =>
-            array (
-                'id' => 336,
-                'contact_id' => 462,
-                'name' => 'Nazzario De Vecchis',
-                'title' => 'Adetto al Contenzioso',
-                'phone' => '06 59587794',
-                'fax' => '06 59582519',
-                'smart' => '',
-                'email' => 'devecchisn@posteitaliane.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            297 =>
-            array (
-                'id' => 337,
-                'contact_id' => 117,
-                'name' => 'Dott. Arduino',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'fabrizioarduino@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            298 =>
-            array (
-                'id' => 338,
-                'contact_id' => 467,
-                'name' => 'Raffaele Leggiero',
-                'title' => 'Commerciale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '393 9951967',
-                'email' => 'raffaele.leggiero@ditechsrl.com ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            299 =>
-            array (
-                'id' => 339,
-                'contact_id' => 468,
-                'name' => 'Stabilni Marco',
-                'title' => 'Presidente dell\'Unione',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '334 9035092',
-                'email' => 'vivere@mclink.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            300 =>
-            array (
-                'id' => 340,
-                'contact_id' => 468,
-                'name' => '',
-                'title' => 'Vigile',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'polizialocale@comune.cortepalasio.lo.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            301 =>
-            array (
-                'id' => 341,
-                'contact_id' => 468,
-                'name' => 'Madde\' Antonio',
-                'title' => 'Responsabile Tributi',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            302 =>
-            array (
-                'id' => 342,
-                'contact_id' => 470,
-                'name' => 'Ivo Viola',
-                'title' => 'Ragioniere',
-                'phone' => '0182 582241',
-                'fax' => '0182 582514',
-                'smart' => '',
-                'email' => 'ragioneria@comunevillanovadalbenga.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            303 =>
-            array (
-                'id' => 343,
-                'contact_id' => 471,
-                'name' => 'Silvia Lindblad',
-                'title' => 'Referente Commerciale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 's.lindblad@lindblad.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            304 =>
-            array (
-                'id' => 344,
-                'contact_id' => 116,
-                'name' => 'Perrone Simona',
-                'title' => 'avvocato',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '328 6963050',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            305 =>
-            array (
-                'id' => 345,
-                'contact_id' => 319,
-                'name' => 'Ufficio Ragioneria',
-                'title' => '',
-                'phone' => '0185 2505244/5',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            306 =>
-            array (
-                'id' => 346,
-                'contact_id' => 317,
-                'name' => 'Di Censi Maria Antonietta',
-                'title' => 'Area finanziaria e tributi comunali',
-            'phone' => '0774 920006 (Int. 1)',
-                'fax' => '0774 920313',
-                'smart' => '347 6028516',
-                'email' => 'comunearsoli@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            307 =>
-            array (
-                'id' => 347,
-                'contact_id' => 489,
-                'name' => 'Maggi Mattia',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            308 =>
-            array (
-                'id' => 802,
-                'contact_id' => 949,
-                'name' => '',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'ragioneria@',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            309 =>
-            array (
-                'id' => 348,
-                'contact_id' => 397,
-            'name' => 'Monica (Ufficio personale)',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '3475352793',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            310 =>
-            array (
-                'id' => 349,
-                'contact_id' => 491,
-                'name' => 'Sig.ra Vidali Giuseppina',
-                'title' => '',
-                'phone' => '0383 84218',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            311 =>
-            array (
-                'id' => 350,
-                'contact_id' => 299,
-                'name' => 'Giovanni Garibotto',
-            'title' => 'Ingegnere ex elsag - Via Villa Grande32/A 17019 Varazze (SV)',
-                'phone' => '019 97550',
-                'fax' => '',
-                'smart' => '348 2243135',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            312 =>
-            array (
-                'id' => 351,
-                'contact_id' => 475,
-                'name' => 'bigoli gianluigi',
-                'title' => 'responsabile tributi',
-                'phone' => '0372/539236',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'tributi@comune.persicodosimo.cr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            313 =>
-            array (
-                'id' => 432,
-                'contact_id' => 323,
-                'name' => 'Dott. Raucci Edoardo',
-                'title' => 'Segretario Comunale',
-                'phone' => '0523 962808',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            314 =>
-            array (
-                'id' => 352,
-                'contact_id' => 500,
-                'name' => 'Sig.ra Cremonesi',
-                'title' => 'Ufficio contratti',
-                'phone' => '02 77653254',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            315 =>
-            array (
-                'id' => 353,
-                'contact_id' => 229,
-                'name' => 'Amministrazione/contabilità',
-                'title' => '',
-                'phone' => '199440044',
-                'fax' => '800031133',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            316 =>
-            array (
-                'id' => 354,
-                'contact_id' => 229,
-                'name' => 'Call center - gratuito',
-                'title' => '',
-                'phone' => '800984200 digit 1',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            317 =>
-            array (
-                'id' => 356,
-                'contact_id' => 236,
-                'name' => 'Peppino Sabatino',
-                'title' => 'Segretario Comunale',
-                'phone' => '0187 842933',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            318 =>
-            array (
-                'id' => 357,
-                'contact_id' => 505,
-                'name' => '',
-                'title' => 'prodotti per ufficio-fotocopiatrice',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            319 =>
-            array (
-                'id' => 358,
-                'contact_id' => 506,
-                'name' => 'Sig. Giovannacci Giorgio',
-                'title' => 'Vigile',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '328 8635246',
-                'email' => 'pm@comune.carro.sp.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            320 =>
-            array (
-                'id' => 700,
-                'contact_id' => 978,
-                'name' => 'Sig.ra Cristina',
-                'title' => '',
-                'phone' => '039 5311174 int 1',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            321 =>
-            array (
-                'id' => 359,
-                'contact_id' => 509,
-                'name' => 'Ing. Attilio Ortensi',
-                'title' => 'Legale rappresentante',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '335 5901425',
-                'email' => 'attilio.orten@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            322 =>
-            array (
-                'id' => 360,
-                'contact_id' => 173,
-            'name' => 'Rag. Patarchi (Int. 5)',
-                'title' => '',
-                'phone' => '0722/816048',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            323 =>
-            array (
-                'id' => 361,
-                'contact_id' => 510,
-                'name' => 'Sig.ra Lara Demarzo',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'novass.lara@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            324 =>
-            array (
-                'id' => 422,
-                'contact_id' => 597,
-                'name' => 'Ing. Michele Robilotta',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '338 6206732',
-                'email' => 'm.robilotta@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            325 =>
-            array (
-                'id' => 398,
-                'contact_id' => NULL,
-                'name' => 'bertoldi sara',
-                'title' => '',
-                'phone' => '0185/306649',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            326 =>
-            array (
-                'id' => 364,
-                'contact_id' => 480,
-                'name' => 'sig favari',
-                'title' => 'affari generali',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            327 =>
-            array (
-                'id' => 365,
-                'contact_id' => 232,
-                'name' => 'Sig.ra Ivana',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            328 =>
-            array (
-                'id' => 366,
-                'contact_id' => 414,
-                'name' => 'Adrea',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            329 =>
-            array (
-                'id' => 367,
-                'contact_id' => 182,
-                'name' => 'Cavallero Maria Ausilia',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '335 7520621',
-                'email' => 'macavallero@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            330 =>
-            array (
-                'id' => 368,
-                'contact_id' => 182,
-                'name' => '',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'roberta.pecunia@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            331 =>
-            array (
-                'id' => 369,
-                'contact_id' => 506,
-                'name' => 'Dott. Spinetti',
-                'title' => 'Ragioneria',
-                'phone' => '0187 861209',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'ragioneria@comune.carro.sp.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            332 =>
-            array (
-                'id' => 370,
-                'contact_id' => 513,
-                'name' => 'Sig. Mario Bertocchi',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '335 8469827',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            333 =>
-            array (
-                'id' => 372,
-                'contact_id' => 440,
-            'name' => 'Maurizio Cassinelli (figlio).',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '338 7578785',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            334 =>
-            array (
-                'id' => 373,
-                'contact_id' => 440,
-            'name' => 'Aldo (padre).',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            335 =>
-            array (
-                'id' => 374,
-                'contact_id' => 112,
-                'name' => 'Gentile',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '334 6120011',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            336 =>
-            array (
-                'id' => 375,
-                'contact_id' => 515,
-                'name' => '',
-                'title' => 'Avv.to.  Sfrangi',
-                'phone' => '0968 754015',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'segreteria@melanide.it,maria.strangis@alice.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            337 =>
-            array (
-                'id' => 447,
-                'contact_id' => 598,
-                'name' => 'MASCHIO GIUSEPPINO',
-                'title' => 'SINDACO',
-                'phone' => '0185/340205',
-                'fax' => '0185/340489',
-                'smart' => '',
-                'email' => 'sindacoborzonasca@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            338 =>
-            array (
-                'id' => 421,
-                'contact_id' => 552,
-                'name' => 'Gentile',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            339 =>
-            array (
-                'id' => 376,
-                'contact_id' => 281,
-                'name' => 'Avvocato Crimella',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '340 1407081',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            340 =>
-            array (
-                'id' => 377,
-                'contact_id' => 522,
-                'name' => 'Bianca',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            341 =>
-            array (
-                'id' => 378,
-                'contact_id' => 527,
-                'name' => 'Davide Nardelli',
-                'title' => 'Managing Director',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '348 3008458',
-                'email' => 'davide.nardelli@adv-tech.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            342 =>
-            array (
-                'id' => 379,
-                'contact_id' => 529,
-                'name' => 'Ing. Massimo Cairoli',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'm.cairoli@sinartis.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            343 =>
-            array (
-                'id' => 380,
-                'contact_id' => 530,
-                'name' => 'Natale Antonio',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '335 1519161',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            344 =>
-            array (
-                'id' => 381,
-                'contact_id' => 493,
-                'name' => '',
-                'title' => '',
-                'phone' => '010 8597155',
-                'fax' => '010 8597155',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            345 =>
-            array (
-                'id' => 382,
-                'contact_id' => 239,
-                'name' => 'Bollentini Massimo',
-                'title' => 'Vigile',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '335 8751967',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            346 =>
-            array (
-                'id' => 383,
-                'contact_id' => 533,
-                'name' => 'Seveso Marco',
-                'title' => 'Amministratore',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '338 8379607',
-                'email' => 'marco.seveso@citiesse.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            347 =>
-            array (
-                'id' => 942,
-                'contact_id' => 1179,
-                'name' => 'Giuseppe Taborelli',
-                'title' => 'Responsabile commerciale',
-                'phone' => '338 6327845',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            348 =>
-            array (
-                'id' => 385,
-                'contact_id' => 534,
-                'name' => 'Valerio Zaccarelli',
-                'title' => 'Commerciale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '339 3353651',
-                'email' => 'info@gaeuropa-azzaroni.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            349 =>
-            array (
-                'id' => 386,
-                'contact_id' => 378,
-                'name' => '',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'luigi.mongiardino@selfsime.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            350 =>
-            array (
-                'id' => 387,
-                'contact_id' => 207,
-                'name' => 'Sig.ra Maucelli Claudia',
-                'title' => 'Segue gli appalti per i servizi',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            351 =>
-            array (
-                'id' => 390,
-                'contact_id' => 506,
-                'name' => 'Solari Antonio',
-                'title' => 'Sindaco',
-                'phone' => '0187 861031',
-                'fax' => '',
-                'smart' => '338 3391827',
-                'email' => 'studiotecnicosolari@libero.it       sindaco@comune.carro.sp.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            352 =>
-            array (
-                'id' => 391,
-                'contact_id' => 548,
-                'name' => 'Francesconi',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '340 3620081',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            353 =>
-            array (
-                'id' => 392,
-                'contact_id' => 264,
-                'name' => 'responsabile contabiltà sig.ra maria',
-                'title' => 'Ufficio ordini/magazzino',
-                'phone' => '02/39277287',
-                'fax' => '',
-                'smart' => '02/39277247',
-                'email' => 'servizioclientiunionfotomarket.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            354 =>
-            array (
-                'id' => 510,
-                'contact_id' => 670,
-                'name' => 'Furioni Renzo',
-                'title' => 'Pubblicit&agrave;',
-                'phone' => '045 6205816',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'renzo.furioni@comune.torridelbenaco.vr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            355 =>
-            array (
-                'id' => 511,
-                'contact_id' => 615,
-                'name' => 'Sig.ra Stefani',
-                'title' => 'Segretaria del Sindaco',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            356 =>
-            array (
-                'id' => 394,
-                'contact_id' => 549,
-                'name' => '',
-                'title' => 'magazzino centrale e uff amministrativi',
-                'phone' => '0172 693347',
-                'fax' => '0172 693228',
-                'smart' => '',
-                'email' => 'bsitalia@bi-esse.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            357 =>
-            array (
-                'id' => 395,
-                'contact_id' => 560,
-                'name' => '',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '335 6691095',
-                'email' => 'gino.garibaldi@regioneliguria.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            358 =>
-            array (
-                'id' => 420,
-                'contact_id' => 552,
-                'name' => 'Rosati Luciano',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            359 =>
-            array (
-                'id' => 397,
-                'contact_id' => 360,
-                'name' => 'DAFANO DONATELLA',
-                'title' => 'gestione crediti - fatture',
-                'phone' => '06 66548806',
-                'fax' => '06 66170282',
-                'smart' => '',
-                'email' => 'crediti2@sda.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            360 =>
-            array (
-                'id' => 399,
-                'contact_id' => 567,
-                'name' => 'Silvia Galeano',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            361 =>
-            array (
-                'id' => 400,
-                'contact_id' => NULL,
-                'name' => 'Commerciale',
-                'title' => '',
-                'phone' => '0575 050333',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            362 =>
-            array (
-                'id' => 401,
-                'contact_id' => NULL,
-                'name' => 'Assistenza',
-                'title' => '',
-                'phone' => '0575 050333',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            363 =>
-            array (
-                'id' => 402,
-                'contact_id' => 504,
-                'name' => 'Commerciale/Servizio clienti',
-                'title' => 'support.spazioweb.com',
-                'phone' => '0575/050333',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            364 =>
-            array (
-                'id' => 403,
-                'contact_id' => 504,
-                'name' => 'Assistenza',
-                'title' => '',
-                'phone' => '0575/050330',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'assistenza@spazioweb.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            365 =>
-            array (
-                'id' => 414,
-                'contact_id' => 583,
-                'name' => 'Dott. Monzu\' Ettore',
-                'title' => 'Segretario Comunale',
-                'phone' => '0185 729039',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'monzu_ettore@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            366 =>
-            array (
-                'id' => 404,
-                'contact_id' => 229,
-                'name' => 'Segnalazione guasti',
-                'title' => '',
-                'phone' => '800911800',
-                'fax' => '800984200 - 800031133 / 0575-1949063',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            367 =>
-            array (
-                'id' => 405,
-                'contact_id' => 575,
-                'name' => 'Ufficio Ragioneria',
-                'title' => '',
-                'phone' => '0377 989025',
-                'fax' => '0377 989033',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            368 =>
-            array (
-                'id' => 493,
-                'contact_id' => 657,
-                'name' => 'Arch Bonavetti Luisita',
-                'title' => 'Istruttore Tecnico',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            369 =>
-            array (
-                'id' => 407,
-                'contact_id' => 576,
-                'name' => 'Rag. Andreatta',
-                'title' => 'Responsabile ufficio tributi',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'tributi@comune.cicagna.ge',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            370 =>
-            array (
-                'id' => 408,
-                'contact_id' => 451,
-                'name' => '',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'manuela.albero@mit.gov.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            371 =>
-            array (
-                'id' => 409,
-                'contact_id' => 581,
-                'name' => 'Arisi',
-                'title' => 'Vigile',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            372 =>
-            array (
-                'id' => 560,
-                'contact_id' => 695,
-                'name' => 'Toni Micaela',
-                'title' => 'Dirigente',
-                'phone' => '0184 272222',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'ragioneria@comune.bordighera.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            373 =>
-            array (
-                'id' => 410,
-                'contact_id' => 583,
-                'name' => 'Rag. Maggiolo Mario',
-                'title' => 'Ragioniere',
-                'phone' => '0185 729027',
-                'fax' => '0185 729067',
-                'smart' => '347 1722984',
-                'email' => 'patrimonio@comune.camogli.ge.it - maggiolo.mario@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            374 =>
-            array (
-                'id' => 411,
-                'contact_id' => 583,
-                'name' => 'Verdina Gianni',
-                'title' => 'Vigile',
-                'phone' => '0185 729057/58',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'giovanni.verdina@comune.camogli.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            375 =>
-            array (
-                'id' => 412,
-                'contact_id' => 586,
-                'name' => 'cristina marzano',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            376 =>
-            array (
-                'id' => 413,
-                'contact_id' => 587,
-                'name' => 'Dott. Mussi Mauro',
-                'title' => 'Comandante Polizia Municipale',
-                'phone' => '0185 205406',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'comandantepm@comunesml.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            377 =>
-            array (
-                'id' => 415,
-                'contact_id' => 333,
-            'name' => 'Dott.ssa Cristiana Salvatori (Int. 6)',
-                'title' => 'Segretaria',
-                'phone' => '',
-                'fax' => 'cris.salvatori@libero.it',
-                'smart' => '3478933734',
-                'email' => 'segretario@comune.torriglia.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            378 =>
-            array (
-                'id' => 416,
-                'contact_id' => 474,
-                'name' => 'Com.Te Tentore Emanuele',
-                'title' => 'Comandante PM',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '3497778137',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            379 =>
-            array (
-                'id' => 417,
-                'contact_id' => 583,
-                'name' => 'Sig.ra Campodonico',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'istruzione@comune.camogli.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            380 =>
-            array (
-                'id' => 418,
-                'contact_id' => 375,
-                'name' => 'D\'amico Silvana',
-                'title' => 'Ragioniera',
-                'phone' => '010 3747254',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            381 =>
-            array (
-                'id' => 419,
-                'contact_id' => 408,
-                'name' => 'Narducci Federica',
-                'title' => 'Adetta sistema password',
-                'phone' => '06 68816222',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'federica.narducci@fondazioneifel.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            382 =>
-            array (
-                'id' => 423,
-                'contact_id' => 533,
-                'name' => 'Roul Cairoli',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '339 3846439',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            383 =>
-            array (
-                'id' => 424,
-                'contact_id' => 583,
-                'name' => 'Zeba Erik - Corti Flavio',
-                'title' => 'Parcheggiatori',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '346 0075048',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            384 =>
-            array (
-                'id' => 425,
-                'contact_id' => 338,
-            'name' => 'Laura (è figlia del titolare)',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            385 =>
-            array (
-                'id' => 426,
-                'contact_id' => 598,
-                'name' => 'vigile Bona Claudio',
-                'title' => '',
-                'phone' => '0185 340003',
-                'fax' => '',
-                'smart' => '3357617372',
-                'email' => 'poliziamunicipale@comune.borzonasca.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            386 =>
-            array (
-                'id' => 427,
-                'contact_id' => 599,
-                'name' => 'Testaguzzi Pietro',
-                'title' => 'Vice Comandante Polizia Municipale',
-                'phone' => '0761 404358',
-                'fax' => '',
-                'smart' => '348 7672752',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            387 =>
-            array (
-                'id' => 428,
-                'contact_id' => 602,
-                'name' => 'Valerio Patrone',
-                'title' => 'Comandante di Polizia Municipale',
-                'phone' => '0185 6801',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            388 =>
-            array (
-                'id' => 429,
-                'contact_id' => 603,
-                'name' => 'Stefano Valsetti',
-                'title' => 'Assessore alle Finanze',
-                'phone' => '019 507071',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'stefano.valsetti@comunecairo.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            389 =>
-            array (
-                'id' => 430,
-                'contact_id' => 607,
-                'name' => 'Mastripieri',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '347 0716010',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            390 =>
-            array (
-                'id' => 431,
-                'contact_id' => 265,
-                'name' => 'Zappettini Annamaria',
-                'title' => 'Responsabile ufficio ragioneria',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '329 4188651',
-                'email' => 'ragioneria@comunemezzanego.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            391 =>
-            array (
-                'id' => 433,
-                'contact_id' => 319,
-                'name' => 'Rocca Franco',
-                'title' => 'Consigliere Comunale',
-                'phone' => '338 8152113',
-                'fax' => '',
-                'smart' => '335 5985541',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            392 =>
-            array (
-                'id' => 434,
-                'contact_id' => 613,
-                'name' => 'Geom. Fabrizio Ghione int. 8',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            393 =>
-            array (
-                'id' => 435,
-                'contact_id' => 599,
-                'name' => 'Treppini Ferdinando',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '348 7609976',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            394 =>
-            array (
-                'id' => 436,
-                'contact_id' => 615,
-            'name' => 'Dott. Marco Dodero (E\' CAMBIATO, NE ARRIVA UNO NUOVO A GIUGNO 2015)',
-                'title' => 'Segretario Comunale',
-            'phone' => '010/925008 (comune di Rossiglione)',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'segretario.comunale@comune.campo-ligure.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            395 =>
-            array (
-                'id' => 437,
-                'contact_id' => 615,
-            'name' => 'Dott.sa Adelia Olivieri (int. 5)',
-                'title' => 'Responsabile Area Finanziaria',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'adelia.oliveri@comune.campo-ligure.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            396 =>
-            array (
-                'id' => 438,
-                'contact_id' => 615,
-                'name' => 'Dott.sa Flavia Olivieri',
-            'title' => 'Ufficio Tributi (int. 3)',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'flavia.olivieri@comune.campo-ligure.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            397 =>
-            array (
-                'id' => 439,
-                'contact_id' => 575,
-                'name' => 'Capelli Francesco',
-                'title' => 'Vigile',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '349 0546580',
-                'email' => 'vigilanza@comune.brembio.lo.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            398 =>
-            array (
-                'id' => 440,
-                'contact_id' => 509,
-                'name' => 'Anna',
-                'title' => 'Referente per avvalimento',
-                'phone' => '0862401407',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            399 =>
-            array (
-                'id' => 441,
-                'contact_id' => 509,
-                'name' => 'Alessia Masciocchi',
-                'title' => 'Referente per avvalimento',
-                'phone' => '0862401407',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'a.masciocchi@assoservizispa.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            400 =>
-            array (
-                'id' => 442,
-                'contact_id' => 617,
-                'name' => 'Trossarello Gabriele',
-                'title' => 'Sindaco',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '335 5428874',
-                'email' => 'sindacomoconesi@virgilio.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            401 =>
-            array (
-                'id' => 443,
-                'contact_id' => 509,
-                'name' => 'Massimiliano Torelli',
-                'title' => 'Referente per Orte',
-                'phone' => 'privato 3404027910',
-                'fax' => '',
-                'smart' => '392 9785729',
-                'email' => 'm.torelli@assoservizispa.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            402 =>
-            array (
-                'id' => 444,
-                'contact_id' => 618,
-                'name' => 'Marchetti Marco',
-                'title' => 'Responsabile Area Commerciale e Marketing',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '338 8291737',
-                'email' => 'ufficiocommerciale@abacospa.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            403 =>
-            array (
-                'id' => 445,
-                'contact_id' => 190,
-                'name' => 'Valeria',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            404 =>
-            array (
-                'id' => 446,
-                'contact_id' => 619,
-                'name' => 'Alessandro Rossi',
-                'title' => 'Resp. Serv. Ass.to P. M.',
-                'phone' => '0577/742341',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'vigili@comune.castellina.si.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            405 =>
-            array (
-                'id' => 448,
-                'contact_id' => 598,
-                'name' => 'SIGNAIGO FRANCO',
-                'title' => 'VICE SINDACO DELEGA VIABILITA\'',
-                'phone' => '0185/340205',
-                'fax' => '0185/340489',
-                'smart' => '',
-                'email' => 'vicesindacoborzonasca@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            406 =>
-            array (
-                'id' => 449,
-                'contact_id' => 598,
-                'name' => 'DR. GIOACCHINO VITALE',
-                'title' => 'SEGRETARIO COMUNALE',
-                'phone' => '0185/340205',
-                'fax' => '0185/340489',
-                'smart' => '',
-                'email' => 'amministrativo@comune.borzonasca.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            407 =>
-            array (
-                'id' => 450,
-                'contact_id' => 598,
-                'name' => '',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'ragioneria@comune.borzonasca.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            408 =>
-            array (
-                'id' => 451,
-                'contact_id' => 621,
-                'name' => 'Dott.ssa Carla Primini',
-            'title' => 'Segretario Comunale (Int. 6)',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '349 2250302',
-                'email' => 'segretario@comunediagosta.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            409 =>
-            array (
-                'id' => 452,
-                'contact_id' => 623,
-                'name' => 'Dr. Ernesto Capruzzi',
-                'title' => 'Segretario Comunale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            410 =>
-            array (
-                'id' => 453,
-                'contact_id' => 621,
-                'name' => 'Vigile',
-                'title' => 'Alessandri Paolino',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '327 2875473',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            411 =>
-            array (
-                'id' => 454,
-                'contact_id' => 626,
-                'name' => 'Luisa Parigi',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            412 =>
-            array (
-                'id' => 455,
-                'contact_id' => 348,
-                'name' => 'Marta La Spina',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'marta.laspina@isge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            413 =>
-            array (
-                'id' => 456,
-                'contact_id' => 162,
-                'name' => 'Dott. Luigi Tiscornia',
-                'title' => 'Titolare',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '377 7068745',
-                'email' => 'l.tiscornia@studiotiscornia.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            414 =>
-            array (
-                'id' => 457,
-                'contact_id' => 628,
-                'name' => 'Roberto',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '338 8773684',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            415 =>
-            array (
-                'id' => 458,
-                'contact_id' => 630,
-                'name' => 'Ezio del Giudice',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            416 =>
-            array (
-                'id' => 459,
-                'contact_id' => 630,
-                'name' => 'Riccardo Scotti',
-            'title' => 'Assistenza Tecnica (3 + 1)',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'riccardo.scotti@ezdirect.it  - assistenza@ezdirect.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            417 =>
-            array (
-                'id' => 460,
-                'contact_id' => 630,
-                'name' => 'Massimo Benedetti',
-            'title' => 'Assistenza Tecnica (3 + 1)',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'massimo.benedetti@ezdirect.it  - assistenza@ezdirect.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            418 =>
-            array (
-                'id' => 461,
-                'contact_id' => 630,
-                'name' => '',
-                'title' => 'Amministrazione',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'amministrazione@ezdirect.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            419 =>
-            array (
-                'id' => 462,
-                'contact_id' => 261,
-                'name' => 'Marco Mauri',
-                'title' => 'Tecnico',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'marco@eltraff.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            420 =>
-            array (
-                'id' => 557,
-                'contact_id' => 751,
-                'name' => 'Rita Di Cara',
-                'title' => 'Referente per le Aziende',
-                'phone' => '010 3536559',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'rita.dicara@pres.inge.unige.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            421 =>
-            array (
-                'id' => 464,
-                'contact_id' => 213,
-                'name' => 'Sig. Ricco',
-                'title' => 'Referente contabilità',
-                'phone' => '011 2226111',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            422 =>
-            array (
-                'id' => 465,
-                'contact_id' => 637,
-                'name' => 'Nagiller',
-                'title' => '',
-                'phone' => '0185 3151231',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            423 =>
-            array (
-                'id' => 784,
-                'contact_id' => 1032,
-                'name' => 'Galeazzi Angela',
-                'title' => 'Comandante Polizia Locale',
-                'phone' => '0565 63360',
-                'fax' => '',
-                'smart' => '334 6643090',
-                'email' => 'agaleazzi@comune.piombino.li.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            424 =>
-            array (
-                'id' => 466,
-                'contact_id' => 640,
-                'name' => 'Dott.ssa Barone Silvia 019-9390345',
-                'title' => 'Resp. Uff. Tributi',
-                'phone' => '019/9390250',
-                'fax' => '019/932655',
-                'smart' => '',
-                'email' => 'responsabiletributi@comune.varazze.sv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            425 =>
-            array (
-                'id' => 467,
-                'contact_id' => 506,
-                'name' => '',
-                'title' => 'Segretario Comunale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'demografici@comune.carro.sp.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            426 =>
-            array (
-                'id' => 468,
-                'contact_id' => 317,
-                'name' => 'Amici Marilena',
-                'title' => 'Ragioniera',
-            'phone' => '0774 920006 (Int. 2)',
-                'fax' => '',
-                'smart' => '347 6931089',
-                'email' => 'amici.marilena@comunediarsoli.it.- rag.comunearsoli@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            427 =>
-            array (
-                'id' => 469,
-                'contact_id' => 185,
-                'name' => 'Carlo Giusto',
-                'title' => 'per referenze bancarie',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'carlo.giusto@bancobpm.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            428 =>
-            array (
-                'id' => 470,
-                'contact_id' => 643,
-                'name' => 'Dr. Adriano Culasso',
-                'title' => 'Segretario Comunale',
-                'phone' => '035 3843411',
-                'fax' => '',
-                'smart' => '3384331901',
-                'email' => 'adriano.culasso@grassobbio.eu',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            429 =>
-            array (
-                'id' => 471,
-                'contact_id' => 186,
-                'name' => 'Mario Carbone',
-                'title' => 'Direttore',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'mario.carbone@ubibanca.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            430 =>
-            array (
-                'id' => 472,
-                'contact_id' => 216,
-                'name' => 'Oneglio Franca',
-                'title' => 'Ufficio Tributi',
-                'phone' => '011 9282888 Int 6',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'foneglio@comune.corio.to.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            431 =>
-            array (
-                'id' => 473,
-                'contact_id' => 151,
-                'name' => 'Paola',
-                'title' => 'Gestisce le contravvenzioni',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            432 =>
-            array (
-                'id' => 474,
-                'contact_id' => 644,
-                'name' => 'Dott. Vannini Simone',
-                'title' => 'Impiegato',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'finaziario2@comune.varsi.pr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            433 =>
-            array (
-                'id' => 475,
-                'contact_id' => NULL,
-                'name' => 'Dott. Culasso Adriano',
-                'title' => 'Responsabile Ufficio Ragioneria',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'regioneria@grassobbio.bg.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            434 =>
-            array (
-                'id' => 476,
-                'contact_id' => 643,
-                'name' => 'Caccia Emanuela',
-                'title' => 'Coadiuva con la Ragioneria',
-                'phone' => '035 3843415',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'emanuela.caccia@grassobbio.eu',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            435 =>
-            array (
-                'id' => 477,
-                'contact_id' => 646,
-                'name' => 'Rag. Dario Righettini',
-                'title' => 'Responsabile Ufficio Ragioneria',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'tributi@comune.gardoneriviera.bs.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            436 =>
-            array (
-                'id' => 778,
-                'contact_id' => 1026,
-                'name' => 'Grossi Barbara',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '338/6048993',
-                'email' => 'barbara.grossidegradi@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            437 =>
-            array (
-                'id' => 478,
-                'contact_id' => NULL,
-                'name' => 'Dott.ssa Alberici Paola',
-                'title' => 'Responsabile Servizio Finanziario',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            438 =>
-            array (
-                'id' => 479,
-                'contact_id' => 576,
-                'name' => 'Leverone Gianna',
-            'title' => 'Ufficio Contratti (Int. 105 )',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'anagrafe@comune.cicagna.ge',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            439 =>
-            array (
-                'id' => 480,
-                'contact_id' => 164,
-                'name' => 'Melis Mirko',
-                'title' => 'Titolare',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '366 2584449',
-                'email' => 'mirko.m@ovunque-si.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            440 =>
-            array (
-                'id' => 481,
-                'contact_id' => 164,
-                'name' => 'Pavarino Ombretta',
-                'title' => 'Assistente',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '328 5692606',
-                'email' => 'ombretta.p@ovunque-si.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            441 =>
-            array (
-                'id' => 482,
-                'contact_id' => 613,
-                'name' => 'Rebella Cinzia',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            442 =>
-            array (
-                'id' => 483,
-                'contact_id' => NULL,
-                'name' => 'BERTOLDI SARA',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'bertoldi.s@provincia.genova.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            443 =>
-            array (
-                'id' => 484,
-                'contact_id' => 652,
-                'name' => 'bertoldi sara',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'bertoldi.s@provincia.genova.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            444 =>
-            array (
-                'id' => 485,
-                'contact_id' => 653,
-                'name' => '',
-                'title' => 'vigile',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            445 =>
-            array (
-                'id' => 486,
-                'contact_id' => 655,
-                'name' => 'Bellisario Leonardo',
-                'title' => 'Referente commerciale di zona',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '335 6293263',
-                'email' => 'bellisario.leonardo@energrid.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            446 =>
-            array (
-                'id' => 487,
-                'contact_id' => 654,
-                'name' => 'Dott.ssa Porteri Maria Teresa',
-                'title' => 'Segretario Comunale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '329 7398066',
-                'email' => 'segretario@comune.monteisola.bs.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            447 =>
-            array (
-                'id' => 488,
-                'contact_id' => 654,
-                'name' => 'Geometra Ziliani Gianpaolo',
-                'title' => 'Responsabile Ufficio Tecnico',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '348 5206193',
-                'email' => 'tecnico@comune.monteisola.bs.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            448 =>
-            array (
-                'id' => 489,
-                'contact_id' => 654,
-                'name' => 'Paola',
-            'title' => 'Ufficio Anagrafe/Gestione cimiteriale (x elenco utenze)',
-                'phone' => 'Sig.ra Agnesi',
-                'fax' => '',
-                'smart' => '030 9825226 int. 3',
-                'email' => 'demografico@comune.monteisola.bs.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            449 =>
-            array (
-                'id' => 490,
-                'contact_id' => 469,
-                'name' => 'Dott.ssa Alaimo',
-                'title' => 'Ufficio Precontenzioso',
-                'phone' => '06 36723612',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            450 =>
-            array (
-                'id' => 491,
-                'contact_id' => 469,
-                'name' => 'Architetto Travaglino',
-                'title' => 'Responsabile per avvalimento',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            451 =>
-            array (
-                'id' => 492,
-                'contact_id' => 657,
-                'name' => 'Silverio Antonini',
-                'title' => 'Geometra',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'lavori.pubblici@darfoboarioterme.net',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            452 =>
-            array (
-                'id' => 494,
-                'contact_id' => 553,
-                'name' => 'Lippi Marco',
-                'title' => 'Assistenza Tecnica',
-                'phone' => '055 8868652',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            453 =>
-            array (
-                'id' => 495,
-                'contact_id' => 659,
-                'name' => '',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'mario.rampone@libero.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            454 =>
-            array (
-                'id' => 496,
-                'contact_id' => 657,
-                'name' => 'Togni Fulvia',
-                'title' => 'Ufficio anagrafe Prende lei le richieste di nuovi allacci votivi',
-                'phone' => '0364 541124',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'stato.civile@darfoboarioterme.net',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            455 =>
-            array (
-                'id' => 497,
-                'contact_id' => 576,
-                'name' => 'Dott. Fornaciari Fabio',
-                'title' => 'Segretario Comunale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'segretario@comune.cicagna.ge',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            456 =>
-            array (
-                'id' => 498,
-                'contact_id' => 657,
-                'name' => 'Assessore Chiudinelli',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '347 4457330',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            457 =>
-            array (
-                'id' => 499,
-                'contact_id' => 664,
-                'name' => 'Giovanni Deltin',
-                'title' => 'Commerciale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '348 3366252',
-                'email' => 'giovanni.deltin@sacchi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            458 =>
-            array (
-                'id' => 500,
-                'contact_id' => 664,
-                'name' => 'Francesco Gagliani',
-                'title' => '',
-                'phone' => '010 7264257',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'francesco.gagliani@sacchi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            459 =>
-            array (
-                'id' => 501,
-                'contact_id' => 665,
-                'name' => 'Simone Valaguzza',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '348 7812396',
-                'email' => 'safe1969@me.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            460 =>
-            array (
-                'id' => 502,
-                'contact_id' => 113,
-                'name' => 'Vinai Valentina',
-                'title' => 'Appalti',
-                'phone' => '0174 570316',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            461 =>
-            array (
-                'id' => 503,
-                'contact_id' => 654,
-                'name' => 'Archetti Antonella',
-                'title' => 'Contratti',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'segreteria@comune.monteisola.bs.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            462 =>
-            array (
-                'id' => 504,
-                'contact_id' => 360,
-                'name' => '',
-                'title' => 'Signora Ninny che ritira i pacchi qui sa noi',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '338 9179844',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            463 =>
-            array (
-                'id' => 505,
-                'contact_id' => 113,
-                'name' => 'Riscossione coattiva',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            464 =>
-            array (
-                'id' => 506,
-                'contact_id' => 667,
-                'name' => 'Dott. Domenico Massacane',
-                'title' => 'Segretario Comunale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            465 =>
-            array (
-                'id' => 507,
-                'contact_id' => 668,
-            'name' => 'Federica  (int. 1)',
-                'title' => 'Vigile',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'polizia@comune.sancolombanocertenoli.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            466 =>
-            array (
-                'id' => 508,
-                'contact_id' => 668,
-                'name' => 'Franca Molinari',
-            'title' => 'Ufficio Ragioneria (int. 9)',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'ragioneria@comune.sancolombanocertenoli.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            467 =>
-            array (
-                'id' => 509,
-                'contact_id' => 668,
-                'name' => 'Laura Perico',
-            'title' => 'Ufficio Tributi (int. 8)',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'tributi@comune.sancolombanocertenoli.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            468 =>
-            array (
-                'id' => 1112,
-                'contact_id' => 1285,
-                'name' => 'Gian Vittorio Delfino',
-                'title' => 'Comandante PM',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '+393275374929',
-                'email' => 'gv.delfino@comune.campomorone.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            469 =>
-            array (
-                'id' => 512,
-                'contact_id' => 668,
-                'name' => 'Dott. Lari Piero',
-            'title' => 'Segretario Comunale (int. 3)',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            470 =>
-            array (
-                'id' => 1153,
-                'contact_id' => 325,
-                'name' => 'Valentina Dalloro',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'v.dalloro@novellagl.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            471 =>
-            array (
-                'id' => 1154,
-                'contact_id' => 1307,
-                'name' => 'Enrico Berisso',
-                'title' => 'Direttore',
-                'phone' => '0185 458821',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'enrico.berisso@intesasanpaolo.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            472 =>
-            array (
-                'id' => 514,
-                'contact_id' => 664,
-                'name' => 'Grossi Mattia',
-                'title' => '',
-                'phone' => '010 7264257',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            473 =>
-            array (
-                'id' => 515,
-                'contact_id' => 431,
-                'name' => 'Fontana Michele',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '346 3057712',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            474 =>
-            array (
-                'id' => 516,
-                'contact_id' => 650,
-                'name' => 'Urgias Giovanni',
-                'title' => 'Ufficio Tributi',
-                'phone' => '045/6832135',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'giourg@comune.sanpietroincariano.vr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            475 =>
-            array (
-                'id' => 517,
-                'contact_id' => 676,
-                'name' => 'Temperini Barbara',
-                'title' => 'Nostro referente commerciale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '366 6810190',
-                'email' => 'barbara.temperini@posteitaliane.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            476 =>
-            array (
-                'id' => 611,
-                'contact_id' => 896,
-                'name' => 'Gianni',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '347 2239039',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            477 =>
-            array (
-                'id' => 518,
-                'contact_id' => 218,
-                'name' => 'Dott.ssa Raimato Nevicella',
-                'title' => 'Segretario Comunale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'segretariocomune@comune.roccabianca.pr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            478 =>
-            array (
-                'id' => 519,
-                'contact_id' => 667,
-                'name' => 'Priarone',
-                'title' => 'Assessore ai lavori pubblici',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '338 3888644',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            479 =>
-            array (
-                'id' => 520,
-                'contact_id' => NULL,
-                'name' => 'Dott. Domenico Massacane',
-                'title' => 'Segretario Comunale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            480 =>
-            array (
-                'id' => 521,
-                'contact_id' => NULL,
-                'name' => 'Assessore Priarone',
-                'title' => '',
-                'phone' => '338 3888644',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            481 =>
-            array (
-                'id' => 522,
-                'contact_id' => 688,
-                'name' => 'Dott. Paolo Gentile',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '333 2898843',
-                'email' => 'paologentile@rivistadeitributilocali.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            482 =>
-            array (
-                'id' => 523,
-                'contact_id' => 689,
-                'name' => '',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'olarigiuseppe@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            483 =>
-            array (
-                'id' => 524,
-                'contact_id' => 325,
-                'name' => 'Bottiglieri Fabio',
-                'title' => 'Referente per cauzioni provvisorie',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'cofacecauzionige@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            484 =>
-            array (
-                'id' => 525,
-                'contact_id' => 158,
-            'name' => 'De Mattei Marco (Int. 3)',
-                'title' => 'Addetto ICI',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'tributi@comune.leivi.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            485 =>
-            array (
-                'id' => 526,
-                'contact_id' => 667,
-                'name' => 'Franco Caglio',
-                'title' => 'Assessore ai Cimiteri',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            486 =>
-            array (
-                'id' => 527,
-                'contact_id' => 692,
-                'name' => 'Gandini Anna Maria',
-                'title' => 'Responsabile Tributi',
-                'phone' => '0371 71391',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'ragioneria@comune.saleranosullambro.lo.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            487 =>
-            array (
-                'id' => 528,
-                'contact_id' => 478,
-                'name' => 'Stefania Zeli',
-                'title' => 'Responsabile ufficio tributi',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'tributi@comune.padenghe.brescia.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            488 =>
-            array (
-                'id' => 529,
-                'contact_id' => 695,
-                'name' => 'Dott.ssa Grazia Stancati',
-                'title' => 'Responsabile Ufficio Tributi',
-                'phone' => '0184 272208',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            489 =>
-            array (
-                'id' => 530,
-                'contact_id' => 695,
-                'name' => 'Sig.ra Scianna',
-                'title' => 'Collaboratrice dell\'Ufficio Tributi',
-                'phone' => '0184 272243',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'tributitarsutosap@bordighera.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            490 =>
-            array (
-                'id' => 531,
-                'contact_id' => 695,
-                'name' => 'Dott. Dario Sacchetti',
-                'title' => '0184 272217',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            491 =>
-            array (
-                'id' => 532,
-                'contact_id' => 621,
-            'name' => 'Fabio Alivernini (lun. giov.) Int. 5',
-                'title' => 'Geometra',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'tributi@comunediagosta.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            492 =>
-            array (
-                'id' => 533,
-                'contact_id' => 698,
-                'name' => '328 4046338',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            493 =>
-            array (
-                'id' => 534,
-                'contact_id' => 695,
-                'name' => 'Didone\' Silvia',
-                'title' => 'Ufficio legale Contratti',
-                'phone' => '0184 272209',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            494 =>
-            array (
-                'id' => 536,
-                'contact_id' => 213,
-                'name' => 'Corriere',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '347 4149932',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            495 =>
+                'name' => 'Fontana Angelo (pap',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '329 3017501',
+                    'email' => 'angelo.fontana@sarida.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                281 => 
+                array (
+                    'id' => 316,
+                    'contact_id' => 434,
+                    'name' => 'Torrassa Sergio',
+                    'title' => 'Commissario P.M.',
+                    'phone' => '010 7267131',
+                    'fax' => '010 7267134',
+                    'smart' => '335 1267351',
+                    'email' => 'polizia.municipale@comune.santolcese.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                282 => 
+                array (
+                    'id' => 317,
+                    'contact_id' => 321,
+                    'name' => '',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                283 => 
+                array (
+                    'id' => 318,
+                    'contact_id' => 366,
+                    'name' => 'Ornella',
+                    'title' => 'Ufficio Tributi',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '320 8073605',
+                    'email' => 'rag.tributi@comunedavagna.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                284 => 
+                array (
+                    'id' => 319,
+                    'contact_id' => 438,
+                    'name' => 'Ferrando Giampiero',
+                    'title' => 'Comandante P.M.',
+                    'phone' => '010 7267346',
+                    'fax' => '',
+                    'smart' => '347 1958381',
+                    'email' => 'vigilanza@comune.serraricco.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                285 => 
+                array (
+                    'id' => 320,
+                    'contact_id' => 439,
+                    'name' => 'STEFANIA PALUMBO',
+                    'title' => 'Referente per estratti conto',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'palumbos@posteitaliane.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                286 => 
+                array (
+                    'id' => 321,
+                    'contact_id' => 217,
+                    'name' => 'Dott.ssa Ferrario Loredana',
+                'title' => 'Responsabile Ufficio Finanziario (Tributi)',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                287 => 
+                array (
+                    'id' => 322,
+                    'contact_id' => 397,
+                    'name' => 'Ghio Marina',
+                'title' => 'Responsabile Ufficio Contabilit? (Interno 6)',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'area.ragioneria@comunecarasco.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                288 => 
+                array (
+                    'id' => 636,
+                    'contact_id' => 919,
+                    'name' => 'Polizia Locale',
+                    'title' => '',
+                    'phone' => '010 3462245',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'polizialocale@comune.pieveligure.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                289 => 
+                array (
+                    'id' => 324,
+                    'contact_id' => 448,
+                    'name' => '',
+                    'title' => 'ragioneria',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                290 => 
+                array (
+                    'id' => 325,
+                    'contact_id' => 232,
+                    'name' => 'Madde\' Antonio',
+                    'title' => 'Responsabile Ufficio Tributi',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'antonio.madde@unioneoltreaddalodigiano.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                291 => 
+                array (
+                    'id' => 326,
+                    'contact_id' => 450,
+                    'name' => 'QUECCHIA MARCELLO',
+                    'title' => 'RESP SETTORE CONTABILE',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                292 => 
+                array (
+                    'id' => 327,
+                    'contact_id' => 451,
+                    'name' => 'Dott.ssa Albero',
+                'title' => 'Addetta alle omologazioni (non pi?)',
+                    'phone' => '06 4158 6631',
+                    'fax' => '06 4158 6634',
+                    'smart' => '',
+                    'email' => 'manuela.albero@infrastrutturetrasporti.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                293 => 
+                array (
+                    'id' => 328,
+                    'contact_id' => 453,
+                    'name' => 'Dott.ssa Federica Ciaurri',
+                    'title' => 'Rilascio DURC',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                294 => 
+                array (
+                    'id' => 329,
+                    'contact_id' => 456,
+                    'name' => 'Dott. Carbonara',
+                    'title' => 'Segretario Comunale',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'segretario@comune.busalla.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                295 => 
+                array (
+                    'id' => 330,
+                    'contact_id' => 104,
+                    'name' => 'Dott.ssa Daniela De Paolis',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '333 3624307',
+                    'email' => 'contratti@gestioneservizipubblici.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                296 => 
+                array (
+                    'id' => 331,
+                    'contact_id' => 232,
+                    'name' => 'Spinoni Paolo',
+                    'title' => 'Vigile',
+                    'phone' => '0371 72231',
+                    'fax' => '',
+                    'smart' => '320 7516769',
+                    'email' => 'polizialocale@comune.cortepalasio.lo.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                297 => 
+                array (
+                    'id' => 332,
+                    'contact_id' => 457,
+                    'name' => 'Dott.ssa Alberici Paola',
+                    'title' => 'Resposabile settore finanziario',
+                    'phone' => '038 5284152',
+                    'fax' => '0385 284158',
+                    'smart' => '',
+                    'email' => 'servizifinanziari@comune.cigognola.pv.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                298 => 
+                array (
+                    'id' => 333,
+                    'contact_id' => 458,
+                    'name' => 'Maggioni  Franco',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '0187 598615',
+                    'smart' => '334 6247113',
+                    'email' => 'maggionif@posteitaliane.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                299 => 
+                array (
+                    'id' => 334,
+                    'contact_id' => 460,
+                    'name' => 'Ravizza Franco',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                300 => 
+                array (
+                    'id' => 336,
+                    'contact_id' => 462,
+                    'name' => 'Nazzario De Vecchis',
+                    'title' => 'Adetto al Contenzioso',
+                    'phone' => '06 59587794',
+                    'fax' => '06 59582519',
+                    'smart' => '',
+                    'email' => 'devecchisn@posteitaliane.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                301 => 
+                array (
+                    'id' => 337,
+                    'contact_id' => 117,
+                    'name' => 'Dott. Arduino',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'fabrizioarduino@libero.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                302 => 
+                array (
+                    'id' => 338,
+                    'contact_id' => 467,
+                    'name' => 'Raffaele Leggiero',
+                    'title' => 'Commerciale',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '393 9951967',
+                    'email' => 'raffaele.leggiero@ditechsrl.com ',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                303 => 
+                array (
+                    'id' => 339,
+                    'contact_id' => 468,
+                    'name' => 'Stabilni Marco',
+                    'title' => 'Presidente dell\'Unione',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '334 9035092',
+                    'email' => 'vivere@mclink.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                304 => 
+                array (
+                    'id' => 340,
+                    'contact_id' => 468,
+                    'name' => '',
+                    'title' => 'Vigile',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'polizialocale@comune.cortepalasio.lo.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                305 => 
+                array (
+                    'id' => 341,
+                    'contact_id' => 468,
+                    'name' => 'Madde\' Antonio',
+                    'title' => 'Responsabile Tributi',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                306 => 
+                array (
+                    'id' => 342,
+                    'contact_id' => 470,
+                    'name' => 'Ivo Viola',
+                    'title' => 'Ragioniere',
+                    'phone' => '0182 582241',
+                    'fax' => '0182 582514',
+                    'smart' => '',
+                    'email' => 'ragioneria@comunevillanovadalbenga.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                307 => 
+                array (
+                    'id' => 343,
+                    'contact_id' => 471,
+                    'name' => 'Silvia Lindblad',
+                    'title' => 'Referente Commerciale',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 's.lindblad@lindblad.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                308 => 
+                array (
+                    'id' => 344,
+                    'contact_id' => 116,
+                    'name' => 'Perrone Simona',
+                    'title' => 'avvocato',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '328 6963050',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                309 => 
+                array (
+                    'id' => 345,
+                    'contact_id' => 319,
+                    'name' => 'Ufficio Ragioneria',
+                    'title' => '',
+                    'phone' => '0185 2505244/5',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                310 => 
+                array (
+                    'id' => 346,
+                    'contact_id' => 317,
+                    'name' => 'Di Censi Maria Antonietta',
+                    'title' => 'Ragioneria Area finanziaria e tributi comunali',
+                'phone' => '0774 920006 (Int. 1)',
+                    'fax' => '0774 920313',
+                    'smart' => '347 6028516',
+                    'email' => 'rag.comunearsoli@libero.it - rag.comunearsoli@pec.cittametropolitanaroma.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                311 => 
+                array (
+                    'id' => 347,
+                    'contact_id' => 489,
+                    'name' => 'Maggi Mattia',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                312 => 
+                array (
+                    'id' => 802,
+                    'contact_id' => 949,
+                    'name' => '',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'ragioneria@',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                313 => 
+                array (
+                    'id' => 348,
+                    'contact_id' => 397,
+                'name' => 'Monica (Ufficio personale)',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '3475352793',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                314 => 
+                array (
+                    'id' => 349,
+                    'contact_id' => 491,
+                    'name' => 'Sig.ra Vidali Giuseppina',
+                    'title' => '',
+                    'phone' => '0383 84218',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                315 => 
+                array (
+                    'id' => 350,
+                    'contact_id' => 299,
+                    'name' => 'Giovanni Garibotto',
+                'title' => 'Ingegnere ex elsag - Via Villa Grande32/A 17019 Varazze (SV)',
+                    'phone' => '019 97550',
+                    'fax' => '',
+                    'smart' => '348 2243135',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                316 => 
+                array (
+                    'id' => 351,
+                    'contact_id' => 475,
+                    'name' => 'bigoli gianluigi',
+                    'title' => 'responsabile tributi',
+                    'phone' => '0372/539236',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'tributi@comune.persicodosimo.cr.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                317 => 
+                array (
+                    'id' => 432,
+                    'contact_id' => 323,
+                    'name' => 'Dott. Raucci Edoardo',
+                    'title' => 'Segretario Comunale',
+                    'phone' => '0523 962808',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                318 => 
+                array (
+                    'id' => 352,
+                    'contact_id' => 500,
+                    'name' => 'Sig.ra Cremonesi',
+                    'title' => 'Ufficio contratti',
+                    'phone' => '02 77653254',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                319 => 
+                array (
+                    'id' => 353,
+                    'contact_id' => 229,
+                    'name' => 'Amministrazione/contabilit',
+                    'title' => '',
+                    'phone' => '199440044',
+                    'fax' => '800031133',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                320 => 
+                array (
+                    'id' => 354,
+                    'contact_id' => 229,
+                    'name' => 'Call center - gratuito',
+                    'title' => '',
+                    'phone' => '800984200 digit 1',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                321 => 
+                array (
+                    'id' => 356,
+                    'contact_id' => 236,
+                    'name' => 'Peppino Sabatino',
+                    'title' => 'Segretario Comunale',
+                    'phone' => '0187 842933',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                322 => 
+                array (
+                    'id' => 357,
+                    'contact_id' => 505,
+                    'name' => '',
+                    'title' => 'prodotti per ufficio-fotocopiatrice',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                323 => 
+                array (
+                    'id' => 358,
+                    'contact_id' => 506,
+                'name' => 'Sig. Giovannacci Giorgio (in pensione dal 01/01/2022)',
+                    'title' => 'Vigile',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '328 8635246',
+                    'email' => 'pm@comune.carro.sp.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                324 => 
+                array (
+                    'id' => 700,
+                    'contact_id' => 978,
+                    'name' => 'Sig.ra Cristina',
+                    'title' => '',
+                    'phone' => '039 5311174 int 1',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                325 => 
+                array (
+                    'id' => 359,
+                    'contact_id' => 509,
+                    'name' => 'Ing. Attilio Ortensi',
+                    'title' => 'Legale rappresentante',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '335 5901425',
+                    'email' => 'attilio.orten@gmail.com',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                326 => 
+                array (
+                    'id' => 360,
+                    'contact_id' => 173,
+                'name' => 'Rag. Patarchi (Int. 5)',
+                    'title' => '',
+                    'phone' => '0722/816048',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                327 => 
+                array (
+                    'id' => 361,
+                    'contact_id' => 510,
+                    'name' => 'Sig.ra Lara Demarzo',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'novass.lara@gmail.com',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                328 => 
+                array (
+                    'id' => 422,
+                    'contact_id' => 597,
+                    'name' => 'Ing. Michele Robilotta',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '338 6206732',
+                    'email' => 'm.robilotta@libero.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                329 => 
+                array (
+                    'id' => 398,
+                    'contact_id' => NULL,
+                    'name' => 'bertoldi sara',
+                    'title' => '',
+                    'phone' => '0185/306649',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                330 => 
+                array (
+                    'id' => 364,
+                    'contact_id' => 480,
+                    'name' => 'sig favari',
+                    'title' => 'affari generali',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                331 => 
+                array (
+                    'id' => 365,
+                    'contact_id' => 232,
+                    'name' => 'Sig.ra Ivana',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                332 => 
+                array (
+                    'id' => 366,
+                    'contact_id' => 414,
+                    'name' => 'Adrea',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                333 => 
+                array (
+                    'id' => 367,
+                    'contact_id' => 182,
+                    'name' => 'Cavallero Maria Ausilia',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '335 7520621',
+                    'email' => 'macavallero@libero.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                334 => 
+                array (
+                    'id' => 368,
+                    'contact_id' => 182,
+                    'name' => '',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'roberta.pecunia@libero.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                335 => 
+                array (
+                    'id' => 369,
+                    'contact_id' => 506,
+                'name' => 'Dott. Spinetti Francesco (da 01/01/2022 ha sostituito Giovannacci)',
+                    'title' => 'Ragioneria',
+                    'phone' => '0187 861209 int. 3',
+                    'fax' => '',
+                    'smart' => '348/3606727 personale',
+                    'email' => 'ragioneria@comune.carro.sp.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                336 => 
+                array (
+                    'id' => 370,
+                    'contact_id' => 513,
+                    'name' => 'Sig. Mario Bertocchi',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '335 8469827',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                337 => 
+                array (
+                    'id' => 372,
+                    'contact_id' => 440,
+                'name' => 'Maurizio Cassinelli (figlio).',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '338 7578785',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                338 => 
+                array (
+                    'id' => 373,
+                    'contact_id' => 440,
+                'name' => 'Aldo (padre).',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                339 => 
+                array (
+                    'id' => 374,
+                    'contact_id' => 112,
+                    'name' => 'Gentile',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '334 6120011',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                340 => 
+                array (
+                    'id' => 375,
+                    'contact_id' => 515,
+                    'name' => '',
+                    'title' => 'Avv.to.  Sfrangi',
+                    'phone' => '0968 754015',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'segreteria@melanide.it,maria.strangis@alice.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                341 => 
+                array (
+                    'id' => 447,
+                    'contact_id' => 598,
+                    'name' => 'MASCHIO GIUSEPPINO',
+                    'title' => 'SINDACO',
+                    'phone' => '0185/340205',
+                    'fax' => '0185/340489',
+                    'smart' => '',
+                    'email' => 'sindacoborzonasca@gmail.com',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                342 => 
+                array (
+                    'id' => 421,
+                    'contact_id' => 552,
+                    'name' => 'Gentile',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                343 => 
+                array (
+                    'id' => 376,
+                    'contact_id' => 281,
+                    'name' => 'Avvocato Crimella',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '340 1407081',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                344 => 
+                array (
+                    'id' => 377,
+                    'contact_id' => 522,
+                    'name' => 'Bianca',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                345 => 
+                array (
+                    'id' => 378,
+                    'contact_id' => 527,
+                    'name' => 'Davide Nardelli',
+                    'title' => 'Managing Director',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '348 3008458',
+                    'email' => 'davide.nardelli@adv-tech.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                346 => 
+                array (
+                    'id' => 379,
+                    'contact_id' => 529,
+                    'name' => 'Ing. Massimo Cairoli',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'm.cairoli@sinartis.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                347 => 
+                array (
+                    'id' => 380,
+                    'contact_id' => 530,
+                    'name' => 'Natale Antonio',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '335 1519161',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                348 => 
+                array (
+                    'id' => 381,
+                    'contact_id' => 493,
+                    'name' => '',
+                    'title' => '',
+                    'phone' => '010 8597155',
+                    'fax' => '010 8597155',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                349 => 
+                array (
+                    'id' => 382,
+                    'contact_id' => 239,
+                    'name' => 'Bollentini Massimo',
+                    'title' => 'Vigile',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '335 8751967',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                350 => 
+                array (
+                    'id' => 383,
+                    'contact_id' => 533,
+                    'name' => 'Seveso Marco',
+                    'title' => 'Amministratore',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '338 8379607',
+                    'email' => 'marco.seveso@citiesse.com',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                351 => 
+                array (
+                    'id' => 942,
+                    'contact_id' => 1179,
+                    'name' => 'Giuseppe Taborelli',
+                    'title' => 'Responsabile commerciale',
+                    'phone' => '338 6327845',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                352 => 
+                array (
+                    'id' => 385,
+                    'contact_id' => 534,
+                    'name' => 'Valerio Zaccarelli',
+                    'title' => 'Commerciale',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '339 3353651',
+                    'email' => 'info@gaeuropa-azzaroni.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                353 => 
+                array (
+                    'id' => 386,
+                    'contact_id' => 378,
+                    'name' => '',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'luigi.mongiardino@selfsime.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                354 => 
+                array (
+                    'id' => 387,
+                    'contact_id' => 207,
+                    'name' => 'Sig.ra Maucelli Claudia',
+                    'title' => 'Segue gli appalti per i servizi',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                355 => 
+                array (
+                    'id' => 390,
+                    'contact_id' => 506,
+                    'name' => 'Solari Antonio',
+                    'title' => 'Sindaco',
+                    'phone' => '0187 861031',
+                    'fax' => '',
+                    'smart' => '338 3391827',
+                    'email' => 'studiotecnicosolari@libero.it       sindaco@comune.carro.sp.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                356 => 
+                array (
+                    'id' => 391,
+                    'contact_id' => 548,
+                    'name' => 'Francesconi',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '340 3620081',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                357 => 
+                array (
+                    'id' => 392,
+                    'contact_id' => 264,
+                    'name' => 'responsabile contabilt? sig.ra maria',
+                    'title' => 'Ufficio ordini/magazzino',
+                    'phone' => '02/39277287',
+                    'fax' => '',
+                    'smart' => '02/39277247',
+                    'email' => 'servizioclientiunionfotomarket.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                358 => 
+                array (
+                    'id' => 510,
+                    'contact_id' => 670,
+                    'name' => 'Furioni Renzo',
+                    'title' => 'Pubblicit&agrave;',
+                    'phone' => '045 6205816',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'renzo.furioni@comune.torridelbenaco.vr.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                359 => 
+                array (
+                    'id' => 511,
+                    'contact_id' => 615,
+                    'name' => 'Sig.ra Stefani',
+                    'title' => 'Segretaria del Sindaco',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                360 => 
+                array (
+                    'id' => 394,
+                    'contact_id' => 549,
+                    'name' => '',
+                    'title' => 'magazzino centrale e uff amministrativi',
+                    'phone' => '0172 693347',
+                    'fax' => '0172 693228',
+                    'smart' => '',
+                    'email' => 'bsitalia@bi-esse.com',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                361 => 
+                array (
+                    'id' => 395,
+                    'contact_id' => 560,
+                    'name' => '',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '335 6691095',
+                    'email' => 'gino.garibaldi@regioneliguria.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                362 => 
+                array (
+                    'id' => 420,
+                    'contact_id' => 552,
+                    'name' => 'Rosati Luciano',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                363 => 
+                array (
+                    'id' => 397,
+                    'contact_id' => 360,
+                    'name' => 'DAFANO DONATELLA',
+                    'title' => 'gestione crediti - fatture',
+                    'phone' => '06 66548806',
+                    'fax' => '06 66170282',
+                    'smart' => '',
+                    'email' => 'crediti2@sda.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                364 => 
+                array (
+                    'id' => 399,
+                    'contact_id' => 567,
+                    'name' => 'Silvia Galeano',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                365 => 
+                array (
+                    'id' => 400,
+                    'contact_id' => NULL,
+                    'name' => 'Commerciale',
+                    'title' => '',
+                    'phone' => '0575 050333',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                366 => 
+                array (
+                    'id' => 401,
+                    'contact_id' => NULL,
+                    'name' => 'Assistenza',
+                    'title' => '',
+                    'phone' => '0575 050333',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                367 => 
+                array (
+                    'id' => 402,
+                    'contact_id' => 504,
+                    'name' => 'Commerciale/Servizio clienti',
+                    'title' => 'support.spazioweb.com',
+                    'phone' => '0575/050333',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                368 => 
+                array (
+                    'id' => 403,
+                    'contact_id' => 504,
+                    'name' => 'Assistenza',
+                    'title' => '',
+                    'phone' => '0575/050330',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'assistenza@spazioweb.com',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                369 => 
+                array (
+                    'id' => 414,
+                    'contact_id' => 583,
+                    'name' => 'Dott. Monzu\' Ettore',
+                    'title' => 'Segretario Comunale',
+                    'phone' => '0185 729039',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'monzu_ettore@libero.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                370 => 
+                array (
+                    'id' => 404,
+                    'contact_id' => 229,
+                    'name' => 'Segnalazione guasti',
+                    'title' => '',
+                    'phone' => '800911800',
+                    'fax' => '800984200 - 800031133 / 0575-1949063',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                371 => 
+                array (
+                    'id' => 405,
+                    'contact_id' => 575,
+                    'name' => 'Ufficio Ragioneria',
+                    'title' => '',
+                    'phone' => '0377 989025',
+                    'fax' => '0377 989033',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                372 => 
+                array (
+                    'id' => 493,
+                    'contact_id' => 657,
+                    'name' => 'Arch Bonavetti Luisita',
+                    'title' => 'Istruttore Tecnico',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                373 => 
+                array (
+                    'id' => 407,
+                    'contact_id' => 576,
+                    'name' => 'Rag. Andreatta',
+                    'title' => 'Responsabile ufficio tributi',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'tributi@comune.cicagna.ge',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                374 => 
+                array (
+                    'id' => 408,
+                    'contact_id' => 451,
+                    'name' => '',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'manuela.albero@mit.gov.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                375 => 
+                array (
+                    'id' => 409,
+                    'contact_id' => 581,
+                    'name' => 'Arisi',
+                    'title' => 'Vigile',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                376 => 
+                array (
+                    'id' => 560,
+                    'contact_id' => 695,
+                    'name' => 'Toni Micaela',
+                    'title' => 'Dirigente',
+                    'phone' => '0184 272222',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'ragioneria@comune.bordighera.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                377 => 
+                array (
+                    'id' => 410,
+                    'contact_id' => 583,
+                    'name' => 'Rag. Maggiolo Mario',
+                    'title' => 'Ragioniere',
+                    'phone' => '0185 729027',
+                    'fax' => '0185 729067',
+                    'smart' => '347 1722984',
+                    'email' => 'patrimonio@comune.camogli.ge.it - maggiolo.mario@libero.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                378 => 
+                array (
+                    'id' => 411,
+                    'contact_id' => 583,
+                    'name' => 'Verdina Gianni',
+                    'title' => 'Vigile',
+                    'phone' => '0185 729057/58',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'giovanni.verdina@comune.camogli.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                379 => 
+                array (
+                    'id' => 412,
+                    'contact_id' => 586,
+                    'name' => 'cristina marzano',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                380 => 
+                array (
+                    'id' => 413,
+                    'contact_id' => 587,
+                    'name' => 'Dott. Mussi Mauro',
+                    'title' => 'Comandante Polizia Municipale',
+                    'phone' => '0185 205406',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'comandantepm@comunesml.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                381 => 
+                array (
+                    'id' => 415,
+                    'contact_id' => 333,
+                'name' => 'Dott.ssa Cristiana Salvatori (Int. 6)',
+                    'title' => 'Segretaria',
+                    'phone' => '',
+                    'fax' => 'cris.salvatori@libero.it',
+                    'smart' => '3478933734',
+                    'email' => 'segretario@comune.torriglia.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                382 => 
+                array (
+                    'id' => 416,
+                    'contact_id' => 474,
+                    'name' => 'Com.Te Tentore Emanuele',
+                    'title' => 'Comandante PM',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '3497778137',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                383 => 
+                array (
+                    'id' => 417,
+                    'contact_id' => 583,
+                    'name' => 'Sig.ra Campodonico',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'istruzione@comune.camogli.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                384 => 
+                array (
+                    'id' => 418,
+                    'contact_id' => 375,
+                    'name' => 'D\'amico Silvana',
+                    'title' => 'Ragioniera',
+                    'phone' => '010 3747254',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                385 => 
+                array (
+                    'id' => 419,
+                    'contact_id' => 408,
+                    'name' => 'Narducci Federica',
+                    'title' => 'Adetta sistema password',
+                    'phone' => '06 68816222',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'federica.narducci@fondazioneifel.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                386 => 
+                array (
+                    'id' => 423,
+                    'contact_id' => 533,
+                    'name' => 'Roul Cairoli',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '339 3846439',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                387 => 
+                array (
+                    'id' => 424,
+                    'contact_id' => 583,
+                    'name' => 'Zeba Erik - Corti Flavio',
+                    'title' => 'Parcheggiatori',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '346 0075048',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                388 => 
+                array (
+                    'id' => 425,
+                    'contact_id' => 338,
+                'name' => 'Laura (? figlia del titolare)',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                389 => 
+                array (
+                    'id' => 426,
+                    'contact_id' => 598,
+                    'name' => 'vigile Bona Claudio',
+                    'title' => '',
+                    'phone' => '0185 340003',
+                    'fax' => '',
+                    'smart' => '3357617372',
+                    'email' => 'poliziamunicipale@comune.borzonasca.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                390 => 
+                array (
+                    'id' => 427,
+                    'contact_id' => 599,
+                    'name' => 'Testaguzzi Pietro',
+                    'title' => 'Vice Comandante Polizia Municipale',
+                    'phone' => '0761 404358',
+                    'fax' => '',
+                    'smart' => '348 7672752',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                391 => 
+                array (
+                    'id' => 428,
+                    'contact_id' => 602,
+                    'name' => 'Valerio Patrone',
+                    'title' => 'Comandante di Polizia Municipale',
+                    'phone' => '0185 6801',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                392 => 
+                array (
+                    'id' => 429,
+                    'contact_id' => 603,
+                    'name' => 'Stefano Valsetti',
+                    'title' => 'Assessore alle Finanze',
+                    'phone' => '019 507071',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'stefano.valsetti@comunecairo.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                393 => 
+                array (
+                    'id' => 430,
+                    'contact_id' => 607,
+                    'name' => 'Mastripieri',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '347 0716010',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                394 => 
+                array (
+                    'id' => 431,
+                    'contact_id' => 265,
+                    'name' => 'Zappettini Annamaria',
+                    'title' => 'Responsabile ufficio ragioneria',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '329 4188651',
+                    'email' => 'ragioneria@comunemezzanego.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                395 => 
+                array (
+                    'id' => 433,
+                    'contact_id' => 319,
+                    'name' => 'Rocca Franco',
+                    'title' => 'Consigliere Comunale',
+                    'phone' => '338 8152113',
+                    'fax' => '',
+                    'smart' => '335 5985541',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                396 => 
+                array (
+                    'id' => 434,
+                    'contact_id' => 613,
+                    'name' => 'Geom. Fabrizio Ghione int. 8',
+                    'title' => 'Responsabile Servizio Finanze e Patrimonio',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'fabrizio.ghione@comune.dego.sv.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                397 => 
+                array (
+                    'id' => 435,
+                    'contact_id' => 599,
+                    'name' => 'Treppini Ferdinando',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '348 7609976',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                398 => 
+                array (
+                    'id' => 436,
+                    'contact_id' => 615,
+                    'name' => 'Dott. Domenico Massacane',
+                    'title' => 'Segretario Comunale',
+                    'phone' => '010 920480',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'segretario.comunale@comune.campo-ligure.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                399 => 
+                array (
+                    'id' => 437,
+                    'contact_id' => 615,
+                    'name' => 'Dott.sa Dilettoso Laura',
+                    'title' => 'Responsabile Area Finanziaria',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'ragioneria@comune.campo-ligure.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                400 => 
+                array (
+                    'id' => 438,
+                    'contact_id' => 615,
+                    'name' => 'Dott.sa Flavia Olivieri',
+                'title' => 'Ufficio Tributi (int. 3)',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'flavia.olivieri@comune.campo-ligure.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                401 => 
+                array (
+                    'id' => 439,
+                    'contact_id' => 575,
+                    'name' => 'Capelli Francesco',
+                    'title' => 'Vigile',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '349 0546580',
+                    'email' => 'vigilanza@comune.brembio.lo.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                402 => 
+                array (
+                    'id' => 440,
+                    'contact_id' => 509,
+                    'name' => 'Anna',
+                    'title' => 'Referente per avvalimento',
+                    'phone' => '0862401407',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                403 => 
+                array (
+                    'id' => 441,
+                    'contact_id' => 509,
+                    'name' => 'Alessia Masciocchi',
+                    'title' => 'Referente per avvalimento',
+                    'phone' => '0862401407',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'a.masciocchi@assoservizispa.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                404 => 
+                array (
+                    'id' => 442,
+                    'contact_id' => 617,
+                    'name' => 'Trossarello Gabriele',
+                    'title' => 'Sindaco',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '335 5428874',
+                    'email' => 'sindacomoconesi@virgilio.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                405 => 
+                array (
+                    'id' => 443,
+                    'contact_id' => 509,
+                    'name' => 'Massimiliano Torelli',
+                    'title' => 'Referente per Orte',
+                    'phone' => 'privato 3404027910',
+                    'fax' => '',
+                    'smart' => '392 9785729',
+                    'email' => 'm.torelli@assoservizispa.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                406 => 
+                array (
+                    'id' => 444,
+                    'contact_id' => 618,
+                    'name' => 'Marchetti Marco',
+                    'title' => 'Responsabile Area Commerciale e Marketing',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '338 8291737',
+                    'email' => 'ufficiocommerciale@abacospa.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                407 => 
+                array (
+                    'id' => 445,
+                    'contact_id' => 190,
+                    'name' => 'Valeria',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                408 => 
+                array (
+                    'id' => 446,
+                    'contact_id' => 619,
+                    'name' => 'Alessandro Rossi',
+                    'title' => 'Resp. Serv. Ass.to P. M.',
+                    'phone' => '0577/742341',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'vigili@comune.castellina.si.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                409 => 
+                array (
+                    'id' => 448,
+                    'contact_id' => 598,
+                    'name' => 'SIGNAIGO FRANCO',
+                    'title' => 'VICE SINDACO DELEGA VIABILITA\'',
+                    'phone' => '0185/340205',
+                    'fax' => '0185/340489',
+                    'smart' => '',
+                    'email' => 'vicesindacoborzonasca@gmail.com',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                410 => 
+                array (
+                    'id' => 449,
+                    'contact_id' => 598,
+                    'name' => 'DR. GIOACCHINO VITALE',
+                    'title' => 'SEGRETARIO COMUNALE',
+                    'phone' => '0185/340205',
+                    'fax' => '0185/340489',
+                    'smart' => '',
+                    'email' => 'amministrativo@comune.borzonasca.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                411 => 
+                array (
+                    'id' => 450,
+                    'contact_id' => 598,
+                    'name' => '',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'ragioneria@comune.borzonasca.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                412 => 
+                array (
+                    'id' => 451,
+                    'contact_id' => 621,
+                    'name' => 'Dott.ssa Carla Primini',
+                'title' => 'Segretario Comunale (Int. 6)',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '349 2250302',
+                    'email' => 'segretario@comunediagosta.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                413 => 
+                array (
+                    'id' => 452,
+                    'contact_id' => 623,
+                    'name' => 'Dr. Ernesto Capruzzi',
+                    'title' => 'Segretario Comunale',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                414 => 
+                array (
+                    'id' => 453,
+                    'contact_id' => 621,
+                    'name' => 'Vigile',
+                    'title' => 'Alessandri Paolino',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '327 2875473',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                415 => 
+                array (
+                    'id' => 454,
+                    'contact_id' => 626,
+                    'name' => 'Luisa Parigi',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                416 => 
+                array (
+                    'id' => 455,
+                    'contact_id' => 348,
+                    'name' => 'Marta La Spina',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'marta.laspina@isge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                417 => 
+                array (
+                    'id' => 456,
+                    'contact_id' => 162,
+                    'name' => 'Dott. Luigi Tiscornia',
+                    'title' => 'Titolare',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '377 7068745',
+                    'email' => 'l.tiscornia@studiotiscornia.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                418 => 
+                array (
+                    'id' => 457,
+                    'contact_id' => 628,
+                    'name' => 'Roberto',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '338 8773684',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                419 => 
+                array (
+                    'id' => 458,
+                    'contact_id' => 630,
+                    'name' => 'Ezio del Giudice',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                420 => 
+                array (
+                    'id' => 459,
+                    'contact_id' => 630,
+                    'name' => 'Riccardo Scotti',
+                'title' => 'Assistenza Tecnica (3 + 1)',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'riccardo.scotti@ezdirect.it  - assistenza@ezdirect.it ',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                421 => 
+                array (
+                    'id' => 460,
+                    'contact_id' => 630,
+                    'name' => 'Massimo Benedetti',
+                'title' => 'Assistenza Tecnica (3 + 1)',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'massimo.benedetti@ezdirect.it  - assistenza@ezdirect.it ',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                422 => 
+                array (
+                    'id' => 461,
+                    'contact_id' => 630,
+                    'name' => '',
+                    'title' => 'Amministrazione',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'amministrazione@ezdirect.it ',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                423 => 
+                array (
+                    'id' => 462,
+                    'contact_id' => 261,
+                    'name' => 'Mauri - Alessandro Cambiaghi',
+                    'title' => 'Tecnico',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'marco@eltraff.com      ale@eltraff.com',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                424 => 
+                array (
+                    'id' => 557,
+                    'contact_id' => 751,
+                    'name' => 'Rita Di Cara',
+                    'title' => 'Referente per le Aziende',
+                    'phone' => '010 3536559',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'rita.dicara@pres.inge.unige.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                425 => 
+                array (
+                    'id' => 464,
+                    'contact_id' => 213,
+                    'name' => 'Sig. Ricco',
+                    'title' => 'Referente contabilit',
+                    'phone' => '011 2226111',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                426 => 
+                array (
+                    'id' => 465,
+                    'contact_id' => 637,
+                    'name' => 'Nagiller',
+                    'title' => '',
+                    'phone' => '0185 3151231',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                427 => 
+                array (
+                    'id' => 784,
+                    'contact_id' => 1032,
+                    'name' => 'Galeazzi Angela',
+                    'title' => 'Comandante Polizia Locale',
+                    'phone' => '0565 63360',
+                    'fax' => '',
+                    'smart' => '334 6643090',
+                    'email' => 'agaleazzi@comune.piombino.li.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                428 => 
+                array (
+                    'id' => 466,
+                    'contact_id' => 640,
+                    'name' => 'Dott.ssa Barone Silvia 019-9390345',
+                    'title' => 'Resp. Uff. Tributi',
+                    'phone' => '019/9390250',
+                    'fax' => '019/932655',
+                    'smart' => '',
+                    'email' => 'responsabiletributi@comune.varazze.sv.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                429 => 
+                array (
+                    'id' => 467,
+                    'contact_id' => 506,
+                    'name' => '',
+                    'title' => 'Segretario Comunale',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'demografici@comune.carro.sp.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                430 => 
+                array (
+                    'id' => 468,
+                    'contact_id' => 317,
+                    'name' => '',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                431 => 
+                array (
+                    'id' => 1300,
+                    'contact_id' => 955,
+                    'name' => 'Alessandra Ponticelli',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'a.ponticelli@engine.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                432 => 
+                array (
+                    'id' => 469,
+                    'contact_id' => 185,
+                    'name' => 'Carlo Giusto',
+                    'title' => 'per referenze bancarie',
+                    'phone' => '0185 487 540',
+                    'fax' => '',
+                    'smart' => '342 1370638',
+                    'email' => 'carlo.giusto@bancobpm.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                433 => 
+                array (
+                    'id' => 470,
+                    'contact_id' => 643,
+                    'name' => 'Dr. Adriano Culasso',
+                    'title' => 'Segretario Comunale',
+                    'phone' => '035 3843411',
+                    'fax' => '',
+                    'smart' => '3384331901',
+                    'email' => 'adriano.culasso@grassobbio.eu',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                434 => 
+                array (
+                    'id' => 471,
+                    'contact_id' => 186,
+                    'name' => 'Mario Carbone',
+                    'title' => 'Direttore',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'mario.carbone@ubibanca.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                435 => 
+                array (
+                    'id' => 472,
+                    'contact_id' => 216,
+                    'name' => 'Oneglio Franca',
+                    'title' => 'Ufficio Tributi',
+                    'phone' => '011 9282888 Int 6',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'foneglio@comune.corio.to.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                436 => 
+                array (
+                    'id' => 473,
+                    'contact_id' => 151,
+                    'name' => 'Paola',
+                    'title' => 'Gestisce le contravvenzioni',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                437 => 
+                array (
+                    'id' => 474,
+                    'contact_id' => 644,
+                    'name' => 'Dott.ssa Rossetti',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'affari.generali@comune.varsi.pr.it - finanziario@comune.varsi.pr.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                438 => 
+                array (
+                    'id' => 475,
+                    'contact_id' => NULL,
+                    'name' => 'Dott. Culasso Adriano',
+                    'title' => 'Responsabile Ufficio Ragioneria',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'regioneria@grassobbio.bg.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                439 => 
+                array (
+                    'id' => 476,
+                    'contact_id' => 643,
+                    'name' => 'Caccia Emanuela',
+                    'title' => 'Coadiuva con la Ragioneria',
+                    'phone' => '035 3843415',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'emanuela.caccia@grassobbio.eu',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                440 => 
+                array (
+                    'id' => 477,
+                    'contact_id' => 646,
+                    'name' => 'Rag. Dario Righettini',
+                    'title' => 'Responsabile Ufficio Ragioneria',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'tributi@comune.gardoneriviera.bs.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                441 => 
+                array (
+                    'id' => 778,
+                    'contact_id' => 1026,
+                    'name' => 'Grossi Barbara',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '338/6048993',
+                    'email' => 'barbara.grossidegradi@gmail.com',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                442 => 
+                array (
+                    'id' => 478,
+                    'contact_id' => NULL,
+                    'name' => 'Dott.ssa Alberici Paola',
+                    'title' => 'Responsabile Servizio Finanziario',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                443 => 
+                array (
+                    'id' => 479,
+                    'contact_id' => 576,
+                    'name' => 'Leverone Gianna',
+                    'title' => 'Ufficio Contratti',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'anagrafe@comune.cicagna.ge',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                444 => 
+                array (
+                    'id' => 480,
+                    'contact_id' => 164,
+                    'name' => 'Melis Mirko',
+                    'title' => 'Titolare',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '366 2584449',
+                    'email' => 'mirko.m@ovunque-si.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                445 => 
+                array (
+                    'id' => 481,
+                    'contact_id' => 164,
+                    'name' => 'Pavarino Ombretta',
+                    'title' => 'Assistente',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '328 5692606',
+                    'email' => 'ombretta.p@ovunque-si.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                446 => 
+                array (
+                    'id' => 482,
+                    'contact_id' => 613,
+                    'name' => 'Rebella Cinzia',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'tributi@comune.dego.sv.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                447 => 
+                array (
+                    'id' => 483,
+                    'contact_id' => NULL,
+                    'name' => 'BERTOLDI SARA',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'bertoldi.s@provincia.genova.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                448 => 
+                array (
+                    'id' => 484,
+                    'contact_id' => 652,
+                    'name' => 'bertoldi sara',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'bertoldi.s@provincia.genova.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                449 => 
+                array (
+                    'id' => 485,
+                    'contact_id' => 653,
+                    'name' => '',
+                    'title' => 'vigile',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                450 => 
+                array (
+                    'id' => 486,
+                    'contact_id' => 655,
+                    'name' => 'Bellisario Leonardo',
+                    'title' => 'Referente commerciale di zona',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '335 6293263',
+                    'email' => 'bellisario.leonardo@energrid.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                451 => 
+                array (
+                    'id' => 487,
+                    'contact_id' => 654,
+                    'name' => 'Dott.ssa Porteri Maria Teresa',
+                    'title' => 'Segretario Comunale',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '329 7398066',
+                    'email' => 'segretario@comune.monteisola.bs.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                452 => 
+                array (
+                    'id' => 488,
+                    'contact_id' => 654,
+                    'name' => 'Geometra Ziliani Gianpaolo',
+                    'title' => 'Responsabile Ufficio Tecnico',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '348 5206193',
+                    'email' => 'tecnico@comune.monteisola.bs.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                453 => 
+                array (
+                    'id' => 489,
+                    'contact_id' => 654,
+                    'name' => 'Paola',
+                'title' => 'Ufficio Anagrafe/Gestione cimiteriale (x elenco utenze)',
+                    'phone' => 'Sig.ra Agnesi',
+                    'fax' => '',
+                    'smart' => '030 9825226 int. 3',
+                    'email' => 'demografico@comune.monteisola.bs.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                454 => 
+                array (
+                    'id' => 490,
+                    'contact_id' => 469,
+                    'name' => 'Dott.ssa Alaimo',
+                    'title' => 'Ufficio Precontenzioso',
+                    'phone' => '06 36723612',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                455 => 
+                array (
+                    'id' => 491,
+                    'contact_id' => 469,
+                    'name' => 'Architetto Travaglino',
+                    'title' => 'Responsabile per avvalimento',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                456 => 
+                array (
+                    'id' => 492,
+                    'contact_id' => 657,
+                    'name' => 'Silverio Antonini',
+                    'title' => 'Geometra',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'lavori.pubblici@darfoboarioterme.net',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                457 => 
+                array (
+                    'id' => 494,
+                    'contact_id' => 553,
+                    'name' => 'Lippi Marco',
+                    'title' => 'Assistenza Tecnica',
+                    'phone' => '055 8868652',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                458 => 
+                array (
+                    'id' => 495,
+                    'contact_id' => 659,
+                    'name' => '',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'mario.rampone@libero.it ',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                459 => 
+                array (
+                    'id' => 496,
+                    'contact_id' => 657,
+                    'name' => 'Togni Fulvia',
+                    'title' => 'Ufficio anagrafe Prende lei le richieste di nuovi allacci votivi',
+                    'phone' => '0364 541124',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'stato.civile@darfoboarioterme.net',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                460 => 
+                array (
+                    'id' => 497,
+                    'contact_id' => 576,
+                    'name' => 'Dott. Fornaciari Fabio',
+                'title' => 'Segretario Comunale (int. 7)',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'segretario@comune.cicagna.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                461 => 
+                array (
+                    'id' => 498,
+                    'contact_id' => 657,
+                    'name' => 'Assessore Chiudinelli',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '347 4457330',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                462 => 
+                array (
+                    'id' => 499,
+                    'contact_id' => 664,
+                    'name' => 'Giovanni Deltin',
+                    'title' => 'Commerciale',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '348 3366252',
+                    'email' => 'giovanni.deltin@sacchi.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                463 => 
+                array (
+                    'id' => 500,
+                    'contact_id' => 664,
+                    'name' => 'Francesco Gagliani',
+                    'title' => '',
+                    'phone' => '010 7264257',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'francesco.gagliani@sacchi.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                464 => 
+                array (
+                    'id' => 501,
+                    'contact_id' => 665,
+                    'name' => 'Simone Valaguzza',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '340 7823780',
+                    'email' => 'safe1969@me.com',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                465 => 
+                array (
+                    'id' => 502,
+                    'contact_id' => 113,
+                    'name' => 'Vinai Valentina',
+                    'title' => 'Appalti',
+                    'phone' => '0174 570316',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                466 => 
+                array (
+                    'id' => 503,
+                    'contact_id' => 654,
+                    'name' => 'Archetti Antonella',
+                    'title' => 'Contratti',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'segreteria@comune.monteisola.bs.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                467 => 
+                array (
+                    'id' => 504,
+                    'contact_id' => 360,
+                    'name' => '',
+                    'title' => 'Signora Ninny che ritira i pacchi qui sa noi',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '338 9179844',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                468 => 
+                array (
+                    'id' => 505,
+                    'contact_id' => 113,
+                    'name' => 'Riscossione coattiva',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                469 => 
+                array (
+                    'id' => 506,
+                    'contact_id' => 667,
+                    'name' => 'Dott. Domenico Massacane',
+                    'title' => 'Segretario Comunale',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                470 => 
+                array (
+                    'id' => 507,
+                    'contact_id' => 668,
+                'name' => 'Federica  (int. 1)',
+                    'title' => 'Vigile',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'polizia@comune.sancolombanocertenoli.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                471 => 
+                array (
+                    'id' => 508,
+                    'contact_id' => 668,
+                    'name' => 'Franca Molinari',
+                'title' => 'Ufficio Ragioneria (int. 9)',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'ragioneria@comune.sancolombanocertenoli.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                472 => 
+                array (
+                    'id' => 509,
+                    'contact_id' => 668,
+                    'name' => 'Laura Perico',
+                'title' => 'Ufficio Tributi (int. 8)',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'tributi@comune.sancolombanocertenoli.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                473 => 
+                array (
+                    'id' => 1112,
+                    'contact_id' => 1285,
+                    'name' => 'Gian Vittorio Delfino',
+                    'title' => 'Comandante PM',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '+393275374929',
+                    'email' => 'gv.delfino@comune.campomorone.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                474 => 
+                array (
+                    'id' => 512,
+                    'contact_id' => 668,
+                    'name' => 'Dott. Lari Piero',
+                'title' => 'Segretario Comunale (int. 3)',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                475 => 
+                array (
+                    'id' => 1153,
+                    'contact_id' => 325,
+                    'name' => 'Valentina Dalloro',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'v.dalloro@novellagl.com',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                476 => 
+                array (
+                    'id' => 1154,
+                    'contact_id' => 1307,
+                    'name' => 'Enrico Berisso',
+                    'title' => 'Direttore',
+                    'phone' => '0185 458821',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'enrico.berisso@intesasanpaolo.com',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                477 => 
+                array (
+                    'id' => 514,
+                    'contact_id' => 664,
+                    'name' => 'Grossi Mattia',
+                    'title' => '',
+                    'phone' => '010 7264257',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                478 => 
+                array (
+                    'id' => 515,
+                    'contact_id' => 431,
+                    'name' => 'Fontana Michele',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '346 3057712',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                479 => 
+                array (
+                    'id' => 516,
+                    'contact_id' => 650,
+                    'name' => 'Urgias Giovanni',
+                    'title' => 'Ufficio Tributi',
+                    'phone' => '045 6832135',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'giourg@comune.sanpietroincariano.vr.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                480 => 
+                array (
+                    'id' => 517,
+                    'contact_id' => 676,
+                    'name' => 'Temperini Barbara',
+                    'title' => 'Nostro referente commerciale',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '366 6810190',
+                    'email' => 'barbara.temperini@posteitaliane.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                481 => 
+                array (
+                    'id' => 611,
+                    'contact_id' => 896,
+                    'name' => 'Gianni',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '347 2239039',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                482 => 
+                array (
+                    'id' => 518,
+                    'contact_id' => 218,
+                    'name' => 'Dott.ssa Raimato Nevicella',
+                    'title' => 'Segretario Comunale',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'segretariocomune@comune.roccabianca.pr.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                483 => 
+                array (
+                    'id' => 519,
+                    'contact_id' => 667,
+                    'name' => 'Priarone',
+                    'title' => 'Assessore ai lavori pubblici',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '338 3888644',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                484 => 
+                array (
+                    'id' => 520,
+                    'contact_id' => NULL,
+                    'name' => 'Dott. Domenico Massacane',
+                    'title' => 'Segretario Comunale',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                485 => 
+                array (
+                    'id' => 521,
+                    'contact_id' => NULL,
+                    'name' => 'Assessore Priarone',
+                    'title' => '',
+                    'phone' => '338 3888644',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                486 => 
+                array (
+                    'id' => 522,
+                    'contact_id' => 688,
+                    'name' => 'Dott. Paolo Gentile',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '333 2898843',
+                    'email' => 'paologentile@rivistadeitributilocali.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                487 => 
+                array (
+                    'id' => 523,
+                    'contact_id' => 689,
+                    'name' => '',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'olarigiuseppe@libero.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                488 => 
+                array (
+                    'id' => 524,
+                    'contact_id' => 325,
+                    'name' => 'Bottiglieri Fabio',
+                    'title' => 'Referente per cauzioni provvisorie',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'cofacecauzionige@gmail.com',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                489 => 
+                array (
+                    'id' => 525,
+                    'contact_id' => 158,
+                'name' => 'De Mattei Marco (Int. 3)',
+                    'title' => 'Addetto ICI',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '0185/319033',
+                    'email' => 'tributi@comune.leivi.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                490 => 
+                array (
+                    'id' => 526,
+                    'contact_id' => 667,
+                    'name' => 'Franco Caglio',
+                    'title' => 'Assessore ai Cimiteri',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                491 => 
+                array (
+                    'id' => 527,
+                    'contact_id' => 692,
+                    'name' => 'Rag. Gandini Anna Maria',
+                    'title' => 'Responsabile Tributi',
+                    'phone' => '0371 71391',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'ragioneria@comune.saleranosullambro.lo.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                492 => 
+                array (
+                    'id' => 528,
+                    'contact_id' => 478,
+                    'name' => 'Stefania Zeli',
+                    'title' => 'Responsabile ufficio tributi',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'tributi@comune.padenghe.brescia.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                493 => 
+                array (
+                    'id' => 529,
+                    'contact_id' => 695,
+                    'name' => 'Dott.ssa Grazia Stancati',
+                    'title' => 'Responsabile Ufficio Tributi',
+                    'phone' => '0184 272208',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                494 => 
+                array (
+                    'id' => 530,
+                    'contact_id' => 695,
+                    'name' => 'Sig.ra Scianna',
+                    'title' => 'Collaboratrice dell\'Ufficio Tributi',
+                    'phone' => '0184 272243',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'tributitarsutosap@bordighera.it ',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                495 => 
+                array (
+                    'id' => 531,
+                    'contact_id' => 695,
+                    'name' => 'Dott. Dario Sacchetti',
+                    'title' => '0184 272217',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                496 => 
+                array (
+                    'id' => 532,
+                    'contact_id' => 621,
+                'name' => 'Fabio Alivernini (lun. giov.) Int. 5',
+                    'title' => 'Geometra',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'tributi@comunediagosta.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                497 => 
+                array (
+                    'id' => 533,
+                    'contact_id' => 698,
+                    'name' => '328 4046338',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                498 => 
+                array (
+                    'id' => 534,
+                    'contact_id' => 695,
+                    'name' => 'Didone\' Silvia',
+                    'title' => 'Ufficio legale Contratti',
+                    'phone' => '0184 272209',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                499 => 
+                array (
+                    'id' => 536,
+                    'contact_id' => 213,
+                    'name' => 'Corriere',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '347 4149932',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+            ));
+        \DB::table('referents')->insert(array (
+            0 => 
             array (
                 'id' => 537,
                 'contact_id' => 701,
@@ -6465,10 +6531,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '347 8739459',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            496 =>
+            1 => 
             array (
                 'id' => 538,
                 'contact_id' => NULL,
@@ -6478,10 +6544,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            497 =>
+            2 => 
             array (
                 'id' => 539,
                 'contact_id' => 703,
@@ -6491,23 +6557,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0182 699848',
                 'smart' => '338 8306445',
                 'email' => 'comandante.pm@comune.laigueglia.sv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            498 =>
+            3 => 
             array (
                 'id' => 540,
                 'contact_id' => 329,
-                'name' => 'Fatturazione',
-                'title' => '',
-                'phone' => '06 41585831-35-44',
+                'name' => 'Sig.ra Pellegrino - Sig. Lorenzetti',
+                'title' => 'Pagamenti',
+                'phone' => '06 44125905 - 06 44125829',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            499 =>
+            4 => 
             array (
                 'id' => 541,
                 'contact_id' => 706,
@@ -6517,12 +6583,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '346 6962385',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-        ));
-        DB::table('referents')->insert(array (
-            0 =>
+            5 => 
             array (
                 'id' => 542,
                 'contact_id' => 708,
@@ -6532,10 +6596,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '328 4765748',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            1 =>
+            6 => 
             array (
                 'id' => 543,
                 'contact_id' => 717,
@@ -6545,36 +6609,36 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'affarigenerali@comune.bonassola.sp.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            2 =>
+            7 => 
             array (
                 'id' => 544,
                 'contact_id' => 717,
-                'name' => 'Vasamì Emanuele',
+                'name' => 'Vasam? Emanuele',
                 'title' => 'Comandante Polizia Municipale',
                 'phone' => '0187 813823',
                 'fax' => '',
                 'smart' => '335 7666497',
                 'email' => 'polizia.locale@comune.bonassola.sp.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            3 =>
+            8 => 
             array (
                 'id' => 545,
                 'contact_id' => 703,
-                'name' => 'Silvia Estiemme',
-                'title' => 'Ragioniere',
-                'phone' => '0182 69111 Int. 7',
+                'name' => 'Silvia Estiemme - Rag. Simonetta Missaglia',
+                'title' => 'Ragioniera',
+                'phone' => '0182 6911223',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ragioneria@comune.laigueglia.sv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            4 =>
+            9 => 
             array (
                 'id' => 546,
                 'contact_id' => 477,
@@ -6584,10 +6648,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            5 =>
+            10 => 
             array (
                 'id' => 547,
                 'contact_id' => 717,
@@ -6597,10 +6661,10 @@ class ReferentsTableSeeder extends Seeder
             'fax' => '0187802236 (Com.Levanto)',
                 'smart' => '3357666501',
                 'email' => 'segretario@comune.bonassola.sp.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            6 =>
+            11 => 
             array (
                 'id' => 548,
                 'contact_id' => 675,
@@ -6610,10 +6674,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            7 =>
+            12 => 
             array (
                 'id' => 549,
                 'contact_id' => 732,
@@ -6623,10 +6687,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            8 =>
+            13 => 
             array (
                 'id' => 550,
                 'contact_id' => 732,
@@ -6636,10 +6700,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            9 =>
+            14 => 
             array (
                 'id' => 551,
                 'contact_id' => 506,
@@ -6649,10 +6713,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'segreteria@comune.carro.sp.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            10 =>
+            15 => 
             array (
                 'id' => 552,
                 'contact_id' => 228,
@@ -6662,10 +6726,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'andrea.bollentini@elettrovara.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            11 =>
+            16 => 
             array (
                 'id' => 553,
                 'contact_id' => 738,
@@ -6675,10 +6739,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 8143043',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            12 =>
+            17 => 
             array (
                 'id' => 554,
                 'contact_id' => 740,
@@ -6688,10 +6752,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'gianluigi.bassi@arpal.org',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            13 =>
+            18 => 
             array (
                 'id' => 555,
                 'contact_id' => 743,
@@ -6701,10 +6765,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0185/7291282',
                 'smart' => '3346030957',
                 'email' => 'mirko.mussi@comune.recco.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            14 =>
+            19 => 
             array (
                 'id' => 558,
                 'contact_id' => 751,
@@ -6714,10 +6778,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '010 2095652',
                 'smart' => '',
                 'email' => 'sportellolavoro@unige.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            15 =>
+            20 => 
             array (
                 'id' => 559,
                 'contact_id' => 751,
@@ -6727,10 +6791,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tirocini.ingegneria@politecnica.unige.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            16 =>
+            21 => 
             array (
                 'id' => 561,
                 'contact_id' => 755,
@@ -6740,10 +6804,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'commerciale@duritoedizioni.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            17 =>
+            22 => 
             array (
                 'id' => 562,
                 'contact_id' => 756,
@@ -6753,10 +6817,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            18 =>
+            23 => 
             array (
                 'id' => 563,
                 'contact_id' => 757,
@@ -6766,10 +6830,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3926303408',
                 'email' => 'alberto.ferretti@sarida,it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            19 =>
+            24 => 
             array (
                 'id' => 564,
                 'contact_id' => 743,
@@ -6779,10 +6843,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '349 0665405',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            20 =>
+            25 => 
             array (
                 'id' => 565,
                 'contact_id' => 743,
@@ -6792,10 +6856,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'alessandro.meucci@comune.recco.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            21 =>
+            26 => 
             array (
                 'id' => 566,
                 'contact_id' => 654,
@@ -6805,10 +6869,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            22 =>
+            27 => 
             array (
                 'id' => 567,
                 'contact_id' => 408,
@@ -6818,10 +6882,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            23 =>
+            28 => 
             array (
                 'id' => 568,
                 'contact_id' => 308,
@@ -6831,10 +6895,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'giovanni.vernengo@atpesercizio.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            24 =>
+            29 => 
             array (
                 'id' => 569,
                 'contact_id' => 308,
@@ -6844,10 +6908,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0185373206',
                 'smart' => '3482313742',
                 'email' => 'roberto.rolandelli@atpesercizio.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            25 =>
+            30 => 
             array (
                 'id' => 570,
                 'contact_id' => 308,
@@ -6857,10 +6921,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3485153246',
                 'email' => 'massimo.gnecco@atpesercizio.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            26 =>
+            31 => 
             array (
                 'id' => 571,
                 'contact_id' => 308,
@@ -6870,10 +6934,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            27 =>
+            32 => 
             array (
                 'id' => 572,
                 'contact_id' => 467,
@@ -6883,10 +6947,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '393 9599388',
                 'email' => 'egidio.leggiero@ditechsrl.com ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            28 =>
+            33 => 
             array (
                 'id' => 573,
                 'contact_id' => 467,
@@ -6896,10 +6960,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'marcello.felci@ditechsrl.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            29 =>
+            34 => 
             array (
                 'id' => 574,
                 'contact_id' => 470,
@@ -6909,10 +6973,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            30 =>
+            35 => 
             array (
                 'id' => 931,
                 'contact_id' => 135,
@@ -6922,10 +6986,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'simona.garbarino@comune.castiglione-chiavarese.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            31 =>
+            36 => 
             array (
                 'id' => 576,
                 'contact_id' => 186,
@@ -6935,10 +6999,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'cristiana.squeri@ubibanca.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            32 =>
+            37 => 
             array (
                 'id' => 577,
                 'contact_id' => 584,
@@ -6948,23 +7012,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'giorgio@cerutiassicurazioni.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            33 =>
+            38 => 
             array (
                 'id' => 578,
                 'contact_id' => 759,
-                'name' => 'Giuliano Badà',
+                'name' => 'Giuliano Bad',
                 'title' => 'Commissario',
                 'phone' => '0321 3702318',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'bada.giuliano@comune.novara.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            34 =>
+            39 => 
             array (
                 'id' => 579,
                 'contact_id' => 759,
@@ -6974,10 +7038,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'clerici.enrica@comune.novara.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            35 =>
+            40 => 
             array (
                 'id' => 580,
                 'contact_id' => 760,
@@ -6987,10 +7051,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0184485365',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            36 =>
+            41 => 
             array (
                 'id' => 581,
                 'contact_id' => 408,
@@ -7000,10 +7064,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            37 =>
+            42 => 
             array (
                 'id' => 582,
                 'contact_id' => 676,
@@ -7013,10 +7077,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '06/50673272',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            38 =>
+            43 => 
             array (
                 'id' => 583,
                 'contact_id' => 457,
@@ -7026,23 +7090,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '366 1451001',
                 'email' => 'polizialocale@comune.cigognola.pv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            39 =>
+            44 => 
             array (
                 'id' => 584,
                 'contact_id' => 676,
                 'name' => 'Coronese Giulio',
-                'title' => 'Venditore Banco Posta',
+                'title' => 'Venditore Banco Posta prodotti finanziari prevendita es apertura conti correnti',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '3771627663',
+                'smart' => '377 1627663',
                 'email' => 'corones1@posteitaliane.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            40 =>
+            45 => 
             array (
                 'id' => 585,
                 'contact_id' => 765,
@@ -7052,10 +7116,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 3066311',
                 'email' => 'marco@ilgabbianoblu.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            41 =>
+            46 => 
             array (
                 'id' => 586,
                 'contact_id' => 766,
@@ -7065,23 +7129,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '019 994024',
                 'smart' => '348 3187312',
                 'email' => 'aparodi@comune.celle.sv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            42 =>
+            47 => 
             array (
                 'id' => 587,
-                'contact_id' => 445,
+                'contact_id' => NULL,
                 'name' => 'Massimo Bixio',
                 'title' => '',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '333 2346503',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            43 =>
+            48 => 
             array (
                 'id' => 588,
                 'contact_id' => 766,
@@ -7091,10 +7155,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'npontillo@comune.celle.sv.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            44 =>
+            49 => 
             array (
                 'id' => 589,
                 'contact_id' => 768,
@@ -7104,10 +7168,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '393 9838789',
                 'email' => 'com@asac.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            45 =>
+            50 => 
             array (
                 'id' => 590,
                 'contact_id' => 606,
@@ -7117,10 +7181,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '345 6850128',
                 'email' => 'polizialocale2@comune.moneglia.ge.it  -  polizialocale@comune.moneglia.ge.it.',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            46 =>
+            51 => 
             array (
                 'id' => 591,
                 'contact_id' => 701,
@@ -7130,10 +7194,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            47 =>
+            52 => 
             array (
                 'id' => 592,
                 'contact_id' => 771,
@@ -7143,10 +7207,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'eglebart@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            48 =>
+            53 => 
             array (
                 'id' => 593,
                 'contact_id' => 766,
@@ -7156,10 +7220,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'mgarnaboldi@comune.celle.sv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            49 =>
+            54 => 
             array (
                 'id' => 594,
                 'contact_id' => 773,
@@ -7169,10 +7233,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '347 5746749',
                 'email' => 'assistenzaconcilia@cecsistemi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            50 =>
+            55 => 
             array (
                 'id' => 595,
                 'contact_id' => 766,
@@ -7182,23 +7246,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'asolari@comune.celle.sv.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            51 =>
+            56 => 
             array (
                 'id' => 596,
                 'contact_id' => 329,
-            'name' => 'Problemi tecnici (es. blocco per password errata) Int. 5',
+            'name' => 'Problemi tecnici (es. blocco per password errata) sel. prima  4 e sel. 2',
                 'title' => 'Sala controllo rete 06 41739999',
-                'phone' => '06 41739929 0641585119',
+                'phone' => '06 41739999',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            52 =>
+            57 => 
             array (
                 'id' => 597,
                 'contact_id' => 766,
@@ -7208,10 +7272,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            53 =>
+            58 => 
             array (
                 'id' => 598,
                 'contact_id' => 761,
@@ -7221,23 +7285,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'e.cottarelli@comune.zibello.pr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            54 =>
+            59 => 
             array (
                 'id' => 599,
                 'contact_id' => 676,
                 'name' => 'Valbonesi Tiziana',
-            'title' => 'Assistenza dedicata Banco Posta (criticità su BPIOL, bollettini, ecc)',
+            'title' => 'Assistenza dedicata Banco Posta (criticit&agrave; su BPIOL, bollettini, estratti conto. ecc.)',
                 'phone' => '011-3144166',
                 'fax' => '',
-                'smart' => '3771618100',
+                'smart' => '377 1618100',
                 'email' => 'tiziana.valbonesi@posteitaliane.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            55 =>
+            60 => 
             array (
                 'id' => 600,
                 'contact_id' => 774,
@@ -7247,10 +7311,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'vertenze.tigullio@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            56 =>
+            61 => 
             array (
                 'id' => 601,
                 'contact_id' => 775,
@@ -7260,10 +7324,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0187 808282',
                 'smart' => '335 6553840',
                 'email' => 'fra65@hotmail.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            57 =>
+            62 => 
             array (
                 'id' => 602,
                 'contact_id' => 775,
@@ -7273,10 +7337,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '320 6290748',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            58 =>
+            63 => 
             array (
                 'id' => 844,
                 'contact_id' => NULL,
@@ -7286,23 +7350,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            59 =>
+            64 => 
             array (
                 'id' => 603,
                 'contact_id' => 266,
                 'name' => 'Sig Lucio',
-                'title' => 'Contabilità',
+                'title' => 'Contabilit',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'contabilita@saptributi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            60 =>
+            65 => 
             array (
                 'id' => 604,
                 'contact_id' => 888,
@@ -7312,10 +7376,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '328 9122046',
                 'email' => 'm.maestri@consorziotassano.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            61 =>
+            66 => 
             array (
                 'id' => 606,
                 'contact_id' => 739,
@@ -7325,10 +7389,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '339 2779816',
                 'email' => 'pietro.gianelli@comune.sestri-levante.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            62 =>
+            67 => 
             array (
                 'id' => 607,
                 'contact_id' => 889,
@@ -7338,10 +7402,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '010/64057756',
                 'smart' => '347/5362556',
                 'email' => 'mariaritaangela.bobbiesi@tesoro.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            63 =>
+            68 => 
             array (
                 'id' => 609,
                 'contact_id' => 893,
@@ -7351,10 +7415,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 7972143',
                 'email' => 'mario.militano@orangelink.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            64 =>
+            69 => 
             array (
                 'id' => 793,
                 'contact_id' => 607,
@@ -7364,10 +7428,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'antonella.cozzolino@cisl.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            65 =>
+            70 => 
             array (
                 'id' => 610,
                 'contact_id' => 606,
@@ -7377,10 +7441,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            66 =>
+            71 => 
             array (
                 'id' => 612,
                 'contact_id' => NULL,
@@ -7390,10 +7454,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            67 =>
+            72 => 
             array (
                 'id' => 613,
                 'contact_id' => NULL,
@@ -7403,10 +7467,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            68 =>
+            73 => 
             array (
                 'id' => 614,
                 'contact_id' => 899,
@@ -7416,10 +7480,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '349 4660063',
                 'email' => 'd.moscuzza@martinezpartners.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            69 =>
+            74 => 
             array (
                 'id' => 615,
                 'contact_id' => 900,
@@ -7429,10 +7493,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            70 =>
+            75 => 
             array (
                 'id' => 616,
                 'contact_id' => 900,
@@ -7442,49 +7506,49 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0185/598903',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            71 =>
+            76 => 
             array (
                 'id' => 621,
                 'contact_id' => 246,
-                'name' => 'Sig.ra Simona Criscuolo',
+                'name' => 'Dott.ssa Simona Criscuolo',
                 'title' => 'Addetta della segreteria',
-                'phone' => '06 93836 785',
+                'phone' => '06 9383 6785',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'simona.criscuolo@finanze.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            72 =>
+            77 => 
             array (
                 'id' => 617,
                 'contact_id' => 902,
-                'name' => 'Paola Casini',
+                'name' => 'Guatteri Giacomo',
                 'title' => 'Comandante P.M.',
                 'phone' => '0565 839314',
                 'fax' => '',
                 'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'giacomo.guetteri@comune.campigliamarittima.li.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            73 =>
+            78 => 
             array (
                 'id' => 618,
                 'contact_id' => 902,
-                'name' => 'Dott. Calzaretta',
+                'name' => 'Dott. Francesco Calzaretta',
                 'title' => 'Amministrativo',
                 'phone' => '0565 839226',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'f-calzaretta@comune.campigliamarittima.li.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            74 =>
+            79 => 
             array (
                 'id' => 619,
                 'contact_id' => 902,
@@ -7494,10 +7558,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            75 =>
+            80 => 
             array (
                 'id' => 620,
                 'contact_id' => 657,
@@ -7507,10 +7571,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0364/541201',
                 'smart' => '',
                 'email' => 'r.sangalli@darfoboarioterme.net',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            76 =>
+            81 => 
             array (
                 'id' => 624,
                 'contact_id' => 261,
@@ -7520,10 +7584,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'info@eltraff.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            77 =>
+            82 => 
             array (
                 'id' => 625,
                 'contact_id' => 477,
@@ -7533,10 +7597,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'leo.onorati@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            78 =>
+            83 => 
             array (
                 'id' => 626,
                 'contact_id' => 670,
@@ -7546,10 +7610,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3392254382',
                 'email' => 'gardening.perotti@alice.it   via santa maria 27 -37010 brenzone vr',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            79 =>
+            84 => 
             array (
                 'id' => 627,
                 'contact_id' => 509,
@@ -7559,10 +7623,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '388 3504097',
                 'email' => 'r.carrozzi@assoservizispa.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            80 =>
+            85 => 
             array (
                 'id' => 628,
                 'contact_id' => 911,
@@ -7572,10 +7636,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'm.mengoli@castelguelfo.provincia.bologna.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            81 =>
+            86 => 
             array (
                 'id' => 629,
                 'contact_id' => 912,
@@ -7584,11 +7648,11 @@ class ReferentsTableSeeder extends Seeder
                 'phone' => '0984 1900013',
                 'fax' => '',
                 'smart' => '328 3048770',
-                'email' => 'stefano.palumbo@bpconsulting.it - avv.stefanopalumbo@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'stefano.palumbo@labconsulenze.it - avv.stefanopalumbo@gmail.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            82 =>
+            87 => 
             array (
                 'id' => 630,
                 'contact_id' => 912,
@@ -7598,23 +7662,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            83 =>
+            88 => 
             array (
                 'id' => 781,
                 'contact_id' => 676,
-                'name' => 'Longo Giovanni',
-            'title' => 'Assistenza dedicata prodotti postali (raccomandate, AG, ecc)',
-                'phone' => '010-9833204',
+                'name' => 'Girardi Ivan',
+            'title' => 'Assistenza dedicata al recapito dei prodotti postali (raccomandate, AG, SMA mancanti ecc.)',
+                'phone' => '',
                 'fax' => '',
-                'smart' => '3351303902',
-                'email' => 'giovanni1.longo@posteitaliane.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '',
+                'email' => 'ivan.girardi@posteitaliane.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            84 =>
+            89 => 
             array (
                 'id' => 1076,
                 'contact_id' => 1146,
@@ -7624,23 +7688,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'segreteria@comune.cogliate.mb.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            85 =>
+            90 => 
             array (
                 'id' => 631,
                 'contact_id' => 902,
-                'name' => 'Chiavaro Cinzia',
+                'name' => 'Chiavaro Cinzia, polizia@comune.campigliamarittima.li.it',
                 'title' => 'Agente P.M.',
                 'phone' => '0565/839333',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'polizia@comune.campigliamarittima.li.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'pm-servizio@comune.campigliamarittima.li.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            86 =>
+            91 => 
             array (
                 'id' => 632,
                 'contact_id' => 914,
@@ -7650,10 +7714,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '333 7975434',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            87 =>
+            92 => 
             array (
                 'id' => 633,
                 'contact_id' => 914,
@@ -7663,10 +7727,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '333 6552927',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            88 =>
+            93 => 
             array (
                 'id' => 634,
                 'contact_id' => 911,
@@ -7676,10 +7740,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'chiara.clemente@castelguelfo.provincia.bologna.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            89 =>
+            94 => 
             array (
                 'id' => 647,
                 'contact_id' => 934,
@@ -7689,10 +7753,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'telloni@comune.settala.mi.gov.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            90 =>
+            95 => 
             array (
                 'id' => 648,
                 'contact_id' => 935,
@@ -7702,10 +7766,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            91 =>
+            96 => 
             array (
                 'id' => 637,
                 'contact_id' => 922,
@@ -7715,10 +7779,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338 9336349',
                 'email' => 'r.izzo@comune.cusano-milanino.mi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            92 =>
+            97 => 
             array (
                 'id' => 638,
                 'contact_id' => 922,
@@ -7728,10 +7792,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            93 =>
+            98 => 
             array (
                 'id' => 639,
                 'contact_id' => 922,
@@ -7741,10 +7805,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '329 2103417',
                 'email' => 'm.sacchi@comune.cusano-milanino.mi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            94 =>
+            99 => 
             array (
                 'id' => 825,
                 'contact_id' => 159,
@@ -7754,10 +7818,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            95 =>
+            100 => 
             array (
                 'id' => 640,
                 'contact_id' => 717,
@@ -7767,10 +7831,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338 7378908',
                 'email' => 'poliziamunicipale@comune.framura.sp.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            96 =>
+            101 => 
             array (
                 'id' => 641,
                 'contact_id' => 928,
@@ -7780,10 +7844,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'contabile@comune.brenzone.vr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            97 =>
+            102 => 
             array (
                 'id' => 642,
                 'contact_id' => 394,
@@ -7793,10 +7857,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            98 =>
+            103 => 
             array (
                 'id' => 643,
                 'contact_id' => 933,
@@ -7806,10 +7870,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3471959290',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            99 =>
+            104 => 
             array (
                 'id' => 644,
                 'contact_id' => 922,
@@ -7819,10 +7883,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'm.mazzola@comune.cusano-milanino.mi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            100 =>
+            105 => 
             array (
                 'id' => 645,
                 'contact_id' => 922,
@@ -7832,10 +7896,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'a.zingaro@comune.cusano-milanino.mi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            101 =>
+            106 => 
             array (
                 'id' => 646,
                 'contact_id' => 576,
@@ -7845,10 +7909,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            102 =>
+            107 => 
             array (
                 'id' => 649,
                 'contact_id' => 936,
@@ -7858,10 +7922,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335/8357903',
                 'email' => 'alepastine@hotmail.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            103 =>
+            108 => 
             array (
                 'id' => 650,
                 'contact_id' => 939,
@@ -7871,10 +7935,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3485609375',
                 'email' => 'campagnoli.luciano@comune.como.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            104 =>
+            109 => 
             array (
                 'id' => 651,
                 'contact_id' => 478,
@@ -7884,10 +7948,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'polizialocale@comune.padenghe.brescia.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            105 =>
+            110 => 
             array (
                 'id' => 652,
                 'contact_id' => 940,
@@ -7897,10 +7961,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            106 =>
+            111 => 
             array (
                 'id' => 653,
                 'contact_id' => 939,
@@ -7910,10 +7974,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'goldin.enrico@comune.como.it - vigileelettronico@comune.como.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            107 =>
+            112 => 
             array (
                 'id' => 654,
                 'contact_id' => 939,
@@ -7923,10 +7987,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ceresa.marina@comune.como.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            108 =>
+            113 => 
             array (
                 'id' => 655,
                 'contact_id' => 939,
@@ -7936,23 +8000,36 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ghioni.vilma@comune.como.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            109 =>
+            114 => 
             array (
                 'id' => 656,
                 'contact_id' => 162,
-                'name' => 'Sabrina Giordan',
-                'title' => 'Collaboratore',
+                'name' => '',
+                'title' => '',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
-                'email' => 's.giordan@studiotiscornia.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            110 =>
+            115 => 
+            array (
+                'id' => 1189,
+                'contact_id' => 1175,
+                'name' => 'Antonino Bonaventura',
+                'title' => 'Referente commerciale',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '348 7262032',
+                'email' => 'a.bonaventura@progettostudio.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            116 => 
             array (
                 'id' => 657,
                 'contact_id' => 162,
@@ -7962,23 +8039,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => ' e.ghiorzi@studiotiscornia.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            111 =>
+            117 => 
             array (
                 'id' => 658,
                 'contact_id' => 162,
                 'name' => 'Cristina Cassol',
                 'title' => 'Collaboratore',
-                'phone' => NULL,
-                'fax' => NULL,
-                'smart' => NULL,
+                'phone' => '',
+                'fax' => '',
+                'smart' => '340 9048891',
                 'email' => 'c.cassol@studiotiscornia.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-30 14:59:43',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            112 =>
+            118 => 
             array (
                 'id' => 659,
                 'contact_id' => 945,
@@ -7988,10 +8065,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'l.demarzo@aellege.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            113 =>
+            119 => 
             array (
                 'id' => 660,
                 'contact_id' => 759,
@@ -8001,10 +8078,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            114 =>
+            120 => 
             array (
                 'id' => 661,
                 'contact_id' => NULL,
@@ -8014,10 +8091,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            115 =>
+            121 => 
             array (
                 'id' => 662,
                 'contact_id' => 759,
@@ -8027,10 +8104,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            116 =>
+            122 => 
             array (
                 'id' => 663,
                 'contact_id' => NULL,
@@ -8040,10 +8117,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            117 =>
+            123 => 
             array (
                 'id' => 664,
                 'contact_id' => NULL,
@@ -8053,10 +8130,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            118 =>
+            124 => 
             array (
                 'id' => 665,
                 'contact_id' => NULL,
@@ -8066,10 +8143,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            119 =>
+            125 => 
             array (
                 'id' => 666,
                 'contact_id' => NULL,
@@ -8079,10 +8156,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            120 =>
+            126 => 
             array (
                 'id' => 668,
                 'contact_id' => 752,
@@ -8092,10 +8169,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            121 =>
+            127 => 
             array (
                 'id' => 667,
                 'contact_id' => 602,
@@ -8105,10 +8182,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'federica.genovese@comune.rapallo.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            122 =>
+            128 => 
             array (
                 'id' => 669,
                 'contact_id' => 739,
@@ -8118,10 +8195,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'Franco.Caridi@comune.sestri-levante.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            123 =>
+            129 => 
             array (
                 'id' => 670,
                 'contact_id' => 739,
@@ -8131,10 +8208,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'rosi.ferrando@comune.sestri-levante.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            124 =>
+            130 => 
             array (
                 'id' => 914,
                 'contact_id' => 1151,
@@ -8144,10 +8221,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 6342604',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            125 =>
+            131 => 
             array (
                 'id' => 672,
                 'contact_id' => 955,
@@ -8156,11 +8233,11 @@ class ReferentsTableSeeder extends Seeder
                 'phone' => '',
                 'fax' => '',
                 'smart' => '3206584674',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'a.dionisi@engine.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            126 =>
+            132 => 
             array (
                 'id' => 673,
                 'contact_id' => 329,
@@ -8170,10 +8247,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'gaetana.serrano@mit.gov.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            127 =>
+            133 => 
             array (
                 'id' => 674,
                 'contact_id' => 957,
@@ -8183,10 +8260,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'm.sterpetti@aci.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            128 =>
+            134 => 
             array (
                 'id' => 675,
                 'contact_id' => 961,
@@ -8196,10 +8273,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '349 6719526',
                 'email' => 'an.papalia@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            129 =>
+            135 => 
             array (
                 'id' => 867,
                 'contact_id' => 1117,
@@ -8209,23 +8286,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'b.scotti@comune.sesto-fiorentino.fi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            130 =>
+            136 => 
             array (
                 'id' => 676,
                 'contact_id' => 221,
-                'name' => 'maria cristina milesi',
+                'name' => 'Maria Cristina Milesi',
                 'title' => 'ufficio segreteria',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'cristina.milesi@comune.santomobonoterme.bg.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            131 =>
+            137 => 
             array (
                 'id' => 1000,
                 'contact_id' => 1119,
@@ -8235,23 +8312,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            132 =>
+            138 => 
             array (
                 'id' => 999,
                 'contact_id' => 1222,
-                'name' => '',
-                'title' => '',
-                'phone' => '',
+                'name' => 'Dott.ssa Cola Francesca',
+                'title' => 'Ufficio Tributi - Ufficio Economato',
+                'phone' => '0444 830834/35',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'tributi@sarego.gov.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'tributi@comune.sarego.vi.it - f.cola@comune.sarego.vi.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            133 =>
+            139 => 
             array (
                 'id' => 678,
                 'contact_id' => 469,
@@ -8261,10 +8338,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            134 =>
+            140 => 
             array (
                 'id' => 679,
                 'contact_id' => 615,
@@ -8274,10 +8351,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'stefania.caruso@comune.campo-ligure.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            135 =>
+            141 => 
             array (
                 'id' => 680,
                 'contact_id' => 761,
@@ -8287,10 +8364,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 's.sperlari@comune.zibello.pr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            136 =>
+            142 => 
             array (
                 'id' => 681,
                 'contact_id' => 967,
@@ -8300,10 +8377,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '019 7415895',
                 'smart' => '3474517270',
                 'email' => 'plspotornonoli@comune.spotorno.sv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            137 =>
+            143 => 
             array (
                 'id' => 682,
                 'contact_id' => 967,
@@ -8313,10 +8390,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 7512233',
                 'email' => 'vicesindaco@comune.spotorno.sv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            138 =>
+            144 => 
             array (
                 'id' => 683,
                 'contact_id' => 918,
@@ -8326,10 +8403,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'anag.ponderano@ptb.provincia.biella.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            139 =>
+            145 => 
             array (
                 'id' => 684,
                 'contact_id' => 968,
@@ -8339,10 +8416,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '347 4970109',
                 'email' => 'd.luvini@sicursat.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            140 =>
+            146 => 
             array (
                 'id' => 685,
                 'contact_id' => 918,
@@ -8352,10 +8429,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'rag.ponderano@ptb.provincia.biella.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            141 =>
+            147 => 
             array (
                 'id' => 686,
                 'contact_id' => NULL,
@@ -8365,10 +8442,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            142 =>
+            148 => 
             array (
                 'id' => 687,
                 'contact_id' => 939,
@@ -8378,10 +8455,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            143 =>
+            149 => 
             array (
                 'id' => 688,
                 'contact_id' => 970,
@@ -8391,10 +8468,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            144 =>
+            150 => 
             array (
                 'id' => 690,
                 'contact_id' => 204,
@@ -8404,10 +8481,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            145 =>
+            151 => 
             array (
                 'id' => 691,
                 'contact_id' => NULL,
@@ -8417,10 +8494,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            146 =>
+            152 => 
             array (
                 'id' => 692,
                 'contact_id' => 966,
@@ -8430,10 +8507,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'm.zinzalini@comune.somaglia.lo.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            147 =>
+            153 => 
             array (
                 'id' => 693,
                 'contact_id' => 188,
@@ -8443,10 +8520,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            148 =>
+            154 => 
             array (
                 'id' => 694,
                 'contact_id' => 974,
@@ -8456,10 +8533,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            149 =>
+            155 => 
             array (
                 'id' => 695,
                 'contact_id' => 533,
@@ -8469,10 +8546,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '347 9646729',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            150 =>
+            156 => 
             array (
                 'id' => 697,
                 'contact_id' => 467,
@@ -8482,23 +8559,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            151 =>
+            157 => 
             array (
                 'id' => 698,
                 'contact_id' => 978,
-            'name' => 'Del Vecchio Michela (per contratto)',
-                'title' => 'Ufficio Tecnico edilizia pubblica int. 3 e int 2',
+                'name' => 'Brusadelli Silvia',
+                'title' => 'Ufficio Tecnico edilizia pubblica int. 4',
                 'phone' => '039 5310229',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'michela.delvecchio@unionevalletta.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'protocollo@comune.lavallettabrianza.lc.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            152 =>
+            158 => 
             array (
                 'id' => 701,
                 'contact_id' => 987,
@@ -8508,10 +8585,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '333/3671882',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            153 =>
+            159 => 
             array (
                 'id' => 702,
                 'contact_id' => 988,
@@ -8521,10 +8598,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'marina.ceresa@comune.castelgoffredo.mn.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            154 =>
+            160 => 
             array (
                 'id' => 703,
                 'contact_id' => 668,
@@ -8534,10 +8611,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'alessandro.sturla@alice.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            155 =>
+            161 => 
             array (
                 'id' => 704,
                 'contact_id' => 991,
@@ -8547,10 +8624,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'Vincenzo.Avila@comune.senago.mi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            156 =>
+            162 => 
             array (
                 'id' => 705,
                 'contact_id' => 992,
@@ -8560,10 +8637,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            157 =>
+            163 => 
             array (
                 'id' => 706,
                 'contact_id' => 994,
@@ -8573,10 +8650,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'm.carrabba@comune.basiglio.mi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            158 =>
+            164 => 
             array (
                 'id' => 707,
                 'contact_id' => 994,
@@ -8586,10 +8663,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '02 90452289',
                 'smart' => '',
                 'email' => 'tributi@comune.basiglio.mi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            159 =>
+            165 => 
             array (
                 'id' => 708,
                 'contact_id' => 934,
@@ -8599,10 +8676,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'superbo@comune.settala.mi.gov.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            160 =>
+            166 => 
             array (
                 'id' => 709,
                 'contact_id' => 928,
@@ -8612,10 +8689,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tributi@comune.brenzone.vr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            161 =>
+            167 => 
             array (
                 'id' => 710,
                 'contact_id' => 998,
@@ -8625,10 +8702,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            162 =>
+            168 => 
             array (
                 'id' => 711,
                 'contact_id' => 998,
@@ -8638,10 +8715,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            163 =>
+            169 => 
             array (
                 'id' => 712,
                 'contact_id' => NULL,
@@ -8651,10 +8728,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            164 =>
+            170 => 
             array (
                 'id' => 713,
                 'contact_id' => NULL,
@@ -8664,10 +8741,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            165 =>
+            171 => 
             array (
                 'id' => 714,
                 'contact_id' => 481,
@@ -8677,10 +8754,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            166 =>
+            172 => 
             array (
                 'id' => 715,
                 'contact_id' => 476,
@@ -8690,10 +8767,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            167 =>
+            173 => 
             array (
                 'id' => 716,
                 'contact_id' => 476,
@@ -8703,10 +8780,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            168 =>
+            174 => 
             array (
                 'id' => 717,
                 'contact_id' => 1000,
@@ -8716,10 +8793,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'giovanna.maffi@comune.canonicadadda.bg.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            169 =>
+            175 => 
             array (
                 'id' => 718,
                 'contact_id' => 1000,
@@ -8729,10 +8806,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ragioneria@comune.canonicadadda.bg.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            170 =>
+            176 => 
             array (
                 'id' => 719,
                 'contact_id' => 1001,
@@ -8742,10 +8819,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            171 =>
+            177 => 
             array (
                 'id' => 720,
                 'contact_id' => 1002,
@@ -8755,10 +8832,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            172 =>
+            178 => 
             array (
                 'id' => 721,
                 'contact_id' => 1002,
@@ -8768,10 +8845,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ragioneria@comune.cipressa.im.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            173 =>
+            179 => 
             array (
                 'id' => 722,
                 'contact_id' => 928,
@@ -8781,10 +8858,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'serenella.termine@comune.brenzone.vr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            174 =>
+            180 => 
             array (
                 'id' => 723,
                 'contact_id' => 1004,
@@ -8794,10 +8871,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            175 =>
+            181 => 
             array (
                 'id' => 724,
                 'contact_id' => 1004,
@@ -8807,10 +8884,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 0348672',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            176 =>
+            182 => 
             array (
                 'id' => 725,
                 'contact_id' => NULL,
@@ -8820,10 +8897,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            177 =>
+            183 => 
             array (
                 'id' => 726,
                 'contact_id' => NULL,
@@ -8833,10 +8910,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3392254382',
                 'email' => 'gardening.perotti@alice.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            178 =>
+            184 => 
             array (
                 'id' => 727,
                 'contact_id' => 491,
@@ -8846,10 +8923,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            179 =>
+            185 => 
             array (
                 'id' => 728,
                 'contact_id' => 491,
@@ -8859,10 +8936,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3339937252',
                 'email' => 'ale.pessina73@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            180 =>
+            186 => 
             array (
                 'id' => 729,
                 'contact_id' => 696,
@@ -8872,10 +8949,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            181 =>
+            187 => 
             array (
                 'id' => 730,
                 'contact_id' => 696,
@@ -8885,10 +8962,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3461298301',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            182 =>
+            188 => 
             array (
                 'id' => 731,
                 'contact_id' => 1006,
@@ -8898,10 +8975,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            183 =>
+            189 => 
             array (
                 'id' => 732,
                 'contact_id' => 1006,
@@ -8911,23 +8988,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0354181262',
                 'smart' => '3333671882',
                 'email' => 'publiberg@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            184 =>
+            190 => 
             array (
                 'id' => 733,
                 'contact_id' => 1007,
-                'name' => 'Rag. Maddè',
+                'name' => 'Rag. Madd',
                 'title' => 'Ufficio Tributi',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            185 =>
+            191 => 
             array (
                 'id' => 734,
                 'contact_id' => 1007,
@@ -8937,10 +9014,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'danieleamatruda@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            186 =>
+            192 => 
             array (
                 'id' => 735,
                 'contact_id' => 996,
@@ -8950,10 +9027,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'andrea.noris@comune.dalmine.bg.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            187 =>
+            193 => 
             array (
                 'id' => 736,
                 'contact_id' => 1008,
@@ -8963,10 +9040,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            188 =>
+            194 => 
             array (
                 'id' => 737,
                 'contact_id' => 1008,
@@ -8976,36 +9053,36 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            189 =>
+            195 => 
             array (
                 'id' => 738,
                 'contact_id' => 1009,
-                'name' => 'Dott. Enrico Pasin',
-                'title' => 'Ufficio Tributi',
-                'phone' => '',
+                'name' => 'Dott.ssa Giuliana Biagini luned&igrave; e venerd&igrave; pomeriggio',
+                'title' => 'Funzionario responsabile tributi- Presente il luned&igrave; e il venerd&igrave; pomeriggio',
+                'phone' => '0354995334',
                 'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '3297041381',
+                'email' => 'res-ragioneria@comune.filago.bg.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            190 =>
+            196 => 
             array (
                 'id' => 739,
                 'contact_id' => 1009,
-                'name' => 'ip servizi',
-                'title' => 'Affissatore',
+                'name' => '',
+                'title' => '',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            191 =>
+            197 => 
             array (
                 'id' => 987,
                 'contact_id' => 1211,
@@ -9015,10 +9092,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'responsabile.finanziario@comune.rodano.mi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            192 =>
+            198 => 
             array (
                 'id' => 740,
                 'contact_id' => 1010,
@@ -9028,10 +9105,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'monia.stevanin@comune.flero.bs.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            193 =>
+            199 => 
             array (
                 'id' => 741,
                 'contact_id' => 1010,
@@ -9041,10 +9118,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0309381554',
                 'smart' => '3891717312',
                 'email' => 'agenzialata@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            194 =>
+            200 => 
             array (
                 'id' => 742,
                 'contact_id' => 1011,
@@ -9054,10 +9131,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            195 =>
+            201 => 
             array (
                 'id' => 743,
                 'contact_id' => 1011,
@@ -9067,10 +9144,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            196 =>
+            202 => 
             array (
                 'id' => 744,
                 'contact_id' => 1012,
@@ -9080,23 +9157,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            197 =>
+            203 => 
             array (
                 'id' => 745,
                 'contact_id' => 1012,
-                'name' => 'P.F. Pubblicità di Pavoni',
+                'name' => 'P.F. Pubblicita\' di Pavoni',
                 'title' => 'Affissatore',
                 'phone' => '0365520877',
                 'fax' => '',
                 'smart' => '3288645688',
                 'email' => 'pfdipavoni@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            198 =>
+            204 => 
             array (
                 'id' => 746,
                 'contact_id' => 1013,
@@ -9106,10 +9183,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            199 =>
+            205 => 
             array (
                 'id' => 747,
                 'contact_id' => 1013,
@@ -9119,10 +9196,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0354181262',
                 'smart' => '3333671882',
                 'email' => 'publiberg@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            200 =>
+            206 => 
             array (
                 'id' => 748,
                 'contact_id' => 478,
@@ -9132,10 +9209,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'responsabileragioneria@comune.padenghe.brescia.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            201 =>
+            207 => 
             array (
                 'id' => 749,
                 'contact_id' => 1014,
@@ -9145,10 +9222,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            202 =>
+            208 => 
             array (
                 'id' => 750,
                 'contact_id' => 1015,
@@ -9158,23 +9235,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            203 =>
+            209 => 
             array (
                 'id' => 751,
                 'contact_id' => 1015,
-                'name' => 'P.F. Pubblicità di Pavoni',
+                'name' => 'P.F. Pubblicit? di Pavoni',
                 'title' => 'Affissatore',
                 'phone' => '0365520877',
                 'fax' => '',
                 'smart' => '3288645688',
                 'email' => 'pfdipavoni@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            204 =>
+            210 => 
             array (
                 'id' => 752,
                 'contact_id' => 1016,
@@ -9184,10 +9261,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ragioneria@comune.pognano.bg.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            205 =>
+            211 => 
             array (
                 'id' => 753,
                 'contact_id' => 1016,
@@ -9197,10 +9274,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0354181262',
                 'smart' => '3333671882',
                 'email' => 'publiberg@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            206 =>
+            212 => 
             array (
                 'id' => 754,
                 'contact_id' => 1017,
@@ -9210,10 +9287,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            207 =>
+            213 => 
             array (
                 'id' => 755,
                 'contact_id' => 1017,
@@ -9223,62 +9300,62 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0309381554',
                 'smart' => '3891717312',
                 'email' => 'agenzialata@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            208 =>
+            214 => 
             array (
                 'id' => 756,
                 'contact_id' => 1018,
                 'name' => 'Resp. Zucchelli Ida',
                 'title' => 'Ufficio Tributi',
-                'phone' => '',
+                'phone' => '030 9931155',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            209 =>
+            215 => 
             array (
                 'id' => 757,
                 'contact_id' => 1018,
                 'name' => 'Rag. Talenti Tania',
                 'title' => 'Ufficio Tributi',
-                'phone' => '',
+                'phone' => '030 9931155',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'tania.talenti@pontevico.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'tania.talenti@comune.pontevico.bs.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            210 =>
+            216 => 
             array (
                 'id' => 758,
                 'contact_id' => 1018,
                 'name' => 'LA. TA. di Benocci Carlo',
                 'title' => 'Affissatore fino al 2017',
-                'phone' => '0309381910',
+                'phone' => '030 9381910',
                 'fax' => '0309381554',
                 'smart' => '3891717312',
                 'email' => 'agenzialata@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            211 =>
+            217 => 
             array (
                 'id' => 759,
                 'contact_id' => 1019,
-            'name' => 'Rag. Botti Tarsilla (non c\'è più..hanno un collab. che risp solo giovedì pome e sabato mattina)',
+            'name' => 'Rag. Botti Tarsilla (non c\'? pi?..hanno un collab. che risp solo gioved? pome e sabato mattina)',
                 'title' => 'Ufficio Tributi',
                 'phone' => '035796609',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            212 =>
+            218 => 
             array (
                 'id' => 760,
                 'contact_id' => 1019,
@@ -9288,10 +9365,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            213 =>
+            219 => 
             array (
                 'id' => 761,
                 'contact_id' => 474,
@@ -9301,10 +9378,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'comune@comune.redavalle.pv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            214 =>
+            220 => 
             array (
                 'id' => 762,
                 'contact_id' => 474,
@@ -9314,10 +9391,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            215 =>
+            221 => 
             array (
                 'id' => 763,
                 'contact_id' => 1020,
@@ -9327,10 +9404,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'm.cobelli@comune.sanfelicedelbenaco.bs.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            216 =>
+            222 => 
             array (
                 'id' => 764,
                 'contact_id' => 1020,
@@ -9340,23 +9417,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tributi@comune.sanfelicedelbenaco.bs.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            217 =>
+            223 => 
             array (
                 'id' => 765,
                 'contact_id' => 1020,
-                'name' => 'P.F. Pubblicità di Pavoni',
+                'name' => 'P.F. Pubblicita\' di Pavoni',
                 'title' => 'Affissatore',
                 'phone' => '0365520877',
                 'fax' => '',
                 'smart' => '3288645688',
                 'email' => 'pfdipavoni@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            218 =>
+            224 => 
             array (
                 'id' => 766,
                 'contact_id' => 483,
@@ -9366,10 +9443,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            219 =>
+            225 => 
             array (
                 'id' => 767,
                 'contact_id' => 483,
@@ -9379,10 +9456,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0309381554',
                 'smart' => '389',
                 'email' => 'agenzialata@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            220 =>
+            226 => 
             array (
                 'id' => 768,
                 'contact_id' => 1021,
@@ -9392,10 +9469,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            221 =>
+            227 => 
             array (
                 'id' => 769,
                 'contact_id' => 1021,
@@ -9405,10 +9482,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            222 =>
+            228 => 
             array (
                 'id' => 770,
                 'contact_id' => 1022,
@@ -9418,10 +9495,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            223 =>
+            229 => 
             array (
                 'id' => 771,
                 'contact_id' => 1023,
@@ -9431,10 +9508,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            224 =>
+            230 => 
             array (
                 'id' => 772,
                 'contact_id' => 1023,
@@ -9444,10 +9521,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            225 =>
+            231 => 
             array (
                 'id' => 773,
                 'contact_id' => 1023,
@@ -9457,10 +9534,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0309381554',
                 'smart' => '3891717312',
                 'email' => 'agenzialata@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            226 =>
+            232 => 
             array (
                 'id' => 774,
                 'contact_id' => 484,
@@ -9470,23 +9547,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            227 =>
+            233 => 
             array (
                 'id' => 775,
                 'contact_id' => 1024,
                 'name' => 'Brunacci Antonio',
                 'title' => 'Comandante',
-                'phone' => NULL,
-                'fax' => NULL,
-                'smart' => '0981936391',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '3358488563',
                 'email' => 'toninobrunacci@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-05-06 09:57:27',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            228 =>
+            234 => 
             array (
                 'id' => 776,
                 'contact_id' => 189,
@@ -9496,10 +9573,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'assinoceti@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            229 =>
+            235 => 
             array (
                 'id' => 777,
                 'contact_id' => 1025,
@@ -9509,10 +9586,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '339 5351508',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            230 =>
+            236 => 
             array (
                 'id' => 779,
                 'contact_id' => NULL,
@@ -9522,10 +9599,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            231 =>
+            237 => 
             array (
                 'id' => 780,
                 'contact_id' => 912,
@@ -9535,10 +9612,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'gregorio.dileo@bpconsulting.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            232 =>
+            238 => 
             array (
                 'id' => 782,
                 'contact_id' => 643,
@@ -9548,10 +9625,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'alessandro.lattuada@grassobbio.eu',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            233 =>
+            239 => 
             array (
                 'id' => 783,
                 'contact_id' => 1030,
@@ -9561,10 +9638,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '333 2510769',
                 'email' => 'pm.letojanni@tiscali.it - poliziamunicipale@comune.letojanni.me.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            234 =>
+            240 => 
             array (
                 'id' => 785,
                 'contact_id' => 401,
@@ -9572,12 +9649,12 @@ class ReferentsTableSeeder extends Seeder
                 'title' => 'Responsabile CED',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '',
+                'smart' => '349 5528602',
                 'email' => 's.ianni@mercurioservice.it      m.romeo@mercurioservice.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            235 =>
+            241 => 
             array (
                 'id' => 786,
                 'contact_id' => 994,
@@ -9587,10 +9664,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'r.ciaglia@comune.basiglio.mi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            236 =>
+            242 => 
             array (
                 'id' => 787,
                 'contact_id' => 704,
@@ -9600,23 +9677,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'loredana.delfino@gls-italy.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            237 =>
+            243 => 
             array (
                 'id' => 788,
                 'contact_id' => 650,
-                'name' => 'Rag.ra Marta Ugolini',
-                'title' => 'Responsabile tributi e ragioneria',
-                'phone' => '045/6832130',
+                'name' => 'Dott.ssa Nadia Marastoni',
+                'title' => 'Responsabile gestione economico e finanziaria',
+                'phone' => '045 6832130',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'marugo@comune.sanpietroincariano.vr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            238 =>
+            244 => 
             array (
                 'id' => 789,
                 'contact_id' => NULL,
@@ -9626,10 +9703,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '+39 3474970109',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            239 =>
+            245 => 
             array (
                 'id' => 790,
                 'contact_id' => NULL,
@@ -9639,10 +9716,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '+39 3474970109',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            240 =>
+            246 => 
             array (
                 'id' => 791,
                 'contact_id' => 584,
@@ -9652,10 +9729,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '010/7855918',
                 'smart' => '',
                 'email' => 'info@cerutiassicurazioni.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            241 =>
+            247 => 
             array (
                 'id' => 792,
                 'contact_id' => 1031,
@@ -9665,10 +9742,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'urpgenova@aci.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            242 =>
+            248 => 
             array (
                 'id' => 794,
                 'contact_id' => 1043,
@@ -9678,10 +9755,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            243 =>
+            249 => 
             array (
                 'id' => 795,
                 'contact_id' => 229,
@@ -9691,10 +9768,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'solleciti@clouditaliapec.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            244 =>
+            250 => 
             array (
                 'id' => 796,
                 'contact_id' => 1044,
@@ -9704,10 +9781,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ufficiotributi@comunedicamporosso.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            245 =>
+            251 => 
             array (
                 'id' => 797,
                 'contact_id' => 884,
@@ -9717,10 +9794,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            246 =>
+            252 => 
             array (
                 'id' => 798,
                 'contact_id' => NULL,
@@ -9730,10 +9807,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            247 =>
+            253 => 
             array (
                 'id' => 799,
                 'contact_id' => 157,
@@ -9743,10 +9820,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            248 =>
+            254 => 
             array (
                 'id' => 800,
                 'contact_id' => 1046,
@@ -9756,10 +9833,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'portaleimprese@istat.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            249 =>
+            255 => 
             array (
                 'id' => 801,
                 'contact_id' => 959,
@@ -9769,10 +9846,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '328 6330590 sarida',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            250 =>
+            256 => 
             array (
                 'id' => 803,
                 'contact_id' => NULL,
@@ -9782,10 +9859,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '329 2185956',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            251 =>
+            257 => 
             array (
                 'id' => 804,
                 'contact_id' => 409,
@@ -9795,10 +9872,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '329 2185956',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            252 =>
+            258 => 
             array (
                 'id' => 805,
                 'contact_id' => NULL,
@@ -9808,10 +9885,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ufficio.gare@icatributi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            253 =>
+            259 => 
             array (
                 'id' => 806,
                 'contact_id' => 207,
@@ -9821,10 +9898,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ufficio.gare@icatributi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            254 =>
+            260 => 
             array (
                 'id' => 807,
                 'contact_id' => 1050,
@@ -9834,10 +9911,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'fabrizio.paonessa@geodrome.it - paonessafabrizio@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            255 =>
+            261 => 
             array (
                 'id' => 808,
                 'contact_id' => 1050,
@@ -9847,10 +9924,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3476066093',
                 'email' => 'marco.mauro@geodrome.it - marcus90@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            256 =>
+            262 => 
             array (
                 'id' => 809,
                 'contact_id' => 586,
@@ -9860,10 +9937,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tullio@imbalplast.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            257 =>
+            263 => 
             array (
                 'id' => 810,
                 'contact_id' => 1053,
@@ -9873,10 +9950,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3289581141',
                 'email' => 'poliziamunicipale@sanbart.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            258 =>
+            264 => 
             array (
                 'id' => 811,
                 'contact_id' => 1054,
@@ -9886,10 +9963,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3451570448',
                 'email' => 'l.gilardoni@provincia.savona.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            259 =>
+            265 => 
             array (
                 'id' => 812,
                 'contact_id' => 1054,
@@ -9899,10 +9976,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'a.basciani@provincia.savona.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            260 =>
+            266 => 
             array (
                 'id' => 813,
                 'contact_id' => 1055,
@@ -9912,10 +9989,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'afpali.italia@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            261 =>
+            267 => 
             array (
                 'id' => 814,
                 'contact_id' => 1054,
@@ -9925,10 +10002,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'r.falco@provincia.savona.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            262 =>
+            268 => 
             array (
                 'id' => 815,
                 'contact_id' => 1059,
@@ -9938,10 +10015,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            263 =>
+            269 => 
             array (
                 'id' => 816,
                 'contact_id' => 1068,
@@ -9951,10 +10028,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            264 =>
+            270 => 
             array (
                 'id' => 817,
                 'contact_id' => 1068,
@@ -9964,10 +10041,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'sandra.rossi@postfinance.ch',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            265 =>
+            271 => 
             array (
                 'id' => 826,
                 'contact_id' => 159,
@@ -9977,10 +10054,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            266 =>
+            272 => 
             array (
                 'id' => 819,
                 'contact_id' => NULL,
@@ -9990,49 +10067,36 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 's.arrighetti@kria.biz',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            267 =>
+            273 => 
             array (
                 'id' => 820,
                 'contact_id' => 954,
-                'name' => '',
-                'title' => '',
+                'name' => 'Stefano Arrighetti',
+                'title' => 'Amministratore',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 's.arrighetti@kria.biz',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            268 =>
-            array (
-                'id' => 1179,
-                'contact_id' => 1336,
-                'name' => 'Cipriani Alberto',
-                'title' => 'Amministrazione/Contabilità',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'cipriani@provincia.siena.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            269 =>
+            274 => 
             array (
                 'id' => 821,
                 'contact_id' => 954,
                 'name' => 'Stefano Guanziroli',
-            'title' => 'Installazione event server (se non c\'è nessun\'altro puntamento/calibrazione)',
+            'title' => 'Installazione event server (se non c\'? nessun\'altro puntamento/calibrazione)',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => 's.guanziroli@kria.biz',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            270 =>
+            275 => 
             array (
                 'id' => 822,
                 'contact_id' => NULL,
@@ -10042,10 +10106,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            271 =>
+            276 => 
             array (
                 'id' => 823,
                 'contact_id' => 954,
@@ -10055,10 +10119,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'g.galbiati@kria.biz',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            272 =>
+            277 => 
             array (
                 'id' => 824,
                 'contact_id' => 954,
@@ -10068,10 +10132,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'a.dirosa@kria.biz',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            273 =>
+            278 => 
             array (
                 'id' => 827,
                 'contact_id' => 159,
@@ -10081,23 +10145,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '328 3258507',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            274 =>
+            279 => 
             array (
                 'id' => 828,
                 'contact_id' => 185,
-                'name' => 'Enrico Bernabo\'',
-                'title' => 'Direttore',
+                'name' => '',
+                'title' => '',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '334 8174676',
-                'email' => 'enrico.bernabo@bancobpm.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            275 =>
+            280 => 
             array (
                 'id' => 829,
                 'contact_id' => 1069,
@@ -10107,10 +10171,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 7203401',
                 'email' => 'augusto.casieri@edslan.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            276 =>
+            281 => 
             array (
                 'id' => 830,
                 'contact_id' => 1069,
@@ -10120,23 +10184,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            277 =>
+            282 => 
             array (
                 'id' => 831,
                 'contact_id' => 1064,
-                'name' => 'Contabilità - fatturazione',
+                'name' => 'Contabilita\' - fatturazione',
                 'title' => '',
                 'phone' => '0173.444835',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            278 =>
+            283 => 
             array (
                 'id' => 930,
                 'contact_id' => 1167,
@@ -10146,10 +10210,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => 'massimiliano.martelli@nivi.it',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            279 =>
+            284 => 
             array (
                 'id' => 833,
                 'contact_id' => 1072,
@@ -10159,10 +10223,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            280 =>
+            285 => 
             array (
                 'id' => 834,
                 'contact_id' => 1072,
@@ -10172,10 +10236,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'liliana.cervelli.uno2102@agenti.unipolsai.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            281 =>
+            286 => 
             array (
                 'id' => 835,
                 'contact_id' => NULL,
@@ -10185,10 +10249,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            282 =>
+            287 => 
             array (
                 'id' => 836,
                 'contact_id' => 1060,
@@ -10198,10 +10262,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ccotoia@elsist.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            283 =>
+            288 => 
             array (
                 'id' => 1037,
                 'contact_id' => 281,
@@ -10211,23 +10275,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'silvia.vallarino@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            284 =>
+            289 => 
             array (
                 'id' => 839,
                 'contact_id' => 1074,
-                'name' => 'Dottoressa Grieco Maria Carmela',
+                'name' => 'Dott.ssa Grieco Maria Carmela',
                 'title' => 'Dirigente',
-                'phone' => '010 5484477',
+                'phone' => '010 5484477 - 010 5488300',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            285 =>
+            290 => 
             array (
                 'id' => 1156,
                 'contact_id' => 1309,
@@ -10237,23 +10301,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '333 8313703',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            286 =>
+            291 => 
             array (
                 'id' => 843,
                 'contact_id' => 983,
                 'name' => '',
                 'title' => 'Amministrazione per fatture Med Sky',
-                'phone' => '055.2359344',
+                'phone' => '055 2359344',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'amministrazione.fi@coopservice.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            287 =>
+            292 => 
             array (
                 'id' => 840,
                 'contact_id' => 768,
@@ -10263,10 +10327,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            288 =>
+            293 => 
             array (
                 'id' => 841,
                 'contact_id' => 768,
@@ -10276,10 +10340,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            289 =>
+            294 => 
             array (
                 'id' => 842,
                 'contact_id' => 768,
@@ -10289,10 +10353,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            290 =>
+            295 => 
             array (
                 'id' => 845,
                 'contact_id' => 394,
@@ -10302,36 +10366,36 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            291 =>
+            296 => 
             array (
                 'id' => 846,
                 'contact_id' => 1089,
-                'name' => 'Dalla Tommasina Cinzia',
+                'name' => 'Dalla Tommasina Cinzia int. 8',
                 'title' => 'Ragioneria',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ragio2@comune.varano-demelegari.pr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            292 =>
+            297 => 
             array (
                 'id' => 847,
                 'contact_id' => 1089,
-                'name' => 'Laura Petrelli',
+                'name' => 'Laura Petrelli Int. 5',
                 'title' => 'Responsabile ufficio tributi',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tributi@comune.varano-demelegari.pr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            293 =>
+            298 => 
             array (
                 'id' => 848,
                 'contact_id' => 704,
@@ -10341,10 +10405,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'valerio.pitruzzella@gls-italy.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            294 =>
+            299 => 
             array (
                 'id' => 849,
                 'contact_id' => 1086,
@@ -10354,10 +10418,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            295 =>
+            300 => 
             array (
                 'id' => 850,
                 'contact_id' => 1091,
@@ -10367,10 +10431,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3939546510',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            296 =>
+            301 => 
             array (
                 'id' => 851,
                 'contact_id' => 709,
@@ -10380,10 +10444,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'servizifinanziari@comune.ne.ge.it - g.battistone@comune.ne.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            297 =>
+            302 => 
             array (
                 'id' => 852,
                 'contact_id' => 978,
@@ -10393,10 +10457,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348/8565700',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            298 =>
+            303 => 
             array (
                 'id' => 853,
                 'contact_id' => NULL,
@@ -10406,10 +10470,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            299 =>
+            304 => 
             array (
                 'id' => 854,
                 'contact_id' => 934,
@@ -10419,23 +10483,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            300 =>
+            305 => 
             array (
                 'id' => 855,
                 'contact_id' => 1096,
-            'name' => 'Sig.ra Emanuela Lenzi (riferimento per pubblicità e altri tributi)',
+            'name' => 'Sig.ra Emanuela Lenzi (riferimento per pubblicit? e altri tributi)',
                 'title' => 'Responsabile Ufficio Tributi',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tributi@comune.serravallesesia.vc.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            301 =>
+            306 => 
             array (
                 'id' => 856,
                 'contact_id' => NULL,
@@ -10445,10 +10509,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '334 6981176',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            302 =>
+            307 => 
             array (
                 'id' => 857,
                 'contact_id' => 1098,
@@ -10458,10 +10522,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '334 6981176',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            303 =>
+            308 => 
             array (
                 'id' => 858,
                 'contact_id' => 1101,
@@ -10471,10 +10535,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 1455637',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            304 =>
+            309 => 
             array (
                 'id' => 859,
                 'contact_id' => 1101,
@@ -10484,10 +10548,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '334 1424242',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            305 =>
+            310 => 
             array (
                 'id' => 860,
                 'contact_id' => 1096,
@@ -10497,10 +10561,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            306 =>
+            311 => 
             array (
                 'id' => 861,
                 'contact_id' => 1096,
@@ -10510,10 +10574,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            307 =>
+            312 => 
             array (
                 'id' => 862,
                 'contact_id' => 1111,
@@ -10523,10 +10587,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            308 =>
+            313 => 
             array (
                 'id' => 863,
                 'contact_id' => 1113,
@@ -10536,10 +10600,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'axel.gysin@bancastato.ch',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            309 =>
+            314 => 
             array (
                 'id' => 864,
                 'contact_id' => 1114,
@@ -10549,10 +10613,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'cviola@comune.garlasco.pv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            310 =>
+            315 => 
             array (
                 'id' => 865,
                 'contact_id' => 1114,
@@ -10562,10 +10626,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'cbermano@comune.garlasco.pv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            311 =>
+            316 => 
             array (
                 'id' => 866,
                 'contact_id' => 1114,
@@ -10575,10 +10639,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'snoe@comune.garlasco.pv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            312 =>
+            317 => 
             array (
                 'id' => 868,
                 'contact_id' => NULL,
@@ -10588,10 +10652,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            313 =>
+            318 => 
             array (
                 'id' => 869,
                 'contact_id' => 934,
@@ -10601,10 +10665,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'mugnaini@comune.settala.mi.gov.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            314 =>
+            319 => 
             array (
                 'id' => 870,
                 'contact_id' => 911,
@@ -10614,10 +10678,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            315 =>
+            320 => 
             array (
                 'id' => 871,
                 'contact_id' => NULL,
@@ -10627,10 +10691,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'loris.valentini@mordano.bo.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            316 =>
+            321 => 
             array (
                 'id' => 872,
                 'contact_id' => 911,
@@ -10640,10 +10704,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'loris.valentini@mordano.bo.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            317 =>
+            322 => 
             array (
                 'id' => 873,
                 'contact_id' => NULL,
@@ -10653,10 +10717,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            318 =>
+            323 => 
             array (
                 'id' => 874,
                 'contact_id' => 1119,
@@ -10666,23 +10730,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            319 =>
+            324 => 
             array (
                 'id' => 875,
                 'contact_id' => 1120,
-                'name' => 'Attilio Pastorino',
+                'name' => 'Andrea Nicoorelli',
                 'title' => 'Comandante',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '331 1238526',
-                'email' => 'attilio.pastorino@comune.noli.sv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '334 6071536',
+                'email' => 'andrea.nicorelli@comune.noli.sv.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            320 =>
+            325 => 
             array (
                 'id' => 876,
                 'contact_id' => 1120,
@@ -10692,10 +10756,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'alessandra.trinchero@comune.noli.sv.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            321 =>
+            326 => 
             array (
                 'id' => 877,
                 'contact_id' => 1123,
@@ -10705,10 +10769,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            322 =>
+            327 => 
             array (
                 'id' => 878,
                 'contact_id' => 364,
@@ -10718,10 +10782,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tiziano.stevanato@comune.lumarzo.genova.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            323 =>
+            328 => 
             array (
                 'id' => 879,
                 'contact_id' => 1114,
@@ -10731,10 +10795,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'mbianchi@comune.garlasco.pv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            324 =>
+            329 => 
             array (
                 'id' => 880,
                 'contact_id' => 191,
@@ -10744,10 +10808,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            325 =>
+            330 => 
             array (
                 'id' => 881,
                 'contact_id' => 1124,
@@ -10757,10 +10821,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            326 =>
+            331 => 
             array (
                 'id' => 882,
                 'contact_id' => 1117,
@@ -10770,10 +10834,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'm.messeri@comune.sesto-fiorentino.fi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            327 =>
+            332 => 
             array (
                 'id' => 883,
                 'contact_id' => 1117,
@@ -10783,10 +10847,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'comandante.pm@comune.sesto-fiorentino.fi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            328 =>
+            333 => 
             array (
                 'id' => 884,
                 'contact_id' => 1117,
@@ -10796,10 +10860,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'a.mannucci@comune.sesto-fiorentino.fi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            329 =>
+            334 => 
             array (
                 'id' => 885,
                 'contact_id' => 1125,
@@ -10809,10 +10873,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            330 =>
+            335 => 
             array (
                 'id' => 886,
                 'contact_id' => 1125,
@@ -10822,10 +10886,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            331 =>
+            336 => 
             array (
                 'id' => 887,
                 'contact_id' => 261,
@@ -10835,10 +10899,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 5808087',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            332 =>
+            337 => 
             array (
                 'id' => 888,
                 'contact_id' => 1128,
@@ -10848,10 +10912,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '347 6818810',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            333 =>
+            338 => 
             array (
                 'id' => 889,
                 'contact_id' => 1130,
@@ -10861,10 +10925,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '368 3634905',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            334 =>
+            339 => 
             array (
                 'id' => 890,
                 'contact_id' => 1132,
@@ -10874,10 +10938,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 8284789',
                 'email' => 'ezio.giordano@sipalinformatica.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            335 =>
+            340 => 
             array (
                 'id' => 891,
                 'contact_id' => 659,
@@ -10887,23 +10951,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'martingana2010@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            336 =>
+            341 => 
             array (
                 'id' => 893,
                 'contact_id' => 1134,
-                'name' => 'Sidera Buffetti',
+                'name' => 'Silvia Rabuffetti',
                 'title' => 'Responsabile area economico finanziaria',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tributi@comune.albizzate.va.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            337 =>
+            342 => 
             array (
                 'id' => 894,
                 'contact_id' => 413,
@@ -10913,10 +10977,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '320 8642340',
                 'email' => 'gianluca.vignali@tesi101.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            338 =>
+            343 => 
             array (
                 'id' => 895,
                 'contact_id' => 723,
@@ -10926,10 +10990,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'serena.brambini@segnaletica-riboni.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            339 =>
+            344 => 
             array (
                 'id' => 896,
                 'contact_id' => 1139,
@@ -10939,10 +11003,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 7808345',
                 'email' => 'massimo.perrone@provincia.imperia.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            340 =>
+            345 => 
             array (
                 'id' => 897,
                 'contact_id' => 1139,
@@ -10952,10 +11016,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '320 1803415',
                 'email' => 'giacomo.giribaldi@provincia.imperia.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            341 =>
+            346 => 
             array (
                 'id' => 898,
                 'contact_id' => 1139,
@@ -10965,10 +11029,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'roberto.garibaldi@provincia.imperia.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            342 =>
+            347 => 
             array (
                 'id' => 899,
                 'contact_id' => 1141,
@@ -10978,10 +11042,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            343 =>
+            348 => 
             array (
                 'id' => 900,
                 'contact_id' => 1136,
@@ -10991,10 +11055,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3395650214',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            344 =>
+            349 => 
             array (
                 'id' => 901,
                 'contact_id' => 413,
@@ -11004,23 +11068,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '366 6933727',
                 'email' => 'fabrizio.zeghini@tesi101.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            345 =>
+            350 => 
             array (
                 'id' => 902,
                 'contact_id' => 1145,
-                'name' => 'Peri Pubblicità',
+                'name' => 'Peri Pubblicit',
                 'title' => 'Affissatore',
                 'phone' => '0331253543',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            346 =>
+            351 => 
             array (
                 'id' => 903,
                 'contact_id' => 1145,
@@ -11030,23 +11094,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tributi@comune.besano.va.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            347 =>
+            352 => 
             array (
                 'id' => 904,
                 'contact_id' => 1142,
                 'name' => 'Dott.ssa Cinzia Chiodaroli',
                 'title' => 'Responsabile del settore',
-                'phone' => '0523.889748     0523889717',
+                'phone' => '0523 889717',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'servizi-finanziari.csg@sintranet.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'servizi-finanziari@comune.castelsangiovanni.pc.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            348 =>
+            353 => 
             array (
                 'id' => 905,
                 'contact_id' => 218,
@@ -11056,10 +11120,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'n.lerza@comune.roccabianca.pr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            349 =>
+            354 => 
             array (
                 'id' => 906,
                 'contact_id' => NULL,
@@ -11069,10 +11133,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            350 =>
+            355 => 
             array (
                 'id' => 907,
                 'contact_id' => 1113,
@@ -11082,10 +11146,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            351 =>
+            356 => 
             array (
                 'id' => 908,
                 'contact_id' => 954,
@@ -11095,10 +11159,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'f.villa@kria.biz',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            352 =>
+            357 => 
             array (
                 'id' => 909,
                 'contact_id' => 637,
@@ -11108,10 +11172,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            353 =>
+            358 => 
             array (
                 'id' => 958,
                 'contact_id' => 1096,
@@ -11121,10 +11185,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'mirkotodeschin@hotmail.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            354 =>
+            359 => 
             array (
                 'id' => 910,
                 'contact_id' => 1149,
@@ -11134,10 +11198,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tributi.rottofreno@sintranet.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            355 =>
+            360 => 
             array (
                 'id' => 911,
                 'contact_id' => 1133,
@@ -11147,10 +11211,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'poliziamunicipale@comune.tursi.mt.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            356 =>
+            361 => 
             array (
                 'id' => 912,
                 'contact_id' => 934,
@@ -11160,10 +11224,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338 1705323',
                 'email' => 'cultura@comune.settala.mi.gov.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            357 =>
+            362 => 
             array (
                 'id' => 913,
                 'contact_id' => 1150,
@@ -11173,23 +11237,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ragioneria@comune.mozzo.bg.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            358 =>
+            363 => 
             array (
                 'id' => 915,
                 'contact_id' => 1154,
                 'name' => 'Radaelli Andrea',
-                'title' => 'Comandante',
+                'title' => 'ex Comandante',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '328 1748555',
                 'email' => 'polizialocale@comune.ciserano.bg.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            359 =>
+            364 => 
             array (
                 'id' => 916,
                 'contact_id' => 1155,
@@ -11199,23 +11263,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '328 1748555',
                 'email' => 'polizialocale@comune.ciserano.bg.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            360 =>
+            365 => 
             array (
                 'id' => 917,
                 'contact_id' => 1156,
-                'name' => 'Ufficio polizia municipale',
-                'title' => '',
+                'name' => 'Alessandro Salafia',
+                'title' => 'Responsabile verbali del Comune di Albuzzano',
                 'phone' => '0382/584029',
                 'fax' => '',
                 'smart' => '335/6843685',
                 'email' => 'polizialocale@comune.albuzzano.pv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            361 =>
+            366 => 
             array (
                 'id' => 918,
                 'contact_id' => 1156,
@@ -11225,10 +11289,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348/3654375',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            362 =>
+            367 => 
             array (
                 'id' => 919,
                 'contact_id' => 1154,
@@ -11238,10 +11302,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '035/870669',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            363 =>
+            368 => 
             array (
                 'id' => 920,
                 'contact_id' => 1156,
@@ -11251,10 +11315,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '339/6635889',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            364 =>
+            369 => 
             array (
                 'id' => 921,
                 'contact_id' => 1159,
@@ -11264,10 +11328,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '347 1593375',
                 'email' => 'laura.compagnoni@infopol.biz',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            365 =>
+            370 => 
             array (
                 'id' => 922,
                 'contact_id' => 966,
@@ -11277,10 +11341,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'g.ferrari@comune.somaglia.lo.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            366 =>
+            371 => 
             array (
                 'id' => 923,
                 'contact_id' => NULL,
@@ -11290,10 +11354,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            367 =>
+            372 => 
             array (
                 'id' => 924,
                 'contact_id' => 1163,
@@ -11303,23 +11367,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'fmenghini@eurotrad.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            368 =>
+            373 => 
             array (
                 'id' => 925,
                 'contact_id' => 937,
                 'name' => 'contabilita :',
                 'title' => '',
-                'phone' => '0295944449',
+                'phone' => '02 95944449',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            369 =>
+            374 => 
             array (
                 'id' => 926,
                 'contact_id' => 1141,
@@ -11329,10 +11393,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            370 =>
+            375 => 
             array (
                 'id' => 927,
                 'contact_id' => 1151,
@@ -11342,10 +11406,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            371 =>
+            376 => 
             array (
                 'id' => 928,
                 'contact_id' => 673,
@@ -11355,10 +11419,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            372 =>
+            377 => 
             array (
                 'id' => 929,
                 'contact_id' => 1166,
@@ -11368,10 +11432,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3473032540',
                 'email' => 'pastorelli.michele@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            373 =>
+            378 => 
+            array (
+                'id' => 932,
+                'contact_id' => 1171,
+                'name' => '',
+                'title' => 'Comandante',
+                'phone' => '0131 959611',
+                'fax' => 'Magnini Mariangela',
+                'smart' => '',
+                'email' => 'm.magnini@comune.valenza.al.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            379 => 
             array (
                 'id' => 933,
                 'contact_id' => 1171,
@@ -11381,10 +11458,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'g.zaglio@comune.valenza.al.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            374 =>
+            380 => 
             array (
                 'id' => 934,
                 'contact_id' => 1010,
@@ -11394,10 +11471,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3339655816',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            375 =>
+            381 => 
             array (
                 'id' => 935,
                 'contact_id' => 1018,
@@ -11407,10 +11484,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3339655816',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            376 =>
+            382 => 
             array (
                 'id' => 936,
                 'contact_id' => 709,
@@ -11420,10 +11497,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tributi@comune.ne.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            377 =>
+            383 => 
             array (
                 'id' => 1036,
                 'contact_id' => 491,
@@ -11433,10 +11510,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            378 =>
+            384 => 
             array (
                 'id' => 938,
                 'contact_id' => 434,
@@ -11446,10 +11523,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'sindaco@comune.santolcese.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            379 =>
+            385 => 
             array (
                 'id' => 939,
                 'contact_id' => 1178,
@@ -11459,10 +11536,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => 'Fax 049-9750921',
                 'smart' => '',
                 'email' => 'poliziamunicipale@comune.codevigo.pd.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            380 =>
+            386 => 
             array (
                 'id' => 940,
                 'contact_id' => 1178,
@@ -11472,10 +11549,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'polizia1@comune.codevigo.pd.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            381 =>
+            387 => 
             array (
                 'id' => 941,
                 'contact_id' => 533,
@@ -11485,10 +11562,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            382 =>
+            388 => 
             array (
                 'id' => 943,
                 'contact_id' => 1180,
@@ -11498,10 +11575,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '329 3174767',
                 'email' => 'alberto.giannarelli@comune.levanto.sp.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            383 =>
+            389 => 
             array (
                 'id' => 944,
                 'contact_id' => 1181,
@@ -11511,10 +11588,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'mrametta@comune.genova.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            384 =>
+            390 => 
             array (
                 'id' => 945,
                 'contact_id' => 1054,
@@ -11524,10 +11601,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            385 =>
+            391 => 
             array (
                 'id' => 946,
                 'contact_id' => 1054,
@@ -11537,10 +11614,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'f.quirini@provincia.savona.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            386 =>
+            392 => 
             array (
                 'id' => 947,
                 'contact_id' => 1179,
@@ -11550,23 +11627,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'nico.taraborrelli@regiesrl.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            387 =>
+            393 => 
             array (
                 'id' => 948,
                 'contact_id' => 1182,
-                'name' => 'Numero verde',
-                'title' => '',
-                'phone' => '800.116.738',
+                'name' => 'Roberto Matonti',
+                'title' => 'Referente commerciale',
+                'phone' => '',
                 'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '335 5968788',
+                'email' => 'r.matonti@sintelitalia.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            388 =>
+            394 => 
             array (
                 'id' => 949,
                 'contact_id' => 1176,
@@ -11576,10 +11653,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0384 52355',
                 'smart' => '3312176048',
                 'email' => 'fcrotti@comune.albonese.pv.it - polizia.albonese@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            389 =>
+            395 => 
             array (
                 'id' => 950,
                 'contact_id' => 678,
@@ -11589,10 +11666,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'severino.ziliani@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            390 =>
+            396 => 
             array (
                 'id' => 951,
                 'contact_id' => 413,
@@ -11602,23 +11679,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'marco.roncolini@tesi101.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            391 =>
+            397 => 
             array (
                 'id' => 952,
                 'contact_id' => 1184,
-            'name' => 'Sig.ra Peirano Monica (no presente al giovedì)',
-                'title' => '0174.805622',
+                'name' => 'Dott.ssa Pari Angela',
+                'title' => '0174 805642',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'segreteria@comune.garessio.cn.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'ragioneria@comune.garessio.cn.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            392 =>
+            398 => 
             array (
                 'id' => 953,
                 'contact_id' => 1185,
@@ -11628,10 +11705,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3471232303',
                 'email' => 'd.raccugliact@gmail.com ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            393 =>
+            399 => 
+            array (
+                'id' => 954,
+                'contact_id' => NULL,
+                'name' => 'Tania Costa',
+                'title' => 'Commerciale',
+                'phone' => '0424 213714',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'tania.costa@telemat.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            400 => 
             array (
                 'id' => 955,
                 'contact_id' => 1187,
@@ -11641,10 +11731,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'graziano.rosato@fcc.veneto.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            394 =>
+            401 => 
             array (
                 'id' => 956,
                 'contact_id' => 1114,
@@ -11654,23 +11744,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 3654374',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            395 =>
+            402 => 
             array (
                 'id' => 957,
                 'contact_id' => 1188,
                 'name' => 'Dott.ssa Antonella Salina',
-            'title' => 'Segretario comunale (Lunedì: 9.00-12.00 / 15.00-17.00  da martedì a venerdì: 9.00-12.00)',
+            'title' => 'Segretario comunale (Luned?: 9.00-12.00 / 15.00-17.00  da marted? a venerd?: 9.00-12.00)',
                 'phone' => '0324.492212',
                 'fax' => '0324.492262',
                 'smart' => '',
                 'email' => 'antonella.salina@comune.domodossola.vb.it - amministrazione@comune.domodossola.vb.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            396 =>
+            403 => 
             array (
                 'id' => 959,
                 'contact_id' => 1096,
@@ -11680,10 +11770,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'segretario@comune.serravallesesia.vc.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            397 =>
+            404 => 
             array (
                 'id' => 960,
                 'contact_id' => 1190,
@@ -11693,10 +11783,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3480193020',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            398 =>
+            405 => 
             array (
                 'id' => 961,
                 'contact_id' => 1191,
@@ -11706,10 +11796,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'franco.sivori@fastwebnet.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            399 =>
+            406 => 
             array (
                 'id' => 962,
                 'contact_id' => 1192,
@@ -11719,10 +11809,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '388 9798768',
                 'email' => 'mauropcc695@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            400 =>
+            407 => 
             array (
                 'id' => 963,
                 'contact_id' => 1193,
@@ -11732,10 +11822,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338 7072332',
                 'email' => 'segreteria.avola@gmail.com ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            401 =>
+            408 => 
             array (
                 'id' => 964,
                 'contact_id' => 404,
@@ -11745,10 +11835,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'stefania@ligureantincendi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            402 =>
+            409 => 
             array (
                 'id' => 965,
                 'contact_id' => 1196,
@@ -11758,75 +11848,75 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '331 3430216',
                 'email' => 'ragioneria@comune.villalago.aq.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            403 =>
+            410 => 
             array (
                 'id' => 966,
                 'contact_id' => 1195,
-                'name' => 'Fabio di Ianni',
-                'title' => 'Ragioniere',
+                'name' => 'RAGIONERIA',
+                'title' => '',
                 'phone' => '0864 46114',
                 'fax' => '',
-                'smart' => '331 3430216',
-                'email' => 'fabio@comunedibugnara.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '',
+                'email' => 'comune.bugnara.aq@pec.arc.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            404 =>
+            411 => 
             array (
                 'id' => 967,
                 'contact_id' => 1194,
-                'name' => 'Dott. Antonino Amorosi',
+                'name' => 'Dott. Ranieri Rocco rocco.ranieri@comune.guardiagrele.ch.it',
                 'title' => 'Responsabile settore Economico',
                 'phone' => '0871 8086238',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'settoreeconomico@comune.guardiagrele.ch.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            405 =>
+            412 => 
             array (
                 'id' => 968,
                 'contact_id' => 1194,
-                'name' => '',
+                'name' => 'Marisa Taraborelli',
                 'title' => 'Ufficio Tributi',
-                'phone' => '0871 808243',
+                'phone' => '0871 8086243 - 0871 271534',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tributi@comune.guardiagrele.ch.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            406 =>
+            413 => 
             array (
                 'id' => 969,
                 'contact_id' => 1194,
-                'name' => '',
+                'name' => 'Engelina Di Martino',
                 'title' => 'Ragioneria',
                 'phone' => '0871 8086229',
                 'fax' => '',
                 'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'settoreeconomico@comune.guardiagrele.ch.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            407 =>
+            414 => 
             array (
                 'id' => 970,
                 'contact_id' => 1194,
-                'name' => '',
+                'name' => 'Andrea Trappolini',
                 'title' => 'Polizia Municipale',
-                'phone' => '',
+                'phone' => '0871 82267',
                 'fax' => '',
-                'smart' => '',
-                'email' => 'poliziamunicipale@comune.guardiagrele.ch.it - daniele.carusi@comune.guardiagrele.ch.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '347 6684771',
+                'email' => 'polizialocale@comune.guardiagrele.ch.it - daniele.carusi@comune.guardiagrele.ch.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            408 =>
+            415 => 
             array (
                 'id' => 971,
                 'contact_id' => 1197,
@@ -11836,10 +11926,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '331 3430216',
                 'email' => 'serviziofinanziario@comunedianversa.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            409 =>
+            416 => 
             array (
                 'id' => 972,
                 'contact_id' => 1190,
@@ -11849,10 +11939,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3480193011',
                 'email' => 'maurizio.arbulla@publicittaspa.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            410 =>
+            417 => 
             array (
                 'id' => 973,
                 'contact_id' => 218,
@@ -11862,10 +11952,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'amedeo.sistemi@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            411 =>
+            418 => 
             array (
                 'id' => 974,
                 'contact_id' => 1201,
@@ -11875,10 +11965,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'emanuela.belli@aon.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            412 =>
+            419 => 
             array (
                 'id' => 975,
                 'contact_id' => 1201,
@@ -11888,10 +11978,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            413 =>
+            420 => 
             array (
                 'id' => 976,
                 'contact_id' => 157,
@@ -11901,23 +11991,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'debonis@irtel.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            414 =>
+            421 => 
             array (
                 'id' => 977,
                 'contact_id' => 1185,
                 'name' => 'Daniele Platania',
-                'title' => 'Responsabile privacy e 14001',
+                'title' => 'Ispettore dell\'azienda che rilascia la certificazione',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '328 4123272',
                 'email' => 'daniele.platania@hotmail.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            415 =>
+            422 => 
             array (
                 'id' => 978,
                 'contact_id' => 704,
@@ -11925,12 +12015,12 @@ class ReferentsTableSeeder extends Seeder
                 'title' => 'Commerciale di riferimento',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '',
+                'smart' => '346 3562120',
                 'email' => 'cristian.brescia@gls-italy.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            416 =>
+            423 => 
             array (
                 'id' => 979,
                 'contact_id' => 1203,
@@ -11940,23 +12030,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ammin.quest.ge@pecps.poliziadistato.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            417 =>
+            424 => 
             array (
                 'id' => 980,
                 'contact_id' => 1074,
-                'name' => 'Di Bari Maurizio, Callà Giuseppe, Mare Stefano',
+                'name' => 'Di Bari Maurizio, Calla Giuseppe, Mare Stefano',
                 'title' => 'Sostituiscono la sig.ra Dagnino dal novembre 2018',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'maurizio.dibari@regione.liguria.it, calla.giuseppe@regione.liguria.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            418 =>
+            425 => 
             array (
                 'id' => 981,
                 'contact_id' => 1184,
@@ -11966,10 +12056,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'manieriluigi0@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            419 =>
+            426 => 
             array (
                 'id' => 982,
                 'contact_id' => 1194,
@@ -11979,10 +12069,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tributi@comune.guardiagrele.ch.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            420 =>
+            427 => 
             array (
                 'id' => 983,
                 'contact_id' => 1201,
@@ -11992,36 +12082,36 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'fabiola.Sciutto@aon.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            421 =>
+            428 => 
             array (
                 'id' => 984,
                 'contact_id' => 1206,
-                'name' => 'Tania Costa',
+                'name' => 'Alessandra Asto Gallardo',
                 'title' => 'Referente Commerciale',
-                'phone' => '0424 213.714',
+                'phone' => '0424 213.765',
                 'fax' => '',
-                'smart' => '',
-                'email' => 'tania.costa@telemat.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '349 4177580 - 342 7428208',
+                'email' => 'alessandra.gallardo@telemat.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            422 =>
+            429 => 
             array (
                 'id' => 985,
                 'contact_id' => 912,
-                'name' => 'Rosa Logiudice',
+                'name' => 'Rossella Lo Giudice',
                 'title' => 'referente cassano allo ionio',
                 'phone' => '3202785503',
                 'fax' => '',
                 'smart' => '3202785503',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'rosa.logiudice@labconsulenze.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            423 =>
+            430 => 
             array (
                 'id' => 986,
                 'contact_id' => 1210,
@@ -12031,10 +12121,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '328 3895409',
                 'email' => 'amministrazione@ipservizi.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            424 =>
+            431 => 
             array (
                 'id' => 988,
                 'contact_id' => 1212,
@@ -12044,10 +12134,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3494006528',
                 'email' => 'lucabalos@hotmail.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            425 =>
+            432 => 
             array (
                 'id' => 989,
                 'contact_id' => 1213,
@@ -12057,10 +12147,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            426 =>
+            433 => 
             array (
                 'id' => 990,
                 'contact_id' => 1214,
@@ -12070,10 +12160,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '+39.335.8272841',
                 'email' => 'm.mecozzi@cmtrading.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            427 =>
+            434 => 
             array (
                 'id' => 991,
                 'contact_id' => 1215,
@@ -12083,10 +12173,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'commerciale@euten.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            428 =>
+            435 => 
             array (
                 'id' => 992,
                 'contact_id' => 957,
@@ -12096,10 +12186,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            429 =>
+            436 => 
             array (
                 'id' => 993,
                 'contact_id' => 422,
@@ -12109,10 +12199,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '349 577 5882',
                 'email' => 'info@veronicaparaluppi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            430 =>
+            437 => 
             array (
                 'id' => 994,
                 'contact_id' => 1216,
@@ -12122,10 +12212,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'eleonora.calvi@asendia.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            431 =>
+            438 => 
             array (
                 'id' => 995,
                 'contact_id' => 1216,
@@ -12135,10 +12225,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 5320703',
                 'email' => 'fulvio.civardi@asendia.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            432 =>
+            439 => 
             array (
                 'id' => 996,
                 'contact_id' => 1219,
@@ -12148,10 +12238,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 391246',
                 'email' => 'capo.cassano@libero.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            433 =>
+            440 => 
             array (
                 'id' => 997,
                 'contact_id' => 1220,
@@ -12161,10 +12251,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '331 9003289',
                 'email' => 'g.fiore@streetsolutions.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            434 =>
+            441 => 
             array (
                 'id' => 998,
                 'contact_id' => 1221,
@@ -12174,10 +12264,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338 8282915',
                 'email' => 'polizialocale@scaldasole.lombardia.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            435 =>
+            442 => 
             array (
                 'id' => 1001,
                 'contact_id' => 1187,
@@ -12187,10 +12277,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'filippo.colombara@fcc.veneto.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            436 =>
+            443 => 
             array (
                 'id' => 1002,
                 'contact_id' => 1094,
@@ -12200,23 +12290,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            437 =>
+            444 => 
             array (
                 'id' => 1003,
                 'contact_id' => 1188,
                 'name' => 'Sig.ra Caridi Lucia - Stato civile/uff. cimiteriale',
                 'title' => 'lun/ven. 9.00/12.30 - lun/mart/giov. 13.30/17.00',
-                'phone' => ' 0324 492275',
+                'phone' => '0324 492275',
                 'fax' => '',
-                'smart' => '',
+                'smart' => '328/4343791 personale',
                 'email' => 'lucia.caridi@comune.domodossola.vb.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            438 =>
+            445 => 
             array (
                 'id' => 1004,
                 'contact_id' => 893,
@@ -12226,10 +12316,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '055 8826200',
                 'smart' => '',
                 'email' => 'silvia.aulicino@pubblimail.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            439 =>
+            446 => 
             array (
                 'id' => 1005,
                 'contact_id' => 1187,
@@ -12239,10 +12329,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'segreteria.comando@fcc.veneto.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            440 =>
+            447 => 
             array (
                 'id' => 1006,
                 'contact_id' => 1223,
@@ -12252,10 +12342,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ufficiopl@comune.borgosansiro.pv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            441 =>
+            448 => 
             array (
                 'id' => 1007,
                 'contact_id' => 1223,
@@ -12265,10 +12355,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            442 =>
+            449 => 
             array (
                 'id' => 1008,
                 'contact_id' => 640,
@@ -12278,10 +12368,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'verbali@comune.varazze.sv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            443 =>
+            450 => 
             array (
                 'id' => 1009,
                 'contact_id' => 640,
@@ -12291,10 +12381,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'comandopm@comune.varazze.sv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            444 =>
+            451 => 
             array (
                 'id' => 1010,
                 'contact_id' => 1225,
@@ -12304,10 +12394,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'carlo.gazzola@comune.fontaniva.pd.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            445 =>
+            452 => 
             array (
                 'id' => 1011,
                 'contact_id' => 1225,
@@ -12317,36 +12407,36 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '329 2794479',
                 'email' => 'vania.dozzo@distrettopl.pd1a.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            446 =>
+            453 => 
             array (
                 'id' => 1012,
                 'contact_id' => 1188,
                 'name' => 'Sig.ra Maria Grazia Dell\'Oro',
-                'title' => 'contabilità',
+                'title' => 'contabilita\'',
                 'phone' => '0324 492242',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            447 =>
+            454 => 
             array (
                 'id' => 1013,
                 'contact_id' => 1228,
-                'name' => 'Dott. Alessio Pasquini',
+                'name' => 'Dott. Alessandro Belardi',
                 'title' => 'Comandante PM',
                 'phone' => '055/9125278',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'a.pasquini@comunefiv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'a.belardi@comunefiv.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            448 =>
+            455 => 
             array (
                 'id' => 1014,
                 'contact_id' => 1228,
@@ -12356,10 +12446,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'c.maggiori@comunefiv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            449 =>
+            456 => 
             array (
                 'id' => 1015,
                 'contact_id' => 1228,
@@ -12369,10 +12459,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'b.fabbricanti@comunefiv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            450 =>
+            457 => 
             array (
                 'id' => 1016,
                 'contact_id' => 1228,
@@ -12382,23 +12472,36 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'c.ielmetti@comunefiv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            451 =>
+            458 => 
             array (
                 'id' => 1017,
                 'contact_id' => 937,
-                'name' => 'Cinzia Olini',
+                'name' => 'Luca Platania',
                 'title' => 'Commerciale',
-                'phone' => '',
+                'phone' => '331 6199633',
                 'fax' => '',
-                'smart' => '3441285417',
-                'email' => 'cinzia.olini@lyreco.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '',
+                'email' => 'it.smb.no8@lyreco.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            452 =>
+            459 => 
+            array (
+                'id' => 1291,
+                'contact_id' => 498,
+                'name' => 'Telepass business',
+                'title' => '',
+                'phone' => '06 69397803',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            460 => 
             array (
                 'id' => 1018,
                 'contact_id' => 1229,
@@ -12408,23 +12511,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0669618907',
                 'smart' => '',
                 'email' => 'stefano.cervi@comune.roma.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            453 =>
+            461 => 
             array (
                 'id' => 1019,
                 'contact_id' => 1184,
                 'name' => 'Ufficio tecnico - 0174/805651',
-                'title' => 'Resp. Arch. Zenni; Geom. Risio',
+                'title' => 'Resp. Arch. Zenni 0174/805652; Geom. Resio',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            454 =>
+            462 => 
             array (
                 'id' => 1020,
                 'contact_id' => 1231,
@@ -12434,10 +12537,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'elettroimpianti@hotmail.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            455 =>
+            463 => 
             array (
                 'id' => 1021,
                 'contact_id' => NULL,
@@ -12447,10 +12550,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335/7772544',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            456 =>
+            464 => 
             array (
                 'id' => 1022,
                 'contact_id' => 1172,
@@ -12459,11 +12562,11 @@ class ReferentsTableSeeder extends Seeder
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'tributi@cervo.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            457 =>
+            465 => 
             array (
                 'id' => 1023,
                 'contact_id' => 951,
@@ -12473,10 +12576,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'polizialocale@comune.trebisacce.cs.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            458 =>
+            466 => 
             array (
                 'id' => 1024,
                 'contact_id' => NULL,
@@ -12486,10 +12589,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338/1155376',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            459 =>
+            467 => 
             array (
                 'id' => 1025,
                 'contact_id' => 1196,
@@ -12499,10 +12602,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3381155376',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            460 =>
+            468 => 
             array (
                 'id' => 1026,
                 'contact_id' => 945,
@@ -12512,10 +12615,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'a.demartino@caarge.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            461 =>
+            469 => 
             array (
                 'id' => 1027,
                 'contact_id' => 1236,
@@ -12525,10 +12628,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'biondi.zoccai@comunedisanremo.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            462 =>
+            470 => 
             array (
                 'id' => 1028,
                 'contact_id' => 1236,
@@ -12538,10 +12641,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3314762735',
                 'email' => 'baronio@comunedisanremo.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            463 =>
+            471 => 
             array (
                 'id' => 1029,
                 'contact_id' => 893,
@@ -12551,10 +12654,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'walter.lapenta@pubblimail.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            464 =>
+            472 => 
             array (
                 'id' => 1030,
                 'contact_id' => 893,
@@ -12564,10 +12667,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'andrea.grillo@orangelink.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            465 =>
+            473 => 
             array (
                 'id' => 1031,
                 'contact_id' => 1081,
@@ -12577,23 +12680,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tecnici@rs-components.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            466 =>
+            474 => 
             array (
                 'id' => 1032,
                 'contact_id' => 1238,
-                'name' => 'Giorgio Zanon',
-                'title' => 'Perito industriale - Referente ufficio tecnico',
-                'phone' => '348 7676809',
+                'name' => 'Francesco Svigeli',
+                'title' => 'Segretario Comunale',
+                'phone' => '329 0037695',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'tecnico.selva@agordino.bl.it - tecnico1.selva@agordino.bl.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'francescosvigeli@gmail.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            467 =>
+            475 => 
             array (
                 'id' => 1033,
                 'contact_id' => 1238,
@@ -12603,10 +12706,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
             'smart' => '347 1817227 (personale)',
             'email' => 'pm.selva@agordino.bl.it (seramike@hotmail.it)',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            468 =>
+            476 => 
             array (
                 'id' => 1034,
                 'contact_id' => 1239,
@@ -12616,10 +12719,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '329 7720368',
                 'email' => 'taddeiarmandoecsrl@gmail.com ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            469 =>
+            477 => 
             array (
                 'id' => 1038,
                 'contact_id' => 1193,
@@ -12629,36 +12732,36 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '333 3501621',
                 'email' => 'dino.avola@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            470 =>
+            478 => 
             array (
                 'id' => 1039,
                 'contact_id' => 1243,
                 'name' => 'Annamaria Maffeis',
                 'title' => 'Responsabile Settore Risorse Economiche e Finanziarie',
-                'phone' => '035 768077 int. 209',
+                'phone' => '035 768077 int. 3',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'annamaria.maffeis@comunepradalunga.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            471 =>
+            479 => 
             array (
                 'id' => 1040,
                 'contact_id' => 613,
                 'name' => 'vigile Luca Rebufello',
-                'title' => '',
+                'title' => 'Responsabile del servizio gestione dei verbali',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '340/0691289',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'vigili@comune.dego.sv.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            472 =>
+            480 => 
             array (
                 'id' => 1041,
                 'contact_id' => 1244,
@@ -12668,10 +12771,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '331 4035549',
                 'email' => 'barbara.ghiglia@funzionari.cssspa.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            473 =>
+            481 => 
             array (
                 'id' => 1042,
                 'contact_id' => 1244,
@@ -12681,10 +12784,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'e.sganga@operatori.cssspa.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            474 =>
+            482 => 
             array (
                 'id' => 1043,
                 'contact_id' => 1064,
@@ -12694,10 +12797,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            475 =>
+            483 => 
             array (
                 'id' => 1044,
                 'contact_id' => NULL,
@@ -12707,10 +12810,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            476 =>
+            484 => 
             array (
                 'id' => 1045,
                 'contact_id' => 1246,
@@ -12720,10 +12823,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'comando.pm@comune.impruneta.fi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            477 =>
+            485 => 
             array (
                 'id' => 1046,
                 'contact_id' => 1246,
@@ -12733,10 +12836,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 430076',
                 'email' => 'e.calamante@comune.impruneta.fi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            478 =>
+            486 => 
             array (
                 'id' => 1047,
                 'contact_id' => 1117,
@@ -12746,10 +12849,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'b.baglioni@comune.sesto-fiorentino.fi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            479 =>
+            487 => 
             array (
                 'id' => 1048,
                 'contact_id' => 1247,
@@ -12759,10 +12862,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '339/7493070',
                 'email' => 'vigili@comunebreme.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            480 =>
+            488 => 
             array (
                 'id' => 1049,
                 'contact_id' => 1248,
@@ -12772,10 +12875,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '333 2980670',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            481 =>
+            489 => 
             array (
                 'id' => 1050,
                 'contact_id' => 1249,
@@ -12785,10 +12888,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3387318287',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            482 =>
+            490 => 
             array (
                 'id' => 1051,
                 'contact_id' => 968,
@@ -12796,12 +12899,12 @@ class ReferentsTableSeeder extends Seeder
                 'title' => '',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '',
+                'smart' => '3486523517',
                 'email' => 'a.mavellia@sicursat.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            483 =>
+            491 => 
             array (
                 'id' => 1052,
                 'contact_id' => 912,
@@ -12811,23 +12914,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '377 3732741',
                 'email' => ' luigi.bruno@labconsulenze.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            484 =>
+            492 => 
             array (
                 'id' => 1053,
                 'contact_id' => 389,
-                'name' => 'Daniela Chiappara',
+                'name' => '',
                 'title' => '',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '333 1618956',
+                'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            485 =>
+            493 => 
             array (
                 'id' => 1054,
                 'contact_id' => 390,
@@ -12837,10 +12940,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3246315491',
                 'email' => 'marta.storti@adecco.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            486 =>
+            494 => 
             array (
                 'id' => 1055,
                 'contact_id' => 1253,
@@ -12850,23 +12953,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'daniela.chiappara@grupponam.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            487 =>
+            495 => 
             array (
                 'id' => 1056,
                 'contact_id' => 1253,
-                'name' => 'Francesca Romagnoli',
+                'name' => 'Francesca Romagnoli non &egrave; pi&ugrave; in NAM',
                 'title' => '',
                 'phone' => '342 8006546',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            488 =>
+            496 => 
             array (
                 'id' => 1058,
                 'contact_id' => 1254,
@@ -12876,10 +12979,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '333/1752798',
             'email' => 'comandante.poliziamunicipale@comune.arcola.sp.it - (personale) bonottiluigi@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            489 =>
+            497 => 
             array (
                 'id' => 1059,
                 'contact_id' => 1256,
@@ -12889,10 +12992,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '335 8241246',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            490 =>
+            498 => 
             array (
                 'id' => 1060,
                 'contact_id' => 1257,
@@ -12900,12 +13003,12 @@ class ReferentsTableSeeder extends Seeder
                 'title' => 'Team Leader',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '3402237226',
+                'smart' => '340 2237226',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            491 =>
+            499 => 
             array (
                 'id' => 1061,
                 'contact_id' => 246,
@@ -12915,10 +13018,12 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            492 =>
+        ));
+        \DB::table('referents')->insert(array (
+            0 => 
             array (
                 'id' => 1062,
                 'contact_id' => 1258,
@@ -12928,10 +13033,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            493 =>
+            1 => 
             array (
                 'id' => 1063,
                 'contact_id' => 1259,
@@ -12941,10 +13046,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'marco.masinari@comune.gandino.bg.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            494 =>
+            2 => 
             array (
                 'id' => 1064,
                 'contact_id' => 951,
@@ -12954,10 +13059,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ragioneriatrebisacce@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            495 =>
+            3 => 
             array (
                 'id' => 1065,
                 'contact_id' => 1184,
@@ -12967,10 +13072,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            496 =>
+            4 => 
             array (
                 'id' => 1066,
                 'contact_id' => 1171,
@@ -12980,10 +13085,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'p.andreola@comune.valenza.al.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            497 =>
+            5 => 
             array (
                 'id' => 1067,
                 'contact_id' => 1260,
@@ -12993,23 +13098,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ufficio.poliziamunicipale@comune.cairate.va.it - polizialocalecairate@legalmail.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            498 =>
+            6 => 
             array (
-                'id' => 1241,
+                'id' => 1068,
                 'contact_id' => 1133,
-                'name' => 'Digiamma',
-                'title' => 'Amministrativo dei vigili',
-                'phone' => '0835 1980535',
-                'fax' => NULL,
-                'smart' => NULL,
-                'email' => NULL,
-                'created_at' => '2025-05-07 11:45:07',
-                'updated_at' => '2025-05-07 11:45:07',
+                'name' => '',
+                'title' => 'Ragioneria',
+                'phone' => '0835-531215',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'poliziamunicipale@comune.tursi.mt.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            499 =>
+            7 => 
             array (
                 'id' => 1069,
                 'contact_id' => 1148,
@@ -13019,12 +13124,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-        ));
-        DB::table('referents')->insert(array (
-            0 =>
+            8 => 
             array (
                 'id' => 1070,
                 'contact_id' => 983,
@@ -13034,10 +13137,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => 'ciro.amendola@coopservice.it',
                 'email' => 'infogps@coopservice.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            1 =>
+            9 => 
             array (
                 'id' => 1071,
                 'contact_id' => 1262,
@@ -13047,10 +13150,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '377 1674907',
                 'email' => 'carlo.amicucci@e-fil.eu',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            2 =>
+            10 => 
             array (
                 'id' => 1072,
                 'contact_id' => 1262,
@@ -13060,23 +13163,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '377 1674903',
                 'email' => 'santi.rizzo@e-fil.eu',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            3 =>
+            11 => 
             array (
                 'id' => 1073,
                 'contact_id' => 164,
                 'name' => '',
                 'title' => 'Daniela Demergasso',
-            'phone' => '338 6228499 (personale)',
+            'phone' => '3342926467 (aziendale)',
                 'fax' => '',
-            'smart' => ' 3342926467 (aziendale)',
+                'smart' => '',
                 'email' => 'daniela.d@ovunque-si.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            4 =>
+            12 => 
             array (
                 'id' => 1074,
                 'contact_id' => 1267,
@@ -13086,10 +13189,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            5 =>
+            13 => 
             array (
                 'id' => 1075,
                 'contact_id' => 1267,
@@ -13099,36 +13202,36 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            6 =>
+            14 => 
             array (
                 'id' => 1077,
                 'contact_id' => 1148,
-                'name' => 'andrea.pappaianni@infocamere.it',
+                'name' => 'Lucia Pera',
                 'title' => '',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '347 2540519',
+                'email' => 'lucia.pera@infocamere.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            7 =>
+            15 => 
             array (
                 'id' => 1078,
                 'contact_id' => 1148,
-                'name' => 'renzo.zampini@infocamere.it',
+                'name' => '',
                 'title' => '',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            8 =>
+            16 => 
             array (
                 'id' => 1079,
                 'contact_id' => 1148,
@@ -13138,10 +13241,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            9 =>
+            17 => 
             array (
                 'id' => 1080,
                 'contact_id' => 1254,
@@ -13151,10 +13254,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => 'personale 338/9802913',
                 'email' => 'poliziamunicipale@comune.arcola.sp.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            10 =>
+            18 => 
             array (
                 'id' => 1081,
                 'contact_id' => 1268,
@@ -13164,10 +13267,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            11 =>
+            19 => 
             array (
                 'id' => 1082,
                 'contact_id' => 1146,
@@ -13177,23 +13280,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '347 9391601 personale',
                 'email' => 'tributi@comune.cogliate.mb.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            12 =>
+            20 => 
             array (
                 'id' => 1083,
                 'contact_id' => 909,
-                'name' => 'Marco Frizza',
+                'name' => 'Marco Gherardelli',
                 'title' => 'Commerciale',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '349 4698737',
-                'email' => 'marco.frizza@4g-italia.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '371 0014745',
+                'email' => 'marco.gherardelli@4g-italia.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            13 =>
+            21 => 
             array (
                 'id' => 1084,
                 'contact_id' => 703,
@@ -13203,10 +13306,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '0182/85777',
                 'smart' => '',
                 'email' => 'grossogianluca@hotmail.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            14 =>
+            22 => 
             array (
                 'id' => 1085,
                 'contact_id' => 1044,
@@ -13216,10 +13319,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '349 8651305',
                 'email' => 'brillante@comunedicamporosso.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            15 =>
+            23 => 
             array (
                 'id' => 1086,
                 'contact_id' => 1246,
@@ -13229,10 +13332,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'a.bianchini@comune.impruneta.fi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            16 =>
+            24 => 
             array (
                 'id' => 1087,
                 'contact_id' => 1271,
@@ -13242,10 +13345,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'stefano.vaccari@brav.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            17 =>
+            25 => 
             array (
                 'id' => 1088,
                 'contact_id' => 1269,
@@ -13255,10 +13358,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '329 4404517',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            18 =>
+            26 => 
             array (
                 'id' => 1089,
                 'contact_id' => 1192,
@@ -13268,10 +13371,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'italyoffice@bqc.gr',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            19 =>
+            27 => 
             array (
                 'id' => 1090,
                 'contact_id' => 1273,
@@ -13281,10 +13384,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'michele.pastorelli@office-depot.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            20 =>
+            28 => 
             array (
                 'id' => 1091,
                 'contact_id' => 1032,
@@ -13294,10 +13397,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'gginanneschi@comune.piombino.li.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            21 =>
+            29 => 
             array (
                 'id' => 1092,
                 'contact_id' => 1275,
@@ -13307,10 +13410,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '334 2746423',
                 'email' => 'polizia@comune.avegno.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            22 =>
+            30 => 
             array (
                 'id' => 1093,
                 'contact_id' => 1275,
@@ -13320,10 +13423,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 3549382',
                 'email' => 'ragioneria@comune.avegno.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            23 =>
+            31 => 
             array (
                 'id' => 1094,
                 'contact_id' => 1278,
@@ -13333,23 +13436,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            24 =>
+            32 => 
             array (
                 'id' => 1095,
                 'contact_id' => 1142,
-                'name' => 'Molinari',
-                'title' => 'Aiuto Dott.ssa Chiodaroli',
+                'name' => 'Molinari Alessia',
+                'title' => 'Aiuto del responsabile del settore',
                 'phone' => '0523 889749',
                 'fax' => '',
                 'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'tributi@comune.castelsangiovanni.pc.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            25 =>
+            33 => 
             array (
                 'id' => 1096,
                 'contact_id' => NULL,
@@ -13359,10 +13462,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 1739683',
                 'email' => 'antonio.ruggiero@sogetspa.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            26 =>
+            34 => 
             array (
                 'id' => 1132,
                 'contact_id' => 1297,
@@ -13372,10 +13475,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            27 =>
+            35 => 
             array (
                 'id' => 1098,
                 'contact_id' => NULL,
@@ -13385,36 +13488,36 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '099.220.99.54',
                 'smart' => '',
                 'email' => 'daniela.chirico@sogetspa.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            28 =>
+            36 => 
             array (
                 'id' => 1099,
                 'contact_id' => 1279,
-                'name' => 'Chirico Daniela',
-                'title' => 'divisione commerciale - ufficio appalti',
-                'phone' => '0997365203254',
-                'fax' => '0992209954',
-                'smart' => '328 4680977',
-                'email' => 'daniela.chirico@sogetspa.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'name' => 'Gaetano Monaco',
+                'title' => 'Responsabile Ufficio Gare',
+                'phone' => 'gaetano.monaco@sogetspa.it',
+                'fax' => '',
+                'smart' => '348 5266275',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            29 =>
+            37 => 
             array (
                 'id' => 1100,
                 'contact_id' => 1279,
-                'name' => 'Ing. Stefano Martella',
-                'title' => 'Responsabile Ufficio Gare',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '348 3430385',
-                'email' => 'stefano.martella@sogetspa.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'name' => 'Chirico Daniela',
+                'title' => 'divisione commerciale - ufficio appalti',
+                'phone' => '0997 365203254',
+                'fax' => '0992 209954',
+                'smart' => '328 4680977',
+                'email' => 'daniela.chirico@sogetspa.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            30 =>
+            38 => 
             array (
                 'id' => 1101,
                 'contact_id' => 438,
@@ -13423,24 +13526,24 @@ class ReferentsTableSeeder extends Seeder
                 'phone' => '010 7267334',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'tributi@comune.serraricco.ge.it- enrica.lavagetto@comune.serraricco.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'tributi@comune.serraricco.ge.it - enrica.lavagetto@comune.serraricco.ge.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            31 =>
+            39 => 
             array (
                 'id' => 1102,
                 'contact_id' => 1280,
-                'name' => 'Sara Ravegnini',
+                'name' => '',
                 'title' => '',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '349 6456423',
-                'email' => 'sara.ravegnini@pagopa.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            32 =>
+            40 => 
             array (
                 'id' => 1103,
                 'contact_id' => 1254,
@@ -13450,10 +13553,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'castagna.gianna@comune.arcola.sp.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            33 =>
+            41 => 
             array (
                 'id' => 1104,
                 'contact_id' => 1281,
@@ -13463,10 +13566,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 602444',
                 'email' => 'm.garrone@gestopark.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            34 =>
+            42 => 
             array (
                 'id' => 1105,
                 'contact_id' => 1281,
@@ -13476,10 +13579,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 5375936',
                 'email' => 'r.ferrari@gestopark.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            35 =>
+            43 => 
             array (
                 'id' => 1106,
                 'contact_id' => 1281,
@@ -13489,10 +13592,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '347 9055829',
                 'email' => 'v.garrone@gestopark.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            36 =>
+            44 => 
             array (
                 'id' => 1107,
                 'contact_id' => 1281,
@@ -13502,10 +13605,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '334 9219730',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            37 =>
+            45 => 
             array (
                 'id' => 1108,
                 'contact_id' => 1281,
@@ -13515,10 +13618,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 2200840',
                 'email' => 'nevio.garrone@gestopark.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            38 =>
+            46 => 
             array (
                 'id' => 1109,
                 'contact_id' => 957,
@@ -13528,10 +13631,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'gestionecontratti.uspama@aci.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            39 =>
+            47 => 
             array (
                 'id' => 1110,
                 'contact_id' => 1282,
@@ -13541,10 +13644,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'mara.grassi@comune.vilminire.bg.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            40 =>
+            48 => 
             array (
                 'id' => 1111,
                 'contact_id' => 1283,
@@ -13554,10 +13657,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '019 53 543',
                 'smart' => '',
                 'email' => 'ufficiotributi@comunemurialdo.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            41 =>
+            49 => 
             array (
                 'id' => 1113,
                 'contact_id' => 1285,
@@ -13567,10 +13670,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'areafinanziaria@comune.campomorone.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            42 =>
+            50 => 
             array (
                 'id' => 1114,
                 'contact_id' => 1285,
@@ -13580,10 +13683,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'areavigilanza@comune.campomorone.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            43 =>
+            51 => 
             array (
                 'id' => 1116,
                 'contact_id' => 1287,
@@ -13593,10 +13696,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '3273107675',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            44 =>
+            52 => 
             array (
                 'id' => 1117,
                 'contact_id' => 1153,
@@ -13606,10 +13709,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 's.grosso@cervino.org',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            45 =>
+            53 => 
             array (
                 'id' => 1118,
                 'contact_id' => 1153,
@@ -13619,10 +13722,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'i.campone@cervino.org',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            46 =>
+            54 => 
             array (
                 'id' => 1119,
                 'contact_id' => NULL,
@@ -13632,10 +13735,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '333 6198521',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            47 =>
+            55 => 
             array (
                 'id' => 1120,
                 'contact_id' => 1289,
@@ -13645,10 +13748,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '333 6198521',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            48 =>
+            56 => 
             array (
                 'id' => 1121,
                 'contact_id' => 1291,
@@ -13658,10 +13761,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            49 =>
+            57 => 
             array (
                 'id' => 1122,
                 'contact_id' => 1238,
@@ -13671,10 +13774,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '339 6979260',
                 'email' => 'elettricitavr@libero.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            50 =>
+            58 => 
             array (
                 'id' => 1123,
                 'contact_id' => 1294,
@@ -13684,36 +13787,36 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tributi@comune.cene.bg.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            51 =>
+            59 => 
             array (
                 'id' => 1124,
                 'contact_id' => 1295,
-                'name' => '',
-                'title' => '',
+                'name' => 'Rag. Sangalli Maria Rosa',
+                'title' => 'Gestisce i tributi e i rapporti con sarida',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'tributi@comune.fontanella.bg.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            52 =>
+            60 => 
             array (
                 'id' => 1125,
                 'contact_id' => 1295,
-                'name' => '',
-                'title' => '',
+                'name' => 'Dott.ssa Marcandelli Elena',
+                'title' => 'Responsabile Area Econimico Finanziaria',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ragioneria@comune.fontanella.bg.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            53 =>
+            61 => 
             array (
                 'id' => 1127,
                 'contact_id' => 1146,
@@ -13723,10 +13826,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ragioneria@comune.cogliate.mb.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            54 =>
+            62 => 
             array (
                 'id' => 1128,
                 'contact_id' => 1044,
@@ -13736,23 +13839,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'prata@comunedicamporosso.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            55 =>
+            63 => 
             array (
                 'id' => 1129,
                 'contact_id' => 644,
-                'name' => 'Dott. Andrea Ricco',
-                'title' => 'Responsabile ufficio ragioneria presente il mercoledì',
+            'name' => 'Dott. Andrea Ricco (int. 5)',
+                'title' => 'Responsabile ufficio ragioneria presente il mercoled&igrave;',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'a.ricco@comune.borgo-val-di-taro.pr.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            56 =>
+            64 => 
             array (
                 'id' => 1130,
                 'contact_id' => 1292,
@@ -13762,10 +13865,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338 8801316',
                 'email' => 'direzioneoperativa@integraa.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            57 =>
+            65 => 
             array (
                 'id' => 1131,
                 'contact_id' => 1292,
@@ -13775,10 +13878,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ced1@integraa.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            58 =>
+            66 => 
             array (
                 'id' => 1133,
                 'contact_id' => 1297,
@@ -13788,10 +13891,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348-9115131',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            59 =>
+            67 => 
             array (
                 'id' => 1134,
                 'contact_id' => 1298,
@@ -13801,10 +13904,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            60 =>
+            68 => 
             array (
                 'id' => 1136,
                 'contact_id' => 1300,
@@ -13814,10 +13917,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'mstagi@comune.pontassieve.fi.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            61 =>
+            69 => 
             array (
                 'id' => 1137,
                 'contact_id' => 325,
@@ -13827,23 +13930,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'cocchieretommaso@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            62 =>
+            70 => 
             array (
                 'id' => 1138,
                 'contact_id' => 1301,
-                'name' => 'Gatti Caterina',
+                'name' => 'Rag. Gatti Caterina',
                 'title' => '',
-                'phone' => '030 9959732 int. 5 ragioneria',
+                'phone' => '030 9959732 int. 4 ragioneria',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'gatti.caterina@pavonemella.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'gatti.caterina@pavonemella.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            63 =>
+            71 => 
             array (
                 'id' => 1139,
                 'contact_id' => 1292,
@@ -13853,23 +13956,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'amministrazione@integraa.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            64 =>
+            72 => 
             array (
                 'id' => 1140,
                 'contact_id' => 1238,
                 'name' => 'Bernardi Carlo',
-                'title' => 'Ragioniere',
+            'title' => 'Ragioniere (andato a lavorare al Comune di Alleghe)',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '335 8213073',
-                'email' => 'ragioneria.selva@agordino.bl.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'ragioneria.selva@agordino.bl.it - selva.cadore@agordino.bl.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            65 =>
+            73 => 
             array (
                 'id' => 1141,
                 'contact_id' => 1302,
@@ -13879,10 +13982,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => 'skype: Giuliano.Maggi.Sede',
                 'smart' => '348 2654283',
                 'email' => 'gmaggi@comped.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            66 =>
+            74 => 
             array (
                 'id' => 1142,
                 'contact_id' => 1302,
@@ -13892,10 +13995,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '348 3814160',
                 'email' => 'rbaudizzone@comped.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            67 =>
+            75 => 
             array (
                 'id' => 1143,
                 'contact_id' => 1036,
@@ -13905,10 +14008,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'areacontabile@comune.bonavigo.vr.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            68 =>
+            76 => 
             array (
                 'id' => 1144,
                 'contact_id' => 1036,
@@ -13918,10 +14021,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'areacontabile@comune.bonavigo.vr.it ',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            69 =>
+            77 => 
             array (
                 'id' => 1145,
                 'contact_id' => 974,
@@ -13931,10 +14034,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '328 6330590 sarida',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            70 =>
+            78 => 
             array (
                 'id' => 1146,
                 'contact_id' => 1134,
@@ -13944,10 +14047,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '328 7496125',
                 'email' => 'polizialocale@comune.albizzate.va.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            71 =>
+            79 => 
             array (
                 'id' => 1147,
                 'contact_id' => 1303,
@@ -13957,10 +14060,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338 7855445',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            72 =>
+            80 => 
             array (
                 'id' => 1148,
                 'contact_id' => 1303,
@@ -13970,10 +14073,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338 7855442',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            73 =>
+            81 => 
             array (
                 'id' => 1149,
                 'contact_id' => 1303,
@@ -13983,10 +14086,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338 7855449',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            74 =>
+            82 => 
             array (
                 'id' => 1150,
                 'contact_id' => 1203,
@@ -13996,10 +14099,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'urp.quest.ge@pecps.poliziadistato.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            75 =>
+            83 => 
             array (
                 'id' => 1151,
                 'contact_id' => 1305,
@@ -14009,10 +14112,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 8241246',
                 'email' => 'alessandro.bertolone@previaassicura.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            76 =>
+            84 => 
             array (
                 'id' => 1152,
                 'contact_id' => 1306,
@@ -14022,10 +14125,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '335 8241246',
                 'email' => 'alessandro.bertolone@previaassicura.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            77 =>
+            85 => 
             array (
                 'id' => 1155,
                 'contact_id' => 1074,
@@ -14035,23 +14138,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '338 6185597',
                 'email' => 'stefano.mare@regione.liguria.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            78 =>
+            86 => 
             array (
                 'id' => 1157,
                 'contact_id' => 1311,
-                'name' => 'Marco Calli',
+                'name' => 'Dott. Marco Calli',
                 'title' => 'Ufficio Tributi',
-                'phone' => '0365 659831',
+                'phone' => '0365 659831/0365659812',
                 'fax' => '',
                 'smart' => '',
-                'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'marco.calli@comune.manerbadelgarda.bs.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            79 =>
+            87 => 
             array (
                 'id' => 1158,
                 'contact_id' => 1313,
@@ -14061,10 +14164,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '349 5701761',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            80 =>
+            88 => 
             array (
                 'id' => 1159,
                 'contact_id' => 1307,
@@ -14074,10 +14177,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '339 7545538',
                 'email' => 'carla.ferrero@intesasanpaolo.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            81 =>
+            89 => 
             array (
                 'id' => 1160,
                 'contact_id' => 1275,
@@ -14087,36 +14190,36 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'ragioneria@comune.avegno.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            82 =>
+            90 => 
             array (
                 'id' => 1161,
-                'contact_id' => 1186,
+                'contact_id' => NULL,
                 'name' => 'Lorna Perizzola',
                 'title' => 'segue invio gare - tecnico',
                 'phone' => '0424 213707 - 3201913555',
-                'fax' => NULL,
-                'smart' => NULL,
-                'email' => NULL,
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-05-07 09:05:56',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            83 =>
+            91 => 
             array (
                 'id' => 1162,
                 'contact_id' => 553,
                 'name' => 'Alessandro Pavia',
                 'title' => 'Assistenza tecnica e riparazioni',
-                'phone' => '',
+                'phone' => '055 8868632',
                 'fax' => '',
                 'smart' => '345 0556824',
                 'email' => 'assistenza@sodi.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            84 =>
+            92 => 
             array (
                 'id' => 1163,
                 'contact_id' => 1236,
@@ -14126,10 +14229,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'bonino@comunedisanremo.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            85 =>
+            93 => 
             array (
                 'id' => 1164,
                 'contact_id' => 1317,
@@ -14139,10 +14242,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '329 6876713',
                 'email' => 'livio.perboni@cediscoop.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            86 =>
+            94 => 
             array (
                 'id' => 1165,
                 'contact_id' => 1317,
@@ -14152,10 +14255,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'umberto.ravot@gmail.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            87 =>
+            95 => 
             array (
                 'id' => 1166,
                 'contact_id' => 1318,
@@ -14165,10 +14268,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '340 8031004',
                 'email' => 'ufficiopoliziamunicipale@comune.canale.cn.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            88 =>
+            96 => 
             array (
                 'id' => 1167,
                 'contact_id' => 1307,
@@ -14178,23 +14281,23 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'federica.molinari@intesasanpaolo.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            89 =>
+            97 => 
             array (
                 'id' => 1168,
                 'contact_id' => 1185,
                 'name' => 'Valerio Schembri',
-                'title' => '',
+                'title' => 'Referente per la ISO 9001 - 14001 per Certificazione e Servizi',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '324 9558614',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            90 =>
+            98 => 
             array (
                 'id' => 1169,
                 'contact_id' => 1325,
@@ -14204,10 +14307,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'claudio.spinelli@acco.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            91 =>
+            99 => 
             array (
                 'id' => 1170,
                 'contact_id' => 1060,
@@ -14217,10 +14320,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'rma@elsist.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            92 =>
+            100 => 
             array (
                 'id' => 1171,
                 'contact_id' => 1326,
@@ -14230,10 +14333,10 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'amministrazione@ITdistribuzione.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            93 =>
+            101 => 
             array (
                 'id' => 1172,
                 'contact_id' => 1326,
@@ -14243,310 +14346,1636 @@ class ReferentsTableSeeder extends Seeder
                 'fax' => '',
                 'smart' => '',
                 'email' => 'vendite@itdistribuzione.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            94 =>
+            102 => 
             array (
                 'id' => 1173,
                 'contact_id' => 1307,
-                'name' => 'Paola',
+                'name' => 'Sara Menini',
                 'title' => 'Collega',
-                'phone' => '0185 458830',
+                'phone' => '0185458830',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'sara.menini@intesasanpaolo.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            103 => 
+            array (
+                'id' => 1174,
+                'contact_id' => 1336,
+                'name' => 'Ferruccio Sabatini',
+                'title' => 'Referente commerciale',
+                'phone' => '333 3334676',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'f.sabattini@liguriadigitale.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            104 => 
+            array (
+                'id' => 1175,
+                'contact_id' => 1336,
+                'name' => 'Dott.ssa Di Stefano Olimpia',
+                'title' => 'Quality Control Tester',
+                'phone' => '010 6545 565',
+                'fax' => '',
+                'smart' => '366 6386341',
+                'email' => 'O.DiStefano@liguriadigitale.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            105 => 
+            array (
+                'id' => 1176,
+                'contact_id' => 1336,
+                'name' => 'Dott. Cervetti Lorenzo',
+                'title' => 'Referente per Pago PA',
+                'phone' => '010 5645834',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'L.Cervetti@liguriadigitale.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            106 => 
+            array (
+                'id' => 1177,
+                'contact_id' => 1336,
+                'name' => 'Battaglini',
+                'title' => 'Amministratore',
+                'phone' => '3357122112',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            95 =>
+            107 => 
             array (
-                'id' => 1174,
-                'contact_id' => 1253,
-                'name' => 'Raffaella Delfanti',
+                'id' => 1178,
+                'contact_id' => 1338,
+                'name' => 'Alberto Montavoci',
+            'title' => 'Referente parte tecnica (riavvio server)',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '3331854704',
+                'email' => 'amontavoci@comune.formigine.mo.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            108 => 
+            array (
+                'id' => 1179,
+                'contact_id' => 1339,
+                'name' => 'Giuseppe La rosa',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '346 3613214',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            109 => 
+            array (
+                'id' => 1180,
+                'contact_id' => 1338,
+                'name' => 'Damiana Garutti',
+                'title' => 'Assistente Amministrativo della Polizia Locale',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '059 416123',
+                'email' => 'd_garutti@comune.formigine.mo.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            110 => 
+            array (
+                'id' => 1181,
+                'contact_id' => 1238,
+                'name' => 'Luca Lorenzini',
+                'title' => 'Sindaco',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'sindaco.selva@agordino.bl.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            111 => 
+            array (
+                'id' => 1182,
+                'contact_id' => 1338,
+                'name' => 'Comandante Susanna Beltrami',
+                'title' => 'Comandante',
+                'phone' => '059 557733',
+                'fax' => '059 552505',
+                'smart' => '328 1505297',
+                'email' => 'susanna.beltrami@comune.formigine.mo.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            112 => 
+            array (
+                'id' => 1183,
+                'contact_id' => 185,
+                'name' => '',
                 'title' => '',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'raffaella.delfanti@grupponam.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            96 =>
+            113 => 
             array (
-                'id' => 1175,
-                'contact_id' => 1253,
-                'name' => 'Francesca Romagnoli',
+                'id' => 1184,
+                'contact_id' => 101,
+                'name' => 'Davide Stuto',
+                'title' => 'Sales Manager',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '351 4002557',
+                'email' => 'davide.stuto@sarida.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            114 => 
+            array (
+                'id' => 1188,
+                'contact_id' => 1350,
+                'name' => 'Bernardi Carlo',
+                'title' => 'Responsabile Area Amministrativa',
+                'phone' => '0437 523595',
+                'fax' => '',
+                'smart' => '335 8213073',
+                'email' => 'amministrativa.alleghe@agordino.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            115 => 
+            array (
+                'id' => 1187,
+                'contact_id' => 321,
+                'name' => 'Fasciolo Danilo',
+                'title' => 'Agente',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '334 3904525',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            116 => 
+            array (
+                'id' => 1190,
+                'contact_id' => 456,
+                'name' => 'Dott. Gesualdo La Porta',
+                'title' => 'Comandante Polizia Municipale',
+                'phone' => '380 3478705',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'comandante@comune.busalla.ge.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            117 => 
+            array (
+                'id' => 1191,
+                'contact_id' => 456,
+                'name' => 'Dott. Daniela Giannelli',
+                'title' => 'Responsabile del servizio gestione dei verbali',
+                'phone' => '010 97683201',
+                'fax' => '',
+                'smart' => 'personale 347/9636254',
+                'email' => 'polizia@comune.busalla.ge.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            118 => 
+            array (
+                'id' => 1192,
+                'contact_id' => 1352,
+                'name' => 'Dott.ssa Laura Romagnoli',
+                'title' => 'Responsabile Servizio Finanze e Patrimonio',
+                'phone' => '0558385436',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            119 => 
+            array (
+                'id' => 1193,
+                'contact_id' => 1352,
+                'name' => 'Brunetti Lorella',
+                'title' => 'Referente Ufficio Tributi',
+                'phone' => '055 8385424',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'tributi@comune.dicomano.fi.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            120 => 
+            array (
+                'id' => 1194,
+                'contact_id' => 1357,
+                'name' => 'Andreetta Edda',
+                'title' => 'Responsabile Servizio Finanziario',
+                'phone' => '0438 266535',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'ragioneria@comune.san-fior.tv.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            121 => 
+            array (
+                'id' => 1195,
+                'contact_id' => 1357,
+                'name' => 'Canzian Deborah',
+                'title' => 'Referente Ufficio Tributi',
+                'phone' => '0438 266531',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'tributi@comune.san-fior.tv.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            122 => 
+            array (
+                'id' => 1196,
+                'contact_id' => 1358,
+                'name' => 'Dott. Massimo Per&ograve;',
+                'title' => 'Responsabile Ufficio Tributi',
+                'phone' => '0365 500806',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'ragioneria@comune.monigadelgarda.bs.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            123 => 
+            array (
+                'id' => 1197,
+                'contact_id' => 1366,
+                'name' => 'Cipriani Alberto',
+                'title' => 'Amministrazione/Contabilt&agrave;',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '335 7614597',
+                'email' => 'cipriani@provincia.siena.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            124 => 
+            array (
+                'id' => 1198,
+                'contact_id' => 1366,
+                'name' => 'Masi Simone',
+                'title' => 'Ispettore ufficio velox',
+                'phone' => '0577 241402',
+                'fax' => '',
+                'smart' => '333 4910553',
+                'email' => 'simone.masi@provincia.siena.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            125 => 
+            array (
+                'id' => 1199,
+                'contact_id' => 1366,
+                'name' => 'Tornesi Paolo',
+                'title' => 'Agente - Parte operativa',
+                'phone' => '0577 241290',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            126 => 
+            array (
+                'id' => 1200,
+                'contact_id' => 1366,
+                'name' => '',
                 'title' => '',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'francesca.romagnoli@grupponam.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            97 =>
+            127 => 
             array (
-                'id' => 1176,
-                'contact_id' => 1326,
-                'name' => 'Milena Ghirardi',
+                'id' => 1201,
+                'contact_id' => 1369,
+                'name' => 'Luciano di Piazza',
+                'title' => 'Referente Postel Video',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '335 78403337',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            128 => 
+            array (
+                'id' => 1202,
+                'contact_id' => 409,
+                'name' => 'Stefano Talenti',
+                'title' => 'Commerciale di ns. riferimento',
+                'phone' => '331 2123959',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'stefano.talenti@velocar.it - talentistegano2@gmail.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            129 => 
+            array (
+                'id' => 1203,
+                'contact_id' => 1269,
+                'name' => '',
+                'title' => 'Contabilita',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'amministrazione@ezdirect.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            130 => 
+            array (
+                'id' => 1204,
+                'contact_id' => 1175,
+                'name' => '',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            131 => 
+            array (
+                'id' => 1208,
+                'contact_id' => 1338,
+                'name' => 'Andrea Martinelli',
+            'title' => 'Ingegnere (riavvio server)',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '3281505225',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            132 => 
+            array (
+                'id' => 1205,
+                'contact_id' => 1338,
+                'name' => 'Parrocchetti Andrea',
+                'title' => 'Ispettore',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '338 5454852',
+                'email' => 'a_parrocchetti@comune.formigine.mo.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            133 => 
+            array (
+                'id' => 1206,
+                'contact_id' => 1175,
+                'name' => 'Andrea Cusin',
+                'title' => 'Referente programma timbrature',
+                'phone' => '02 66804675',
+                'fax' => '030 2420872',
+                'smart' => '335 5404658',
+                'email' => 'a.cusin@progettostudio.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            134 => 
+            array (
+                'id' => 1207,
+                'contact_id' => 1175,
+                'name' => 'Chiara Volpe',
+                'title' => '',
+                'phone' => '02 66804675',
+                'fax' => '030 2420872',
+                'smart' => '',
+                'email' => 'c.volpe@progettostudio.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            135 => 
+            array (
+                'id' => 1209,
+                'contact_id' => 1074,
+            'name' => 'Ing. Oberti Beatrice (02/2022 se ne occupa lei)',
+                'title' => 'Responsabile Ufficio tecnico',
+                'phone' => '010 5485027',
+                'fax' => '',
+                'smart' => '348 0891541',
+                'email' => 'beatrice.oberti@regione.liguria.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            136 => 
+            array (
+                'id' => 1210,
+                'contact_id' => 1385,
+                'name' => 'Sandro Lasciarfari',
                 'title' => 'Referente commerciale',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'milena.gherardi@itdistribuzione.com',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'sandrol@koinesolutions.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            98 =>
+            137 => 
             array (
-                'id' => 1177,
-                'contact_id' => 1330,
-                'name' => 'Battaglini Riccardo',
-                'title' => 'Amministratore',
-                'phone' => '335 7122112',
+                'id' => 1211,
+                'contact_id' => 1307,
+                'name' => '',
+                'title' => '',
+                'phone' => '',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'r.battaglini@liguriadigitale.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            99 =>
+            138 => 
             array (
-                'id' => 1178,
-                'contact_id' => 1330,
-                'name' => 'Sabattini Ferruccio',
+                'id' => 1212,
+                'contact_id' => 1384,
+                'name' => 'Dott.ssa Enrica Rossi',
+                'title' => 'Responsabile Servizio Finanziario',
+                'phone' => '030 6829473',
+                'fax' => '',
+                'smart' => '333 4806524 personale',
+                'email' => 'enrica.rossi@comune.bagnolomella.bs.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            139 => 
+            array (
+                'id' => 1213,
+                'contact_id' => 456,
+                'name' => 'Ragioniere',
+                'title' => 'Cristian',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '351 8332221',
+                'email' => 'ragioneria2@comune.busalla.ge.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            140 => 
+            array (
+                'id' => 1214,
+                'contact_id' => 1387,
+                'name' => 'Gennaro Matarazzo',
                 'title' => 'Commerciale',
                 'phone' => '',
                 'fax' => '',
-                'smart' => 'Tel: 333 3334676',
-                'email' => 'f.sabattini@liguriadigitale.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'smart' => '3519369376',
+                'email' => 'gennaro.matarazzo@easypark.net',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            100 =>
+            141 => 
             array (
-                'id' => 1180,
-                'contact_id' => 1336,
-                'name' => 'Masi Simone',
-                'title' => 'Ispettore Ufficio velox',
-                'phone' => '0577241402',
-                'fax' => '',
-                'smart' => '3334910553',
-                'email' => 'simone.masi@provincia.siena.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            101 =>
-            array (
-                'id' => 1181,
-                'contact_id' => 1336,
-                'name' => 'Tornesi Paolo',
-                'title' => 'Agente Parte operativa',
-                'phone' => '0577241290',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'paolo.tornesi@provincia.siena.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            102 =>
-            array (
-                'id' => 1182,
-                'contact_id' => 1336,
-                'name' => 'Bernareggi Lorenzo',
-                'title' => 'Agente Parte operativa',
-                'phone' => '0577241290',
-                'fax' => '',
-                'smart' => '3357417281',
-                'email' => 'lorenzo.bernareggi@provincia.siena.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
-            ),
-            103 =>
-            array (
-                'id' => 1183,
-                'contact_id' => 456,
-                'name' => 'Bonora',
+                'id' => 1215,
+                'contact_id' => 613,
+                'name' => 'Baldazzi Fabrizio',
                 'title' => 'Ragioniere',
-                'phone' => '010 97683222',
+                'phone' => '019 577792 int 19',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'ragioneria2@comune.busalla.ge.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'fabrizio.baldazzi@comune.dego.sv.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            104 =>
+            142 => 
             array (
-                'id' => 1184,
-                'contact_id' => 1337,
-                'name' => 'Edda Andretta',
-                'title' => 'Responsabile ufficio ragioneria',
+                'id' => 1216,
+                'contact_id' => 1221,
+                'name' => 'Giulia Marchini',
+                'title' => 'Ragioniera',
+            'phone' => '0382 997454 (int. 2)',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'ragioneria@scaldasole.lombardia.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            143 => 
+            array (
+                'id' => 1217,
+                'contact_id' => 1032,
+                'name' => 'Maria Teresa Mazzitelli',
+                'title' => '',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'ragioneria@comune.san-fior.tv.it',
-                'created_at' => '2025-04-03 17:25:48',
-                'updated_at' => '2025-04-03 17:25:48',
+                'email' => 'mtmazzitelli@comune.piombino.li.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            105 =>
+            144 => 
+            array (
+                'id' => 1218,
+                'contact_id' => 1246,
+                'name' => 'Giovanni Carandini',
+                'title' => 'contabilit&agrave;',
+                'phone' => '055 2036656',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'g.carandini@comune.impruneta.fi.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            145 => 
+            array (
+                'id' => 1219,
+                'contact_id' => 902,
+                'name' => 'Corrado Cianchi',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'corrado.cianchi@comune.campigliamarittima.li.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            146 => 
+            array (
+                'id' => 1220,
+                'contact_id' => 1358,
+                'name' => 'Dott.ssa Giuliana Orioli',
+                'title' => 'Segreteria',
+                'phone' => '0365 500804',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'segreteria@comune.monigadelgarda.bs.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            147 => 
+            array (
+                'id' => 1221,
+                'contact_id' => 531,
+                'name' => 'Ilaria Pacchione',
+                'title' => '',
+                'phone' => '02 7222201',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'avv.pacchione@gmail.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            148 => 
+            array (
+                'id' => 1222,
+                'contact_id' => 1254,
+                'name' => 'Bertolotto Dario',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'bertolotto.dario@comune.arcola.sp.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            149 => 
+            array (
+                'id' => 1223,
+                'contact_id' => 1350,
+                'name' => '',
+                'title' => 'Polizia Municipale',
+                'phone' => 'interno 6',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            150 => 
+            array (
+                'id' => 1224,
+                'contact_id' => 1401,
+                'name' => 'Amaru\' Alessio',
+                'title' => 'Referente commerciale',
+                'phone' => '010 532721',
+                'fax' => '',
+                'smart' => '333 4496833',
+                'email' => 'alessio.amaru@umana.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            151 => 
             array (
                 'id' => 1225,
-                'contact_id' => 1348,
-                'name' => 'Onofrio di Maio',
-                'title' => 'Amministratore',
-                'phone' => NULL,
-                'fax' => NULL,
-                'smart' => '3466932194',
-                'email' => NULL,
-                'created_at' => '2025-04-14 16:20:29',
-                'updated_at' => '2025-04-14 16:21:35',
+                'contact_id' => 1401,
+                'name' => 'Ivan Da Riz',
+                'title' => 'Commerciale zona Longarone',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '393 9792946',
+                'email' => 'ivan.dariz@umana.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            106 =>
+            152 => 
             array (
                 'id' => 1226,
-                'contact_id' => 1171,
-                'name' => 'Paola Demartini',
-                'title' => NULL,
-                'phone' => NULL,
-                'fax' => NULL,
-                'smart' => NULL,
-                'email' => 'p.demartini@comune.valenza.al.it',
-                'created_at' => '2025-04-14 16:23:51',
-                'updated_at' => '2025-04-24 08:29:11',
+                'contact_id' => 1403,
+                'name' => 'Stefano Leardi',
+                'title' => 'Referente commerciale',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '338 1049868',
+                'email' => 'stefano.leardi@synergie-italia.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            107 =>
+            153 => 
             array (
                 'id' => 1227,
-                'contact_id' => 617,
-                'name' => 'Polizia locale',
-                'title' => NULL,
-                'phone' => NULL,
-                'fax' => NULL,
-                'smart' => NULL,
-                'email' => 'polizialocale@comune.moconesi.ge.it',
-                'created_at' => '2025-04-14 16:33:34',
-                'updated_at' => '2025-04-24 08:29:11',
+                'contact_id' => 1407,
+                'name' => 'Anna Salvi',
+                'title' => '',
+                'phone' => '0143 3684799',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'segreteria@unionedaltobbioalcolma.al.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            108 =>
+            154 => 
             array (
                 'id' => 1228,
-                'contact_id' => 1186,
-                'name' => 'Nicolina Tedeschi',
-                'title' => 'Account manager',
-                'phone' => '0424 213792',
-                'fax' => NULL,
-                'smart' => '348 8602918',
-                'email' => 'nicolina.tedeschi@telemat.it',
-                'created_at' => '2025-04-22 15:28:29',
-                'updated_at' => '2025-05-07 08:59:37',
+                'contact_id' => 1407,
+                'name' => 'Segretario Robbiano',
+                'title' => '',
+                'phone' => '3398166569',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            109 =>
+            155 => 
             array (
-                'id' => 1240,
-                'contact_id' => NULL,
-                'name' => 'DIGIAAMMA',
-                'title' => 'Avv.Vigili',
-                'phone' => '0835 1980535',
-                'fax' => NULL,
-                'smart' => NULL,
-                'email' => NULL,
-                'created_at' => '2025-05-07 11:41:49',
-                'updated_at' => '2025-05-07 11:41:49',
+                'id' => 1229,
+                'contact_id' => 1403,
+                'name' => 'Roberto Franz',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '337 1321534',
+                'email' => 'roberto.franz@synergie-italia.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            110 =>
+            156 => 
             array (
                 'id' => 1230,
-                'contact_id' => 1351,
-                'name' => 'Raffaele Bencivenga',
-                'title' => 'Amministratore',
-                'phone' => NULL,
-                'fax' => NULL,
-                'smart' => '393 9198236',
-                'email' => 'rbencivenga@itibs.it',
-                'created_at' => '2025-04-30 15:24:42',
-                'updated_at' => '2025-04-30 15:25:27',
+                'contact_id' => 644,
+            'name' => 'Giovanna Tanzi (int. 4)',
+                'title' => 'Polizia Locale e Tributi',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'polizia.municipale@comune.varsi.pr.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            111 =>
+            157 => 
             array (
-                'id' => 1231,
-                'contact_id' => 1024,
-                'name' => 'Tonino Brunacci',
-                'title' => NULL,
-                'phone' => NULL,
-                'fax' => NULL,
-                'smart' => NULL,
-                'email' => 'toninobrunacci@libero.it',
-                'created_at' => '2025-05-06 09:25:30',
-                'updated_at' => '2025-05-06 09:25:30',
+                'id' => 1232,
+                'contact_id' => 1409,
+                'name' => 'Alessandro Lombardi',
+                'title' => 'Direttore IEM Italia',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '351 9282123',
+                'email' => 'a.lombardi@iemgroup.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            112 =>
+            158 => 
+            array (
+                'id' => 1233,
+                'contact_id' => 1409,
+                'name' => 'Silvia',
+                'title' => 'Referente per ordini ricambi',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'amministrazione@iemgroup.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            159 => 
+            array (
+                'id' => 1235,
+                'contact_id' => 1279,
+                'name' => '',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            160 => 
+            array (
+                'id' => 1236,
+                'contact_id' => 1279,
+                'name' => 'Dott.ssa Lina di Lello',
+                'title' => 'Presidente del C.d.A.',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '348 5266271',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            161 => 
             array (
                 'id' => 1237,
-                'contact_id' => 404,
-                'name' => 'Via A. Terzi, 31/A, 16039 Sestri Levante GE',
-                'title' => NULL,
-                'phone' => '0185 44690',
-                'fax' => NULL,
-                'smart' => NULL,
-                'email' => NULL,
-                'created_at' => '2025-05-06 13:01:32',
-                'updated_at' => '2025-05-06 13:01:32',
+                'contact_id' => 1279,
+                'name' => 'Ing. Stefano Martella',
+                'title' => 'ex Responsabile Ufficio Gare da aprile 2022 in pensione',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '348 3430385',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            113 =>
+            162 => 
+            array (
+                'id' => 1276,
+                'contact_id' => 1454,
+                'name' => 'Tommaso Ventre',
+                'title' => 'Presidente',
+                'phone' => '338 7388881',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'tommasoventre@gmail.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            163 => 
             array (
                 'id' => 1238,
-                'contact_id' => 1133,
-                'name' => 'Fagnano Maria Maddalena',
+                'contact_id' => 1412,
+                'name' => 'Dott.ssa Fanny Carmela Malomo',
                 'title' => 'Comandante',
-                'phone' => '0835 1980506',
-                'fax' => NULL,
-                'smart' => NULL,
-                'email' => NULL,
-                'created_at' => '2025-05-07 08:49:09',
-                'updated_at' => '2025-05-07 08:49:09',
+                'phone' => '0981 505660',
+                'fax' => '',
+                'smart' => '334 7078616',
+                'email' => 'fmalomo@comune.villapiana.cs.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            114 =>
+            164 => 
             array (
                 'id' => 1239,
-                'contact_id' => 1133,
-                'name' => 'Ragioneria',
-                'title' => 'Ragioneria',
-                'phone' => '0835 1980515',
-                'fax' => NULL,
-                'smart' => NULL,
-                'email' => NULL,
-                'created_at' => '2025-05-07 08:49:38',
-                'updated_at' => '2025-05-07 08:49:38',
+                'contact_id' => 1185,
+                'name' => 'Federica Di Trapani',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '3270282414',
+                'email' => 'consulenza@confederazioneservizi.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            115 =>
+            165 => 
+            array (
+                'id' => 1240,
+                'contact_id' => 1404,
+                'name' => '',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            166 => 
+            array (
+                'id' => 1241,
+                'contact_id' => 422,
+                'name' => 'Elena Gotelli',
+                'title' => 'Formazione',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '347 4351752',
+                'email' => 'segreteria@vrsformazione.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            167 => 
             array (
                 'id' => 1242,
-                'contact_id' => 1348,
-                'name' => 'Gagliardi Federico',
-                'title' => 'Direzione commerciale',
-                'phone' => '02 81878111',
-                'fax' => NULL,
-                'smart' => NULL,
-                'email' => 'direzione.commerciale@geri.hdp.it',
-                'created_at' => '2025-05-08 10:21:50',
-                'updated_at' => '2025-05-08 10:21:50',
+                'contact_id' => 909,
+                'name' => 'Francesco Serpe',
+                'title' => 'Referente diretto Wind su Genova',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '392 5678333',
+                'email' => 'francesco.serpe@partner.windtre.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
-            116 =>
+            168 => 
             array (
                 'id' => 1243,
-                'contact_id' => 1353,
-                'name' => 'Tomaso D\'incalevis',
-                'title' => NULL,
-                'phone' => NULL,
-                'fax' => NULL,
-                'smart' => '320 4304335',
-                'email' => 'tomaso@clz.bl.it',
-                'created_at' => '2025-05-08 10:31:34',
-                'updated_at' => '2025-05-08 10:31:34',
+                'contact_id' => 157,
+                'name' => 'Dott. Valerio Cutrupi',
+                'title' => 'Referente per riscossione coattiva',
+                'phone' => '014174040 int. 6',
+                'fax' => '',
+                'smart' => '349 8418628',
+                'email' => 'cutrupi@irtel.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            169 => 
+            array (
+                'id' => 1244,
+                'contact_id' => 1086,
+                'name' => '',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'ragioneria@comune.ranica.bg.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            170 => 
+            array (
+                'id' => 1245,
+                'contact_id' => 1417,
+                'name' => 'Emiliano Paninforni',
+                'title' => 'Comandante PM',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '349 4961477',
+                'email' => 'emiliano.paninforni@comune.zogno.bg.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            171 => 
+            array (
+                'id' => 1246,
+                'contact_id' => 1417,
+                'name' => 'Enrico Filippi Pioppi',
+                'title' => 'Responsabile Servizio',
+                'phone' => '0345 55022',
+                'fax' => '',
+                'smart' => '349 3565251',
+                'email' => 'enrico.filippipioppi@comune.zogno.bg.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            172 => 
+            array (
+                'id' => 1247,
+                'contact_id' => 1421,
+                'name' => 'Daniela Parecchini',
+                'title' => 'Responsabile Servizio Finanziario',
+                'phone' => '030 2537413-418',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'contratti@comune.nave.bs.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            173 => 
+            array (
+                'id' => 1248,
+                'contact_id' => 1419,
+                'name' => 'Dott. Sgarbossa',
+                'title' => 'Referente',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            174 => 
+            array (
+                'id' => 1249,
+                'contact_id' => 1421,
+                'name' => 'DOTT.SSA OGNA GESSICA',
+                'title' => 'Ufficio Tributi',
+                'phone' => '030/2537445-411',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'gessica.ogna@comune.nave.bs.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            175 => 
+            array (
+                'id' => 1250,
+                'contact_id' => 1423,
+                'name' => 'Daniela Maccari',
+                'title' => 'Responsabile Ufficio Tributi',
+            'phone' => '035 724033 (int. 1)',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'ragioneria@comune.cazzano.bg.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            176 => 
+            array (
+                'id' => 1251,
+                'contact_id' => 1424,
+                'name' => 'Cristina Tancon',
+                'title' => 'Segue l\'autovelox',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            177 => 
+            array (
+                'id' => 1252,
+                'contact_id' => 1302,
+                'name' => 'Roberto Monti',
+                'title' => 'Segue ISO e certificazioni varie',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '348 2654281',
+                'email' => 'rmonti@comped.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            178 => 
+            array (
+                'id' => 1253,
+                'contact_id' => 438,
+                'name' => '',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'ragioneria@comune.serraricco.ge.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            179 => 
+            array (
+                'id' => 1254,
+                'contact_id' => 909,
+                'name' => 'Wind Sestri Levante',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'negozio.startup55@gmail.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            180 => 
+            array (
+                'id' => 1255,
+                'contact_id' => 470,
+                'name' => 'Siffredi',
+                'title' => 'Servizi Finanziari',
+            'phone' => '0182 582913 (interni: 1 -&gt; 4)',
+                'fax' => '',
+                'smart' => '3282624215',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            181 => 
+            array (
+                'id' => 1256,
+                'contact_id' => 1438,
+                'name' => 'Felix Keil',
+                'title' => 'Fondatore e CEO',
+                'phone' => '392 9057233',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'keil@teas.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            182 => 
+            array (
+                'id' => 1257,
+                'contact_id' => 1439,
+                'name' => 'Elisa Ghislandi',
+                'title' => 'Responsabile Ufficio Tributi',
+                'phone' => '0363 996522 interno 217',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'ragioneria@comune.torrepallavicina.bg.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            183 => 
+            array (
+                'id' => 1266,
+                'contact_id' => 1439,
+                'name' => 'TER',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            184 => 
+            array (
+                'id' => 1258,
+                'contact_id' => 1440,
+                'name' => 'Dott.ssa Marino',
+                'title' => 'Comandante',
+                'phone' => '0983 9402320',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            185 => 
+            array (
+                'id' => 1259,
+                'contact_id' => 1440,
+                'name' => '',
+                'title' => 'Vigili',
+                'phone' => '0983 9402318',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'vigiliurbani.cariati@asmepec.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            186 => 
+            array (
+                'id' => 1260,
+                'contact_id' => 1440,
+                'name' => 'Dott. Morise Guarascio Bruno',
+                'title' => 'Ragioneria',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'ragioneria.cariati@asmepec.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            187 => 
+            array (
+                'id' => 1261,
+                'contact_id' => 1441,
+                'name' => 'domenico',
+                'title' => '',
+                'phone' => '3206581001',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            188 => 
+            array (
+                'id' => 1262,
+                'contact_id' => 1441,
+                'name' => 'socio domenico',
+                'title' => '',
+                'phone' => '3206581000',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            189 => 
+            array (
+                'id' => 1263,
+                'contact_id' => 1172,
+                'name' => '',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'ragioneria@cervo.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            190 => 
+            array (
+                'id' => 1264,
+                'contact_id' => 1223,
+                'name' => 'Dott.ssa BIROLI Franca',
+                'title' => 'Ragioneria e Tributi',
+                'phone' => '0382 874091',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'ragioneria@comune.borgosansiro.pv.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            191 => 
+            array (
+                'id' => 1265,
+                'contact_id' => 1002,
+                'name' => '',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            192 => 
+            array (
+                'id' => 1267,
+                'contact_id' => 1246,
+                'name' => 'Francesca Pezzatini',
+                'title' => 'Responsabile Servizio Finanziario e Tributi',
+                'phone' => '055 2036477',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            193 => 
+            array (
+                'id' => 1268,
+                'contact_id' => 204,
+                'name' => 'Carlo Perego',
+                'title' => 'Commerciale',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            194 => 
+            array (
+                'id' => 1269,
+                'contact_id' => 1450,
+                'name' => 'Antonio Moretti',
+                'title' => 'Commerciale',
+                'phone' => '380 7051616',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'antonio.moretti@nvgroup.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            195 => 
+            array (
+                'id' => 1270,
+                'contact_id' => 1450,
+                'name' => 'Entico Urru\'',
+                'title' => 'Amministratore',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'entico.urru@nvggroup.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            196 => 
+            array (
+                'id' => 1271,
+                'contact_id' => 1228,
+                'name' => 'Dott. Fabrizio Sarri',
+                'title' => 'Vice Comandante PM',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'f.sarri@comunefiv.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            197 => 
+            array (
+                'id' => 1272,
+                'contact_id' => 704,
+                'name' => 'Filiale di Molassana',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'molassana@gls-italy.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            198 => 
+            array (
+                'id' => 1273,
+                'contact_id' => 1385,
+                'name' => '',
+                'title' => 'Reparto tecnico - Invio flussi di stampa',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'ged@koinesolutions.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            199 => 
+            array (
+                'id' => 1274,
+                'contact_id' => 204,
+                'name' => 'Luca Mistrali',
+                'title' => 'Responsabile software protocollo',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '333 3284012',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            200 => 
+            array (
+                'id' => 1275,
+                'contact_id' => 1452,
+                'name' => 'Enrica Colombi',
+                'title' => 'Responsabile Ufficio Tributi',
+                'phone' => '035 731108 int. 3',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'ragioneria@comune.peia.big.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            201 => 
+            array (
+                'id' => 1277,
+                'contact_id' => 1456,
+                'name' => 'Massimiliano Ridolfi',
+                'title' => 'Hub parking',
+                'phone' => '344 0222193',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'massimiliano.ridolfi@hubparking.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            202 => 
+            array (
+                'id' => 1278,
+                'contact_id' => 994,
+                'name' => 'Polizia Locale',
+                'title' => 'polizialocale@comune.basiglio.mi.it',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'm.coniglio@comune.basiglio.mi.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            203 => 
+            array (
+                'id' => 1279,
+                'contact_id' => 1407,
+                'name' => 'Pietro Domenico Pastorino',
+                'title' => 'Comandante Polizia Municipale',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '3453686144',
+                'email' => 'polizialocale@unionedaltobbioalcolma.al.it - pastorino.nico59@gmail.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            204 => 
+            array (
+                'id' => 1280,
+                'contact_id' => 1259,
+                'name' => 'Mara Colombi',
+                'title' => '',
+                'phone' => '035 745 567',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'finanziario2@comune.gandino.bg.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            205 => 
+            array (
+                'id' => 1281,
+                'contact_id' => 1457,
+                'name' => 'Fabio Crotti',
+                'title' => 'Comandante PM',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '331.2176048',
+                'email' => 'vigili@comune.vinzaglio.no.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            206 => 
+            array (
+                'id' => 1299,
+                'contact_id' => 1488,
+                'name' => 'Informazioni generli',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'info@mondospedizioni.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            207 => 
+            array (
+                'id' => 1282,
+                'contact_id' => 1468,
+                'name' => 'IP SERVIZI SRL VIA DEI MEDICI 16 24016 SAN PELLEGRINO TERME BG',
+                'title' => 'AFFISSATORE',
+                'phone' => '0345 21107',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'info@affissionicomunali.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            208 => 
+            array (
+                'id' => 1283,
+                'contact_id' => 1468,
+                'name' => 'Bonetti Roberta',
+                'title' => 'Responsabile dell\'Ufficio Tributi',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'tributi@comune.gromo.bg.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            209 => 
+            array (
+                'id' => 1284,
+                'contact_id' => 1064,
+                'name' => 'Orlando Ciurlo',
+                'title' => 'Consulente commerciale',
+                'phone' => '010 7261450',
+                'fax' => '',
+                'smart' => '338 7511140',
+                'email' => 'o.ciurlo@mollonoleggio.com - genova@mollonoleggio.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            210 => 
+            array (
+                'id' => 1285,
+                'contact_id' => 1457,
+                'name' => 'Oliviero Giuseppe',
+                'title' => 'Sindaco',
+                'phone' => '0161 317127',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'sindaco@comune.vinzaglio.no.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            211 => 
+            array (
+                'id' => 1286,
+                'contact_id' => 1154,
+                'name' => 'Carolina Vendramini',
+                'title' => 'Comandante',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            212 => 
+            array (
+                'id' => 1287,
+                'contact_id' => 366,
+                'name' => 'Musante Raffaella',
+                'title' => 'Ufficio Tecnico',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'uff_tecnico.davagna@comunedavagna.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            213 => 
+            array (
+                'id' => 1288,
+                'contact_id' => 135,
+                'name' => 'Renza Baratta',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'renza.baratta@comune.castiglione-chiavarese.ge.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            214 => 
+            array (
+                'id' => 1289,
+                'contact_id' => 1352,
+                'name' => 'Nencetti Antonio',
+                'title' => 'Ufficio Urbanistica',
+                'phone' => '0558385430',
+                'fax' => '',
+                'smart' => '3356479686',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            215 => 
+            array (
+                'id' => 1290,
+                'contact_id' => 200,
+                'name' => '',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            216 => 
+            array (
+                'id' => 1292,
+                'contact_id' => 1488,
+                'name' => 'Francesco Gatto',
+                'title' => 'Commerciale',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'supporto@mondospedizioni.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            217 => 
+            array (
+                'id' => 1293,
+                'contact_id' => 1497,
+                'name' => 'Dott. Matteo Tegazzini',
+                'title' => 'Responsabile Ufficio Ragioneria',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'ragioneria@comune.calto.ro.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            218 => 
+            array (
+                'id' => 1294,
+                'contact_id' => 1305,
+                'name' => '',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            219 => 
+            array (
+                'id' => 1295,
+                'contact_id' => 1156,
+                'name' => 'Ufficio Tributi',
+                'title' => '',
+                'phone' => '0525.811356',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'ced.albuzzano@icatributi.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            220 => 
+            array (
+                'id' => 1296,
+                'contact_id' => 1498,
+                'name' => 'Laura Mimmo',
+                'title' => '',
+                'phone' => '0185 043648',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            221 => 
+            array (
+                'id' => 1297,
+                'contact_id' => 1498,
+                'name' => '',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            222 => 
+            array (
+                'id' => 1298,
+                'contact_id' => 1498,
+                'name' => 'Matteo Baldassarri',
+                'title' => '',
+                'phone' => '0185 043931',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            223 => 
+            array (
+                'id' => 1301,
+                'contact_id' => 955,
+                'name' => 'Erika',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'gare@engine.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            224 => 
+            array (
+                'id' => 1302,
+                'contact_id' => 1509,
+                'name' => 'Michele Restuccia',
+                'title' => 'Acquisizione clienti filiale italia',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '393 428636799',
+                'email' => 'michele.restuccia@dkv-mobility.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            225 => 
+            array (
+                'id' => 1303,
+                'contact_id' => 1171,
+                'name' => 'Paola Demartini',
+                'title' => '',
+                'phone' => '0131 9596209',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'p.demartini@comune.valenza.al.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            226 => 
+            array (
+                'id' => 1304,
+                'contact_id' => 1510,
+                'name' => 'Giuseppe Basili',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '335 6214142',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
             ),
         ));
-
-
+        
+        
     }
 }
