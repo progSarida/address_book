@@ -93,4 +93,35 @@ enum Titles: string implements HasLabel
             self::AFFISSATORE => 'AF'
         };
     }
+
+    public function getId(): string
+    {
+        return match($this) {
+            self::NESSUNO => 1,
+            self::ENTE_PUBBLICO => 2,
+            self::CONCESSIONARIO => 3,
+            self::ASSOCIAZIONE => 5,
+            self::DIPENDENTE => 6,
+            self::PROGRAMMATORE => 7,
+            self::CONSORZIO => 9,
+            self::TRIBUTARIA_PROVINCIALE => 10,
+            self::TRIBUTARIA_REGIONALE => 11,
+            self::FORNITORE => 12,
+            self::STUDIO_NOTARILE => 13,
+            self::BANCA => 14,
+            self::COLLABORATORE => 15,
+            self::COMMERCIALISTA => 16,
+            self::CONSULENTE_LAVORO => 17,
+            self::TRIBUNALE => 18,
+            self::GIUDICE_PACE => 19,
+            self::SEGRETARIO_COMUNALE => 20,
+            self::ASSICURAZIONE => 21,
+            self::NOLEGGIO => 22,
+            self::AMICI => 23,
+            self::COMUNE => 25,
+            self::UFFICIALE_RISCOSSIONE => 26,
+            self::AFFISSATORE => 27,
+            self::GUARDIA_FINANZA => 28
+        };
+    }
 }

@@ -14,16 +14,19 @@ return new class extends Migration
         Schema::create('contacts', function (Blueprint $table) {
             $table->id();
             $table->string('company');                                  // Enum per dare accessibilità in base ad azienda (indicata nell'utente)
-            $table->string('title');                                    // Enum
+            $table->integer('title_id');                                // temporaneo per aggiornamento dati
+            $table->string('title')->default('');                       // Enum
             $table->string('surname');
             $table->string('name');
-            $table->string('toponym');                                  // Enum
+            $table->integer('toponym_id');                              // temporaneo per aggiornamento dati
+            $table->string('toponym')->default('');                     // Enum
             $table->string('addr');
             $table->string('num');
             $table->string('apart');
             $table->string('city');
             $table->string('cap');
-            $table->string('province');
+            $table->integer('province_id');                             // temporaneo per aggiornamento dati
+            $table->string('province')->default('');
             $table->string('phone_1');
             $table->string('phone_2');
             $table->string('fax');

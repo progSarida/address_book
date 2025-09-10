@@ -81,4 +81,31 @@ enum Toponyms: string implements HasLabel
             self::AVENUE => 'Av.'
         };
     }
+
+    public function getId(): string
+    {
+        return match($this) {
+            self::NESSUNO => '',
+            self::VIA => 1,
+            self::VIALE => 2,
+            self::CORSO => 3,
+            self::PIAZZA => 4,
+            self::STRADA => 5,
+            self::PRIVATA => 6,
+            self::PIAZZALE => 7,
+            self::VICO => 8,
+            self::SALITA => 9,
+            self::CALLA => 10,
+            self::CAMPO => 11,
+            self::LARGO => 12,
+            self::CIRCONVALLAZIONE => 13,
+            self::TANGENZIALE => 14,
+            self::PIAZZETTA => 15,
+            self::CAMPIELLO => 16,
+            self::VICOLO => 17,
+            self::BORGO => 18,
+            self::LOCALITA => 19,
+            self::AVENUE => 20
+        };
+    }
 }
