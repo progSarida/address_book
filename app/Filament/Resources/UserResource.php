@@ -22,7 +22,7 @@ class UserResource extends Resource
 
     public static ?string $pluralModelLabel = 'Elenco utenti';
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'fas-users';
 
     public static function form(Form $form): Form
     {

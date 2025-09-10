@@ -33,7 +33,7 @@ class ContactResource extends Resource
 
     protected static ?string $navigationLabel = 'Elenco contatti';
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'far-address-book';
 
     public static function form(Form $form): Form
     {
