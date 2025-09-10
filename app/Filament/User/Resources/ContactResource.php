@@ -225,6 +225,9 @@ class ContactResource extends Resource
                                         Forms\Components\TextInput::make('name')
                                             ->label('Nome')
                                             ->required(),
+                                        Forms\Components\TextInput::make('title')
+                                            ->label('Qualifica')
+                                            ->required(),
                                         Forms\Components\TextInput::make('phone')
                                             ->label('Telefono'),
                                         Forms\Components\TextInput::make('smart')
@@ -239,7 +242,7 @@ class ContactResource extends Resource
                                     ->createItemButtonLabel('Aggiungi referente')
                                     ->defaultItems(0)
                                     ->grid(1)
-                                    ->itemLabel(fn (array $state): ?string => $state['name'] ?? null)
+                                    ->itemLabel(fn (array $state): ?string => $state['name'] . ' - ' . $state['title'] ?? null)
                                     ->deleteAction(
                                         fn ($action) => $action->requiresConfirmation()
                                             ->modalHeading('Conferma eliminazione')
