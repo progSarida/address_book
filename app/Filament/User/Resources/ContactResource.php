@@ -23,6 +23,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Blade;
+use Stevebauman\Purify\Facades\Purify;
 
 
 class ContactResource extends Resource
@@ -226,8 +227,7 @@ class ContactResource extends Resource
                                             ->label('Nome')
                                             ->required(),
                                         Forms\Components\TextInput::make('title')
-                                            ->label('Qualifica')
-                                            ->required(),
+                                            ->label('Qualifica'),
                                         Forms\Components\TextInput::make('phone')
                                             ->label('Telefono'),
                                         Forms\Components\TextInput::make('smart')

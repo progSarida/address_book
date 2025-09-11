@@ -14,25 +14,25 @@ return new class extends Migration
         Schema::create('contacts', function (Blueprint $table) {
             $table->id();
             $table->string('company');                                  // Enum
-            $table->string('title');                                    // Enum (controllare per title_id = 0)
+            $table->string('title')->nullable();                                    // Enum (controllare per title_id = 0)
             $table->string('surname');
-            $table->string('name');
-            $table->string('toponym');                                  // Enum
-            $table->string('addr');
-            $table->string('num');
-            $table->string('apart');
-            $table->string('city');
-            $table->string('cap');
-            $table->string('province');
-            $table->string('phone_1');
-            $table->string('phone_2');
-            $table->string('fax');
-            $table->string('smart_1');
-            $table->string('smart_2');
-            $table->string('email_1');
-            $table->string('email_2');
-            $table->string('site');
-            $table->string('note');
+            $table->string('name')->nullable();
+            $table->string('toponym')->nullable();                                  // Enum
+            $table->string('addr')->nullable();
+            $table->string('num')->nullable();
+            $table->string('apart')->nullable();
+            $table->string('city')->nullable();
+            $table->string('cap')->nullable();
+            $table->string('province')->nullable();
+            $table->string('phone_1')->nullable();
+            $table->string('phone_2')->nullable();
+            $table->string('fax')->nullable();
+            $table->string('smart_1')->nullable();
+            $table->string('smart_2')->nullable();
+            $table->string('email_1')->nullable();
+            $table->string('email_2')->nullable();
+            $table->string('site')->nullable();
+            $table->string('note')->nullable();
             $table->timestamps();
         });
 
@@ -40,11 +40,11 @@ return new class extends Migration
             $table->id();
             $table->foreignId('contact_id')->constrained()->onDelete('cascade');
             $table->string('name');
-            $table->string('title');
-            $table->string('phone');
-            $table->string('fax');
-            $table->string('smart');
-            $table->string('email');
+            $table->string('title')->nullable();
+            $table->string('phone')->nullable();
+            $table->string('fax')->nullable();
+            $table->string('smart')->nullable();
+            $table->string('email')->nullable();
             $table->timestamps();
         });
 
