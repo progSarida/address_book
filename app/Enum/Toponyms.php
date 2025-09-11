@@ -85,7 +85,7 @@ enum Toponyms: string implements HasLabel
     public function getId(): string
     {
         return match($this) {
-            self::NESSUNO => '',
+            self::NESSUNO => 0,
             self::VIA => 1,
             self::VIALE => 2,
             self::CORSO => 3,
@@ -104,8 +104,8 @@ enum Toponyms: string implements HasLabel
             self::CAMPIELLO => 16,
             self::VICOLO => 17,
             self::BORGO => 18,
-            self::LOCALITA => 19,
-            self::AVENUE => 20
+            self::LOCALITA => 20,
+            self::AVENUE => 21
         };
     }
 }

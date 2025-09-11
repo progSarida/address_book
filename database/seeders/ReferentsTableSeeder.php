@@ -21,57 +21,31 @@ class ReferentsTableSeeder extends Seeder
         \DB::table('referents')->insert(array (
             0 => 
             array (
-                'id' => 28,
-                'contact_id' => 113,
-                'name' => 'Oreglia Dario',
-                'title' => 'Amministratore',
-                'phone' => '',
+                'id' => 20,
+                'contact_id' => 101,
+                'name' => 'Sambuceti Daniela',
+                'title' => 'Amministratrice',
+                'phone' => '328 6330590 Sarida',
                 'fax' => '',
-                'smart' => '335 7540506',
-                'email' => 'dario.oreglia@areariscossioni.it',
+                'smart' => ' 348 7128708 personale',
+                'email' => 'daniela.sambuceti@sarida.it',
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
             1 => 
             array (
-                'id' => 27,
-                'contact_id' => 108,
-                'name' => 'Pingitore',
+                'id' => 21,
+                'contact_id' => 101,
+                'name' => 'Sambuceti Riccardo',
                 'title' => '',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '',
-                'email' => '',
+                'smart' => '338 5433698',
+                'email' => 'riccardo.sambuceti@sarida.it',
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
             2 => 
-            array (
-                'id' => 25,
-                'contact_id' => 106,
-                'name' => '',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            3 => 
-            array (
-                'id' => 26,
-                'contact_id' => 107,
-                'name' => 'Carlo Merani',
-                'title' => '',
-                'phone' => '01151121',
-                'fax' => '0115112304',
-                'smart' => '',
-                'email' => 'carlo.merani@allenovery.com',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            4 => 
             array (
                 'id' => 22,
                 'contact_id' => 104,
@@ -84,7 +58,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            5 => 
+            3 => 
             array (
                 'id' => 23,
                 'contact_id' => 105,
@@ -97,7 +71,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            6 => 
+            4 => 
             array (
                 'id' => 24,
                 'contact_id' => 103,
@@ -110,46 +84,59 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            7 => 
+            5 => 
             array (
-                'id' => 21,
-                'contact_id' => NULL,
-                'name' => 'Sambuceti Riccardo',
+                'id' => 25,
+                'contact_id' => 106,
+                'name' => '',
                 'title' => '',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '338 5433698',
-                'email' => 'riccardo.sambuceti@sarida.it',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            6 => 
+            array (
+                'id' => 26,
+                'contact_id' => 107,
+                'name' => 'Carlo Merani',
+                'title' => '',
+                'phone' => '01151121',
+                'fax' => '0115112304',
+                'smart' => '',
+                'email' => 'carlo.merani@allenovery.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            7 => 
+            array (
+                'id' => 27,
+                'contact_id' => 108,
+                'name' => 'Pingitore',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
             8 => 
             array (
-                'id' => 20,
-                'contact_id' => NULL,
-                'name' => 'Sambuceti Daniela',
-                'title' => 'Amministratrice',
-                'phone' => '328 6330590 Sarida',
+                'id' => 28,
+                'contact_id' => 113,
+                'name' => 'Oreglia Dario',
+                'title' => 'Amministratore',
+                'phone' => '',
                 'fax' => '',
-                'smart' => ' 348 7128708 personale',
-                'email' => 'daniela.sambuceti@sarida.it',
+                'smart' => '335 7540506',
+                'email' => 'dario.oreglia@areariscossioni.it',
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
             9 => 
-            array (
-                'id' => 335,
-                'contact_id' => 461,
-                'name' => 'Angelo Spalluto',
-                'title' => 'Responsabile commerciale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '3204843551',
-                'email' => 'info@savesistemi.eu',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            10 => 
             array (
                 'id' => 30,
                 'contact_id' => 114,
@@ -162,7 +149,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            11 => 
+            10 => 
             array (
                 'id' => 31,
                 'contact_id' => 120,
@@ -175,7 +162,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            12 => 
+            11 => 
             array (
                 'id' => 32,
                 'contact_id' => 120,
@@ -188,7 +175,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            13 => 
+            12 => 
             array (
                 'id' => 33,
                 'contact_id' => 120,
@@ -201,7 +188,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            14 => 
+            13 => 
             array (
                 'id' => 34,
                 'contact_id' => 117,
@@ -214,20 +201,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            15 => 
-            array (
-                'id' => 389,
-                'contact_id' => 545,
-                'name' => 'Guarci',
-                'title' => 'Assistenza tecnica',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            16 => 
+            14 => 
             array (
                 'id' => 36,
                 'contact_id' => 131,
@@ -240,7 +214,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            17 => 
+            15 => 
             array (
                 'id' => 38,
                 'contact_id' => 131,
@@ -253,7 +227,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            18 => 
+            16 => 
             array (
                 'id' => 39,
                 'contact_id' => 131,
@@ -266,7 +240,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            19 => 
+            17 => 
             array (
                 'id' => 40,
                 'contact_id' => 132,
@@ -279,7 +253,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            20 => 
+            18 => 
             array (
                 'id' => 41,
                 'contact_id' => 132,
@@ -292,7 +266,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            21 => 
+            19 => 
             array (
                 'id' => 42,
                 'contact_id' => 133,
@@ -305,20 +279,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            22 => 
-            array (
-                'id' => 165,
-                'contact_id' => 298,
-                'name' => 'Nicoletta De Cristofaro',
-                'title' => 'Comandante PM',
-                'phone' => '0523 930122',
-                'fax' => '',
-                'smart' => '333 4434986',
-                'email' => 'p.municipale@comune.ottone.pc.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            23 => 
+            20 => 
             array (
                 'id' => 43,
                 'contact_id' => 134,
@@ -331,7 +292,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            24 => 
+            21 => 
             array (
                 'id' => 44,
                 'contact_id' => 135,
@@ -344,7 +305,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            25 => 
+            22 => 
             array (
                 'id' => 45,
                 'contact_id' => 107,
@@ -357,7 +318,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            26 => 
+            23 => 
             array (
                 'id' => 46,
                 'contact_id' => 106,
@@ -370,7 +331,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            27 => 
+            24 => 
             array (
                 'id' => 47,
                 'contact_id' => 144,
@@ -383,7 +344,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            28 => 
+            25 => 
             array (
                 'id' => 48,
                 'contact_id' => 144,
@@ -396,7 +357,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            29 => 
+            26 => 
             array (
                 'id' => 49,
                 'contact_id' => 144,
@@ -409,7 +370,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            30 => 
+            27 => 
             array (
                 'id' => 50,
                 'contact_id' => 145,
@@ -422,7 +383,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            31 => 
+            28 => 
             array (
                 'id' => 51,
                 'contact_id' => 145,
@@ -435,7 +396,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            32 => 
+            29 => 
             array (
                 'id' => 52,
                 'contact_id' => 146,
@@ -448,7 +409,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            33 => 
+            30 => 
             array (
                 'id' => 53,
                 'contact_id' => 147,
@@ -461,7 +422,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            34 => 
+            31 => 
             array (
                 'id' => 54,
                 'contact_id' => 147,
@@ -474,7 +435,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            35 => 
+            32 => 
             array (
                 'id' => 55,
                 'contact_id' => 147,
@@ -487,7 +448,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            36 => 
+            33 => 
             array (
                 'id' => 56,
                 'contact_id' => 147,
@@ -500,7 +461,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            37 => 
+            34 => 
             array (
                 'id' => 57,
                 'contact_id' => 147,
@@ -513,7 +474,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            38 => 
+            35 => 
             array (
                 'id' => 58,
                 'contact_id' => 148,
@@ -526,7 +487,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            39 => 
+            36 => 
             array (
                 'id' => 59,
                 'contact_id' => 148,
@@ -539,7 +500,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            40 => 
+            37 => 
             array (
                 'id' => 60,
                 'contact_id' => 149,
@@ -552,7 +513,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            41 => 
+            38 => 
             array (
                 'id' => 61,
                 'contact_id' => 149,
@@ -565,7 +526,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            42 => 
+            39 => 
             array (
                 'id' => 62,
                 'contact_id' => 150,
@@ -578,7 +539,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            43 => 
+            40 => 
             array (
                 'id' => 63,
                 'contact_id' => 151,
@@ -591,7 +552,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            44 => 
+            41 => 
             array (
                 'id' => 64,
                 'contact_id' => 151,
@@ -604,7 +565,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            45 => 
+            42 => 
             array (
                 'id' => 65,
                 'contact_id' => 151,
@@ -617,7 +578,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            46 => 
+            43 => 
             array (
                 'id' => 66,
                 'contact_id' => 151,
@@ -630,7 +591,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            47 => 
+            44 => 
             array (
                 'id' => 67,
                 'contact_id' => 152,
@@ -643,7 +604,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            48 => 
+            45 => 
             array (
                 'id' => 68,
                 'contact_id' => 152,
@@ -656,7 +617,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            49 => 
+            46 => 
             array (
                 'id' => 69,
                 'contact_id' => 153,
@@ -669,7 +630,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            50 => 
+            47 => 
             array (
                 'id' => 70,
                 'contact_id' => 157,
@@ -682,7 +643,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            51 => 
+            48 => 
             array (
                 'id' => 71,
                 'contact_id' => 157,
@@ -695,7 +656,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            52 => 
+            49 => 
             array (
                 'id' => 72,
                 'contact_id' => 158,
@@ -708,7 +669,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            53 => 
+            50 => 
             array (
                 'id' => 73,
                 'contact_id' => 158,
@@ -721,7 +682,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            54 => 
+            51 => 
             array (
                 'id' => 74,
                 'contact_id' => 158,
@@ -734,20 +695,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            55 => 
-            array (
-                'id' => 75,
-                'contact_id' => NULL,
-                'name' => 'Barriera Sergio',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            56 => 
+            52 => 
             array (
                 'id' => 76,
                 'contact_id' => 163,
@@ -760,7 +708,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            57 => 
+            53 => 
             array (
                 'id' => 77,
                 'contact_id' => 163,
@@ -773,7 +721,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            58 => 
+            54 => 
             array (
                 'id' => 78,
                 'contact_id' => 163,
@@ -786,7 +734,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            59 => 
+            55 => 
             array (
                 'id' => 79,
                 'contact_id' => 165,
@@ -799,7 +747,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            60 => 
+            56 => 
             array (
                 'id' => 80,
                 'contact_id' => 165,
@@ -812,7 +760,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            61 => 
+            57 => 
             array (
                 'id' => 81,
                 'contact_id' => 166,
@@ -825,7 +773,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            62 => 
+            58 => 
             array (
                 'id' => 82,
                 'contact_id' => 166,
@@ -838,7 +786,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            63 => 
+            59 => 
             array (
                 'id' => 83,
                 'contact_id' => 167,
@@ -851,7 +799,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            64 => 
+            60 => 
             array (
                 'id' => 84,
                 'contact_id' => 167,
@@ -864,7 +812,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            65 => 
+            61 => 
             array (
                 'id' => 85,
                 'contact_id' => 153,
@@ -877,7 +825,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            66 => 
+            62 => 
             array (
                 'id' => 86,
                 'contact_id' => 153,
@@ -890,7 +838,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            67 => 
+            63 => 
             array (
                 'id' => 87,
                 'contact_id' => 170,
@@ -903,7 +851,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            68 => 
+            64 => 
             array (
                 'id' => 88,
                 'contact_id' => 170,
@@ -916,7 +864,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            69 => 
+            65 => 
             array (
                 'id' => 89,
                 'contact_id' => 170,
@@ -929,7 +877,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            70 => 
+            66 => 
             array (
                 'id' => 90,
                 'contact_id' => 170,
@@ -942,7 +890,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            71 => 
+            67 => 
             array (
                 'id' => 91,
                 'contact_id' => 175,
@@ -955,7 +903,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            72 => 
+            68 => 
             array (
                 'id' => 92,
                 'contact_id' => 175,
@@ -968,7 +916,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            73 => 
+            69 => 
             array (
                 'id' => 93,
                 'contact_id' => 149,
@@ -981,7 +929,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            74 => 
+            70 => 
             array (
                 'id' => 94,
                 'contact_id' => 188,
@@ -994,7 +942,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            75 => 
+            71 => 
             array (
                 'id' => 95,
                 'contact_id' => 193,
@@ -1007,20 +955,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            76 => 
-            array (
-                'id' => 173,
-                'contact_id' => 236,
-                'name' => 'Assessore Finanze Gallo',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            77 => 
+            72 => 
             array (
                 'id' => 97,
                 'contact_id' => 204,
@@ -1033,7 +968,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            78 => 
+            73 => 
             array (
                 'id' => 98,
                 'contact_id' => 205,
@@ -1046,7 +981,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            79 => 
+            74 => 
             array (
                 'id' => 99,
                 'contact_id' => 205,
@@ -1059,7 +994,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            80 => 
+            75 => 
             array (
                 'id' => 100,
                 'contact_id' => 144,
@@ -1072,7 +1007,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            81 => 
+            76 => 
             array (
                 'id' => 101,
                 'contact_id' => 207,
@@ -1085,7 +1020,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            82 => 
+            77 => 
             array (
                 'id' => 102,
                 'contact_id' => 193,
@@ -1098,20 +1033,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            83 => 
-            array (
-                'id' => 166,
-                'contact_id' => 298,
-                'name' => 'Giovanni Piazza',
-                'title' => 'Sindaco',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '335 7057656',
-                'email' => 'comune.ottone@sintranet.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            84 => 
+            78 => 
             array (
                 'id' => 103,
                 'contact_id' => 209,
@@ -1124,7 +1046,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            85 => 
+            79 => 
             array (
                 'id' => 104,
                 'contact_id' => 209,
@@ -1137,7 +1059,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            86 => 
+            80 => 
             array (
                 'id' => 105,
                 'contact_id' => 210,
@@ -1150,7 +1072,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            87 => 
+            81 => 
             array (
                 'id' => 106,
                 'contact_id' => 210,
@@ -1163,7 +1085,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            88 => 
+            82 => 
             array (
                 'id' => 107,
                 'contact_id' => 214,
@@ -1176,7 +1098,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            89 => 
+            83 => 
             array (
                 'id' => 108,
                 'contact_id' => 105,
@@ -1189,33 +1111,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            90 => 
-            array (
-                'id' => 111,
-                'contact_id' => 221,
-                'name' => 'Dott.ssa Vera Silvia Corna',
-                'title' => 'ufficio tributi Int. 4',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'info@comune.santomobonoterme.bg.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            91 => 
-            array (
-                'id' => 355,
-                'contact_id' => 401,
-                'name' => 'Ilaria Eizi',
-                'title' => 'Amministrativo Autorizzazione alla stampa in proprio ecc',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'i.egizi@mercurioservice.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            92 => 
+            84 => 
             array (
                 'id' => 110,
                 'contact_id' => 218,
@@ -1228,7 +1124,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            93 => 
+            85 => 
+            array (
+                'id' => 111,
+                'contact_id' => 221,
+                'name' => 'Dott.ssa Vera Silvia Corna',
+                'title' => 'ufficio tributi Int. 4',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'info@comune.santomobonoterme.bg.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            86 => 
             array (
                 'id' => 113,
                 'contact_id' => 222,
@@ -1241,7 +1150,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            94 => 
+            87 => 
             array (
                 'id' => 114,
                 'contact_id' => 175,
@@ -1254,7 +1163,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            95 => 
+            88 => 
             array (
                 'id' => 115,
                 'contact_id' => 193,
@@ -1267,7 +1176,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            96 => 
+            89 => 
             array (
                 'id' => 116,
                 'contact_id' => 158,
@@ -1280,7 +1189,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            97 => 
+            90 => 
             array (
                 'id' => 117,
                 'contact_id' => 175,
@@ -1293,7 +1202,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            98 => 
+            91 => 
             array (
                 'id' => 118,
                 'contact_id' => 175,
@@ -1306,7 +1215,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            99 => 
+            92 => 
             array (
                 'id' => 119,
                 'contact_id' => 207,
@@ -1319,7 +1228,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            100 => 
+            93 => 
             array (
                 'id' => 120,
                 'contact_id' => 230,
@@ -1332,7 +1241,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            101 => 
+            94 => 
             array (
                 'id' => 121,
                 'contact_id' => 232,
@@ -1345,7 +1254,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            102 => 
+            95 => 
             array (
                 'id' => 122,
                 'contact_id' => 120,
@@ -1358,7 +1267,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            103 => 
+            96 => 
             array (
                 'id' => 123,
                 'contact_id' => 233,
@@ -1371,7 +1280,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            104 => 
+            97 => 
             array (
                 'id' => 124,
                 'contact_id' => 234,
@@ -1384,33 +1293,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            105 => 
-            array (
-                'id' => 125,
-                'contact_id' => 234,
-                'name' => '',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            106 => 
-            array (
-                'id' => 1234,
-                'contact_id' => 1410,
-                'name' => 'Dott.ssa Nicole Zanchi',
-                'title' => 'Responsabile UT',
-                'phone' => '035 863180 - int. 2',
-                'fax' => '',
-                'smart' => '348 7631150',
-                'email' => 'ragioneria@comune.strozza.bg.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            107 => 
+            98 => 
             array (
                 'id' => 126,
                 'contact_id' => 236,
@@ -1423,7 +1306,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            108 => 
+            99 => 
             array (
                 'id' => 127,
                 'contact_id' => 237,
@@ -1436,7 +1319,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            109 => 
+            100 => 
             array (
                 'id' => 128,
                 'contact_id' => 237,
@@ -1449,7 +1332,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            110 => 
+            101 => 
             array (
                 'id' => 129,
                 'contact_id' => 237,
@@ -1462,7 +1345,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            111 => 
+            102 => 
             array (
                 'id' => 130,
                 'contact_id' => 236,
@@ -1475,7 +1358,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            112 => 
+            103 => 
             array (
                 'id' => 131,
                 'contact_id' => 238,
@@ -1488,7 +1371,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            113 => 
+            104 => 
             array (
                 'id' => 132,
                 'contact_id' => 238,
@@ -1501,7 +1384,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            114 => 
+            105 => 
             array (
                 'id' => 133,
                 'contact_id' => 238,
@@ -1514,7 +1397,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            115 => 
+            106 => 
             array (
                 'id' => 134,
                 'contact_id' => 238,
@@ -1527,7 +1410,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            116 => 
+            107 => 
             array (
                 'id' => 135,
                 'contact_id' => 239,
@@ -1540,7 +1423,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            117 => 
+            108 => 
             array (
                 'id' => 136,
                 'contact_id' => 240,
@@ -1553,7 +1436,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            118 => 
+            109 => 
             array (
                 'id' => 137,
                 'contact_id' => 243,
@@ -1566,7 +1449,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            119 => 
+            110 => 
             array (
                 'id' => 138,
                 'contact_id' => 234,
@@ -1579,7 +1462,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            120 => 
+            111 => 
             array (
                 'id' => 139,
                 'contact_id' => 214,
@@ -1592,7 +1475,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            121 => 
+            112 => 
             array (
                 'id' => 140,
                 'contact_id' => 246,
@@ -1605,7 +1488,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            122 => 
+            113 => 
             array (
                 'id' => 143,
                 'contact_id' => 234,
@@ -1618,7 +1501,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            123 => 
+            114 => 
             array (
                 'id' => 144,
                 'contact_id' => 255,
@@ -1631,7 +1514,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            124 => 
+            115 => 
             array (
                 'id' => 145,
                 'contact_id' => 163,
@@ -1644,7 +1527,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            125 => 
+            116 => 
             array (
                 'id' => 146,
                 'contact_id' => 256,
@@ -1657,33 +1540,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            126 => 
+            117 => 
             array (
                 'id' => 147,
                 'contact_id' => 234,
                 'name' => 'Ballaera Silvana',
-                'title' => 'Contabilit',
+                'title' => 'Funzionario responsabile',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
                 'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-09-05 08:30:51',
             ),
-            127 => 
-            array (
-                'id' => 148,
-                'contact_id' => NULL,
-                'name' => 'Affissioni Via Nazionale 373 Orario 12/13',
-                'title' => '',
-                'phone' => '346 1226161',
-                'fax' => '0185 41499',
-                'smart' => '346 1226161',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            128 => 
+            118 => 
             array (
                 'id' => 149,
                 'contact_id' => 261,
@@ -1696,20 +1566,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            129 => 
-            array (
-                'id' => 150,
-                'contact_id' => NULL,
-                'name' => 'Beronio Pierluigi',
-                'title' => 'Sindaco',
-                'phone' => '329 4188651',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            130 => 
+            119 => 
             array (
                 'id' => 151,
                 'contact_id' => 265,
@@ -1722,7 +1579,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            131 => 
+            120 => 
             array (
                 'id' => 152,
                 'contact_id' => 266,
@@ -1735,7 +1592,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            132 => 
+            121 => 
             array (
                 'id' => 153,
                 'contact_id' => 260,
@@ -1748,7 +1605,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            133 => 
+            122 => 
             array (
                 'id' => 154,
                 'contact_id' => 148,
@@ -1761,7 +1618,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            134 => 
+            123 => 
             array (
                 'id' => 155,
                 'contact_id' => 237,
@@ -1774,7 +1631,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            135 => 
+            124 => 
             array (
                 'id' => 156,
                 'contact_id' => 223,
@@ -1787,7 +1644,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            136 => 
+            125 => 
             array (
                 'id' => 157,
                 'contact_id' => 236,
@@ -1800,7 +1657,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            137 => 
+            126 => 
             array (
                 'id' => 158,
                 'contact_id' => 145,
@@ -1813,7 +1670,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            138 => 
+            127 => 
             array (
                 'id' => 159,
                 'contact_id' => 145,
@@ -1826,7 +1683,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            139 => 
+            128 => 
             array (
                 'id' => 160,
                 'contact_id' => 261,
@@ -1839,7 +1696,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            140 => 
+            129 => 
             array (
                 'id' => 161,
                 'contact_id' => 294,
@@ -1852,7 +1709,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            141 => 
+            130 => 
             array (
                 'id' => 162,
                 'contact_id' => 191,
@@ -1865,7 +1722,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            142 => 
+            131 => 
             array (
                 'id' => 163,
                 'contact_id' => 296,
@@ -1878,7 +1735,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            143 => 
+            132 => 
             array (
                 'id' => 164,
                 'contact_id' => 265,
@@ -1891,7 +1748,33 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            144 => 
+            133 => 
+            array (
+                'id' => 165,
+                'contact_id' => 298,
+                'name' => 'Nicoletta De Cristofaro',
+                'title' => 'Comandante PM',
+                'phone' => '0523 930122',
+                'fax' => '',
+                'smart' => '333 4434986',
+                'email' => 'p.municipale@comune.ottone.pc.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            134 => 
+            array (
+                'id' => 166,
+                'contact_id' => 298,
+                'name' => 'Giovanni Piazza',
+                'title' => 'Sindaco',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '335 7057656',
+                'email' => 'comune.ottone@sintranet.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            135 => 
             array (
                 'id' => 167,
                 'contact_id' => 299,
@@ -1904,7 +1787,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            145 => 
+            136 => 
             array (
                 'id' => 168,
                 'contact_id' => 239,
@@ -1917,7 +1800,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            146 => 
+            137 => 
             array (
                 'id' => 169,
                 'contact_id' => 185,
@@ -1930,7 +1813,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            147 => 
+            138 => 
             array (
                 'id' => 170,
                 'contact_id' => 300,
@@ -1943,7 +1826,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            148 => 
+            139 => 
             array (
                 'id' => 171,
                 'contact_id' => 300,
@@ -1956,7 +1839,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            149 => 
+            140 => 
             array (
                 'id' => 172,
                 'contact_id' => 300,
@@ -1969,7 +1852,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            150 => 
+            141 => 
+            array (
+                'id' => 173,
+                'contact_id' => 236,
+                'name' => 'Assessore Finanze Gallo',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            142 => 
             array (
                 'id' => 174,
                 'contact_id' => 301,
@@ -1982,7 +1878,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            151 => 
+            143 => 
             array (
                 'id' => 175,
                 'contact_id' => 163,
@@ -1995,7 +1891,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            152 => 
+            144 => 
             array (
                 'id' => 176,
                 'contact_id' => 149,
@@ -2008,7 +1904,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            153 => 
+            145 => 
             array (
                 'id' => 177,
                 'contact_id' => 298,
@@ -2021,7 +1917,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            154 => 
+            146 => 
             array (
                 'id' => 178,
                 'contact_id' => 308,
@@ -2034,7 +1930,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            155 => 
+            147 => 
             array (
                 'id' => 179,
                 'contact_id' => 283,
@@ -2047,7 +1943,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            156 => 
+            148 => 
             array (
                 'id' => 180,
                 'contact_id' => 210,
@@ -2060,7 +1956,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            157 => 
+            149 => 
             array (
                 'id' => 181,
                 'contact_id' => 298,
@@ -2073,20 +1969,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            158 => 
-            array (
-                'id' => 699,
-                'contact_id' => 317,
-                'name' => 'GIUSEPPE',
-                'title' => 'PM - Colui che sa passare le foto del rilevatore',
-                'phone' => '0774/921260',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            159 => 
+            150 => 
             array (
                 'id' => 182,
                 'contact_id' => 309,
@@ -2099,7 +1982,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            160 => 
+            151 => 
             array (
                 'id' => 183,
                 'contact_id' => 309,
@@ -2112,7 +1995,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            161 => 
+            152 => 
             array (
                 'id' => 184,
                 'contact_id' => 309,
@@ -2125,7 +2008,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            162 => 
+            153 => 
             array (
                 'id' => 185,
                 'contact_id' => 310,
@@ -2138,7 +2021,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            163 => 
+            154 => 
             array (
                 'id' => 186,
                 'contact_id' => 135,
@@ -2151,20 +2034,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            164 => 
-            array (
-                'id' => 892,
-                'contact_id' => 1132,
-                'name' => '',
-                'title' => 'Assistenza tecnica',
-                'phone' => '0172 372796 - 798',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'sistemisti@sipalinformatica.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            165 => 
+            155 => 
             array (
                 'id' => 188,
                 'contact_id' => 315,
@@ -2177,7 +2047,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            166 => 
+            156 => 
             array (
                 'id' => 189,
                 'contact_id' => 315,
@@ -2190,7 +2060,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            167 => 
+            157 => 
             array (
                 'id' => 190,
                 'contact_id' => 315,
@@ -2203,7 +2073,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            168 => 
+            158 => 
             array (
                 'id' => 191,
                 'contact_id' => 310,
@@ -2216,7 +2086,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            169 => 
+            159 => 
             array (
                 'id' => 192,
                 'contact_id' => 265,
@@ -2229,7 +2099,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            170 => 
+            160 => 
             array (
                 'id' => 193,
                 'contact_id' => 145,
@@ -2242,7 +2112,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            171 => 
+            161 => 
             array (
                 'id' => 194,
                 'contact_id' => 317,
@@ -2255,7 +2125,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            172 => 
+            162 => 
             array (
                 'id' => 195,
                 'contact_id' => 317,
@@ -2268,7 +2138,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            173 => 
+            163 => 
             array (
                 'id' => 196,
                 'contact_id' => 149,
@@ -2281,7 +2151,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            174 => 
+            164 => 
             array (
                 'id' => 197,
                 'contact_id' => 265,
@@ -2294,7 +2164,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            175 => 
+            165 => 
             array (
                 'id' => 198,
                 'contact_id' => 319,
@@ -2307,7 +2177,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            176 => 
+            166 => 
             array (
                 'id' => 199,
                 'contact_id' => 266,
@@ -2320,7 +2190,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            177 => 
+            167 => 
             array (
                 'id' => 200,
                 'contact_id' => 310,
@@ -2333,33 +2203,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            178 => 
-            array (
-                'id' => 297,
-                'contact_id' => 409,
-                'name' => 'Marini Flavia',
-                'title' => '',
-                'phone' => '0376 636462',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            179 => 
-            array (
-                'id' => 298,
-                'contact_id' => 409,
-                'name' => 'Brignani Debora',
-                'title' => 'Amministrazione',
-                'phone' => '0376 636462',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            180 => 
+            168 => 
             array (
                 'id' => 202,
                 'contact_id' => 319,
@@ -2372,7 +2216,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            181 => 
+            169 => 
             array (
                 'id' => 203,
                 'contact_id' => 323,
@@ -2385,7 +2229,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            182 => 
+            170 => 
             array (
                 'id' => 204,
                 'contact_id' => 323,
@@ -2398,7 +2242,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            183 => 
+            171 => 
             array (
                 'id' => 205,
                 'contact_id' => 324,
@@ -2411,7 +2255,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            184 => 
+            172 => 
             array (
                 'id' => 206,
                 'contact_id' => 324,
@@ -2424,7 +2268,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            185 => 
+            173 => 
             array (
                 'id' => 207,
                 'contact_id' => 150,
@@ -2437,7 +2281,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            186 => 
+            174 => 
             array (
                 'id' => 208,
                 'contact_id' => 325,
@@ -2450,7 +2294,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            187 => 
+            175 => 
             array (
                 'id' => 209,
                 'contact_id' => 325,
@@ -2463,7 +2307,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            188 => 
+            176 => 
             array (
                 'id' => 210,
                 'contact_id' => 326,
@@ -2476,7 +2320,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            189 => 
+            177 => 
             array (
                 'id' => 211,
                 'contact_id' => 319,
@@ -2489,7 +2333,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            190 => 
+            178 => 
             array (
                 'id' => 212,
                 'contact_id' => 332,
@@ -2502,7 +2346,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            191 => 
+            179 => 
             array (
                 'id' => 213,
                 'contact_id' => 333,
@@ -2515,7 +2359,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            192 => 
+            180 => 
             array (
                 'id' => 214,
                 'contact_id' => 333,
@@ -2528,7 +2372,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            193 => 
+            181 => 
             array (
                 'id' => 215,
                 'contact_id' => 334,
@@ -2541,7 +2385,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            194 => 
+            182 => 
             array (
                 'id' => 216,
                 'contact_id' => 333,
@@ -2554,7 +2398,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            195 => 
+            183 => 
             array (
                 'id' => 217,
                 'contact_id' => 321,
@@ -2567,20 +2411,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            196 => 
-            array (
-                'id' => 1186,
-                'contact_id' => 246,
-                'name' => '',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            197 => 
+            184 => 
             array (
                 'id' => 218,
                 'contact_id' => 336,
@@ -2593,7 +2424,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            198 => 
+            185 => 
             array (
                 'id' => 219,
                 'contact_id' => 323,
@@ -2606,7 +2437,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            199 => 
+            186 => 
             array (
                 'id' => 220,
                 'contact_id' => 323,
@@ -2619,20 +2450,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            200 => 
-            array (
-                'id' => 556,
-                'contact_id' => 522,
-                'name' => 'Giorgio',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            201 => 
+            187 => 
             array (
                 'id' => 221,
                 'contact_id' => 298,
@@ -2645,7 +2463,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            202 => 
+            188 => 
             array (
                 'id' => 222,
                 'contact_id' => 103,
@@ -2658,7 +2476,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            203 => 
+            189 => 
             array (
                 'id' => 223,
                 'contact_id' => 341,
@@ -2671,7 +2489,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            204 => 
+            190 => 
             array (
                 'id' => 224,
                 'contact_id' => 341,
@@ -2684,7 +2502,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            205 => 
+            191 => 
             array (
                 'id' => 227,
                 'contact_id' => 343,
@@ -2697,7 +2515,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            206 => 
+            192 => 
             array (
                 'id' => 228,
                 'contact_id' => 344,
@@ -2710,7 +2528,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            207 => 
+            193 => 
             array (
                 'id' => 229,
                 'contact_id' => 343,
@@ -2723,20 +2541,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            208 => 
-            array (
-                'id' => 244,
-                'contact_id' => 193,
-                'name' => 'Calcinai Elena',
-                'title' => '',
-                'phone' => '0105755246',
-                'fax' => '0698681969',
-                'smart' => '377 1604887',
-                'email' => 'calcinaie@posteitaliane.it ',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            209 => 
+            194 => 
             array (
                 'id' => 230,
                 'contact_id' => 103,
@@ -2749,7 +2554,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            210 => 
+            195 => 
             array (
                 'id' => 231,
                 'contact_id' => 113,
@@ -2762,7 +2567,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            211 => 
+            196 => 
             array (
                 'id' => 233,
                 'contact_id' => 344,
@@ -2775,7 +2580,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            212 => 
+            197 => 
             array (
                 'id' => 234,
                 'contact_id' => 346,
@@ -2788,7 +2593,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            213 => 
+            198 => 
             array (
                 'id' => 235,
                 'contact_id' => 344,
@@ -2801,33 +2606,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            214 => 
-            array (
-                'id' => 238,
-                'contact_id' => 301,
-            'name' => 'Sig. Pichetto Enrico (sostituisce Purro Mario 338 9396700)',
-                'title' => '',
-                'phone' => '0185 385726',
-                'fax' => '0185 1831507',
-                'smart' => '',
-                'email' => 'mpurro@libero.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            215 => 
-            array (
-                'id' => 239,
-                'contact_id' => 301,
-                'name' => 'Segalerba Sergio',
-                'title' => 'Assessore Finanze',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '339 1796086',
-                'email' => 'ssegale@libero.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            216 => 
+            199 => 
             array (
                 'id' => 237,
                 'contact_id' => 112,
@@ -2840,7 +2619,33 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            217 => 
+            200 => 
+            array (
+                'id' => 238,
+                'contact_id' => 301,
+            'name' => 'Sig. Pichetto Enrico (sostituisce Purro Mario 338 9396700)',
+                'title' => '',
+                'phone' => '0185 385726',
+                'fax' => '0185 1831507',
+                'smart' => '',
+                'email' => 'mpurro@libero.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            201 => 
+            array (
+                'id' => 239,
+                'contact_id' => 301,
+                'name' => 'Segalerba Sergio',
+                'title' => 'Assessore Finanze',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '339 1796086',
+                'email' => 'ssegale@libero.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            202 => 
             array (
                 'id' => 240,
                 'contact_id' => 301,
@@ -2853,7 +2658,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            218 => 
+            203 => 
             array (
                 'id' => 241,
                 'contact_id' => 116,
@@ -2866,7 +2671,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            219 => 
+            204 => 
             array (
                 'id' => 242,
                 'contact_id' => 324,
@@ -2879,7 +2684,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            220 => 
+            205 => 
             array (
                 'id' => 243,
                 'contact_id' => 300,
@@ -2892,7 +2697,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            221 => 
+            206 => 
+            array (
+                'id' => 244,
+                'contact_id' => 193,
+                'name' => 'Calcinai Elena',
+                'title' => '',
+                'phone' => '0105755246',
+                'fax' => '0698681969',
+                'smart' => '377 1604887',
+                'email' => 'calcinaie@posteitaliane.it ',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            207 => 
             array (
                 'id' => 246,
                 'contact_id' => 321,
@@ -2905,7 +2723,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            222 => 
+            208 => 
             array (
                 'id' => 247,
                 'contact_id' => 266,
@@ -2918,7 +2736,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            223 => 
+            209 => 
             array (
                 'id' => 248,
                 'contact_id' => 363,
@@ -2931,7 +2749,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            224 => 
+            210 => 
             array (
                 'id' => 249,
                 'contact_id' => 364,
@@ -2940,11 +2758,11 @@ class ReferentsTableSeeder extends Seeder
                 'phone' => '',
                 'fax' => '',
                 'smart' => '347 4228776',
-                'email' => 'guelfo4@alice.it',
+                'email' => 'guido.guelfo@gmail.com',
                 'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-08-13 13:41:17',
             ),
-            225 => 
+            211 => 
             array (
                 'id' => 250,
                 'contact_id' => 364,
@@ -2957,7 +2775,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            226 => 
+            212 => 
             array (
                 'id' => 251,
                 'contact_id' => 300,
@@ -2970,20 +2788,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            227 => 
-            array (
-                'id' => 1231,
-                'contact_id' => 909,
-            'name' => 'Gianmarco Marzolla (referente su Genova)',
-                'title' => 'referente su Genova',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '345 4253972',
-                'email' => 'gianmarco.marzolla@partner.windtre.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            228 => 
+            213 => 
             array (
                 'id' => 252,
                 'contact_id' => 366,
@@ -2996,7 +2801,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            229 => 
+            214 => 
             array (
                 'id' => 253,
                 'contact_id' => 366,
@@ -3009,7 +2814,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            230 => 
+            215 => 
             array (
                 'id' => 254,
                 'contact_id' => 324,
@@ -3022,7 +2827,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            231 => 
+            216 => 
             array (
                 'id' => 255,
                 'contact_id' => 329,
@@ -3035,7 +2840,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            232 => 
+            217 => 
             array (
                 'id' => 256,
                 'contact_id' => 216,
@@ -3048,7 +2853,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            233 => 
+            218 => 
             array (
                 'id' => 257,
                 'contact_id' => 299,
@@ -3061,7 +2866,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            234 => 
+            219 => 
             array (
                 'id' => 259,
                 'contact_id' => 329,
@@ -3074,7 +2879,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            235 => 
+            220 => 
             array (
                 'id' => 260,
                 'contact_id' => 359,
@@ -3087,7 +2892,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            236 => 
+            221 => 
             array (
                 'id' => 261,
                 'contact_id' => 375,
@@ -3100,7 +2905,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            237 => 
+            222 => 
             array (
                 'id' => 262,
                 'contact_id' => 375,
@@ -3113,7 +2918,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            238 => 
+            223 => 
             array (
                 'id' => 263,
                 'contact_id' => 375,
@@ -3126,7 +2931,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            239 => 
+            224 => 
             array (
                 'id' => 264,
                 'contact_id' => 193,
@@ -3139,7 +2944,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            240 => 
+            225 => 
             array (
                 'id' => 265,
                 'contact_id' => 227,
@@ -3152,7 +2957,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            241 => 
+            226 => 
             array (
                 'id' => 266,
                 'contact_id' => 375,
@@ -3165,7 +2970,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            242 => 
+            227 => 
             array (
                 'id' => 267,
                 'contact_id' => 378,
@@ -3178,7 +2983,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            243 => 
+            228 => 
             array (
                 'id' => 268,
                 'contact_id' => 366,
@@ -3191,7 +2996,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            244 => 
+            229 => 
             array (
                 'id' => 270,
                 'contact_id' => 381,
@@ -3204,7 +3009,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            245 => 
+            230 => 
             array (
                 'id' => 272,
                 'contact_id' => 167,
@@ -3217,7 +3022,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            246 => 
+            231 => 
             array (
                 'id' => 276,
                 'contact_id' => 113,
@@ -3230,7 +3035,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            247 => 
+            232 => 
             array (
                 'id' => 277,
                 'contact_id' => 392,
@@ -3243,7 +3048,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            248 => 
+            233 => 
             array (
                 'id' => 278,
                 'contact_id' => 392,
@@ -3256,7 +3061,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            249 => 
+            234 => 
             array (
                 'id' => 279,
                 'contact_id' => 396,
@@ -3269,7 +3074,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            250 => 
+            235 => 
             array (
                 'id' => 280,
                 'contact_id' => 396,
@@ -3282,7 +3087,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            251 => 
+            236 => 
             array (
                 'id' => 281,
                 'contact_id' => 397,
@@ -3295,7 +3100,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            252 => 
+            237 => 
             array (
                 'id' => 282,
                 'contact_id' => 392,
@@ -3308,7 +3113,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            253 => 
+            238 => 
             array (
                 'id' => 283,
                 'contact_id' => 185,
@@ -3321,7 +3126,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            254 => 
+            239 => 
             array (
                 'id' => 284,
                 'contact_id' => 399,
@@ -3334,7 +3139,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            255 => 
+            240 => 
             array (
                 'id' => 285,
                 'contact_id' => 397,
@@ -3347,7 +3152,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            256 => 
+            241 => 
             array (
                 'id' => 286,
                 'contact_id' => 344,
@@ -3360,20 +3165,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            257 => 
-            array (
-                'id' => 623,
-                'contact_id' => 467,
-                'name' => 'Anna Claudia Albano',
-                'title' => 'Richiesta fatture',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'annaclaudia@ditechsrl.com',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            258 => 
+            242 => 
             array (
                 'id' => 288,
                 'contact_id' => 401,
@@ -3386,7 +3178,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            259 => 
+            243 => 
             array (
                 'id' => 289,
                 'contact_id' => 401,
@@ -3399,20 +3191,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            260 => 
-            array (
-                'id' => 290,
-                'contact_id' => 364,
-                'name' => 'Schenone',
-            'title' => 'Ragioniere Comunale (Int. 4)',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '347 8246106',
-                'email' => 'gianpiero.schenone@comune.lumarzo.genova.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            261 => 
+            244 => 
             array (
                 'id' => 291,
                 'contact_id' => 402,
@@ -3425,7 +3204,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            262 => 
+            245 => 
             array (
                 'id' => 292,
                 'contact_id' => 403,
@@ -3438,20 +3217,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            263 => 
-            array (
-                'id' => 388,
-                'contact_id' => 541,
-                'name' => 'Colangelo',
-                'title' => 'Maresciallo',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '3204656629',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            264 => 
+            246 => 
             array (
                 'id' => 293,
                 'contact_id' => 392,
@@ -3464,7 +3230,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            265 => 
+            247 => 
             array (
                 'id' => 294,
                 'contact_id' => 408,
@@ -3477,33 +3243,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            266 => 
-            array (
-                'id' => 622,
-                'contact_id' => 246,
-                'name' => 'Sig.ra Carla Badessi',
-                'title' => 'Assistente della segreteria',
-                'phone' => '06 9383 6762',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'carla.badessi@finanze.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            267 => 
-            array (
-                'id' => 696,
-                'contact_id' => 967,
-                'name' => 'Dott.ssa Marianna Marzocca',
-                'title' => 'Referente Area Finanziaria',
-                'phone' => '019/ 746971',
-                'fax' => '',
-                'smart' => '335 5328020',
-                'email' => 'marianna.marzocca@comune.spotorno.sv.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            268 => 
+            248 => 
             array (
                 'id' => 296,
                 'contact_id' => 409,
@@ -3516,7 +3256,33 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            269 => 
+            249 => 
+            array (
+                'id' => 297,
+                'contact_id' => 409,
+                'name' => 'Marini Flavia',
+                'title' => '',
+                'phone' => '0376 636462',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            250 => 
+            array (
+                'id' => 298,
+                'contact_id' => 409,
+                'name' => 'Brignani Debora',
+                'title' => 'Amministrazione',
+                'phone' => '0376 636462',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            251 => 
             array (
                 'id' => 299,
                 'contact_id' => 413,
@@ -3529,7 +3295,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            270 => 
+            252 => 
             array (
                 'id' => 300,
                 'contact_id' => 413,
@@ -3542,7 +3308,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            271 => 
+            253 => 
             array (
                 'id' => 301,
                 'contact_id' => 301,
@@ -3555,7 +3321,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            272 => 
+            254 => 
             array (
                 'id' => 302,
                 'contact_id' => 422,
@@ -3568,7 +3334,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            273 => 
+            255 => 
             array (
                 'id' => 303,
                 'contact_id' => 389,
@@ -3581,7 +3347,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            274 => 
+            256 => 
             array (
                 'id' => 304,
                 'contact_id' => 397,
@@ -3594,7 +3360,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            275 => 
+            257 => 
             array (
                 'id' => 305,
                 'contact_id' => 321,
@@ -3607,33 +3373,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            276 => 
-            array (
-                'id' => 1185,
-                'contact_id' => 1340,
-                'name' => '',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'luciano.detoni@sarida.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            277 => 
-            array (
-                'id' => 406,
-                'contact_id' => 310,
-                'name' => 'Dott.ssa Dacca',
-                'title' => 'Ragioneria e Tributi',
-                'phone' => '0109379323',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'ragioneria@comune.montoggio.ge.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            278 => 
+            258 => 
             array (
                 'id' => 306,
                 'contact_id' => 401,
@@ -3646,7 +3386,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            279 => 
+            259 => 
             array (
                 'id' => 308,
                 'contact_id' => 431,
@@ -3659,7 +3399,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            280 => 
+            260 => 
             array (
                 'id' => 309,
                 'contact_id' => 431,
@@ -3672,7 +3412,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                281 => 
+                261 => 
                 array (
                     'id' => 316,
                     'contact_id' => 434,
@@ -3685,7 +3425,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                282 => 
+                262 => 
                 array (
                     'id' => 317,
                     'contact_id' => 321,
@@ -3698,7 +3438,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                283 => 
+                263 => 
                 array (
                     'id' => 318,
                     'contact_id' => 366,
@@ -3711,7 +3451,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                284 => 
+                264 => 
                 array (
                     'id' => 319,
                     'contact_id' => 438,
@@ -3724,7 +3464,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                285 => 
+                265 => 
                 array (
                     'id' => 320,
                     'contact_id' => 439,
@@ -3737,7 +3477,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                286 => 
+                266 => 
                 array (
                     'id' => 321,
                     'contact_id' => 217,
@@ -3750,7 +3490,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                287 => 
+                267 => 
                 array (
                     'id' => 322,
                     'contact_id' => 397,
@@ -3763,20 +3503,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                288 => 
-                array (
-                    'id' => 636,
-                    'contact_id' => 919,
-                    'name' => 'Polizia Locale',
-                    'title' => '',
-                    'phone' => '010 3462245',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => 'polizialocale@comune.pieveligure.ge.it',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                289 => 
+                268 => 
                 array (
                     'id' => 324,
                     'contact_id' => 448,
@@ -3789,7 +3516,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                290 => 
+                269 => 
                 array (
                     'id' => 325,
                     'contact_id' => 232,
@@ -3802,7 +3529,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                291 => 
+                270 => 
                 array (
                     'id' => 326,
                     'contact_id' => 450,
@@ -3815,7 +3542,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                292 => 
+                271 => 
                 array (
                     'id' => 327,
                     'contact_id' => 451,
@@ -3828,7 +3555,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                293 => 
+                272 => 
                 array (
                     'id' => 328,
                     'contact_id' => 453,
@@ -3841,7 +3568,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                294 => 
+                273 => 
                 array (
                     'id' => 329,
                     'contact_id' => 456,
@@ -3854,7 +3581,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                295 => 
+                274 => 
                 array (
                     'id' => 330,
                     'contact_id' => 104,
@@ -3867,7 +3594,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                296 => 
+                275 => 
                 array (
                     'id' => 331,
                     'contact_id' => 232,
@@ -3880,7 +3607,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                297 => 
+                276 => 
                 array (
                     'id' => 332,
                     'contact_id' => 457,
@@ -3893,7 +3620,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                298 => 
+                277 => 
                 array (
                     'id' => 333,
                     'contact_id' => 458,
@@ -3906,7 +3633,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                299 => 
+                278 => 
                 array (
                     'id' => 334,
                     'contact_id' => 460,
@@ -3919,7 +3646,20 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                300 => 
+                279 => 
+                array (
+                    'id' => 335,
+                    'contact_id' => 461,
+                    'name' => 'Angelo Spalluto',
+                    'title' => 'Responsabile commerciale',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '3204843551',
+                    'email' => 'info@savesistemi.eu',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                280 => 
                 array (
                     'id' => 336,
                     'contact_id' => 462,
@@ -3932,7 +3672,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                301 => 
+                281 => 
                 array (
                     'id' => 337,
                     'contact_id' => 117,
@@ -3945,7 +3685,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                302 => 
+                282 => 
                 array (
                     'id' => 338,
                     'contact_id' => 467,
@@ -3958,7 +3698,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                303 => 
+                283 => 
                 array (
                     'id' => 339,
                     'contact_id' => 468,
@@ -3971,7 +3711,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                304 => 
+                284 => 
                 array (
                     'id' => 340,
                     'contact_id' => 468,
@@ -3984,7 +3724,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                305 => 
+                285 => 
                 array (
                     'id' => 341,
                     'contact_id' => 468,
@@ -3997,7 +3737,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                306 => 
+                286 => 
                 array (
                     'id' => 342,
                     'contact_id' => 470,
@@ -4010,7 +3750,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                307 => 
+                287 => 
                 array (
                     'id' => 343,
                     'contact_id' => 471,
@@ -4023,7 +3763,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                308 => 
+                288 => 
                 array (
                     'id' => 344,
                     'contact_id' => 116,
@@ -4036,7 +3776,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                309 => 
+                289 => 
                 array (
                     'id' => 345,
                     'contact_id' => 319,
@@ -4049,7 +3789,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                310 => 
+                290 => 
                 array (
                     'id' => 346,
                     'contact_id' => 317,
@@ -4062,7 +3802,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                311 => 
+                291 => 
                 array (
                     'id' => 347,
                     'contact_id' => 489,
@@ -4075,20 +3815,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                312 => 
-                array (
-                    'id' => 802,
-                    'contact_id' => 949,
-                    'name' => '',
-                    'title' => '',
-                    'phone' => '',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => 'ragioneria@',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                313 => 
+                292 => 
                 array (
                     'id' => 348,
                     'contact_id' => 397,
@@ -4101,7 +3828,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                314 => 
+                293 => 
                 array (
                     'id' => 349,
                     'contact_id' => 491,
@@ -4114,7 +3841,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                315 => 
+                294 => 
                 array (
                     'id' => 350,
                     'contact_id' => 299,
@@ -4127,7 +3854,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                316 => 
+                295 => 
                 array (
                     'id' => 351,
                     'contact_id' => 475,
@@ -4140,20 +3867,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                317 => 
-                array (
-                    'id' => 432,
-                    'contact_id' => 323,
-                    'name' => 'Dott. Raucci Edoardo',
-                    'title' => 'Segretario Comunale',
-                    'phone' => '0523 962808',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => '',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                318 => 
+                296 => 
                 array (
                     'id' => 352,
                     'contact_id' => 500,
@@ -4166,7 +3880,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                319 => 
+                297 => 
                 array (
                     'id' => 353,
                     'contact_id' => 229,
@@ -4179,7 +3893,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                320 => 
+                298 => 
                 array (
                     'id' => 354,
                     'contact_id' => 229,
@@ -4192,7 +3906,20 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                321 => 
+                299 => 
+                array (
+                    'id' => 355,
+                    'contact_id' => 401,
+                    'name' => 'Ilaria Eizi',
+                    'title' => 'Amministrativo Autorizzazione alla stampa in proprio ecc',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'i.egizi@mercurioservice.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                300 => 
                 array (
                     'id' => 356,
                     'contact_id' => 236,
@@ -4205,7 +3932,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                322 => 
+                301 => 
                 array (
                     'id' => 357,
                     'contact_id' => 505,
@@ -4218,7 +3945,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                323 => 
+                302 => 
                 array (
                     'id' => 358,
                     'contact_id' => 506,
@@ -4231,20 +3958,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                324 => 
-                array (
-                    'id' => 700,
-                    'contact_id' => 978,
-                    'name' => 'Sig.ra Cristina',
-                    'title' => '',
-                    'phone' => '039 5311174 int 1',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => '',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                325 => 
+                303 => 
                 array (
                     'id' => 359,
                     'contact_id' => 509,
@@ -4257,7 +3971,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                326 => 
+                304 => 
                 array (
                     'id' => 360,
                     'contact_id' => 173,
@@ -4270,7 +3984,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                327 => 
+                305 => 
                 array (
                     'id' => 361,
                     'contact_id' => 510,
@@ -4279,37 +3993,11 @@ class ReferentsTableSeeder extends Seeder
                     'phone' => '',
                     'fax' => '',
                     'smart' => '',
-                    'email' => 'novass.lara@gmail.com',
+                    'email' => 'novass.lara@gmail.com - l.demarzo@aellege.com',
                     'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-08-06 08:07:09',
                 ),
-                328 => 
-                array (
-                    'id' => 422,
-                    'contact_id' => 597,
-                    'name' => 'Ing. Michele Robilotta',
-                    'title' => '',
-                    'phone' => '',
-                    'fax' => '',
-                    'smart' => '338 6206732',
-                    'email' => 'm.robilotta@libero.it',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                329 => 
-                array (
-                    'id' => 398,
-                    'contact_id' => NULL,
-                    'name' => 'bertoldi sara',
-                    'title' => '',
-                    'phone' => '0185/306649',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => '',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                330 => 
+                306 => 
                 array (
                     'id' => 364,
                     'contact_id' => 480,
@@ -4322,7 +4010,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                331 => 
+                307 => 
                 array (
                     'id' => 365,
                     'contact_id' => 232,
@@ -4335,7 +4023,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                332 => 
+                308 => 
                 array (
                     'id' => 366,
                     'contact_id' => 414,
@@ -4348,7 +4036,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                333 => 
+                309 => 
                 array (
                     'id' => 367,
                     'contact_id' => 182,
@@ -4361,7 +4049,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                334 => 
+                310 => 
                 array (
                     'id' => 368,
                     'contact_id' => 182,
@@ -4374,7 +4062,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                335 => 
+                311 => 
                 array (
                     'id' => 369,
                     'contact_id' => 506,
@@ -4387,7 +4075,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                336 => 
+                312 => 
                 array (
                     'id' => 370,
                     'contact_id' => 513,
@@ -4400,7 +4088,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                337 => 
+                313 => 
                 array (
                     'id' => 372,
                     'contact_id' => 440,
@@ -4413,7 +4101,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                338 => 
+                314 => 
                 array (
                     'id' => 373,
                     'contact_id' => 440,
@@ -4426,7 +4114,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                339 => 
+                315 => 
                 array (
                     'id' => 374,
                     'contact_id' => 112,
@@ -4439,7 +4127,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                340 => 
+                316 => 
                 array (
                     'id' => 375,
                     'contact_id' => 515,
@@ -4452,33 +4140,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                341 => 
-                array (
-                    'id' => 447,
-                    'contact_id' => 598,
-                    'name' => 'MASCHIO GIUSEPPINO',
-                    'title' => 'SINDACO',
-                    'phone' => '0185/340205',
-                    'fax' => '0185/340489',
-                    'smart' => '',
-                    'email' => 'sindacoborzonasca@gmail.com',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                342 => 
-                array (
-                    'id' => 421,
-                    'contact_id' => 552,
-                    'name' => 'Gentile',
-                    'title' => '',
-                    'phone' => '',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => '',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                343 => 
+                317 => 
                 array (
                     'id' => 376,
                     'contact_id' => 281,
@@ -4491,7 +4153,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                344 => 
+                318 => 
                 array (
                     'id' => 377,
                     'contact_id' => 522,
@@ -4504,7 +4166,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                345 => 
+                319 => 
                 array (
                     'id' => 378,
                     'contact_id' => 527,
@@ -4517,7 +4179,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                346 => 
+                320 => 
                 array (
                     'id' => 379,
                     'contact_id' => 529,
@@ -4530,7 +4192,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                347 => 
+                321 => 
                 array (
                     'id' => 380,
                     'contact_id' => 530,
@@ -4543,7 +4205,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                348 => 
+                322 => 
                 array (
                     'id' => 381,
                     'contact_id' => 493,
@@ -4556,7 +4218,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                349 => 
+                323 => 
                 array (
                     'id' => 382,
                     'contact_id' => 239,
@@ -4569,7 +4231,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                350 => 
+                324 => 
                 array (
                     'id' => 383,
                     'contact_id' => 533,
@@ -4582,20 +4244,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                351 => 
-                array (
-                    'id' => 942,
-                    'contact_id' => 1179,
-                    'name' => 'Giuseppe Taborelli',
-                    'title' => 'Responsabile commerciale',
-                    'phone' => '338 6327845',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => '',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                352 => 
+                325 => 
                 array (
                     'id' => 385,
                     'contact_id' => 534,
@@ -4608,7 +4257,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                353 => 
+                326 => 
                 array (
                     'id' => 386,
                     'contact_id' => 378,
@@ -4621,7 +4270,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                354 => 
+                327 => 
                 array (
                     'id' => 387,
                     'contact_id' => 207,
@@ -4634,7 +4283,33 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                355 => 
+                328 => 
+                array (
+                    'id' => 388,
+                    'contact_id' => 541,
+                    'name' => 'Colangelo',
+                    'title' => 'Maresciallo',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '3204656629',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                329 => 
+                array (
+                    'id' => 389,
+                    'contact_id' => 545,
+                    'name' => 'Guarci',
+                    'title' => 'Assistenza tecnica',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                330 => 
                 array (
                     'id' => 390,
                     'contact_id' => 506,
@@ -4647,7 +4322,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                356 => 
+                331 => 
                 array (
                     'id' => 391,
                     'contact_id' => 548,
@@ -4660,7 +4335,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                357 => 
+                332 => 
                 array (
                     'id' => 392,
                     'contact_id' => 264,
@@ -4673,33 +4348,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                358 => 
-                array (
-                    'id' => 510,
-                    'contact_id' => 670,
-                    'name' => 'Furioni Renzo',
-                    'title' => 'Pubblicit&agrave;',
-                    'phone' => '045 6205816',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => 'renzo.furioni@comune.torridelbenaco.vr.it',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                359 => 
-                array (
-                    'id' => 511,
-                    'contact_id' => 615,
-                    'name' => 'Sig.ra Stefani',
-                    'title' => 'Segretaria del Sindaco',
-                    'phone' => '',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => '',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                360 => 
+                333 => 
                 array (
                     'id' => 394,
                     'contact_id' => 549,
@@ -4712,7 +4361,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                361 => 
+                334 => 
                 array (
                     'id' => 395,
                     'contact_id' => 560,
@@ -4725,20 +4374,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                362 => 
-                array (
-                    'id' => 420,
-                    'contact_id' => 552,
-                    'name' => 'Rosati Luciano',
-                    'title' => '',
-                    'phone' => '',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => '',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                363 => 
+                335 => 
                 array (
                     'id' => 397,
                     'contact_id' => 360,
@@ -4751,7 +4387,20 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                364 => 
+                336 => 
+                array (
+                    'id' => 398,
+                    'contact_id' => 1307,
+                    'name' => 'bertoldi sara',
+                    'title' => '',
+                    'phone' => '0185/306649',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                337 => 
                 array (
                     'id' => 399,
                     'contact_id' => 567,
@@ -4764,10 +4413,10 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                365 => 
+                338 => 
                 array (
                     'id' => 400,
-                    'contact_id' => NULL,
+                    'contact_id' => 884,
                     'name' => 'Commerciale',
                     'title' => '',
                     'phone' => '0575 050333',
@@ -4777,10 +4426,10 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                366 => 
+                339 => 
                 array (
                     'id' => 401,
-                    'contact_id' => NULL,
+                    'contact_id' => 884,
                     'name' => 'Assistenza',
                     'title' => '',
                     'phone' => '0575 050333',
@@ -4790,7 +4439,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                367 => 
+                340 => 
                 array (
                     'id' => 402,
                     'contact_id' => 504,
@@ -4803,7 +4452,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                368 => 
+                341 => 
                 array (
                     'id' => 403,
                     'contact_id' => 504,
@@ -4816,20 +4465,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                369 => 
-                array (
-                    'id' => 414,
-                    'contact_id' => 583,
-                    'name' => 'Dott. Monzu\' Ettore',
-                    'title' => 'Segretario Comunale',
-                    'phone' => '0185 729039',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => 'monzu_ettore@libero.it',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                370 => 
+                342 => 
                 array (
                     'id' => 404,
                     'contact_id' => 229,
@@ -4842,7 +4478,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                371 => 
+                343 => 
                 array (
                     'id' => 405,
                     'contact_id' => 575,
@@ -4855,20 +4491,20 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                372 => 
+                344 => 
                 array (
-                    'id' => 493,
-                    'contact_id' => 657,
-                    'name' => 'Arch Bonavetti Luisita',
-                    'title' => 'Istruttore Tecnico',
-                    'phone' => '',
+                    'id' => 406,
+                    'contact_id' => 310,
+                    'name' => 'Dott.ssa Dacca',
+                    'title' => 'Ragioneria e Tributi',
+                    'phone' => '0109379323',
                     'fax' => '',
                     'smart' => '',
-                    'email' => '',
+                    'email' => 'ragioneria@comune.montoggio.ge.it',
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                373 => 
+                345 => 
                 array (
                     'id' => 407,
                     'contact_id' => 576,
@@ -4881,7 +4517,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                374 => 
+                346 => 
                 array (
                     'id' => 408,
                     'contact_id' => 451,
@@ -4894,7 +4530,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                375 => 
+                347 => 
                 array (
                     'id' => 409,
                     'contact_id' => 581,
@@ -4907,20 +4543,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                376 => 
-                array (
-                    'id' => 560,
-                    'contact_id' => 695,
-                    'name' => 'Toni Micaela',
-                    'title' => 'Dirigente',
-                    'phone' => '0184 272222',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => 'ragioneria@comune.bordighera.it',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                377 => 
+                348 => 
                 array (
                     'id' => 410,
                     'contact_id' => 583,
@@ -4933,7 +4556,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                378 => 
+                349 => 
                 array (
                     'id' => 411,
                     'contact_id' => 583,
@@ -4946,7 +4569,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                379 => 
+                350 => 
                 array (
                     'id' => 412,
                     'contact_id' => 586,
@@ -4959,7 +4582,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                380 => 
+                351 => 
                 array (
                     'id' => 413,
                     'contact_id' => 587,
@@ -4972,7 +4595,20 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                381 => 
+                352 => 
+                array (
+                    'id' => 414,
+                    'contact_id' => 583,
+                    'name' => 'Dott. Monzu\' Ettore',
+                    'title' => 'Segretario Comunale',
+                    'phone' => '0185 729039',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'monzu_ettore@libero.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                353 => 
                 array (
                     'id' => 415,
                     'contact_id' => 333,
@@ -4985,7 +4621,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                382 => 
+                354 => 
                 array (
                     'id' => 416,
                     'contact_id' => 474,
@@ -4998,7 +4634,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                383 => 
+                355 => 
                 array (
                     'id' => 417,
                     'contact_id' => 583,
@@ -5011,7 +4647,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                384 => 
+                356 => 
                 array (
                     'id' => 418,
                     'contact_id' => 375,
@@ -5024,7 +4660,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                385 => 
+                357 => 
                 array (
                     'id' => 419,
                     'contact_id' => 408,
@@ -5037,7 +4673,46 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                386 => 
+                358 => 
+                array (
+                    'id' => 420,
+                    'contact_id' => 552,
+                    'name' => 'Rosati Luciano',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                359 => 
+                array (
+                    'id' => 421,
+                    'contact_id' => 552,
+                    'name' => 'Gentile',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                360 => 
+                array (
+                    'id' => 422,
+                    'contact_id' => 597,
+                    'name' => 'Ing. Michele Robilotta',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '338 6206732',
+                    'email' => 'm.robilotta@libero.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                361 => 
                 array (
                     'id' => 423,
                     'contact_id' => 533,
@@ -5050,7 +4725,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                387 => 
+                362 => 
                 array (
                     'id' => 424,
                     'contact_id' => 583,
@@ -5063,7 +4738,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                388 => 
+                363 => 
                 array (
                     'id' => 425,
                     'contact_id' => 338,
@@ -5076,7 +4751,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                389 => 
+                364 => 
                 array (
                     'id' => 426,
                     'contact_id' => 598,
@@ -5089,7 +4764,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                390 => 
+                365 => 
                 array (
                     'id' => 427,
                     'contact_id' => 599,
@@ -5102,7 +4777,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                391 => 
+                366 => 
                 array (
                     'id' => 428,
                     'contact_id' => 602,
@@ -5115,7 +4790,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                392 => 
+                367 => 
                 array (
                     'id' => 429,
                     'contact_id' => 603,
@@ -5128,7 +4803,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                393 => 
+                368 => 
                 array (
                     'id' => 430,
                     'contact_id' => 607,
@@ -5141,7 +4816,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                394 => 
+                369 => 
                 array (
                     'id' => 431,
                     'contact_id' => 265,
@@ -5154,7 +4829,20 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                395 => 
+                370 => 
+                array (
+                    'id' => 432,
+                    'contact_id' => 323,
+                    'name' => 'Dott. Raucci Edoardo',
+                    'title' => 'Segretario Comunale',
+                    'phone' => '0523 962808',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                371 => 
                 array (
                     'id' => 433,
                     'contact_id' => 319,
@@ -5167,7 +4855,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                396 => 
+                372 => 
                 array (
                     'id' => 434,
                     'contact_id' => 613,
@@ -5180,7 +4868,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                397 => 
+                373 => 
                 array (
                     'id' => 435,
                     'contact_id' => 599,
@@ -5193,7 +4881,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                398 => 
+                374 => 
                 array (
                     'id' => 436,
                     'contact_id' => 615,
@@ -5206,7 +4894,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                399 => 
+                375 => 
                 array (
                     'id' => 437,
                     'contact_id' => 615,
@@ -5219,7 +4907,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                400 => 
+                376 => 
                 array (
                     'id' => 438,
                     'contact_id' => 615,
@@ -5232,7 +4920,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                401 => 
+                377 => 
                 array (
                     'id' => 439,
                     'contact_id' => 575,
@@ -5245,7 +4933,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                402 => 
+                378 => 
                 array (
                     'id' => 440,
                     'contact_id' => 509,
@@ -5258,7 +4946,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                403 => 
+                379 => 
                 array (
                     'id' => 441,
                     'contact_id' => 509,
@@ -5271,7 +4959,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                404 => 
+                380 => 
                 array (
                     'id' => 442,
                     'contact_id' => 617,
@@ -5284,7 +4972,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                405 => 
+                381 => 
                 array (
                     'id' => 443,
                     'contact_id' => 509,
@@ -5297,7 +4985,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                406 => 
+                382 => 
                 array (
                     'id' => 444,
                     'contact_id' => 618,
@@ -5310,7 +4998,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                407 => 
+                383 => 
                 array (
                     'id' => 445,
                     'contact_id' => 190,
@@ -5323,7 +5011,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                408 => 
+                384 => 
                 array (
                     'id' => 446,
                     'contact_id' => 619,
@@ -5336,7 +5024,20 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                409 => 
+                385 => 
+                array (
+                    'id' => 447,
+                    'contact_id' => 598,
+                    'name' => 'MASCHIO GIUSEPPINO',
+                    'title' => 'SINDACO',
+                    'phone' => '0185/340205',
+                    'fax' => '0185/340489',
+                    'smart' => '',
+                    'email' => 'sindacoborzonasca@gmail.com',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                386 => 
                 array (
                     'id' => 448,
                     'contact_id' => 598,
@@ -5349,7 +5050,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                410 => 
+                387 => 
                 array (
                     'id' => 449,
                     'contact_id' => 598,
@@ -5362,7 +5063,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                411 => 
+                388 => 
                 array (
                     'id' => 450,
                     'contact_id' => 598,
@@ -5375,7 +5076,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                412 => 
+                389 => 
                 array (
                     'id' => 451,
                     'contact_id' => 621,
@@ -5388,7 +5089,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                413 => 
+                390 => 
                 array (
                     'id' => 452,
                     'contact_id' => 623,
@@ -5401,7 +5102,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                414 => 
+                391 => 
                 array (
                     'id' => 453,
                     'contact_id' => 621,
@@ -5414,7 +5115,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                415 => 
+                392 => 
                 array (
                     'id' => 454,
                     'contact_id' => 626,
@@ -5427,7 +5128,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                416 => 
+                393 => 
                 array (
                     'id' => 455,
                     'contact_id' => 348,
@@ -5440,7 +5141,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                417 => 
+                394 => 
                 array (
                     'id' => 456,
                     'contact_id' => 162,
@@ -5453,7 +5154,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                418 => 
+                395 => 
                 array (
                     'id' => 457,
                     'contact_id' => 628,
@@ -5466,7 +5167,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                419 => 
+                396 => 
                 array (
                     'id' => 458,
                     'contact_id' => 630,
@@ -5479,7 +5180,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                420 => 
+                397 => 
                 array (
                     'id' => 459,
                     'contact_id' => 630,
@@ -5492,7 +5193,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                421 => 
+                398 => 
                 array (
                     'id' => 460,
                     'contact_id' => 630,
@@ -5505,7 +5206,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                422 => 
+                399 => 
                 array (
                     'id' => 461,
                     'contact_id' => 630,
@@ -5518,7 +5219,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                423 => 
+                400 => 
                 array (
                     'id' => 462,
                     'contact_id' => 261,
@@ -5531,20 +5232,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                424 => 
-                array (
-                    'id' => 557,
-                    'contact_id' => 751,
-                    'name' => 'Rita Di Cara',
-                    'title' => 'Referente per le Aziende',
-                    'phone' => '010 3536559',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => 'rita.dicara@pres.inge.unige.it',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                425 => 
+                401 => 
                 array (
                     'id' => 464,
                     'contact_id' => 213,
@@ -5557,7 +5245,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                426 => 
+                402 => 
                 array (
                     'id' => 465,
                     'contact_id' => 637,
@@ -5570,20 +5258,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                427 => 
-                array (
-                    'id' => 784,
-                    'contact_id' => 1032,
-                    'name' => 'Galeazzi Angela',
-                    'title' => 'Comandante Polizia Locale',
-                    'phone' => '0565 63360',
-                    'fax' => '',
-                    'smart' => '334 6643090',
-                    'email' => 'agaleazzi@comune.piombino.li.it',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                428 => 
+                403 => 
                 array (
                     'id' => 466,
                     'contact_id' => 640,
@@ -5596,7 +5271,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                429 => 
+                404 => 
                 array (
                     'id' => 467,
                     'contact_id' => 506,
@@ -5609,7 +5284,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                430 => 
+                405 => 
                 array (
                     'id' => 468,
                     'contact_id' => 317,
@@ -5622,20 +5297,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                431 => 
-                array (
-                    'id' => 1300,
-                    'contact_id' => 955,
-                    'name' => 'Alessandra Ponticelli',
-                    'title' => '',
-                    'phone' => '',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => 'a.ponticelli@engine.it',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                432 => 
+                406 => 
                 array (
                     'id' => 469,
                     'contact_id' => 185,
@@ -5648,7 +5310,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                433 => 
+                407 => 
                 array (
                     'id' => 470,
                     'contact_id' => 643,
@@ -5661,7 +5323,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                434 => 
+                408 => 
                 array (
                     'id' => 471,
                     'contact_id' => 186,
@@ -5674,7 +5336,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                435 => 
+                409 => 
                 array (
                     'id' => 472,
                     'contact_id' => 216,
@@ -5687,7 +5349,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                436 => 
+                410 => 
                 array (
                     'id' => 473,
                     'contact_id' => 151,
@@ -5700,23 +5362,23 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                437 => 
+                411 => 
                 array (
                     'id' => 474,
                     'contact_id' => 644,
-                    'name' => 'Dott.ssa Rossetti',
-                    'title' => '',
+                'name' => 'Dott.ssa Rossetti (int. 6)',
+                    'title' => 'Affari generali',
                     'phone' => '',
                     'fax' => '',
                     'smart' => '',
                     'email' => 'affari.generali@comune.varsi.pr.it - finanziario@comune.varsi.pr.it',
                     'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-09-05 07:54:22',
                 ),
-                438 => 
+                412 => 
                 array (
                     'id' => 475,
-                    'contact_id' => NULL,
+                    'contact_id' => 643,
                     'name' => 'Dott. Culasso Adriano',
                     'title' => 'Responsabile Ufficio Ragioneria',
                     'phone' => '',
@@ -5726,7 +5388,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                439 => 
+                413 => 
                 array (
                     'id' => 476,
                     'contact_id' => 643,
@@ -5739,7 +5401,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                440 => 
+                414 => 
                 array (
                     'id' => 477,
                     'contact_id' => 646,
@@ -5752,33 +5414,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                441 => 
-                array (
-                    'id' => 778,
-                    'contact_id' => 1026,
-                    'name' => 'Grossi Barbara',
-                    'title' => '',
-                    'phone' => '',
-                    'fax' => '',
-                    'smart' => '338/6048993',
-                    'email' => 'barbara.grossidegradi@gmail.com',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                442 => 
-                array (
-                    'id' => 478,
-                    'contact_id' => NULL,
-                    'name' => 'Dott.ssa Alberici Paola',
-                    'title' => 'Responsabile Servizio Finanziario',
-                    'phone' => '',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => '',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                443 => 
+                415 => 
                 array (
                     'id' => 479,
                     'contact_id' => 576,
@@ -5791,7 +5427,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                444 => 
+                416 => 
                 array (
                     'id' => 480,
                     'contact_id' => 164,
@@ -5804,7 +5440,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                445 => 
+                417 => 
                 array (
                     'id' => 481,
                     'contact_id' => 164,
@@ -5817,7 +5453,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                446 => 
+                418 => 
                 array (
                     'id' => 482,
                     'contact_id' => 613,
@@ -5830,10 +5466,10 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                447 => 
+                419 => 
                 array (
                     'id' => 483,
-                    'contact_id' => NULL,
+                    'contact_id' => 341,
                     'name' => 'BERTOLDI SARA',
                     'title' => '',
                     'phone' => '',
@@ -5843,7 +5479,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                448 => 
+                420 => 
                 array (
                     'id' => 484,
                     'contact_id' => 652,
@@ -5856,7 +5492,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                449 => 
+                421 => 
                 array (
                     'id' => 485,
                     'contact_id' => 653,
@@ -5869,7 +5505,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                450 => 
+                422 => 
                 array (
                     'id' => 486,
                     'contact_id' => 655,
@@ -5882,7 +5518,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                451 => 
+                423 => 
                 array (
                     'id' => 487,
                     'contact_id' => 654,
@@ -5895,7 +5531,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                452 => 
+                424 => 
                 array (
                     'id' => 488,
                     'contact_id' => 654,
@@ -5908,7 +5544,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                453 => 
+                425 => 
                 array (
                     'id' => 489,
                     'contact_id' => 654,
@@ -5921,7 +5557,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                454 => 
+                426 => 
                 array (
                     'id' => 490,
                     'contact_id' => 469,
@@ -5934,7 +5570,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                455 => 
+                427 => 
                 array (
                     'id' => 491,
                     'contact_id' => 469,
@@ -5947,7 +5583,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                456 => 
+                428 => 
                 array (
                     'id' => 492,
                     'contact_id' => 657,
@@ -5960,7 +5596,20 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                457 => 
+                429 => 
+                array (
+                    'id' => 493,
+                    'contact_id' => 657,
+                    'name' => 'Arch Bonavetti Luisita',
+                    'title' => 'Istruttore Tecnico',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                430 => 
                 array (
                     'id' => 494,
                     'contact_id' => 553,
@@ -5973,7 +5622,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                458 => 
+                431 => 
                 array (
                     'id' => 495,
                     'contact_id' => 659,
@@ -5986,7 +5635,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                459 => 
+                432 => 
                 array (
                     'id' => 496,
                     'contact_id' => 657,
@@ -5999,7 +5648,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                460 => 
+                433 => 
                 array (
                     'id' => 497,
                     'contact_id' => 576,
@@ -6012,7 +5661,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                461 => 
+                434 => 
                 array (
                     'id' => 498,
                     'contact_id' => 657,
@@ -6025,7 +5674,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                462 => 
+                435 => 
                 array (
                     'id' => 499,
                     'contact_id' => 664,
@@ -6038,7 +5687,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                463 => 
+                436 => 
                 array (
                     'id' => 500,
                     'contact_id' => 664,
@@ -6051,7 +5700,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                464 => 
+                437 => 
                 array (
                     'id' => 501,
                     'contact_id' => 665,
@@ -6064,7 +5713,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                465 => 
+                438 => 
                 array (
                     'id' => 502,
                     'contact_id' => 113,
@@ -6077,7 +5726,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                466 => 
+                439 => 
                 array (
                     'id' => 503,
                     'contact_id' => 654,
@@ -6090,7 +5739,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                467 => 
+                440 => 
                 array (
                     'id' => 504,
                     'contact_id' => 360,
@@ -6103,7 +5752,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                468 => 
+                441 => 
                 array (
                     'id' => 505,
                     'contact_id' => 113,
@@ -6116,7 +5765,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                469 => 
+                442 => 
                 array (
                     'id' => 506,
                     'contact_id' => 667,
@@ -6129,7 +5778,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                470 => 
+                443 => 
                 array (
                     'id' => 507,
                     'contact_id' => 668,
@@ -6142,7 +5791,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                471 => 
+                444 => 
                 array (
                     'id' => 508,
                     'contact_id' => 668,
@@ -6155,7 +5804,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                472 => 
+                445 => 
                 array (
                     'id' => 509,
                     'contact_id' => 668,
@@ -6168,20 +5817,33 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                473 => 
+                446 => 
                 array (
-                    'id' => 1112,
-                    'contact_id' => 1285,
-                    'name' => 'Gian Vittorio Delfino',
-                    'title' => 'Comandante PM',
-                    'phone' => '',
+                    'id' => 510,
+                    'contact_id' => 670,
+                    'name' => 'Furioni Renzo',
+                    'title' => 'Pubblicit&agrave;',
+                    'phone' => '045 6205816',
                     'fax' => '',
-                    'smart' => '+393275374929',
-                    'email' => 'gv.delfino@comune.campomorone.ge.it',
+                    'smart' => '',
+                    'email' => 'renzo.furioni@comune.torridelbenaco.vr.it',
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                474 => 
+                447 => 
+                array (
+                    'id' => 511,
+                    'contact_id' => 615,
+                    'name' => 'Sig.ra Stefani',
+                    'title' => 'Segretaria del Sindaco',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                448 => 
                 array (
                     'id' => 512,
                     'contact_id' => 668,
@@ -6194,33 +5856,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                475 => 
-                array (
-                    'id' => 1153,
-                    'contact_id' => 325,
-                    'name' => 'Valentina Dalloro',
-                    'title' => '',
-                    'phone' => '',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => 'v.dalloro@novellagl.com',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                476 => 
-                array (
-                    'id' => 1154,
-                    'contact_id' => 1307,
-                    'name' => 'Enrico Berisso',
-                    'title' => 'Direttore',
-                    'phone' => '0185 458821',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => 'enrico.berisso@intesasanpaolo.com',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                477 => 
+                449 => 
                 array (
                     'id' => 514,
                     'contact_id' => 664,
@@ -6233,7 +5869,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                478 => 
+                450 => 
                 array (
                     'id' => 515,
                     'contact_id' => 431,
@@ -6246,7 +5882,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                479 => 
+                451 => 
                 array (
                     'id' => 516,
                     'contact_id' => 650,
@@ -6259,7 +5895,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                480 => 
+                452 => 
                 array (
                     'id' => 517,
                     'contact_id' => 676,
@@ -6272,20 +5908,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                481 => 
-                array (
-                    'id' => 611,
-                    'contact_id' => 896,
-                    'name' => 'Gianni',
-                    'title' => '',
-                    'phone' => '',
-                    'fax' => '',
-                    'smart' => '347 2239039',
-                    'email' => '',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                482 => 
+                453 => 
                 array (
                     'id' => 518,
                     'contact_id' => 218,
@@ -6298,7 +5921,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                483 => 
+                454 => 
                 array (
                     'id' => 519,
                     'contact_id' => 667,
@@ -6311,33 +5934,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                484 => 
-                array (
-                    'id' => 520,
-                    'contact_id' => NULL,
-                    'name' => 'Dott. Domenico Massacane',
-                    'title' => 'Segretario Comunale',
-                    'phone' => '',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => '',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                485 => 
-                array (
-                    'id' => 521,
-                    'contact_id' => NULL,
-                    'name' => 'Assessore Priarone',
-                    'title' => '',
-                    'phone' => '338 3888644',
-                    'fax' => '',
-                    'smart' => '',
-                    'email' => '',
-                    'created_at' => '2025-07-15 16:20:44',
-                    'updated_at' => '2025-07-15 16:20:44',
-                ),
-                486 => 
+                455 => 
                 array (
                     'id' => 522,
                     'contact_id' => 688,
@@ -6350,7 +5947,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                487 => 
+                456 => 
                 array (
                     'id' => 523,
                     'contact_id' => 689,
@@ -6363,7 +5960,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                488 => 
+                457 => 
                 array (
                     'id' => 524,
                     'contact_id' => 325,
@@ -6376,7 +5973,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                489 => 
+                458 => 
                 array (
                     'id' => 525,
                     'contact_id' => 158,
@@ -6389,7 +5986,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                490 => 
+                459 => 
                 array (
                     'id' => 526,
                     'contact_id' => 667,
@@ -6402,7 +5999,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                491 => 
+                460 => 
                 array (
                     'id' => 527,
                     'contact_id' => 692,
@@ -6415,7 +6012,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                492 => 
+                461 => 
                 array (
                     'id' => 528,
                     'contact_id' => 478,
@@ -6428,7 +6025,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                493 => 
+                462 => 
                 array (
                     'id' => 529,
                     'contact_id' => 695,
@@ -6441,7 +6038,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                494 => 
+                463 => 
                 array (
                     'id' => 530,
                     'contact_id' => 695,
@@ -6454,7 +6051,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                495 => 
+                464 => 
                 array (
                     'id' => 531,
                     'contact_id' => 695,
@@ -6467,7 +6064,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                496 => 
+                465 => 
                 array (
                     'id' => 532,
                     'contact_id' => 621,
@@ -6480,7 +6077,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                497 => 
+                466 => 
                 array (
                     'id' => 533,
                     'contact_id' => 698,
@@ -6493,7 +6090,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                498 => 
+                467 => 
                 array (
                     'id' => 534,
                     'contact_id' => 695,
@@ -6506,7 +6103,7 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
-                499 => 
+                468 => 
                 array (
                     'id' => 536,
                     'contact_id' => 213,
@@ -6519,373 +6116,412 @@ class ReferentsTableSeeder extends Seeder
                     'created_at' => '2025-07-15 16:20:44',
                     'updated_at' => '2025-07-15 16:20:44',
                 ),
+                469 => 
+                array (
+                    'id' => 537,
+                    'contact_id' => 701,
+                    'name' => 'Preti Cristina',
+                    'title' => '',
+                    'phone' => '0185 733220-221',
+                    'fax' => '',
+                    'smart' => '347 8739459',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                470 => 
+                array (
+                    'id' => 538,
+                    'contact_id' => 919,
+                    'name' => '',
+                    'title' => 'Polizia Locale',
+                    'phone' => '010 3462245',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                471 => 
+                array (
+                    'id' => 539,
+                    'contact_id' => 703,
+                    'name' => 'Valentina Ruaro',
+                    'title' => 'Comandante Polizia Municipale',
+                    'phone' => '0182 6911289',
+                    'fax' => '0182 699848',
+                    'smart' => '338 8306445',
+                    'email' => 'comandante.pm@comune.laigueglia.sv.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                472 => 
+                array (
+                    'id' => 540,
+                    'contact_id' => 329,
+                    'name' => 'Sig.ra Pellegrino - Sig. Lorenzetti',
+                    'title' => 'Pagamenti',
+                    'phone' => '06 44125905 - 06 44125829',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                473 => 
+                array (
+                    'id' => 541,
+                    'contact_id' => 706,
+                    'name' => 'Olivieri Franco',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '346 6962385',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                474 => 
+                array (
+                    'id' => 542,
+                    'contact_id' => 708,
+                    'name' => 'Antonio Baiocco',
+                    'title' => 'Comandante',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '328 4765748',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                475 => 
+                array (
+                    'id' => 543,
+                    'contact_id' => 717,
+                    'name' => 'Dott.ssa Barbara Cravero',
+                    'title' => 'Responsabile affari generali',
+                    'phone' => '0187 813829',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'affarigenerali@comune.bonassola.sp.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                476 => 
+                array (
+                    'id' => 544,
+                    'contact_id' => 717,
+                    'name' => 'Vasam? Emanuele',
+                    'title' => 'Comandante Polizia Municipale',
+                    'phone' => '0187 813823',
+                    'fax' => '',
+                    'smart' => '335 7666497',
+                    'email' => 'polizia.locale@comune.bonassola.sp.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                477 => 
+                array (
+                    'id' => 545,
+                    'contact_id' => 703,
+                    'name' => 'Silvia Estiemme - Rag. Simonetta Missaglia',
+                    'title' => 'Ragioniera',
+                    'phone' => '0182 6911223',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'ragioneria@comune.laigueglia.sv.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                478 => 
+                array (
+                    'id' => 546,
+                    'contact_id' => 477,
+                'name' => 'Lucera Calogera (affigge Onorati, il marito)',
+                    'title' => 'Affissatore',
+                    'phone' => '335/7482579',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                479 => 
+                array (
+                    'id' => 547,
+                    'contact_id' => 717,
+                    'name' => 'Paola Folignani',
+                    'title' => 'Segretario Comunale',
+                    'phone' => '0187813822',
+                'fax' => '0187802236 (Com.Levanto)',
+                    'smart' => '3357666501',
+                    'email' => 'segretario@comune.bonassola.sp.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                480 => 
+                array (
+                    'id' => 548,
+                    'contact_id' => 675,
+                    'name' => '',
+                    'title' => 'Assistenza Tecnica/Malfunzionamenti',
+                    'phone' => '02 47931248',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                481 => 
+                array (
+                    'id' => 549,
+                    'contact_id' => 732,
+                    'name' => 'Dott.ssa Marina del Ry',
+                    'title' => 'Segretario Comunale',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                482 => 
+                array (
+                    'id' => 550,
+                    'contact_id' => 732,
+                    'name' => 'Sig.ra Alba Raggi',
+                    'title' => 'Ragioniera',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                483 => 
+                array (
+                    'id' => 551,
+                    'contact_id' => 506,
+                    'name' => '',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'segreteria@comune.carro.sp.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                484 => 
+                array (
+                    'id' => 552,
+                    'contact_id' => 228,
+                    'name' => 'Adrea Bollentini',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'andrea.bollentini@elettrovara.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                485 => 
+                array (
+                    'id' => 553,
+                    'contact_id' => 738,
+                    'name' => 'Sig. Gambolato',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '348 8143043',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                486 => 
+                array (
+                    'id' => 554,
+                    'contact_id' => 740,
+                    'name' => 'Gianluigi Bassi',
+                    'title' => 'Responsabile verifiche messa a terra impianti',
+                    'phone' => '010 6437444',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'gianluigi.bassi@arpal.org',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                487 => 
+                array (
+                    'id' => 555,
+                    'contact_id' => 743,
+                    'name' => 'Mirko Mussi',
+                    'title' => 'Responsabile Polizia Municipale',
+                    'phone' => '0185/7291280',
+                    'fax' => '0185/7291282',
+                    'smart' => '3346030957',
+                    'email' => 'mirko.mussi@comune.recco.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                488 => 
+                array (
+                    'id' => 556,
+                    'contact_id' => 522,
+                    'name' => 'Giorgio',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                489 => 
+                array (
+                    'id' => 557,
+                    'contact_id' => 751,
+                    'name' => 'Rita Di Cara',
+                    'title' => 'Referente per le Aziende',
+                    'phone' => '010 3536559',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'rita.dicara@pres.inge.unige.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                490 => 
+                array (
+                    'id' => 558,
+                    'contact_id' => 751,
+                    'name' => 'Segreteria',
+                    'title' => 'Elenchi neo laureati',
+                    'phone' => '010 2099675',
+                    'fax' => '010 2095652',
+                    'smart' => '',
+                    'email' => 'sportellolavoro@unige.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                491 => 
+                array (
+                    'id' => 559,
+                    'contact_id' => 751,
+                    'name' => 'Laura Tropiano',
+                    'title' => 'Referente per pubblicazione avviso per ricerca tirocinanti',
+                    'phone' => '010',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'tirocini.ingegneria@politecnica.unige.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                492 => 
+                array (
+                    'id' => 560,
+                    'contact_id' => 695,
+                    'name' => 'Toni Micaela',
+                    'title' => 'Dirigente',
+                    'phone' => '0184 272222',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'ragioneria@comune.bordighera.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                493 => 
+                array (
+                    'id' => 561,
+                    'contact_id' => 755,
+                    'name' => 'Giuseppe',
+                    'title' => 'Referente commerciale',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'commerciale@duritoedizioni.com',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                494 => 
+                array (
+                    'id' => 562,
+                    'contact_id' => 756,
+                    'name' => 'Giorgio Albalustri',
+                    'title' => 'corsi di formazione',
+                    'phone' => '333/2611111',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                495 => 
+                array (
+                    'id' => 563,
+                    'contact_id' => 757,
+                    'name' => '',
+                    'title' => '',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '3926303408',
+                    'email' => 'alberto.ferretti@sarida,it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                496 => 
+                array (
+                    'id' => 564,
+                    'contact_id' => 743,
+                    'name' => 'Giuseppe Magoni',
+                    'title' => 'Si occupa dei parcometri assieme a Meucci',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '349 0665405',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                497 => 
+                array (
+                    'id' => 565,
+                    'contact_id' => 743,
+                    'name' => 'Alessandro Meucci',
+                'title' => 'Vice Comandante (si occupa dei parcometri)',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => 'alessandro.meucci@comune.recco.ge.it',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                498 => 
+                array (
+                    'id' => 566,
+                    'contact_id' => 654,
+                    'name' => 'Archetti Giuliana',
+                    'title' => 'Responsabile ufficio Ragioneria',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
+                499 => 
+                array (
+                    'id' => 567,
+                    'contact_id' => 408,
+                    'name' => 'stefania.troiani@fondazioneifel.it',
+                    'title' => 'Referente per info contributo ifel',
+                    'phone' => '',
+                    'fax' => '',
+                    'smart' => '',
+                    'email' => '',
+                    'created_at' => '2025-07-15 16:20:44',
+                    'updated_at' => '2025-07-15 16:20:44',
+                ),
             ));
         \DB::table('referents')->insert(array (
             0 => 
-            array (
-                'id' => 537,
-                'contact_id' => 701,
-                'name' => 'Preti Cristina',
-                'title' => '',
-                'phone' => '0185 733220-221',
-                'fax' => '',
-                'smart' => '347 8739459',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            1 => 
-            array (
-                'id' => 538,
-                'contact_id' => NULL,
-                'name' => '',
-                'title' => 'Polizia Locale',
-                'phone' => '010 3462245',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            2 => 
-            array (
-                'id' => 539,
-                'contact_id' => 703,
-                'name' => 'Valentina Ruaro',
-                'title' => 'Comandante Polizia Municipale',
-                'phone' => '0182 6911289',
-                'fax' => '0182 699848',
-                'smart' => '338 8306445',
-                'email' => 'comandante.pm@comune.laigueglia.sv.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            3 => 
-            array (
-                'id' => 540,
-                'contact_id' => 329,
-                'name' => 'Sig.ra Pellegrino - Sig. Lorenzetti',
-                'title' => 'Pagamenti',
-                'phone' => '06 44125905 - 06 44125829',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            4 => 
-            array (
-                'id' => 541,
-                'contact_id' => 706,
-                'name' => 'Olivieri Franco',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '346 6962385',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            5 => 
-            array (
-                'id' => 542,
-                'contact_id' => 708,
-                'name' => 'Antonio Baiocco',
-                'title' => 'Comandante',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '328 4765748',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            6 => 
-            array (
-                'id' => 543,
-                'contact_id' => 717,
-                'name' => 'Dott.ssa Barbara Cravero',
-                'title' => 'Responsabile affari generali',
-                'phone' => '0187 813829',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'affarigenerali@comune.bonassola.sp.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            7 => 
-            array (
-                'id' => 544,
-                'contact_id' => 717,
-                'name' => 'Vasam? Emanuele',
-                'title' => 'Comandante Polizia Municipale',
-                'phone' => '0187 813823',
-                'fax' => '',
-                'smart' => '335 7666497',
-                'email' => 'polizia.locale@comune.bonassola.sp.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            8 => 
-            array (
-                'id' => 545,
-                'contact_id' => 703,
-                'name' => 'Silvia Estiemme - Rag. Simonetta Missaglia',
-                'title' => 'Ragioniera',
-                'phone' => '0182 6911223',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'ragioneria@comune.laigueglia.sv.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            9 => 
-            array (
-                'id' => 546,
-                'contact_id' => 477,
-            'name' => 'Lucera Calogera (affigge Onorati, il marito)',
-                'title' => 'Affissatore',
-                'phone' => '335/7482579',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            10 => 
-            array (
-                'id' => 547,
-                'contact_id' => 717,
-                'name' => 'Paola Folignani',
-                'title' => 'Segretario Comunale',
-                'phone' => '0187813822',
-            'fax' => '0187802236 (Com.Levanto)',
-                'smart' => '3357666501',
-                'email' => 'segretario@comune.bonassola.sp.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            11 => 
-            array (
-                'id' => 548,
-                'contact_id' => 675,
-                'name' => '',
-                'title' => 'Assistenza Tecnica/Malfunzionamenti',
-                'phone' => '02 47931248',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            12 => 
-            array (
-                'id' => 549,
-                'contact_id' => 732,
-                'name' => 'Dott.ssa Marina del Ry',
-                'title' => 'Segretario Comunale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            13 => 
-            array (
-                'id' => 550,
-                'contact_id' => 732,
-                'name' => 'Sig.ra Alba Raggi',
-                'title' => 'Ragioniera',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            14 => 
-            array (
-                'id' => 551,
-                'contact_id' => 506,
-                'name' => '',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'segreteria@comune.carro.sp.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            15 => 
-            array (
-                'id' => 552,
-                'contact_id' => 228,
-                'name' => 'Adrea Bollentini',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'andrea.bollentini@elettrovara.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            16 => 
-            array (
-                'id' => 553,
-                'contact_id' => 738,
-                'name' => 'Sig. Gambolato',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '348 8143043',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            17 => 
-            array (
-                'id' => 554,
-                'contact_id' => 740,
-                'name' => 'Gianluigi Bassi',
-                'title' => 'Responsabile verifiche messa a terra impianti',
-                'phone' => '010 6437444',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'gianluigi.bassi@arpal.org',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            18 => 
-            array (
-                'id' => 555,
-                'contact_id' => 743,
-                'name' => 'Mirko Mussi',
-                'title' => 'Responsabile Polizia Municipale',
-                'phone' => '0185/7291280',
-                'fax' => '0185/7291282',
-                'smart' => '3346030957',
-                'email' => 'mirko.mussi@comune.recco.ge.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            19 => 
-            array (
-                'id' => 558,
-                'contact_id' => 751,
-                'name' => 'Segreteria',
-                'title' => 'Elenchi neo laureati',
-                'phone' => '010 2099675',
-                'fax' => '010 2095652',
-                'smart' => '',
-                'email' => 'sportellolavoro@unige.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            20 => 
-            array (
-                'id' => 559,
-                'contact_id' => 751,
-                'name' => 'Laura Tropiano',
-                'title' => 'Referente per pubblicazione avviso per ricerca tirocinanti',
-                'phone' => '010',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'tirocini.ingegneria@politecnica.unige.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            21 => 
-            array (
-                'id' => 561,
-                'contact_id' => 755,
-                'name' => 'Giuseppe',
-                'title' => 'Referente commerciale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'commerciale@duritoedizioni.com',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            22 => 
-            array (
-                'id' => 562,
-                'contact_id' => 756,
-                'name' => 'Giorgio Albalustri',
-                'title' => 'corsi di formazione',
-                'phone' => '333/2611111',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            23 => 
-            array (
-                'id' => 563,
-                'contact_id' => 757,
-                'name' => '',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '3926303408',
-                'email' => 'alberto.ferretti@sarida,it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            24 => 
-            array (
-                'id' => 564,
-                'contact_id' => 743,
-                'name' => 'Giuseppe Magoni',
-                'title' => 'Si occupa dei parcometri assieme a Meucci',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '349 0665405',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            25 => 
-            array (
-                'id' => 565,
-                'contact_id' => 743,
-                'name' => 'Alessandro Meucci',
-            'title' => 'Vice Comandante (si occupa dei parcometri)',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'alessandro.meucci@comune.recco.ge.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            26 => 
-            array (
-                'id' => 566,
-                'contact_id' => 654,
-                'name' => 'Archetti Giuliana',
-                'title' => 'Responsabile ufficio Ragioneria',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            27 => 
-            array (
-                'id' => 567,
-                'contact_id' => 408,
-                'name' => 'stefania.troiani@fondazioneifel.it',
-                'title' => 'Referente per info contributo ifel',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            28 => 
             array (
                 'id' => 568,
                 'contact_id' => 308,
@@ -6898,7 +6534,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            29 => 
+            1 => 
             array (
                 'id' => 569,
                 'contact_id' => 308,
@@ -6911,7 +6547,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            30 => 
+            2 => 
             array (
                 'id' => 570,
                 'contact_id' => 308,
@@ -6924,7 +6560,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            31 => 
+            3 => 
             array (
                 'id' => 571,
                 'contact_id' => 308,
@@ -6937,7 +6573,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            32 => 
+            4 => 
             array (
                 'id' => 572,
                 'contact_id' => 467,
@@ -6950,7 +6586,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            33 => 
+            5 => 
             array (
                 'id' => 573,
                 'contact_id' => 467,
@@ -6963,7 +6599,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            34 => 
+            6 => 
             array (
                 'id' => 574,
                 'contact_id' => 470,
@@ -6976,20 +6612,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            35 => 
-            array (
-                'id' => 931,
-                'contact_id' => 135,
-                'name' => '',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'simona.garbarino@comune.castiglione-chiavarese.ge.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            36 => 
+            7 => 
             array (
                 'id' => 576,
                 'contact_id' => 186,
@@ -7002,7 +6625,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            37 => 
+            8 => 
             array (
                 'id' => 577,
                 'contact_id' => 584,
@@ -7015,7 +6638,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            38 => 
+            9 => 
             array (
                 'id' => 578,
                 'contact_id' => 759,
@@ -7028,7 +6651,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            39 => 
+            10 => 
             array (
                 'id' => 579,
                 'contact_id' => 759,
@@ -7041,7 +6664,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            40 => 
+            11 => 
             array (
                 'id' => 580,
                 'contact_id' => 760,
@@ -7054,7 +6677,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            41 => 
+            12 => 
             array (
                 'id' => 581,
                 'contact_id' => 408,
@@ -7067,7 +6690,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            42 => 
+            13 => 
             array (
                 'id' => 582,
                 'contact_id' => 676,
@@ -7080,7 +6703,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            43 => 
+            14 => 
             array (
                 'id' => 583,
                 'contact_id' => 457,
@@ -7093,7 +6716,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            44 => 
+            15 => 
             array (
                 'id' => 584,
                 'contact_id' => 676,
@@ -7106,7 +6729,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            45 => 
+            16 => 
             array (
                 'id' => 585,
                 'contact_id' => 765,
@@ -7119,7 +6742,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            46 => 
+            17 => 
             array (
                 'id' => 586,
                 'contact_id' => 766,
@@ -7132,10 +6755,10 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            47 => 
+            18 => 
             array (
                 'id' => 587,
-                'contact_id' => NULL,
+                'contact_id' => 600,
                 'name' => 'Massimo Bixio',
                 'title' => '',
                 'phone' => '',
@@ -7145,7 +6768,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            48 => 
+            19 => 
             array (
                 'id' => 588,
                 'contact_id' => 766,
@@ -7158,7 +6781,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            49 => 
+            20 => 
             array (
                 'id' => 589,
                 'contact_id' => 768,
@@ -7171,7 +6794,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            50 => 
+            21 => 
             array (
                 'id' => 590,
                 'contact_id' => 606,
@@ -7184,7 +6807,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            51 => 
+            22 => 
             array (
                 'id' => 591,
                 'contact_id' => 701,
@@ -7197,7 +6820,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            52 => 
+            23 => 
             array (
                 'id' => 592,
                 'contact_id' => 771,
@@ -7210,7 +6833,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            53 => 
+            24 => 
             array (
                 'id' => 593,
                 'contact_id' => 766,
@@ -7223,7 +6846,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            54 => 
+            25 => 
             array (
                 'id' => 594,
                 'contact_id' => 773,
@@ -7236,7 +6859,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            55 => 
+            26 => 
             array (
                 'id' => 595,
                 'contact_id' => 766,
@@ -7249,7 +6872,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            56 => 
+            27 => 
             array (
                 'id' => 596,
                 'contact_id' => 329,
@@ -7262,7 +6885,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            57 => 
+            28 => 
             array (
                 'id' => 597,
                 'contact_id' => 766,
@@ -7275,7 +6898,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            58 => 
+            29 => 
             array (
                 'id' => 598,
                 'contact_id' => 761,
@@ -7288,7 +6911,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            59 => 
+            30 => 
             array (
                 'id' => 599,
                 'contact_id' => 676,
@@ -7301,7 +6924,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            60 => 
+            31 => 
             array (
                 'id' => 600,
                 'contact_id' => 774,
@@ -7314,7 +6937,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            61 => 
+            32 => 
             array (
                 'id' => 601,
                 'contact_id' => 775,
@@ -7327,7 +6950,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            62 => 
+            33 => 
             array (
                 'id' => 602,
                 'contact_id' => 775,
@@ -7340,20 +6963,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            63 => 
-            array (
-                'id' => 844,
-                'contact_id' => NULL,
-                'name' => 'Aliperti',
-                'title' => 'Direttore servizio recapiti',
-                'phone' => '0185 456744',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            64 => 
+            34 => 
             array (
                 'id' => 603,
                 'contact_id' => 266,
@@ -7366,7 +6976,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            65 => 
+            35 => 
             array (
                 'id' => 604,
                 'contact_id' => 888,
@@ -7379,7 +6989,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            66 => 
+            36 => 
             array (
                 'id' => 606,
                 'contact_id' => 739,
@@ -7392,7 +7002,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            67 => 
+            37 => 
             array (
                 'id' => 607,
                 'contact_id' => 889,
@@ -7405,7 +7015,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            68 => 
+            38 => 
             array (
                 'id' => 609,
                 'contact_id' => 893,
@@ -7418,20 +7028,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            69 => 
-            array (
-                'id' => 793,
-                'contact_id' => 607,
-                'name' => 'Antonella Cozzolino',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'antonella.cozzolino@cisl.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            70 => 
+            39 => 
             array (
                 'id' => 610,
                 'contact_id' => 606,
@@ -7444,10 +7041,23 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            71 => 
+            40 => 
+            array (
+                'id' => 611,
+                'contact_id' => 896,
+                'name' => 'Gianni',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '347 2239039',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            41 => 
             array (
                 'id' => 612,
-                'contact_id' => NULL,
+                'contact_id' => 1032,
                 'name' => 'Andreoli',
                 'title' => 'Comandante',
                 'phone' => '0565 839314',
@@ -7457,10 +7067,10 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            72 => 
+            42 => 
             array (
                 'id' => 613,
-                'contact_id' => NULL,
+                'contact_id' => 1032,
                 'name' => 'Segretario',
                 'title' => 'Dott. Calzaretta',
                 'phone' => '0565 839226',
@@ -7470,7 +7080,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            73 => 
+            43 => 
             array (
                 'id' => 614,
                 'contact_id' => 899,
@@ -7483,7 +7093,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            74 => 
+            44 => 
             array (
                 'id' => 615,
                 'contact_id' => 900,
@@ -7496,7 +7106,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            75 => 
+            45 => 
             array (
                 'id' => 616,
                 'contact_id' => 900,
@@ -7509,20 +7119,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            76 => 
-            array (
-                'id' => 621,
-                'contact_id' => 246,
-                'name' => 'Dott.ssa Simona Criscuolo',
-                'title' => 'Addetta della segreteria',
-                'phone' => '06 9383 6785',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'simona.criscuolo@finanze.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            77 => 
+            46 => 
             array (
                 'id' => 617,
                 'contact_id' => 902,
@@ -7535,7 +7132,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            78 => 
+            47 => 
             array (
                 'id' => 618,
                 'contact_id' => 902,
@@ -7548,7 +7145,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            79 => 
+            48 => 
             array (
                 'id' => 619,
                 'contact_id' => 902,
@@ -7561,7 +7158,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            80 => 
+            49 => 
             array (
                 'id' => 620,
                 'contact_id' => 657,
@@ -7574,7 +7171,46 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            81 => 
+            50 => 
+            array (
+                'id' => 621,
+                'contact_id' => 246,
+                'name' => 'Dott.ssa Simona Criscuolo',
+                'title' => 'Addetta della segreteria',
+                'phone' => '06 9383 6785',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'simona.criscuolo@finanze.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            51 => 
+            array (
+                'id' => 622,
+                'contact_id' => 246,
+                'name' => 'Sig.ra Carla Badessi',
+                'title' => 'Assistente della segreteria',
+                'phone' => '06 9383 6762',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'carla.badessi@finanze.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            52 => 
+            array (
+                'id' => 623,
+                'contact_id' => 467,
+                'name' => 'Anna Claudia Albano',
+                'title' => 'Richiesta fatture',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'annaclaudia@ditechsrl.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            53 => 
             array (
                 'id' => 624,
                 'contact_id' => 261,
@@ -7587,7 +7223,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            82 => 
+            54 => 
             array (
                 'id' => 625,
                 'contact_id' => 477,
@@ -7600,7 +7236,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            83 => 
+            55 => 
             array (
                 'id' => 626,
                 'contact_id' => 670,
@@ -7613,7 +7249,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            84 => 
+            56 => 
             array (
                 'id' => 627,
                 'contact_id' => 509,
@@ -7626,7 +7262,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            85 => 
+            57 => 
             array (
                 'id' => 628,
                 'contact_id' => 911,
@@ -7639,7 +7275,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            86 => 
+            58 => 
             array (
                 'id' => 629,
                 'contact_id' => 912,
@@ -7652,7 +7288,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            87 => 
+            59 => 
             array (
                 'id' => 630,
                 'contact_id' => 912,
@@ -7665,33 +7301,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            88 => 
-            array (
-                'id' => 781,
-                'contact_id' => 676,
-                'name' => 'Girardi Ivan',
-            'title' => 'Assistenza dedicata al recapito dei prodotti postali (raccomandate, AG, SMA mancanti ecc.)',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'ivan.girardi@posteitaliane.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            89 => 
-            array (
-                'id' => 1076,
-                'contact_id' => 1146,
-                'name' => 'Beretta Ivana',
-                'title' => 'Ufficio segreteria',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'segreteria@comune.cogliate.mb.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            90 => 
+            60 => 
             array (
                 'id' => 631,
                 'contact_id' => 902,
@@ -7704,7 +7314,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            91 => 
+            61 => 
             array (
                 'id' => 632,
                 'contact_id' => 914,
@@ -7717,7 +7327,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            92 => 
+            62 => 
             array (
                 'id' => 633,
                 'contact_id' => 914,
@@ -7730,7 +7340,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            93 => 
+            63 => 
             array (
                 'id' => 634,
                 'contact_id' => 911,
@@ -7743,33 +7353,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            94 => 
+            64 => 
             array (
-                'id' => 647,
-                'contact_id' => 934,
-                'name' => 'Dott. Telloni Mario',
+                'id' => 636,
+                'contact_id' => 919,
+                'name' => 'Polizia Locale',
                 'title' => '',
-            'phone' => '02 950759 (221)',
+                'phone' => '010 3462245',
                 'fax' => '',
                 'smart' => '',
-                'email' => 'telloni@comune.settala.mi.gov.it',
+                'email' => 'polizialocale@comune.pieveligure.ge.it',
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            95 => 
-            array (
-                'id' => 648,
-                'contact_id' => 935,
-                'name' => 'Codici di accesso tramite www.registroimprese.it/qrcode',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            96 => 
+            65 => 
             array (
                 'id' => 637,
                 'contact_id' => 922,
@@ -7782,7 +7379,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            97 => 
+            66 => 
             array (
                 'id' => 638,
                 'contact_id' => 922,
@@ -7795,7 +7392,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            98 => 
+            67 => 
             array (
                 'id' => 639,
                 'contact_id' => 922,
@@ -7808,20 +7405,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            99 => 
-            array (
-                'id' => 825,
-                'contact_id' => 159,
-                'name' => '',
-                'title' => '',
-                'phone' => '328 3258507',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            100 => 
+            68 => 
             array (
                 'id' => 640,
                 'contact_id' => 717,
@@ -7834,7 +7418,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            101 => 
+            69 => 
             array (
                 'id' => 641,
                 'contact_id' => 928,
@@ -7847,7 +7431,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            102 => 
+            70 => 
             array (
                 'id' => 642,
                 'contact_id' => 394,
@@ -7860,7 +7444,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            103 => 
+            71 => 
             array (
                 'id' => 643,
                 'contact_id' => 933,
@@ -7873,7 +7457,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            104 => 
+            72 => 
             array (
                 'id' => 644,
                 'contact_id' => 922,
@@ -7886,7 +7470,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            105 => 
+            73 => 
             array (
                 'id' => 645,
                 'contact_id' => 922,
@@ -7899,7 +7483,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            106 => 
+            74 => 
             array (
                 'id' => 646,
                 'contact_id' => 576,
@@ -7912,7 +7496,33 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            107 => 
+            75 => 
+            array (
+                'id' => 647,
+                'contact_id' => 934,
+                'name' => 'Dott. Telloni Mario',
+                'title' => '',
+            'phone' => '02 950759 (221)',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'telloni@comune.settala.mi.gov.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            76 => 
+            array (
+                'id' => 648,
+                'contact_id' => 935,
+                'name' => 'Codici di accesso tramite www.registroimprese.it/qrcode',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            77 => 
             array (
                 'id' => 649,
                 'contact_id' => 936,
@@ -7925,7 +7535,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            108 => 
+            78 => 
             array (
                 'id' => 650,
                 'contact_id' => 939,
@@ -7938,7 +7548,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            109 => 
+            79 => 
             array (
                 'id' => 651,
                 'contact_id' => 478,
@@ -7951,7 +7561,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            110 => 
+            80 => 
             array (
                 'id' => 652,
                 'contact_id' => 940,
@@ -7964,7 +7574,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            111 => 
+            81 => 
             array (
                 'id' => 653,
                 'contact_id' => 939,
@@ -7977,7 +7587,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            112 => 
+            82 => 
             array (
                 'id' => 654,
                 'contact_id' => 939,
@@ -7990,7 +7600,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            113 => 
+            83 => 
             array (
                 'id' => 655,
                 'contact_id' => 939,
@@ -8003,7 +7613,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            114 => 
+            84 => 
             array (
                 'id' => 656,
                 'contact_id' => 162,
@@ -8016,20 +7626,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            115 => 
-            array (
-                'id' => 1189,
-                'contact_id' => 1175,
-                'name' => 'Antonino Bonaventura',
-                'title' => 'Referente commerciale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '348 7262032',
-                'email' => 'a.bonaventura@progettostudio.com',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            116 => 
+            85 => 
             array (
                 'id' => 657,
                 'contact_id' => 162,
@@ -8042,7 +7639,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            117 => 
+            86 => 
             array (
                 'id' => 658,
                 'contact_id' => 162,
@@ -8055,7 +7652,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            118 => 
+            87 => 
             array (
                 'id' => 659,
                 'contact_id' => 945,
@@ -8068,7 +7665,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            119 => 
+            88 => 
             array (
                 'id' => 660,
                 'contact_id' => 759,
@@ -8081,98 +7678,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            120 => 
-            array (
-                'id' => 661,
-                'contact_id' => NULL,
-                'name' => 'sasa',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            121 => 
-            array (
-                'id' => 662,
-                'contact_id' => 759,
-                'name' => 'asasasa',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            122 => 
-            array (
-                'id' => 663,
-                'contact_id' => NULL,
-                'name' => 'shdfhsfshfd',
-                'title' => 'safsafsafniente',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            123 => 
-            array (
-                'id' => 664,
-                'contact_id' => NULL,
-                'name' => 'dasdassdsddasdasa',
-                'title' => 'pincopallino3',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            124 => 
-            array (
-                'id' => 665,
-                'contact_id' => NULL,
-                'name' => 'ddd',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            125 => 
-            array (
-                'id' => 666,
-                'contact_id' => NULL,
-                'name' => 'sasasa',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            126 => 
-            array (
-                'id' => 668,
-                'contact_id' => 752,
-                'name' => 'marco',
-                'title' => '',
-                'phone' => '3282345678',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            127 => 
+            89 => 
             array (
                 'id' => 667,
                 'contact_id' => 602,
@@ -8185,7 +7691,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            128 => 
+            90 => 
+            array (
+                'id' => 668,
+                'contact_id' => 752,
+                'name' => 'marco',
+                'title' => '',
+                'phone' => '3282345678',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            91 => 
             array (
                 'id' => 669,
                 'contact_id' => 739,
@@ -8198,7 +7717,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            129 => 
+            92 => 
             array (
                 'id' => 670,
                 'contact_id' => 739,
@@ -8211,20 +7730,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            130 => 
-            array (
-                'id' => 914,
-                'contact_id' => 1151,
-                'name' => 'Giampiero Petito',
-                'title' => 'Responsabile commerciale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '335 6342604',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            131 => 
+            93 => 
             array (
                 'id' => 672,
                 'contact_id' => 955,
@@ -8237,7 +7743,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            132 => 
+            94 => 
             array (
                 'id' => 673,
                 'contact_id' => 329,
@@ -8250,7 +7756,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            133 => 
+            95 => 
             array (
                 'id' => 674,
                 'contact_id' => 957,
@@ -8263,7 +7769,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            134 => 
+            96 => 
             array (
                 'id' => 675,
                 'contact_id' => 961,
@@ -8276,20 +7782,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            135 => 
-            array (
-                'id' => 867,
-                'contact_id' => 1117,
-                'name' => 'Beatrice Scotti',
-                'title' => 'Operativo dedicato alla gestione delle violazioni estere',
-                'phone' => '055 4496514',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'b.scotti@comune.sesto-fiorentino.fi.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            136 => 
+            97 => 
             array (
                 'id' => 676,
                 'contact_id' => 221,
@@ -8302,33 +7795,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            137 => 
-            array (
-                'id' => 1000,
-                'contact_id' => 1119,
-                'name' => 'Sara',
-                'title' => 'Referente amministrativo',
-                'phone' => '0185 215829',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            138 => 
-            array (
-                'id' => 999,
-                'contact_id' => 1222,
-                'name' => 'Dott.ssa Cola Francesca',
-                'title' => 'Ufficio Tributi - Ufficio Economato',
-                'phone' => '0444 830834/35',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'tributi@comune.sarego.vi.it - f.cola@comune.sarego.vi.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            139 => 
+            98 => 
             array (
                 'id' => 678,
                 'contact_id' => 469,
@@ -8341,7 +7808,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            140 => 
+            99 => 
             array (
                 'id' => 679,
                 'contact_id' => 615,
@@ -8354,7 +7821,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            141 => 
+            100 => 
             array (
                 'id' => 680,
                 'contact_id' => 761,
@@ -8367,7 +7834,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            142 => 
+            101 => 
             array (
                 'id' => 681,
                 'contact_id' => 967,
@@ -8380,7 +7847,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            143 => 
+            102 => 
             array (
                 'id' => 682,
                 'contact_id' => 967,
@@ -8393,7 +7860,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            144 => 
+            103 => 
             array (
                 'id' => 683,
                 'contact_id' => 918,
@@ -8406,7 +7873,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            145 => 
+            104 => 
             array (
                 'id' => 684,
                 'contact_id' => 968,
@@ -8419,7 +7886,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            146 => 
+            105 => 
             array (
                 'id' => 685,
                 'contact_id' => 918,
@@ -8432,20 +7899,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            147 => 
-            array (
-                'id' => 686,
-                'contact_id' => NULL,
-                'name' => 'Signora Casartelli Anna Maria',
-                'title' => 'RAGIONERIA',
-                'phone' => '031 252351',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            148 => 
+            106 => 
             array (
                 'id' => 687,
                 'contact_id' => 939,
@@ -8458,7 +7912,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            149 => 
+            107 => 
             array (
                 'id' => 688,
                 'contact_id' => 970,
@@ -8471,7 +7925,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            150 => 
+            108 => 
             array (
                 'id' => 690,
                 'contact_id' => 204,
@@ -8484,10 +7938,10 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            151 => 
+            109 => 
             array (
                 'id' => 691,
-                'contact_id' => NULL,
+                'contact_id' => 966,
                 'name' => 'Maria Maddalena Zinzalini',
                 'title' => '',
                 'phone' => '03775790209',
@@ -8497,7 +7951,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            152 => 
+            110 => 
             array (
                 'id' => 692,
                 'contact_id' => 966,
@@ -8510,7 +7964,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            153 => 
+            111 => 
             array (
                 'id' => 693,
                 'contact_id' => 188,
@@ -8523,7 +7977,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            154 => 
+            112 => 
             array (
                 'id' => 694,
                 'contact_id' => 974,
@@ -8536,7 +7990,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            155 => 
+            113 => 
             array (
                 'id' => 695,
                 'contact_id' => 533,
@@ -8549,7 +8003,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            156 => 
+            114 => 
+            array (
+                'id' => 696,
+                'contact_id' => 967,
+                'name' => 'Dott.ssa Marianna Marzocca',
+                'title' => 'Referente Area Finanziaria',
+                'phone' => '019/ 746971',
+                'fax' => '',
+                'smart' => '335 5328020',
+                'email' => 'marianna.marzocca@comune.spotorno.sv.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            115 => 
             array (
                 'id' => 697,
                 'contact_id' => 467,
@@ -8562,7 +8029,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            157 => 
+            116 => 
             array (
                 'id' => 698,
                 'contact_id' => 978,
@@ -8575,7 +8042,33 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            158 => 
+            117 => 
+            array (
+                'id' => 699,
+                'contact_id' => 317,
+                'name' => 'GIUSEPPE',
+                'title' => 'PM - Colui che sa passare le foto del rilevatore',
+                'phone' => '0774/921260',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            118 => 
+            array (
+                'id' => 700,
+                'contact_id' => 978,
+                'name' => 'Sig.ra Cristina',
+                'title' => '',
+                'phone' => '039 5311174 int 1',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            119 => 
             array (
                 'id' => 701,
                 'contact_id' => 987,
@@ -8588,7 +8081,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            159 => 
+            120 => 
             array (
                 'id' => 702,
                 'contact_id' => 988,
@@ -8601,7 +8094,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            160 => 
+            121 => 
             array (
                 'id' => 703,
                 'contact_id' => 668,
@@ -8614,7 +8107,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            161 => 
+            122 => 
             array (
                 'id' => 704,
                 'contact_id' => 991,
@@ -8627,7 +8120,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            162 => 
+            123 => 
             array (
                 'id' => 705,
                 'contact_id' => 992,
@@ -8640,7 +8133,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            163 => 
+            124 => 
             array (
                 'id' => 706,
                 'contact_id' => 994,
@@ -8653,7 +8146,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            164 => 
+            125 => 
             array (
                 'id' => 707,
                 'contact_id' => 994,
@@ -8666,7 +8159,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            165 => 
+            126 => 
             array (
                 'id' => 708,
                 'contact_id' => 934,
@@ -8679,7 +8172,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            166 => 
+            127 => 
             array (
                 'id' => 709,
                 'contact_id' => 928,
@@ -8692,7 +8185,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            167 => 
+            128 => 
             array (
                 'id' => 710,
                 'contact_id' => 998,
@@ -8705,7 +8198,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            168 => 
+            129 => 
             array (
                 'id' => 711,
                 'contact_id' => 998,
@@ -8718,23 +8211,10 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            169 => 
-            array (
-                'id' => 712,
-                'contact_id' => NULL,
-                'name' => 'dottsa maffi giovanna',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            170 => 
+            130 => 
             array (
                 'id' => 713,
-                'contact_id' => NULL,
+                'contact_id' => 938,
                 'name' => 'attacchino sandri dario  029094016 int 4',
                 'title' => '',
                 'phone' => '',
@@ -8744,7 +8224,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            171 => 
+            131 => 
             array (
                 'id' => 714,
                 'contact_id' => 481,
@@ -8757,7 +8237,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            172 => 
+            132 => 
             array (
                 'id' => 715,
                 'contact_id' => 476,
@@ -8770,7 +8250,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            173 => 
+            133 => 
             array (
                 'id' => 716,
                 'contact_id' => 476,
@@ -8783,7 +8263,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            174 => 
+            134 => 
             array (
                 'id' => 717,
                 'contact_id' => 1000,
@@ -8796,7 +8276,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            175 => 
+            135 => 
             array (
                 'id' => 718,
                 'contact_id' => 1000,
@@ -8809,7 +8289,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            176 => 
+            136 => 
             array (
                 'id' => 719,
                 'contact_id' => 1001,
@@ -8822,7 +8302,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            177 => 
+            137 => 
             array (
                 'id' => 720,
                 'contact_id' => 1002,
@@ -8835,7 +8315,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            178 => 
+            138 => 
             array (
                 'id' => 721,
                 'contact_id' => 1002,
@@ -8848,7 +8328,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            179 => 
+            139 => 
             array (
                 'id' => 722,
                 'contact_id' => 928,
@@ -8861,7 +8341,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            180 => 
+            140 => 
             array (
                 'id' => 723,
                 'contact_id' => 1004,
@@ -8874,7 +8354,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            181 => 
+            141 => 
             array (
                 'id' => 724,
                 'contact_id' => 1004,
@@ -8887,10 +8367,10 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            182 => 
+            142 => 
             array (
                 'id' => 725,
-                'contact_id' => NULL,
+                'contact_id' => 928,
                 'name' => 'Geom. Donatini Mauro',
                 'title' => 'Ufficio Tributi',
                 'phone' => '',
@@ -8900,10 +8380,10 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            183 => 
+            143 => 
             array (
                 'id' => 726,
-                'contact_id' => NULL,
+                'contact_id' => 910,
                 'name' => 'Luigi Perotti',
                 'title' => 'Affissatore',
                 'phone' => '045 7420092',
@@ -8913,7 +8393,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            184 => 
+            144 => 
             array (
                 'id' => 727,
                 'contact_id' => 491,
@@ -8926,7 +8406,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            185 => 
+            145 => 
             array (
                 'id' => 728,
                 'contact_id' => 491,
@@ -8939,7 +8419,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            186 => 
+            146 => 
             array (
                 'id' => 729,
                 'contact_id' => 696,
@@ -8952,7 +8432,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            187 => 
+            147 => 
             array (
                 'id' => 730,
                 'contact_id' => 696,
@@ -8965,7 +8445,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            188 => 
+            148 => 
             array (
                 'id' => 731,
                 'contact_id' => 1006,
@@ -8978,7 +8458,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            189 => 
+            149 => 
             array (
                 'id' => 732,
                 'contact_id' => 1006,
@@ -8991,7 +8471,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            190 => 
+            150 => 
             array (
                 'id' => 733,
                 'contact_id' => 1007,
@@ -9004,7 +8484,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            191 => 
+            151 => 
             array (
                 'id' => 734,
                 'contact_id' => 1007,
@@ -9017,7 +8497,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            192 => 
+            152 => 
             array (
                 'id' => 735,
                 'contact_id' => 996,
@@ -9030,7 +8510,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            193 => 
+            153 => 
             array (
                 'id' => 736,
                 'contact_id' => 1008,
@@ -9043,7 +8523,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            194 => 
+            154 => 
             array (
                 'id' => 737,
                 'contact_id' => 1008,
@@ -9056,7 +8536,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            195 => 
+            155 => 
             array (
                 'id' => 738,
                 'contact_id' => 1009,
@@ -9069,7 +8549,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            196 => 
+            156 => 
             array (
                 'id' => 739,
                 'contact_id' => 1009,
@@ -9082,20 +8562,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            197 => 
-            array (
-                'id' => 987,
-                'contact_id' => 1211,
-                'name' => 'Dott.ssa Renata Capitanio',
-                'title' => 'Responsabile ragioneria',
-                'phone' => '0295 9595237',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'responsabile.finanziario@comune.rodano.mi.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            198 => 
+            157 => 
             array (
                 'id' => 740,
                 'contact_id' => 1010,
@@ -9108,7 +8575,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            199 => 
+            158 => 
             array (
                 'id' => 741,
                 'contact_id' => 1010,
@@ -9121,7 +8588,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            200 => 
+            159 => 
             array (
                 'id' => 742,
                 'contact_id' => 1011,
@@ -9134,7 +8601,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            201 => 
+            160 => 
             array (
                 'id' => 743,
                 'contact_id' => 1011,
@@ -9147,7 +8614,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            202 => 
+            161 => 
             array (
                 'id' => 744,
                 'contact_id' => 1012,
@@ -9160,7 +8627,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            203 => 
+            162 => 
             array (
                 'id' => 745,
                 'contact_id' => 1012,
@@ -9173,7 +8640,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            204 => 
+            163 => 
             array (
                 'id' => 746,
                 'contact_id' => 1013,
@@ -9186,7 +8653,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            205 => 
+            164 => 
             array (
                 'id' => 747,
                 'contact_id' => 1013,
@@ -9199,7 +8666,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            206 => 
+            165 => 
             array (
                 'id' => 748,
                 'contact_id' => 478,
@@ -9212,7 +8679,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            207 => 
+            166 => 
             array (
                 'id' => 749,
                 'contact_id' => 1014,
@@ -9225,7 +8692,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            208 => 
+            167 => 
             array (
                 'id' => 750,
                 'contact_id' => 1015,
@@ -9238,7 +8705,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            209 => 
+            168 => 
             array (
                 'id' => 751,
                 'contact_id' => 1015,
@@ -9251,7 +8718,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            210 => 
+            169 => 
             array (
                 'id' => 752,
                 'contact_id' => 1016,
@@ -9264,7 +8731,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            211 => 
+            170 => 
             array (
                 'id' => 753,
                 'contact_id' => 1016,
@@ -9277,7 +8744,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            212 => 
+            171 => 
             array (
                 'id' => 754,
                 'contact_id' => 1017,
@@ -9290,7 +8757,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            213 => 
+            172 => 
             array (
                 'id' => 755,
                 'contact_id' => 1017,
@@ -9303,7 +8770,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            214 => 
+            173 => 
             array (
                 'id' => 756,
                 'contact_id' => 1018,
@@ -9316,7 +8783,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            215 => 
+            174 => 
             array (
                 'id' => 757,
                 'contact_id' => 1018,
@@ -9329,7 +8796,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            216 => 
+            175 => 
             array (
                 'id' => 758,
                 'contact_id' => 1018,
@@ -9342,7 +8809,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            217 => 
+            176 => 
             array (
                 'id' => 759,
                 'contact_id' => 1019,
@@ -9355,7 +8822,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            218 => 
+            177 => 
             array (
                 'id' => 760,
                 'contact_id' => 1019,
@@ -9368,7 +8835,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            219 => 
+            178 => 
             array (
                 'id' => 761,
                 'contact_id' => 474,
@@ -9381,7 +8848,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            220 => 
+            179 => 
             array (
                 'id' => 762,
                 'contact_id' => 474,
@@ -9394,7 +8861,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            221 => 
+            180 => 
             array (
                 'id' => 763,
                 'contact_id' => 1020,
@@ -9407,7 +8874,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            222 => 
+            181 => 
             array (
                 'id' => 764,
                 'contact_id' => 1020,
@@ -9420,7 +8887,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            223 => 
+            182 => 
             array (
                 'id' => 765,
                 'contact_id' => 1020,
@@ -9433,7 +8900,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            224 => 
+            183 => 
             array (
                 'id' => 766,
                 'contact_id' => 483,
@@ -9446,7 +8913,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            225 => 
+            184 => 
             array (
                 'id' => 767,
                 'contact_id' => 483,
@@ -9459,7 +8926,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            226 => 
+            185 => 
             array (
                 'id' => 768,
                 'contact_id' => 1021,
@@ -9472,7 +8939,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            227 => 
+            186 => 
             array (
                 'id' => 769,
                 'contact_id' => 1021,
@@ -9485,7 +8952,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            228 => 
+            187 => 
             array (
                 'id' => 770,
                 'contact_id' => 1022,
@@ -9498,7 +8965,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            229 => 
+            188 => 
             array (
                 'id' => 771,
                 'contact_id' => 1023,
@@ -9511,7 +8978,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            230 => 
+            189 => 
             array (
                 'id' => 772,
                 'contact_id' => 1023,
@@ -9524,7 +8991,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            231 => 
+            190 => 
             array (
                 'id' => 773,
                 'contact_id' => 1023,
@@ -9537,7 +9004,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            232 => 
+            191 => 
             array (
                 'id' => 774,
                 'contact_id' => 484,
@@ -9550,7 +9017,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            233 => 
+            192 => 
             array (
                 'id' => 775,
                 'contact_id' => 1024,
@@ -9563,7 +9030,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            234 => 
+            193 => 
             array (
                 'id' => 776,
                 'contact_id' => 189,
@@ -9576,7 +9043,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            235 => 
+            194 => 
             array (
                 'id' => 777,
                 'contact_id' => 1025,
@@ -9589,20 +9056,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            236 => 
+            195 => 
             array (
-                'id' => 779,
-                'contact_id' => NULL,
-                'name' => 'Gregorio di Leo',
-            'title' => 'Ragioniere (rif. per contratti, aggio ecc.)',
+                'id' => 778,
+                'contact_id' => 1026,
+                'name' => 'Grossi Barbara',
+                'title' => '',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '',
-                'email' => '',
+                'smart' => '338/6048993',
+                'email' => 'barbara.grossidegradi@gmail.com',
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            237 => 
+            196 => 
             array (
                 'id' => 780,
                 'contact_id' => 912,
@@ -9615,7 +9082,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            238 => 
+            197 => 
+            array (
+                'id' => 781,
+                'contact_id' => 676,
+                'name' => 'Girardi Ivan',
+            'title' => 'Assistenza dedicata al recapito dei prodotti postali (raccomandate, AG, SMA mancanti ecc.)',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'ivan.girardi@posteitaliane.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            198 => 
             array (
                 'id' => 782,
                 'contact_id' => 643,
@@ -9628,7 +9108,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            239 => 
+            199 => 
             array (
                 'id' => 783,
                 'contact_id' => 1030,
@@ -9641,7 +9121,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            240 => 
+            200 => 
+            array (
+                'id' => 784,
+                'contact_id' => 1032,
+                'name' => 'Galeazzi Angela',
+                'title' => 'Comandante Polizia Locale',
+                'phone' => '0565 63360',
+                'fax' => '',
+                'smart' => '334 6643090',
+                'email' => 'agaleazzi@comune.piombino.li.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            201 => 
             array (
                 'id' => 785,
                 'contact_id' => 401,
@@ -9654,7 +9147,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            241 => 
+            202 => 
             array (
                 'id' => 786,
                 'contact_id' => 994,
@@ -9667,7 +9160,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            242 => 
+            203 => 
             array (
                 'id' => 787,
                 'contact_id' => 704,
@@ -9680,7 +9173,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            243 => 
+            204 => 
             array (
                 'id' => 788,
                 'contact_id' => 650,
@@ -9693,23 +9186,10 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            244 => 
-            array (
-                'id' => 789,
-                'contact_id' => NULL,
-                'name' => 'Davide Luvini',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '+39 3474970109',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            245 => 
+            205 => 
             array (
                 'id' => 790,
-                'contact_id' => NULL,
+                'contact_id' => 968,
                 'name' => 'Davide Luvini',
                 'title' => '',
                 'phone' => '',
@@ -9719,7 +9199,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            246 => 
+            206 => 
             array (
                 'id' => 791,
                 'contact_id' => 584,
@@ -9732,7 +9212,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            247 => 
+            207 => 
             array (
                 'id' => 792,
                 'contact_id' => 1031,
@@ -9745,7 +9225,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            248 => 
+            208 => 
+            array (
+                'id' => 793,
+                'contact_id' => 607,
+                'name' => 'Antonella Cozzolino',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'antonella.cozzolino@cisl.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            209 => 
             array (
                 'id' => 794,
                 'contact_id' => 1043,
@@ -9758,7 +9251,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            249 => 
+            210 => 
             array (
                 'id' => 795,
                 'contact_id' => 229,
@@ -9771,7 +9264,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            250 => 
+            211 => 
             array (
                 'id' => 796,
                 'contact_id' => 1044,
@@ -9784,7 +9277,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            251 => 
+            212 => 
             array (
                 'id' => 797,
                 'contact_id' => 884,
@@ -9797,12 +9290,12 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            252 => 
+            213 => 
             array (
                 'id' => 798,
-                'contact_id' => NULL,
+                'contact_id' => 157,
             'name' => 'Oriana Guiarina (referente per avvalimento)',
-                'title' => 'guarina@rtel.it',
+                'title' => 'guarina@irtel.it',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
@@ -9810,7 +9303,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            253 => 
+            214 => 
             array (
                 'id' => 799,
                 'contact_id' => 157,
@@ -9823,7 +9316,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            254 => 
+            215 => 
             array (
                 'id' => 800,
                 'contact_id' => 1046,
@@ -9836,7 +9329,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            255 => 
+            216 => 
             array (
                 'id' => 801,
                 'contact_id' => 959,
@@ -9849,20 +9342,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            256 => 
+            217 => 
             array (
-                'id' => 803,
-                'contact_id' => NULL,
-                'name' => 'Gianluca Cortellessa',
-                'title' => 'Ex commerciale',
+                'id' => 802,
+                'contact_id' => 949,
+                'name' => '',
+                'title' => '',
                 'phone' => '',
                 'fax' => '',
-                'smart' => '329 2185956',
-                'email' => '',
+                'smart' => '',
+                'email' => 'ragioneria@',
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            257 => 
+            218 => 
             array (
                 'id' => 804,
                 'contact_id' => 409,
@@ -9875,20 +9368,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            258 => 
-            array (
-                'id' => 805,
-                'contact_id' => NULL,
-                'name' => 'Francesca',
-                'title' => 'Referewnte ufficio gare',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'ufficio.gare@icatributi.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            259 => 
+            219 => 
             array (
                 'id' => 806,
                 'contact_id' => 207,
@@ -9901,7 +9381,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            260 => 
+            220 => 
             array (
                 'id' => 807,
                 'contact_id' => 1050,
@@ -9914,7 +9394,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            261 => 
+            221 => 
             array (
                 'id' => 808,
                 'contact_id' => 1050,
@@ -9927,7 +9407,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            262 => 
+            222 => 
             array (
                 'id' => 809,
                 'contact_id' => 586,
@@ -9940,7 +9420,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            263 => 
+            223 => 
             array (
                 'id' => 810,
                 'contact_id' => 1053,
@@ -9953,7 +9433,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            264 => 
+            224 => 
             array (
                 'id' => 811,
                 'contact_id' => 1054,
@@ -9966,7 +9446,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            265 => 
+            225 => 
             array (
                 'id' => 812,
                 'contact_id' => 1054,
@@ -9979,7 +9459,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            266 => 
+            226 => 
             array (
                 'id' => 813,
                 'contact_id' => 1055,
@@ -9992,7 +9472,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            267 => 
+            227 => 
             array (
                 'id' => 814,
                 'contact_id' => 1054,
@@ -10005,7 +9485,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            268 => 
+            228 => 
             array (
                 'id' => 815,
                 'contact_id' => 1059,
@@ -10018,7 +9498,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            269 => 
+            229 => 
             array (
                 'id' => 816,
                 'contact_id' => 1068,
@@ -10031,7 +9511,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            270 => 
+            230 => 
             array (
                 'id' => 817,
                 'contact_id' => 1068,
@@ -10044,33 +9524,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            271 => 
-            array (
-                'id' => 826,
-                'contact_id' => 159,
-                'name' => '',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            272 => 
-            array (
-                'id' => 819,
-                'contact_id' => NULL,
-                'name' => 'Stefano Arrighetti',
-                'title' => 'Amminisrtatore',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 's.arrighetti@kria.biz',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            273 => 
+            231 => 
             array (
                 'id' => 820,
                 'contact_id' => 954,
@@ -10083,7 +9537,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            274 => 
+            232 => 
             array (
                 'id' => 821,
                 'contact_id' => 954,
@@ -10096,20 +9550,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            275 => 
-            array (
-                'id' => 822,
-                'contact_id' => NULL,
-                'name' => 'a',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            276 => 
+            233 => 
             array (
                 'id' => 823,
                 'contact_id' => 954,
@@ -10122,7 +9563,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            277 => 
+            234 => 
             array (
                 'id' => 824,
                 'contact_id' => 954,
@@ -10135,7 +9576,33 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            278 => 
+            235 => 
+            array (
+                'id' => 825,
+                'contact_id' => 159,
+                'name' => '',
+                'title' => '',
+                'phone' => '328 3258507',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            236 => 
+            array (
+                'id' => 826,
+                'contact_id' => 159,
+                'name' => '',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            237 => 
             array (
                 'id' => 827,
                 'contact_id' => 159,
@@ -10148,7 +9615,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            279 => 
+            238 => 
             array (
                 'id' => 828,
                 'contact_id' => 185,
@@ -10161,7 +9628,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            280 => 
+            239 => 
             array (
                 'id' => 829,
                 'contact_id' => 1069,
@@ -10174,7 +9641,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            281 => 
+            240 => 
             array (
                 'id' => 830,
                 'contact_id' => 1069,
@@ -10187,7 +9654,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            282 => 
+            241 => 
             array (
                 'id' => 831,
                 'contact_id' => 1064,
@@ -10200,20 +9667,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            283 => 
-            array (
-                'id' => 930,
-                'contact_id' => 1167,
-                'name' => 'Massimiliano Martelli',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => 'massimiliano.martelli@nivi.it',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            284 => 
+            242 => 
             array (
                 'id' => 833,
                 'contact_id' => 1072,
@@ -10226,7 +9680,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            285 => 
+            243 => 
             array (
                 'id' => 834,
                 'contact_id' => 1072,
@@ -10239,20 +9693,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            286 => 
-            array (
-                'id' => 835,
-                'contact_id' => NULL,
-                'name' => 'Sig. Cotoia',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            287 => 
+            244 => 
             array (
                 'id' => 836,
                 'contact_id' => 1060,
@@ -10265,20 +9706,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            288 => 
-            array (
-                'id' => 1037,
-                'contact_id' => 281,
-                'name' => 'Silvia Vallarino',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'silvia.vallarino@gmail.com',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            289 => 
+            245 => 
             array (
                 'id' => 839,
                 'contact_id' => 1074,
@@ -10291,33 +9719,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            290 => 
-            array (
-                'id' => 1156,
-                'contact_id' => 1309,
-                'name' => 'Marco Arca',
-                'title' => 'Certificatore ISO per il RINA',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '333 8313703',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            291 => 
-            array (
-                'id' => 843,
-                'contact_id' => 983,
-                'name' => '',
-                'title' => 'Amministrazione per fatture Med Sky',
-                'phone' => '055 2359344',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'amministrazione.fi@coopservice.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            292 => 
+            246 => 
             array (
                 'id' => 840,
                 'contact_id' => 768,
@@ -10330,7 +9732,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            293 => 
+            247 => 
             array (
                 'id' => 841,
                 'contact_id' => 768,
@@ -10343,7 +9745,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            294 => 
+            248 => 
             array (
                 'id' => 842,
                 'contact_id' => 768,
@@ -10356,7 +9758,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            295 => 
+            249 => 
+            array (
+                'id' => 843,
+                'contact_id' => 983,
+                'name' => '',
+                'title' => 'Amministrazione per fatture Med Sky',
+                'phone' => '055 2359344',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'amministrazione.fi@coopservice.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            250 => 
             array (
                 'id' => 845,
                 'contact_id' => 394,
@@ -10369,7 +9784,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            296 => 
+            251 => 
             array (
                 'id' => 846,
                 'contact_id' => 1089,
@@ -10382,7 +9797,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            297 => 
+            252 => 
             array (
                 'id' => 847,
                 'contact_id' => 1089,
@@ -10395,7 +9810,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            298 => 
+            253 => 
             array (
                 'id' => 848,
                 'contact_id' => 704,
@@ -10408,7 +9823,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            299 => 
+            254 => 
             array (
                 'id' => 849,
                 'contact_id' => 1086,
@@ -10421,7 +9836,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            300 => 
+            255 => 
             array (
                 'id' => 850,
                 'contact_id' => 1091,
@@ -10434,7 +9849,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            301 => 
+            256 => 
             array (
                 'id' => 851,
                 'contact_id' => 709,
@@ -10447,7 +9862,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            302 => 
+            257 => 
             array (
                 'id' => 852,
                 'contact_id' => 978,
@@ -10460,20 +9875,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            303 => 
-            array (
-                'id' => 853,
-                'contact_id' => NULL,
-                'name' => 'Sig. Trovato',
-                'title' => 'Ragioneria ed economato',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            304 => 
+            258 => 
             array (
                 'id' => 854,
                 'contact_id' => 934,
@@ -10486,7 +9888,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            305 => 
+            259 => 
             array (
                 'id' => 855,
                 'contact_id' => 1096,
@@ -10499,20 +9901,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            306 => 
-            array (
-                'id' => 856,
-                'contact_id' => NULL,
-                'name' => 'Stefania leveratto',
-                'title' => 'Responsabile di Commessa',
-                'phone' => '010 6582421',
-                'fax' => '',
-                'smart' => '334 6981176',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            307 => 
+            260 => 
             array (
                 'id' => 857,
                 'contact_id' => 1098,
@@ -10525,7 +9914,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            308 => 
+            261 => 
             array (
                 'id' => 858,
                 'contact_id' => 1101,
@@ -10538,7 +9927,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            309 => 
+            262 => 
             array (
                 'id' => 859,
                 'contact_id' => 1101,
@@ -10551,7 +9940,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            310 => 
+            263 => 
             array (
                 'id' => 860,
                 'contact_id' => 1096,
@@ -10564,7 +9953,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            311 => 
+            264 => 
             array (
                 'id' => 861,
                 'contact_id' => 1096,
@@ -10577,7 +9966,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            312 => 
+            265 => 
             array (
                 'id' => 862,
                 'contact_id' => 1111,
@@ -10590,7 +9979,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            313 => 
+            266 => 
             array (
                 'id' => 863,
                 'contact_id' => 1113,
@@ -10603,7 +9992,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            314 => 
+            267 => 
             array (
                 'id' => 864,
                 'contact_id' => 1114,
@@ -10616,7 +10005,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            315 => 
+            268 => 
             array (
                 'id' => 865,
                 'contact_id' => 1114,
@@ -10629,7 +10018,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            316 => 
+            269 => 
             array (
                 'id' => 866,
                 'contact_id' => 1114,
@@ -10642,20 +10031,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            317 => 
+            270 => 
             array (
-                'id' => 868,
-                'contact_id' => NULL,
-                'name' => 'Mugaini',
-                'title' => 'Comandante Polizia Municipale',
-                'phone' => '',
+                'id' => 867,
+                'contact_id' => 1117,
+                'name' => 'Beatrice Scotti',
+                'title' => 'Operativo dedicato alla gestione delle violazioni estere',
+                'phone' => '055 4496514',
                 'fax' => '',
                 'smart' => '',
-                'email' => '',
+                'email' => 'b.scotti@comune.sesto-fiorentino.fi.it',
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            318 => 
+            271 => 
             array (
                 'id' => 869,
                 'contact_id' => 934,
@@ -10668,7 +10057,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            319 => 
+            272 => 
             array (
                 'id' => 870,
                 'contact_id' => 911,
@@ -10681,10 +10070,10 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            320 => 
+            273 => 
             array (
                 'id' => 871,
-                'contact_id' => NULL,
+                'contact_id' => 911,
                 'name' => 'Loris Valentini',
                 'title' => 'Gestisce sia il Comune di Castel Guelfo che quello di Mordano',
                 'phone' => '0542 569229',
@@ -10694,7 +10083,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            321 => 
+            274 => 
             array (
                 'id' => 872,
                 'contact_id' => 911,
@@ -10707,20 +10096,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            322 => 
-            array (
-                'id' => 873,
-                'contact_id' => NULL,
-                'name' => 'Leonardo Lombardi',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            323 => 
+            275 => 
             array (
                 'id' => 874,
                 'contact_id' => 1119,
@@ -10733,7 +10109,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            324 => 
+            276 => 
             array (
                 'id' => 875,
                 'contact_id' => 1120,
@@ -10746,7 +10122,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            325 => 
+            277 => 
             array (
                 'id' => 876,
                 'contact_id' => 1120,
@@ -10759,7 +10135,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            326 => 
+            278 => 
             array (
                 'id' => 877,
                 'contact_id' => 1123,
@@ -10772,7 +10148,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            327 => 
+            279 => 
             array (
                 'id' => 878,
                 'contact_id' => 364,
@@ -10785,7 +10161,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            328 => 
+            280 => 
             array (
                 'id' => 879,
                 'contact_id' => 1114,
@@ -10798,7 +10174,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            329 => 
+            281 => 
             array (
                 'id' => 880,
                 'contact_id' => 191,
@@ -10811,7 +10187,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            330 => 
+            282 => 
             array (
                 'id' => 881,
                 'contact_id' => 1124,
@@ -10824,7 +10200,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            331 => 
+            283 => 
             array (
                 'id' => 882,
                 'contact_id' => 1117,
@@ -10837,7 +10213,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            332 => 
+            284 => 
             array (
                 'id' => 883,
                 'contact_id' => 1117,
@@ -10850,7 +10226,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            333 => 
+            285 => 
             array (
                 'id' => 884,
                 'contact_id' => 1117,
@@ -10863,7 +10239,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            334 => 
+            286 => 
             array (
                 'id' => 885,
                 'contact_id' => 1125,
@@ -10876,7 +10252,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            335 => 
+            287 => 
             array (
                 'id' => 886,
                 'contact_id' => 1125,
@@ -10889,7 +10265,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            336 => 
+            288 => 
             array (
                 'id' => 887,
                 'contact_id' => 261,
@@ -10902,7 +10278,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            337 => 
+            289 => 
             array (
                 'id' => 888,
                 'contact_id' => 1128,
@@ -10915,7 +10291,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            338 => 
+            290 => 
             array (
                 'id' => 889,
                 'contact_id' => 1130,
@@ -10928,7 +10304,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            339 => 
+            291 => 
             array (
                 'id' => 890,
                 'contact_id' => 1132,
@@ -10941,7 +10317,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            340 => 
+            292 => 
             array (
                 'id' => 891,
                 'contact_id' => 659,
@@ -10954,7 +10330,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            341 => 
+            293 => 
+            array (
+                'id' => 892,
+                'contact_id' => 1132,
+                'name' => '',
+                'title' => 'Assistenza tecnica',
+                'phone' => '0172 372796 - 798',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'sistemisti@sipalinformatica.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            294 => 
             array (
                 'id' => 893,
                 'contact_id' => 1134,
@@ -10967,7 +10356,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            342 => 
+            295 => 
             array (
                 'id' => 894,
                 'contact_id' => 413,
@@ -10980,7 +10369,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            343 => 
+            296 => 
             array (
                 'id' => 895,
                 'contact_id' => 723,
@@ -10993,7 +10382,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            344 => 
+            297 => 
             array (
                 'id' => 896,
                 'contact_id' => 1139,
@@ -11006,7 +10395,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            345 => 
+            298 => 
             array (
                 'id' => 897,
                 'contact_id' => 1139,
@@ -11019,7 +10408,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            346 => 
+            299 => 
             array (
                 'id' => 898,
                 'contact_id' => 1139,
@@ -11032,7 +10421,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            347 => 
+            300 => 
             array (
                 'id' => 899,
                 'contact_id' => 1141,
@@ -11045,7 +10434,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            348 => 
+            301 => 
             array (
                 'id' => 900,
                 'contact_id' => 1136,
@@ -11058,7 +10447,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            349 => 
+            302 => 
             array (
                 'id' => 901,
                 'contact_id' => 413,
@@ -11071,7 +10460,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            350 => 
+            303 => 
             array (
                 'id' => 902,
                 'contact_id' => 1145,
@@ -11084,7 +10473,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            351 => 
+            304 => 
             array (
                 'id' => 903,
                 'contact_id' => 1145,
@@ -11097,7 +10486,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            352 => 
+            305 => 
             array (
                 'id' => 904,
                 'contact_id' => 1142,
@@ -11110,7 +10499,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            353 => 
+            306 => 
             array (
                 'id' => 905,
                 'contact_id' => 218,
@@ -11123,20 +10512,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            354 => 
-            array (
-                'id' => 906,
-                'contact_id' => NULL,
-                'name' => 'Supporto attivo',
-                'title' => '',
-                'phone' => '0041 918037799',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            355 => 
+            307 => 
             array (
                 'id' => 907,
                 'contact_id' => 1113,
@@ -11149,7 +10525,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            356 => 
+            308 => 
             array (
                 'id' => 908,
                 'contact_id' => 954,
@@ -11162,7 +10538,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            357 => 
+            309 => 
             array (
                 'id' => 909,
                 'contact_id' => 637,
@@ -11175,20 +10551,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            358 => 
-            array (
-                'id' => 958,
-                'contact_id' => 1096,
-                'name' => 'Todeschin Mirko',
-                'title' => 'Affissatore',
-                'phone' => '3405730737',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'mirkotodeschin@hotmail.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            359 => 
+            310 => 
             array (
                 'id' => 910,
                 'contact_id' => 1149,
@@ -11201,7 +10564,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            360 => 
+            311 => 
             array (
                 'id' => 911,
                 'contact_id' => 1133,
@@ -11214,7 +10577,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            361 => 
+            312 => 
             array (
                 'id' => 912,
                 'contact_id' => 934,
@@ -11227,7 +10590,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            362 => 
+            313 => 
             array (
                 'id' => 913,
                 'contact_id' => 1150,
@@ -11240,7 +10603,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            363 => 
+            314 => 
+            array (
+                'id' => 914,
+                'contact_id' => 1151,
+                'name' => 'Giampiero Petito',
+                'title' => 'Responsabile commerciale',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '335 6342604',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            315 => 
             array (
                 'id' => 915,
                 'contact_id' => 1154,
@@ -11253,7 +10629,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            364 => 
+            316 => 
             array (
                 'id' => 916,
                 'contact_id' => 1155,
@@ -11266,7 +10642,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            365 => 
+            317 => 
             array (
                 'id' => 917,
                 'contact_id' => 1156,
@@ -11279,7 +10655,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            366 => 
+            318 => 
             array (
                 'id' => 918,
                 'contact_id' => 1156,
@@ -11292,7 +10668,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            367 => 
+            319 => 
             array (
                 'id' => 919,
                 'contact_id' => 1154,
@@ -11305,7 +10681,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            368 => 
+            320 => 
             array (
                 'id' => 920,
                 'contact_id' => 1156,
@@ -11318,7 +10694,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            369 => 
+            321 => 
             array (
                 'id' => 921,
                 'contact_id' => 1159,
@@ -11331,7 +10707,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            370 => 
+            322 => 
             array (
                 'id' => 922,
                 'contact_id' => 966,
@@ -11344,10 +10720,10 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            371 => 
+            323 => 
             array (
                 'id' => 923,
-                'contact_id' => NULL,
+                'contact_id' => 1054,
                 'name' => 'Presidentessa',
                 'title' => '',
                 'phone' => '019 8313214',
@@ -11357,7 +10733,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            372 => 
+            324 => 
             array (
                 'id' => 924,
                 'contact_id' => 1163,
@@ -11370,20 +10746,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            373 => 
+            325 => 
             array (
                 'id' => 925,
                 'contact_id' => 937,
-                'name' => 'contabilita :',
-                'title' => '',
+                'name' => 'Contabilita',
+                'title' => 'Contabilita',
                 'phone' => '02 95944449',
                 'fax' => '',
                 'smart' => '',
                 'email' => '',
                 'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-08-06 13:45:08',
             ),
-            374 => 
+            326 => 
             array (
                 'id' => 926,
                 'contact_id' => 1141,
@@ -11396,7 +10772,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            375 => 
+            327 => 
             array (
                 'id' => 927,
                 'contact_id' => 1151,
@@ -11409,7 +10785,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            376 => 
+            328 => 
             array (
                 'id' => 928,
                 'contact_id' => 673,
@@ -11422,7 +10798,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            377 => 
+            329 => 
             array (
                 'id' => 929,
                 'contact_id' => 1166,
@@ -11435,7 +10811,33 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            378 => 
+            330 => 
+            array (
+                'id' => 930,
+                'contact_id' => 1167,
+                'name' => 'Massimiliano Martelli',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => 'massimiliano.martelli@nivi.it',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            331 => 
+            array (
+                'id' => 931,
+                'contact_id' => 135,
+                'name' => '',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'simona.garbarino@comune.castiglione-chiavarese.ge.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            332 => 
             array (
                 'id' => 932,
                 'contact_id' => 1171,
@@ -11448,7 +10850,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            379 => 
+            333 => 
             array (
                 'id' => 933,
                 'contact_id' => 1171,
@@ -11461,7 +10863,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            380 => 
+            334 => 
             array (
                 'id' => 934,
                 'contact_id' => 1010,
@@ -11474,7 +10876,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            381 => 
+            335 => 
             array (
                 'id' => 935,
                 'contact_id' => 1018,
@@ -11487,7 +10889,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            382 => 
+            336 => 
             array (
                 'id' => 936,
                 'contact_id' => 709,
@@ -11500,20 +10902,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            383 => 
-            array (
-                'id' => 1036,
-                'contact_id' => 491,
-                'name' => 'Luciano Sconamiglio',
-                'title' => 'Polizia Municipale',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            384 => 
+            337 => 
             array (
                 'id' => 938,
                 'contact_id' => 434,
@@ -11526,7 +10915,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            385 => 
+            338 => 
             array (
                 'id' => 939,
                 'contact_id' => 1178,
@@ -11539,7 +10928,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            386 => 
+            339 => 
             array (
                 'id' => 940,
                 'contact_id' => 1178,
@@ -11552,7 +10941,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            387 => 
+            340 => 
             array (
                 'id' => 941,
                 'contact_id' => 533,
@@ -11565,7 +10954,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            388 => 
+            341 => 
+            array (
+                'id' => 942,
+                'contact_id' => 1179,
+                'name' => 'Giuseppe Taborelli',
+                'title' => 'Responsabile commerciale',
+                'phone' => '338 6327845',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            342 => 
             array (
                 'id' => 943,
                 'contact_id' => 1180,
@@ -11578,7 +10980,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            389 => 
+            343 => 
             array (
                 'id' => 944,
                 'contact_id' => 1181,
@@ -11591,7 +10993,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            390 => 
+            344 => 
             array (
                 'id' => 945,
                 'contact_id' => 1054,
@@ -11604,7 +11006,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            391 => 
+            345 => 
             array (
                 'id' => 946,
                 'contact_id' => 1054,
@@ -11617,7 +11019,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            392 => 
+            346 => 
             array (
                 'id' => 947,
                 'contact_id' => 1179,
@@ -11630,7 +11032,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            393 => 
+            347 => 
             array (
                 'id' => 948,
                 'contact_id' => 1182,
@@ -11643,7 +11045,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            394 => 
+            348 => 
             array (
                 'id' => 949,
                 'contact_id' => 1176,
@@ -11656,7 +11058,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            395 => 
+            349 => 
             array (
                 'id' => 950,
                 'contact_id' => 678,
@@ -11669,7 +11071,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            396 => 
+            350 => 
             array (
                 'id' => 951,
                 'contact_id' => 413,
@@ -11682,7 +11084,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            397 => 
+            351 => 
             array (
                 'id' => 952,
                 'contact_id' => 1184,
@@ -11695,7 +11097,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            398 => 
+            352 => 
             array (
                 'id' => 953,
                 'contact_id' => 1185,
@@ -11708,10 +11110,10 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            399 => 
+            353 => 
             array (
                 'id' => 954,
-                'contact_id' => NULL,
+                'contact_id' => 1206,
                 'name' => 'Tania Costa',
                 'title' => 'Commerciale',
                 'phone' => '0424 213714',
@@ -11721,7 +11123,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            400 => 
+            354 => 
             array (
                 'id' => 955,
                 'contact_id' => 1187,
@@ -11734,7 +11136,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            401 => 
+            355 => 
             array (
                 'id' => 956,
                 'contact_id' => 1114,
@@ -11747,7 +11149,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            402 => 
+            356 => 
             array (
                 'id' => 957,
                 'contact_id' => 1188,
@@ -11760,7 +11162,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            403 => 
+            357 => 
+            array (
+                'id' => 958,
+                'contact_id' => 1096,
+                'name' => 'Todeschin Mirko',
+                'title' => 'Affissatore',
+                'phone' => '3405730737',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'mirkotodeschin@hotmail.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            358 => 
             array (
                 'id' => 959,
                 'contact_id' => 1096,
@@ -11773,7 +11188,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            404 => 
+            359 => 
             array (
                 'id' => 960,
                 'contact_id' => 1190,
@@ -11786,7 +11201,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            405 => 
+            360 => 
             array (
                 'id' => 961,
                 'contact_id' => 1191,
@@ -11799,7 +11214,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            406 => 
+            361 => 
             array (
                 'id' => 962,
                 'contact_id' => 1192,
@@ -11812,7 +11227,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            407 => 
+            362 => 
             array (
                 'id' => 963,
                 'contact_id' => 1193,
@@ -11825,7 +11240,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            408 => 
+            363 => 
             array (
                 'id' => 964,
                 'contact_id' => 404,
@@ -11838,7 +11253,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            409 => 
+            364 => 
             array (
                 'id' => 965,
                 'contact_id' => 1196,
@@ -11851,7 +11266,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            410 => 
+            365 => 
             array (
                 'id' => 966,
                 'contact_id' => 1195,
@@ -11864,7 +11279,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            411 => 
+            366 => 
             array (
                 'id' => 967,
                 'contact_id' => 1194,
@@ -11877,7 +11292,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            412 => 
+            367 => 
             array (
                 'id' => 968,
                 'contact_id' => 1194,
@@ -11890,7 +11305,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            413 => 
+            368 => 
             array (
                 'id' => 969,
                 'contact_id' => 1194,
@@ -11903,7 +11318,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            414 => 
+            369 => 
             array (
                 'id' => 970,
                 'contact_id' => 1194,
@@ -11916,7 +11331,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            415 => 
+            370 => 
             array (
                 'id' => 971,
                 'contact_id' => 1197,
@@ -11929,7 +11344,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            416 => 
+            371 => 
             array (
                 'id' => 972,
                 'contact_id' => 1190,
@@ -11942,7 +11357,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            417 => 
+            372 => 
             array (
                 'id' => 973,
                 'contact_id' => 218,
@@ -11955,7 +11370,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            418 => 
+            373 => 
             array (
                 'id' => 974,
                 'contact_id' => 1201,
@@ -11968,7 +11383,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            419 => 
+            374 => 
             array (
                 'id' => 975,
                 'contact_id' => 1201,
@@ -11981,7 +11396,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            420 => 
+            375 => 
             array (
                 'id' => 976,
                 'contact_id' => 157,
@@ -11994,7 +11409,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            421 => 
+            376 => 
             array (
                 'id' => 977,
                 'contact_id' => 1185,
@@ -12007,7 +11422,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            422 => 
+            377 => 
             array (
                 'id' => 978,
                 'contact_id' => 704,
@@ -12020,7 +11435,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            423 => 
+            378 => 
             array (
                 'id' => 979,
                 'contact_id' => 1203,
@@ -12033,7 +11448,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            424 => 
+            379 => 
             array (
                 'id' => 980,
                 'contact_id' => 1074,
@@ -12046,7 +11461,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            425 => 
+            380 => 
             array (
                 'id' => 981,
                 'contact_id' => 1184,
@@ -12059,7 +11474,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            426 => 
+            381 => 
             array (
                 'id' => 982,
                 'contact_id' => 1194,
@@ -12072,7 +11487,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            427 => 
+            382 => 
             array (
                 'id' => 983,
                 'contact_id' => 1201,
@@ -12085,7 +11500,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            428 => 
+            383 => 
             array (
                 'id' => 984,
                 'contact_id' => 1206,
@@ -12098,7 +11513,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            429 => 
+            384 => 
             array (
                 'id' => 985,
                 'contact_id' => 912,
@@ -12111,7 +11526,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            430 => 
+            385 => 
             array (
                 'id' => 986,
                 'contact_id' => 1210,
@@ -12124,7 +11539,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            431 => 
+            386 => 
+            array (
+                'id' => 987,
+                'contact_id' => 1211,
+                'name' => 'Dott.ssa Renata Capitanio',
+                'title' => 'Responsabile ragioneria',
+                'phone' => '0295 9595237',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'responsabile.finanziario@comune.rodano.mi.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            387 => 
             array (
                 'id' => 988,
                 'contact_id' => 1212,
@@ -12137,7 +11565,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            432 => 
+            388 => 
             array (
                 'id' => 989,
                 'contact_id' => 1213,
@@ -12150,7 +11578,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            433 => 
+            389 => 
             array (
                 'id' => 990,
                 'contact_id' => 1214,
@@ -12163,7 +11591,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            434 => 
+            390 => 
             array (
                 'id' => 991,
                 'contact_id' => 1215,
@@ -12176,7 +11604,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            435 => 
+            391 => 
             array (
                 'id' => 992,
                 'contact_id' => 957,
@@ -12189,7 +11617,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            436 => 
+            392 => 
             array (
                 'id' => 993,
                 'contact_id' => 422,
@@ -12202,7 +11630,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            437 => 
+            393 => 
             array (
                 'id' => 994,
                 'contact_id' => 1216,
@@ -12215,7 +11643,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            438 => 
+            394 => 
             array (
                 'id' => 995,
                 'contact_id' => 1216,
@@ -12228,7 +11656,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            439 => 
+            395 => 
             array (
                 'id' => 996,
                 'contact_id' => 1219,
@@ -12241,7 +11669,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            440 => 
+            396 => 
             array (
                 'id' => 997,
                 'contact_id' => 1220,
@@ -12254,7 +11682,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            441 => 
+            397 => 
             array (
                 'id' => 998,
                 'contact_id' => 1221,
@@ -12267,7 +11695,33 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            442 => 
+            398 => 
+            array (
+                'id' => 999,
+                'contact_id' => 1222,
+                'name' => 'Dott.ssa Cola Francesca',
+                'title' => 'Ufficio Tributi - Ufficio Economato',
+                'phone' => '0444 830834/35',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'tributi@comune.sarego.vi.it - f.cola@comune.sarego.vi.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            399 => 
+            array (
+                'id' => 1000,
+                'contact_id' => 1119,
+                'name' => 'Sara',
+                'title' => 'Referente amministrativo',
+                'phone' => '0185 215829',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            400 => 
             array (
                 'id' => 1001,
                 'contact_id' => 1187,
@@ -12280,7 +11734,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            443 => 
+            401 => 
             array (
                 'id' => 1002,
                 'contact_id' => 1094,
@@ -12293,7 +11747,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            444 => 
+            402 => 
             array (
                 'id' => 1003,
                 'contact_id' => 1188,
@@ -12306,7 +11760,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            445 => 
+            403 => 
             array (
                 'id' => 1004,
                 'contact_id' => 893,
@@ -12319,7 +11773,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            446 => 
+            404 => 
             array (
                 'id' => 1005,
                 'contact_id' => 1187,
@@ -12332,7 +11786,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            447 => 
+            405 => 
             array (
                 'id' => 1006,
                 'contact_id' => 1223,
@@ -12345,7 +11799,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            448 => 
+            406 => 
             array (
                 'id' => 1007,
                 'contact_id' => 1223,
@@ -12358,7 +11812,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            449 => 
+            407 => 
             array (
                 'id' => 1008,
                 'contact_id' => 640,
@@ -12371,7 +11825,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            450 => 
+            408 => 
             array (
                 'id' => 1009,
                 'contact_id' => 640,
@@ -12384,7 +11838,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            451 => 
+            409 => 
             array (
                 'id' => 1010,
                 'contact_id' => 1225,
@@ -12397,7 +11851,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            452 => 
+            410 => 
             array (
                 'id' => 1011,
                 'contact_id' => 1225,
@@ -12410,7 +11864,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            453 => 
+            411 => 
             array (
                 'id' => 1012,
                 'contact_id' => 1188,
@@ -12423,7 +11877,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            454 => 
+            412 => 
             array (
                 'id' => 1013,
                 'contact_id' => 1228,
@@ -12436,7 +11890,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            455 => 
+            413 => 
             array (
                 'id' => 1014,
                 'contact_id' => 1228,
@@ -12449,7 +11903,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            456 => 
+            414 => 
             array (
                 'id' => 1015,
                 'contact_id' => 1228,
@@ -12462,7 +11916,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            457 => 
+            415 => 
             array (
                 'id' => 1016,
                 'contact_id' => 1228,
@@ -12475,33 +11929,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            458 => 
+            416 => 
             array (
                 'id' => 1017,
                 'contact_id' => 937,
                 'name' => 'Luca Platania',
                 'title' => 'Commerciale',
-                'phone' => '331 6199633',
+                'phone' => '',
                 'fax' => '',
-                'smart' => '',
+                'smart' => '331 6199633',
                 'email' => 'it.smb.no8@lyreco.com',
                 'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-08-06 13:40:41',
             ),
-            459 => 
-            array (
-                'id' => 1291,
-                'contact_id' => 498,
-                'name' => 'Telepass business',
-                'title' => '',
-                'phone' => '06 69397803',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            460 => 
+            417 => 
             array (
                 'id' => 1018,
                 'contact_id' => 1229,
@@ -12514,7 +11955,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            461 => 
+            418 => 
             array (
                 'id' => 1019,
                 'contact_id' => 1184,
@@ -12527,7 +11968,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            462 => 
+            419 => 
             array (
                 'id' => 1020,
                 'contact_id' => 1231,
@@ -12540,10 +11981,10 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            463 => 
+            420 => 
             array (
                 'id' => 1021,
-                'contact_id' => NULL,
+                'contact_id' => 1172,
                 'name' => 'FONTANA ROBERTO',
                 'title' => 'VIGILE',
                 'phone' => '0183/408178',
@@ -12553,7 +11994,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            464 => 
+            421 => 
             array (
                 'id' => 1022,
                 'contact_id' => 1172,
@@ -12566,7 +12007,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            465 => 
+            422 => 
             array (
                 'id' => 1023,
                 'contact_id' => 951,
@@ -12579,20 +12020,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            466 => 
-            array (
-                'id' => 1024,
-                'contact_id' => NULL,
-                'name' => 'Orfanelli',
-                'title' => 'infoarch',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '338/1155376',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            467 => 
+            423 => 
             array (
                 'id' => 1025,
                 'contact_id' => 1196,
@@ -12605,7 +12033,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            468 => 
+            424 => 
             array (
                 'id' => 1026,
                 'contact_id' => 945,
@@ -12618,7 +12046,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            469 => 
+            425 => 
             array (
                 'id' => 1027,
                 'contact_id' => 1236,
@@ -12631,7 +12059,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            470 => 
+            426 => 
             array (
                 'id' => 1028,
                 'contact_id' => 1236,
@@ -12644,7 +12072,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            471 => 
+            427 => 
             array (
                 'id' => 1029,
                 'contact_id' => 893,
@@ -12657,7 +12085,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            472 => 
+            428 => 
             array (
                 'id' => 1030,
                 'contact_id' => 893,
@@ -12670,7 +12098,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            473 => 
+            429 => 
             array (
                 'id' => 1031,
                 'contact_id' => 1081,
@@ -12683,7 +12111,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            474 => 
+            430 => 
             array (
                 'id' => 1032,
                 'contact_id' => 1238,
@@ -12696,7 +12124,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            475 => 
+            431 => 
             array (
                 'id' => 1033,
                 'contact_id' => 1238,
@@ -12709,7 +12137,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            476 => 
+            432 => 
             array (
                 'id' => 1034,
                 'contact_id' => 1239,
@@ -12722,7 +12150,33 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            477 => 
+            433 => 
+            array (
+                'id' => 1036,
+                'contact_id' => 491,
+                'name' => 'Luciano Sconamiglio',
+                'title' => 'Polizia Municipale',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            434 => 
+            array (
+                'id' => 1037,
+                'contact_id' => 281,
+                'name' => 'Silvia Vallarino',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'silvia.vallarino@gmail.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            435 => 
             array (
                 'id' => 1038,
                 'contact_id' => 1193,
@@ -12735,7 +12189,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            478 => 
+            436 => 
             array (
                 'id' => 1039,
                 'contact_id' => 1243,
@@ -12748,7 +12202,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            479 => 
+            437 => 
             array (
                 'id' => 1040,
                 'contact_id' => 613,
@@ -12761,7 +12215,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            480 => 
+            438 => 
             array (
                 'id' => 1041,
                 'contact_id' => 1244,
@@ -12774,7 +12228,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            481 => 
+            439 => 
             array (
                 'id' => 1042,
                 'contact_id' => 1244,
@@ -12787,7 +12241,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            482 => 
+            440 => 
             array (
                 'id' => 1043,
                 'contact_id' => 1064,
@@ -12800,20 +12254,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            483 => 
-            array (
-                'id' => 1044,
-                'contact_id' => NULL,
-                'name' => 'Polizia Municipale',
-                'title' => '',
-                'phone' => '055 2011290',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            484 => 
+            441 => 
             array (
                 'id' => 1045,
                 'contact_id' => 1246,
@@ -12826,7 +12267,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            485 => 
+            442 => 
             array (
                 'id' => 1046,
                 'contact_id' => 1246,
@@ -12839,7 +12280,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            486 => 
+            443 => 
             array (
                 'id' => 1047,
                 'contact_id' => 1117,
@@ -12852,7 +12293,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            487 => 
+            444 => 
             array (
                 'id' => 1048,
                 'contact_id' => 1247,
@@ -12865,7 +12306,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            488 => 
+            445 => 
             array (
                 'id' => 1049,
                 'contact_id' => 1248,
@@ -12878,7 +12319,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            489 => 
+            446 => 
             array (
                 'id' => 1050,
                 'contact_id' => 1249,
@@ -12891,7 +12332,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            490 => 
+            447 => 
             array (
                 'id' => 1051,
                 'contact_id' => 968,
@@ -12904,7 +12345,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            491 => 
+            448 => 
             array (
                 'id' => 1052,
                 'contact_id' => 912,
@@ -12917,7 +12358,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            492 => 
+            449 => 
             array (
                 'id' => 1053,
                 'contact_id' => 389,
@@ -12930,7 +12371,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            493 => 
+            450 => 
             array (
                 'id' => 1054,
                 'contact_id' => 390,
@@ -12943,7 +12384,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            494 => 
+            451 => 
             array (
                 'id' => 1055,
                 'contact_id' => 1253,
@@ -12956,7 +12397,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            495 => 
+            452 => 
             array (
                 'id' => 1056,
                 'contact_id' => 1253,
@@ -12969,7 +12410,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            496 => 
+            453 => 
             array (
                 'id' => 1058,
                 'contact_id' => 1254,
@@ -12982,7 +12423,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            497 => 
+            454 => 
             array (
                 'id' => 1059,
                 'contact_id' => 1256,
@@ -12995,7 +12436,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            498 => 
+            455 => 
             array (
                 'id' => 1060,
                 'contact_id' => 1257,
@@ -13008,7 +12449,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            499 => 
+            456 => 
             array (
                 'id' => 1061,
                 'contact_id' => 246,
@@ -13021,9 +12462,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-        ));
-        \DB::table('referents')->insert(array (
-            0 => 
+            457 => 
             array (
                 'id' => 1062,
                 'contact_id' => 1258,
@@ -13036,7 +12475,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            1 => 
+            458 => 
             array (
                 'id' => 1063,
                 'contact_id' => 1259,
@@ -13049,7 +12488,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            2 => 
+            459 => 
             array (
                 'id' => 1064,
                 'contact_id' => 951,
@@ -13062,7 +12501,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            3 => 
+            460 => 
             array (
                 'id' => 1065,
                 'contact_id' => 1184,
@@ -13075,7 +12514,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            4 => 
+            461 => 
             array (
                 'id' => 1066,
                 'contact_id' => 1171,
@@ -13088,7 +12527,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            5 => 
+            462 => 
             array (
                 'id' => 1067,
                 'contact_id' => 1260,
@@ -13101,7 +12540,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            6 => 
+            463 => 
             array (
                 'id' => 1068,
                 'contact_id' => 1133,
@@ -13114,7 +12553,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            7 => 
+            464 => 
             array (
                 'id' => 1069,
                 'contact_id' => 1148,
@@ -13127,7 +12566,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            8 => 
+            465 => 
             array (
                 'id' => 1070,
                 'contact_id' => 983,
@@ -13140,7 +12579,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            9 => 
+            466 => 
             array (
                 'id' => 1071,
                 'contact_id' => 1262,
@@ -13153,7 +12592,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            10 => 
+            467 => 
             array (
                 'id' => 1072,
                 'contact_id' => 1262,
@@ -13166,7 +12605,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            11 => 
+            468 => 
             array (
                 'id' => 1073,
                 'contact_id' => 164,
@@ -13179,7 +12618,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            12 => 
+            469 => 
             array (
                 'id' => 1074,
                 'contact_id' => 1267,
@@ -13192,7 +12631,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            13 => 
+            470 => 
             array (
                 'id' => 1075,
                 'contact_id' => 1267,
@@ -13205,7 +12644,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            14 => 
+            471 => 
+            array (
+                'id' => 1076,
+                'contact_id' => 1146,
+                'name' => 'Beretta Ivana',
+                'title' => 'Ufficio segreteria',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'segreteria@comune.cogliate.mb.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            472 => 
             array (
                 'id' => 1077,
                 'contact_id' => 1148,
@@ -13218,7 +12670,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            15 => 
+            473 => 
             array (
                 'id' => 1078,
                 'contact_id' => 1148,
@@ -13231,7 +12683,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            16 => 
+            474 => 
             array (
                 'id' => 1079,
                 'contact_id' => 1148,
@@ -13244,20 +12696,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            17 => 
+            475 => 
             array (
                 'id' => 1080,
                 'contact_id' => 1254,
                 'name' => 'Sig.ra Ornella',
                 'title' => '',
-                'phone' => '',
+                'phone' => '0187 1745822',
                 'fax' => '',
-                'smart' => 'personale 338/9802913',
+                'smart' => 'personale 338 9802913',
                 'email' => 'poliziamunicipale@comune.arcola.sp.it',
                 'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-29 08:53:45',
             ),
-            18 => 
+            476 => 
             array (
                 'id' => 1081,
                 'contact_id' => 1268,
@@ -13270,7 +12722,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            19 => 
+            477 => 
             array (
                 'id' => 1082,
                 'contact_id' => 1146,
@@ -13283,7 +12735,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            20 => 
+            478 => 
             array (
                 'id' => 1083,
                 'contact_id' => 909,
@@ -13296,7 +12748,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            21 => 
+            479 => 
             array (
                 'id' => 1084,
                 'contact_id' => 703,
@@ -13309,7 +12761,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            22 => 
+            480 => 
             array (
                 'id' => 1085,
                 'contact_id' => 1044,
@@ -13322,7 +12774,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            23 => 
+            481 => 
             array (
                 'id' => 1086,
                 'contact_id' => 1246,
@@ -13335,7 +12787,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            24 => 
+            482 => 
             array (
                 'id' => 1087,
                 'contact_id' => 1271,
@@ -13348,7 +12800,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            25 => 
+            483 => 
             array (
                 'id' => 1088,
                 'contact_id' => 1269,
@@ -13361,7 +12813,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            26 => 
+            484 => 
             array (
                 'id' => 1089,
                 'contact_id' => 1192,
@@ -13374,7 +12826,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            27 => 
+            485 => 
             array (
                 'id' => 1090,
                 'contact_id' => 1273,
@@ -13387,7 +12839,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            28 => 
+            486 => 
             array (
                 'id' => 1091,
                 'contact_id' => 1032,
@@ -13400,7 +12852,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            29 => 
+            487 => 
             array (
                 'id' => 1092,
                 'contact_id' => 1275,
@@ -13413,7 +12865,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            30 => 
+            488 => 
             array (
                 'id' => 1093,
                 'contact_id' => 1275,
@@ -13426,7 +12878,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            31 => 
+            489 => 
             array (
                 'id' => 1094,
                 'contact_id' => 1278,
@@ -13439,7 +12891,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            32 => 
+            490 => 
             array (
                 'id' => 1095,
                 'contact_id' => 1142,
@@ -13452,10 +12904,10 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            33 => 
+            491 => 
             array (
                 'id' => 1096,
-                'contact_id' => NULL,
+                'contact_id' => 1279,
                 'name' => 'Ruggiero Antonio',
                 'title' => '',
                 'phone' => '',
@@ -13465,23 +12917,10 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            34 => 
-            array (
-                'id' => 1132,
-                'contact_id' => 1297,
-                'name' => 'Ivan Malinverni',
-                'title' => 'Vigile',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            35 => 
+            492 => 
             array (
                 'id' => 1098,
-                'contact_id' => NULL,
+                'contact_id' => 1279,
                 'name' => 'Chirico Daniela',
                 'title' => 'Ufficio Appalti',
                 'phone' => '099-736.52.54',
@@ -13491,7 +12930,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            36 => 
+            493 => 
             array (
                 'id' => 1099,
                 'contact_id' => 1279,
@@ -13504,7 +12943,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            37 => 
+            494 => 
             array (
                 'id' => 1100,
                 'contact_id' => 1279,
@@ -13517,7 +12956,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            38 => 
+            495 => 
             array (
                 'id' => 1101,
                 'contact_id' => 438,
@@ -13530,7 +12969,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            39 => 
+            496 => 
             array (
                 'id' => 1102,
                 'contact_id' => 1280,
@@ -13543,7 +12982,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            40 => 
+            497 => 
             array (
                 'id' => 1103,
                 'contact_id' => 1254,
@@ -13556,7 +12995,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            41 => 
+            498 => 
             array (
                 'id' => 1104,
                 'contact_id' => 1281,
@@ -13569,7 +13008,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            42 => 
+            499 => 
             array (
                 'id' => 1105,
                 'contact_id' => 1281,
@@ -13582,7 +13021,9 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            43 => 
+        ));
+        \DB::table('referents')->insert(array (
+            0 => 
             array (
                 'id' => 1106,
                 'contact_id' => 1281,
@@ -13595,7 +13036,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            44 => 
+            1 => 
             array (
                 'id' => 1107,
                 'contact_id' => 1281,
@@ -13608,7 +13049,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            45 => 
+            2 => 
             array (
                 'id' => 1108,
                 'contact_id' => 1281,
@@ -13621,7 +13062,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            46 => 
+            3 => 
             array (
                 'id' => 1109,
                 'contact_id' => 957,
@@ -13634,7 +13075,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            47 => 
+            4 => 
             array (
                 'id' => 1110,
                 'contact_id' => 1282,
@@ -13647,7 +13088,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            48 => 
+            5 => 
             array (
                 'id' => 1111,
                 'contact_id' => 1283,
@@ -13660,7 +13101,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            49 => 
+            6 => 
+            array (
+                'id' => 1112,
+                'contact_id' => 1285,
+                'name' => 'Gian Vittorio Delfino',
+                'title' => 'Comandante PM',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '+393275374929',
+                'email' => 'gv.delfino@comune.campomorone.ge.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            7 => 
             array (
                 'id' => 1113,
                 'contact_id' => 1285,
@@ -13673,7 +13127,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            50 => 
+            8 => 
             array (
                 'id' => 1114,
                 'contact_id' => 1285,
@@ -13686,7 +13140,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            51 => 
+            9 => 
             array (
                 'id' => 1116,
                 'contact_id' => 1287,
@@ -13699,7 +13153,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            52 => 
+            10 => 
             array (
                 'id' => 1117,
                 'contact_id' => 1153,
@@ -13712,7 +13166,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            53 => 
+            11 => 
             array (
                 'id' => 1118,
                 'contact_id' => 1153,
@@ -13725,20 +13179,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            54 => 
-            array (
-                'id' => 1119,
-                'contact_id' => NULL,
-                'name' => 'Berzolini Fabio',
-                'title' => 'Referente Pfannenberg Italia su Genova',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '333 6198521',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            55 => 
+            12 => 
             array (
                 'id' => 1120,
                 'contact_id' => 1289,
@@ -13751,7 +13192,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            56 => 
+            13 => 
             array (
                 'id' => 1121,
                 'contact_id' => 1291,
@@ -13764,7 +13205,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            57 => 
+            14 => 
             array (
                 'id' => 1122,
                 'contact_id' => 1238,
@@ -13777,20 +13218,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            58 => 
-            array (
-                'id' => 1123,
-                'contact_id' => 1294,
-                'name' => 'Nicoletta',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'tributi@comune.cene.bg.it',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            59 => 
+            15 => 
             array (
                 'id' => 1124,
                 'contact_id' => 1295,
@@ -13803,7 +13231,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            60 => 
+            16 => 
             array (
                 'id' => 1125,
                 'contact_id' => 1295,
@@ -13816,7 +13244,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            61 => 
+            17 => 
             array (
                 'id' => 1127,
                 'contact_id' => 1146,
@@ -13829,7 +13257,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            62 => 
+            18 => 
             array (
                 'id' => 1128,
                 'contact_id' => 1044,
@@ -13842,20 +13270,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            63 => 
+            19 => 
             array (
                 'id' => 1129,
                 'contact_id' => 644,
             'name' => 'Dott. Andrea Ricco (int. 5)',
-                'title' => 'Responsabile ufficio ragioneria presente il mercoled&igrave;',
+                'title' => 'Responsabile ufficio ragioneria presente il mercoledì',
                 'phone' => '',
                 'fax' => '',
                 'smart' => '',
                 'email' => 'a.ricco@comune.borgo-val-di-taro.pr.it',
                 'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-09-05 07:51:59',
             ),
-            64 => 
+            20 => 
             array (
                 'id' => 1130,
                 'contact_id' => 1292,
@@ -13868,7 +13296,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            65 => 
+            21 => 
             array (
                 'id' => 1131,
                 'contact_id' => 1292,
@@ -13881,7 +13309,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            66 => 
+            22 => 
+            array (
+                'id' => 1132,
+                'contact_id' => 1297,
+                'name' => 'Ivan Malinverni',
+                'title' => 'Vigile',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            23 => 
             array (
                 'id' => 1133,
                 'contact_id' => 1297,
@@ -13894,7 +13335,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            67 => 
+            24 => 
             array (
                 'id' => 1134,
                 'contact_id' => 1298,
@@ -13907,7 +13348,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            68 => 
+            25 => 
             array (
                 'id' => 1136,
                 'contact_id' => 1300,
@@ -13920,7 +13361,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            69 => 
+            26 => 
             array (
                 'id' => 1137,
                 'contact_id' => 325,
@@ -13933,7 +13374,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            70 => 
+            27 => 
             array (
                 'id' => 1138,
                 'contact_id' => 1301,
@@ -13946,7 +13387,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            71 => 
+            28 => 
             array (
                 'id' => 1139,
                 'contact_id' => 1292,
@@ -13959,7 +13400,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            72 => 
+            29 => 
             array (
                 'id' => 1140,
                 'contact_id' => 1238,
@@ -13972,7 +13413,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            73 => 
+            30 => 
             array (
                 'id' => 1141,
                 'contact_id' => 1302,
@@ -13985,7 +13426,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            74 => 
+            31 => 
             array (
                 'id' => 1142,
                 'contact_id' => 1302,
@@ -13998,7 +13439,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            75 => 
+            32 => 
             array (
                 'id' => 1143,
                 'contact_id' => 1036,
@@ -14011,7 +13452,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            76 => 
+            33 => 
             array (
                 'id' => 1144,
                 'contact_id' => 1036,
@@ -14024,7 +13465,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            77 => 
+            34 => 
             array (
                 'id' => 1145,
                 'contact_id' => 974,
@@ -14037,7 +13478,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            78 => 
+            35 => 
             array (
                 'id' => 1146,
                 'contact_id' => 1134,
@@ -14050,7 +13491,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            79 => 
+            36 => 
             array (
                 'id' => 1147,
                 'contact_id' => 1303,
@@ -14063,7 +13504,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            80 => 
+            37 => 
             array (
                 'id' => 1148,
                 'contact_id' => 1303,
@@ -14076,7 +13517,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            81 => 
+            38 => 
             array (
                 'id' => 1149,
                 'contact_id' => 1303,
@@ -14089,7 +13530,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            82 => 
+            39 => 
             array (
                 'id' => 1150,
                 'contact_id' => 1203,
@@ -14102,7 +13543,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            83 => 
+            40 => 
             array (
                 'id' => 1151,
                 'contact_id' => 1305,
@@ -14115,7 +13556,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            84 => 
+            41 => 
             array (
                 'id' => 1152,
                 'contact_id' => 1306,
@@ -14128,7 +13569,33 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            85 => 
+            42 => 
+            array (
+                'id' => 1153,
+                'contact_id' => 325,
+                'name' => 'Valentina Dalloro',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'v.dalloro@novellagl.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            43 => 
+            array (
+                'id' => 1154,
+                'contact_id' => 1307,
+                'name' => 'Enrico Berisso',
+                'title' => 'Direttore',
+                'phone' => '0185 458821',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'enrico.berisso@intesasanpaolo.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            44 => 
             array (
                 'id' => 1155,
                 'contact_id' => 1074,
@@ -14141,7 +13608,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            86 => 
+            45 => 
+            array (
+                'id' => 1156,
+                'contact_id' => 1309,
+                'name' => 'Marco Arca',
+                'title' => 'Certificatore ISO per il RINA',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '333 8313703',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            46 => 
             array (
                 'id' => 1157,
                 'contact_id' => 1311,
@@ -14154,7 +13634,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            87 => 
+            47 => 
             array (
                 'id' => 1158,
                 'contact_id' => 1313,
@@ -14167,7 +13647,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            88 => 
+            48 => 
             array (
                 'id' => 1159,
                 'contact_id' => 1307,
@@ -14180,7 +13660,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            89 => 
+            49 => 
             array (
                 'id' => 1160,
                 'contact_id' => 1275,
@@ -14193,20 +13673,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            90 => 
-            array (
-                'id' => 1161,
-                'contact_id' => NULL,
-                'name' => 'Lorna Perizzola',
-                'title' => 'segue invio gare - tecnico',
-                'phone' => '0424 213707 - 3201913555',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            91 => 
+            50 => 
             array (
                 'id' => 1162,
                 'contact_id' => 553,
@@ -14219,7 +13686,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            92 => 
+            51 => 
             array (
                 'id' => 1163,
                 'contact_id' => 1236,
@@ -14232,7 +13699,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            93 => 
+            52 => 
             array (
                 'id' => 1164,
                 'contact_id' => 1317,
@@ -14245,7 +13712,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            94 => 
+            53 => 
             array (
                 'id' => 1165,
                 'contact_id' => 1317,
@@ -14258,7 +13725,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            95 => 
+            54 => 
             array (
                 'id' => 1166,
                 'contact_id' => 1318,
@@ -14271,7 +13738,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            96 => 
+            55 => 
             array (
                 'id' => 1167,
                 'contact_id' => 1307,
@@ -14284,7 +13751,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            97 => 
+            56 => 
             array (
                 'id' => 1168,
                 'contact_id' => 1185,
@@ -14297,7 +13764,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            98 => 
+            57 => 
             array (
                 'id' => 1169,
                 'contact_id' => 1325,
@@ -14310,7 +13777,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            99 => 
+            58 => 
             array (
                 'id' => 1170,
                 'contact_id' => 1060,
@@ -14323,7 +13790,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            100 => 
+            59 => 
             array (
                 'id' => 1171,
                 'contact_id' => 1326,
@@ -14336,7 +13803,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            101 => 
+            60 => 
             array (
                 'id' => 1172,
                 'contact_id' => 1326,
@@ -14349,7 +13816,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            102 => 
+            61 => 
             array (
                 'id' => 1173,
                 'contact_id' => 1307,
@@ -14362,7 +13829,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            103 => 
+            62 => 
             array (
                 'id' => 1174,
                 'contact_id' => 1336,
@@ -14375,7 +13842,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            104 => 
+            63 => 
             array (
                 'id' => 1175,
                 'contact_id' => 1336,
@@ -14388,7 +13855,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            105 => 
+            64 => 
             array (
                 'id' => 1176,
                 'contact_id' => 1336,
@@ -14401,7 +13868,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            106 => 
+            65 => 
             array (
                 'id' => 1177,
                 'contact_id' => 1336,
@@ -14414,7 +13881,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            107 => 
+            66 => 
             array (
                 'id' => 1178,
                 'contact_id' => 1338,
@@ -14427,7 +13894,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            108 => 
+            67 => 
             array (
                 'id' => 1179,
                 'contact_id' => 1339,
@@ -14440,7 +13907,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            109 => 
+            68 => 
             array (
                 'id' => 1180,
                 'contact_id' => 1338,
@@ -14453,7 +13920,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            110 => 
+            69 => 
             array (
                 'id' => 1181,
                 'contact_id' => 1238,
@@ -14466,7 +13933,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            111 => 
+            70 => 
             array (
                 'id' => 1182,
                 'contact_id' => 1338,
@@ -14479,7 +13946,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            112 => 
+            71 => 
             array (
                 'id' => 1183,
                 'contact_id' => 185,
@@ -14492,7 +13959,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            113 => 
+            72 => 
             array (
                 'id' => 1184,
                 'contact_id' => 101,
@@ -14505,20 +13972,33 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            114 => 
+            73 => 
             array (
-                'id' => 1188,
-                'contact_id' => 1350,
-                'name' => 'Bernardi Carlo',
-                'title' => 'Responsabile Area Amministrativa',
-                'phone' => '0437 523595',
+                'id' => 1185,
+                'contact_id' => 1340,
+                'name' => '',
+                'title' => '',
+                'phone' => '',
                 'fax' => '',
-                'smart' => '335 8213073',
-                'email' => 'amministrativa.alleghe@agordino.it',
+                'smart' => '',
+                'email' => 'luciano.detoni@sarida.it',
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            115 => 
+            74 => 
+            array (
+                'id' => 1186,
+                'contact_id' => 246,
+                'name' => '',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            75 => 
             array (
                 'id' => 1187,
                 'contact_id' => 321,
@@ -14531,7 +14011,33 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            116 => 
+            76 => 
+            array (
+                'id' => 1188,
+                'contact_id' => 1350,
+                'name' => 'Bernardi Carlo',
+                'title' => 'Responsabile Area Amministrativa',
+                'phone' => '0437 523595',
+                'fax' => '',
+                'smart' => '335 8213073',
+                'email' => 'amministrativa.alleghe@agordino.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            77 => 
+            array (
+                'id' => 1189,
+                'contact_id' => 1175,
+                'name' => 'Antonino Bonaventura',
+                'title' => 'Referente commerciale',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '348 7262032',
+                'email' => 'a.bonaventura@progettostudio.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            78 => 
             array (
                 'id' => 1190,
                 'contact_id' => 456,
@@ -14544,7 +14050,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            117 => 
+            79 => 
             array (
                 'id' => 1191,
                 'contact_id' => 456,
@@ -14557,7 +14063,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            118 => 
+            80 => 
             array (
                 'id' => 1192,
                 'contact_id' => 1352,
@@ -14570,7 +14076,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            119 => 
+            81 => 
             array (
                 'id' => 1193,
                 'contact_id' => 1352,
@@ -14583,7 +14089,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            120 => 
+            82 => 
             array (
                 'id' => 1194,
                 'contact_id' => 1357,
@@ -14596,7 +14102,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            121 => 
+            83 => 
             array (
                 'id' => 1195,
                 'contact_id' => 1357,
@@ -14609,7 +14115,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            122 => 
+            84 => 
             array (
                 'id' => 1196,
                 'contact_id' => 1358,
@@ -14622,7 +14128,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            123 => 
+            85 => 
             array (
                 'id' => 1197,
                 'contact_id' => 1366,
@@ -14635,7 +14141,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            124 => 
+            86 => 
             array (
                 'id' => 1198,
                 'contact_id' => 1366,
@@ -14648,7 +14154,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            125 => 
+            87 => 
             array (
                 'id' => 1199,
                 'contact_id' => 1366,
@@ -14661,7 +14167,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            126 => 
+            88 => 
             array (
                 'id' => 1200,
                 'contact_id' => 1366,
@@ -14674,7 +14180,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            127 => 
+            89 => 
             array (
                 'id' => 1201,
                 'contact_id' => 1369,
@@ -14687,7 +14193,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            128 => 
+            90 => 
             array (
                 'id' => 1202,
                 'contact_id' => 409,
@@ -14700,7 +14206,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            129 => 
+            91 => 
             array (
                 'id' => 1203,
                 'contact_id' => 1269,
@@ -14713,7 +14219,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            130 => 
+            92 => 
             array (
                 'id' => 1204,
                 'contact_id' => 1175,
@@ -14726,20 +14232,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            131 => 
-            array (
-                'id' => 1208,
-                'contact_id' => 1338,
-                'name' => 'Andrea Martinelli',
-            'title' => 'Ingegnere (riavvio server)',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '3281505225',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            132 => 
+            93 => 
             array (
                 'id' => 1205,
                 'contact_id' => 1338,
@@ -14752,7 +14245,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            133 => 
+            94 => 
             array (
                 'id' => 1206,
                 'contact_id' => 1175,
@@ -14765,7 +14258,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            134 => 
+            95 => 
             array (
                 'id' => 1207,
                 'contact_id' => 1175,
@@ -14778,7 +14271,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            135 => 
+            96 => 
+            array (
+                'id' => 1208,
+                'contact_id' => 1338,
+                'name' => 'Andrea Martinelli',
+            'title' => 'Ingegnere (riavvio server)',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '3281505225',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            97 => 
             array (
                 'id' => 1209,
                 'contact_id' => 1074,
@@ -14791,7 +14297,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            136 => 
+            98 => 
             array (
                 'id' => 1210,
                 'contact_id' => 1385,
@@ -14804,7 +14310,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            137 => 
+            99 => 
             array (
                 'id' => 1211,
                 'contact_id' => 1307,
@@ -14817,7 +14323,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            138 => 
+            100 => 
             array (
                 'id' => 1212,
                 'contact_id' => 1384,
@@ -14830,7 +14336,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            139 => 
+            101 => 
             array (
                 'id' => 1213,
                 'contact_id' => 456,
@@ -14843,7 +14349,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            140 => 
+            102 => 
             array (
                 'id' => 1214,
                 'contact_id' => 1387,
@@ -14856,7 +14362,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            141 => 
+            103 => 
             array (
                 'id' => 1215,
                 'contact_id' => 613,
@@ -14869,7 +14375,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            142 => 
+            104 => 
             array (
                 'id' => 1216,
                 'contact_id' => 1221,
@@ -14882,7 +14388,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            143 => 
+            105 => 
             array (
                 'id' => 1217,
                 'contact_id' => 1032,
@@ -14895,7 +14401,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            144 => 
+            106 => 
             array (
                 'id' => 1218,
                 'contact_id' => 1246,
@@ -14908,7 +14414,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            145 => 
+            107 => 
             array (
                 'id' => 1219,
                 'contact_id' => 902,
@@ -14921,7 +14427,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            146 => 
+            108 => 
             array (
                 'id' => 1220,
                 'contact_id' => 1358,
@@ -14934,7 +14440,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            147 => 
+            109 => 
             array (
                 'id' => 1221,
                 'contact_id' => 531,
@@ -14947,7 +14453,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            148 => 
+            110 => 
             array (
                 'id' => 1222,
                 'contact_id' => 1254,
@@ -14960,7 +14466,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            149 => 
+            111 => 
             array (
                 'id' => 1223,
                 'contact_id' => 1350,
@@ -14973,7 +14479,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            150 => 
+            112 => 
             array (
                 'id' => 1224,
                 'contact_id' => 1401,
@@ -14986,7 +14492,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            151 => 
+            113 => 
             array (
                 'id' => 1225,
                 'contact_id' => 1401,
@@ -14999,7 +14505,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            152 => 
+            114 => 
             array (
                 'id' => 1226,
                 'contact_id' => 1403,
@@ -15012,7 +14518,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            153 => 
+            115 => 
             array (
                 'id' => 1227,
                 'contact_id' => 1407,
@@ -15025,7 +14531,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            154 => 
+            116 => 
             array (
                 'id' => 1228,
                 'contact_id' => 1407,
@@ -15038,7 +14544,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            155 => 
+            117 => 
             array (
                 'id' => 1229,
                 'contact_id' => 1403,
@@ -15051,7 +14557,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            156 => 
+            118 => 
             array (
                 'id' => 1230,
                 'contact_id' => 644,
@@ -15064,7 +14570,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            157 => 
+            119 => 
+            array (
+                'id' => 1231,
+                'contact_id' => 909,
+            'name' => 'Gianmarco Marzolla (referente su Genova)',
+                'title' => 'referente su Genova',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '345 4253972',
+                'email' => 'gianmarco.marzolla@partner.windtre.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            120 => 
             array (
                 'id' => 1232,
                 'contact_id' => 1409,
@@ -15077,7 +14596,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            158 => 
+            121 => 
             array (
                 'id' => 1233,
                 'contact_id' => 1409,
@@ -15090,7 +14609,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            159 => 
+            122 => 
+            array (
+                'id' => 1234,
+                'contact_id' => 1410,
+                'name' => 'Dott.ssa Nicole Zanchi',
+                'title' => 'Responsabile UT',
+                'phone' => '035 863180 - int. 2',
+                'fax' => '',
+                'smart' => '348 7631150',
+                'email' => 'ragioneria@comune.strozza.bg.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            123 => 
             array (
                 'id' => 1235,
                 'contact_id' => 1279,
@@ -15103,7 +14635,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            160 => 
+            124 => 
             array (
                 'id' => 1236,
                 'contact_id' => 1279,
@@ -15116,7 +14648,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            161 => 
+            125 => 
             array (
                 'id' => 1237,
                 'contact_id' => 1279,
@@ -15129,20 +14661,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            162 => 
-            array (
-                'id' => 1276,
-                'contact_id' => 1454,
-                'name' => 'Tommaso Ventre',
-                'title' => 'Presidente',
-                'phone' => '338 7388881',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'tommasoventre@gmail.com',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            163 => 
+            126 => 
             array (
                 'id' => 1238,
                 'contact_id' => 1412,
@@ -15155,7 +14674,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            164 => 
+            127 => 
             array (
                 'id' => 1239,
                 'contact_id' => 1185,
@@ -15168,7 +14687,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            165 => 
+            128 => 
             array (
                 'id' => 1240,
                 'contact_id' => 1404,
@@ -15181,7 +14700,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            166 => 
+            129 => 
             array (
                 'id' => 1241,
                 'contact_id' => 422,
@@ -15194,7 +14713,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            167 => 
+            130 => 
             array (
                 'id' => 1242,
                 'contact_id' => 909,
@@ -15207,7 +14726,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            168 => 
+            131 => 
             array (
                 'id' => 1243,
                 'contact_id' => 157,
@@ -15220,7 +14739,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            169 => 
+            132 => 
             array (
                 'id' => 1244,
                 'contact_id' => 1086,
@@ -15233,7 +14752,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            170 => 
+            133 => 
             array (
                 'id' => 1245,
                 'contact_id' => 1417,
@@ -15246,7 +14765,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            171 => 
+            134 => 
             array (
                 'id' => 1246,
                 'contact_id' => 1417,
@@ -15259,7 +14778,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            172 => 
+            135 => 
             array (
                 'id' => 1247,
                 'contact_id' => 1421,
@@ -15272,7 +14791,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            173 => 
+            136 => 
             array (
                 'id' => 1248,
                 'contact_id' => 1419,
@@ -15285,7 +14804,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            174 => 
+            137 => 
             array (
                 'id' => 1249,
                 'contact_id' => 1421,
@@ -15298,7 +14817,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            175 => 
+            138 => 
             array (
                 'id' => 1250,
                 'contact_id' => 1423,
@@ -15311,7 +14830,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            176 => 
+            139 => 
             array (
                 'id' => 1251,
                 'contact_id' => 1424,
@@ -15324,7 +14843,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            177 => 
+            140 => 
             array (
                 'id' => 1252,
                 'contact_id' => 1302,
@@ -15337,7 +14856,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            178 => 
+            141 => 
             array (
                 'id' => 1253,
                 'contact_id' => 438,
@@ -15350,7 +14869,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            179 => 
+            142 => 
             array (
                 'id' => 1254,
                 'contact_id' => 909,
@@ -15363,7 +14882,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            180 => 
+            143 => 
             array (
                 'id' => 1255,
                 'contact_id' => 470,
@@ -15376,7 +14895,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            181 => 
+            144 => 
             array (
                 'id' => 1256,
                 'contact_id' => 1438,
@@ -15389,7 +14908,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            182 => 
+            145 => 
             array (
                 'id' => 1257,
                 'contact_id' => 1439,
@@ -15402,20 +14921,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            183 => 
-            array (
-                'id' => 1266,
-                'contact_id' => 1439,
-                'name' => 'TER',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => '',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            184 => 
+            146 => 
             array (
                 'id' => 1258,
                 'contact_id' => 1440,
@@ -15428,7 +14934,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            185 => 
+            147 => 
             array (
                 'id' => 1259,
                 'contact_id' => 1440,
@@ -15441,7 +14947,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            186 => 
+            148 => 
             array (
                 'id' => 1260,
                 'contact_id' => 1440,
@@ -15454,7 +14960,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            187 => 
+            149 => 
             array (
                 'id' => 1261,
                 'contact_id' => 1441,
@@ -15467,7 +14973,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            188 => 
+            150 => 
             array (
                 'id' => 1262,
                 'contact_id' => 1441,
@@ -15480,7 +14986,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            189 => 
+            151 => 
             array (
                 'id' => 1263,
                 'contact_id' => 1172,
@@ -15493,7 +14999,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            190 => 
+            152 => 
             array (
                 'id' => 1264,
                 'contact_id' => 1223,
@@ -15506,7 +15012,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            191 => 
+            153 => 
             array (
                 'id' => 1265,
                 'contact_id' => 1002,
@@ -15519,7 +15025,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            192 => 
+            154 => 
+            array (
+                'id' => 1266,
+                'contact_id' => 1439,
+                'name' => 'TER',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            155 => 
             array (
                 'id' => 1267,
                 'contact_id' => 1246,
@@ -15532,7 +15051,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            193 => 
+            156 => 
             array (
                 'id' => 1268,
                 'contact_id' => 204,
@@ -15545,7 +15064,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            194 => 
+            157 => 
             array (
                 'id' => 1269,
                 'contact_id' => 1450,
@@ -15558,7 +15077,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            195 => 
+            158 => 
             array (
                 'id' => 1270,
                 'contact_id' => 1450,
@@ -15571,7 +15090,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            196 => 
+            159 => 
             array (
                 'id' => 1271,
                 'contact_id' => 1228,
@@ -15584,7 +15103,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            197 => 
+            160 => 
             array (
                 'id' => 1272,
                 'contact_id' => 704,
@@ -15597,7 +15116,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            198 => 
+            161 => 
             array (
                 'id' => 1273,
                 'contact_id' => 1385,
@@ -15610,7 +15129,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            199 => 
+            162 => 
             array (
                 'id' => 1274,
                 'contact_id' => 204,
@@ -15623,7 +15142,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            200 => 
+            163 => 
             array (
                 'id' => 1275,
                 'contact_id' => 1452,
@@ -15636,7 +15155,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            201 => 
+            164 => 
+            array (
+                'id' => 1276,
+                'contact_id' => 1454,
+                'name' => 'Tommaso Ventre',
+                'title' => 'Presidente',
+                'phone' => '338 7388881',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'tommasoventre@gmail.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            165 => 
             array (
                 'id' => 1277,
                 'contact_id' => 1456,
@@ -15649,7 +15181,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            202 => 
+            166 => 
             array (
                 'id' => 1278,
                 'contact_id' => 994,
@@ -15662,7 +15194,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            203 => 
+            167 => 
             array (
                 'id' => 1279,
                 'contact_id' => 1407,
@@ -15675,7 +15207,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            204 => 
+            168 => 
             array (
                 'id' => 1280,
                 'contact_id' => 1259,
@@ -15688,7 +15220,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            205 => 
+            169 => 
             array (
                 'id' => 1281,
                 'contact_id' => 1457,
@@ -15701,20 +15233,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            206 => 
-            array (
-                'id' => 1299,
-                'contact_id' => 1488,
-                'name' => 'Informazioni generli',
-                'title' => '',
-                'phone' => '',
-                'fax' => '',
-                'smart' => '',
-                'email' => 'info@mondospedizioni.com',
-                'created_at' => '2025-07-15 16:20:44',
-                'updated_at' => '2025-07-15 16:20:44',
-            ),
-            207 => 
+            170 => 
             array (
                 'id' => 1282,
                 'contact_id' => 1468,
@@ -15727,7 +15246,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            208 => 
+            171 => 
             array (
                 'id' => 1283,
                 'contact_id' => 1468,
@@ -15740,7 +15259,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            209 => 
+            172 => 
             array (
                 'id' => 1284,
                 'contact_id' => 1064,
@@ -15753,7 +15272,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            210 => 
+            173 => 
             array (
                 'id' => 1285,
                 'contact_id' => 1457,
@@ -15766,7 +15285,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            211 => 
+            174 => 
             array (
                 'id' => 1286,
                 'contact_id' => 1154,
@@ -15779,7 +15298,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            212 => 
+            175 => 
             array (
                 'id' => 1287,
                 'contact_id' => 366,
@@ -15792,7 +15311,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            213 => 
+            176 => 
             array (
                 'id' => 1288,
                 'contact_id' => 135,
@@ -15805,7 +15324,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            214 => 
+            177 => 
             array (
                 'id' => 1289,
                 'contact_id' => 1352,
@@ -15818,7 +15337,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            215 => 
+            178 => 
             array (
                 'id' => 1290,
                 'contact_id' => 200,
@@ -15831,7 +15350,20 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            216 => 
+            179 => 
+            array (
+                'id' => 1291,
+                'contact_id' => 498,
+                'name' => 'Telepass business',
+                'title' => '',
+                'phone' => '06 69397803',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            180 => 
             array (
                 'id' => 1292,
                 'contact_id' => 1488,
@@ -15844,7 +15376,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            217 => 
+            181 => 
             array (
                 'id' => 1293,
                 'contact_id' => 1497,
@@ -15857,7 +15389,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            218 => 
+            182 => 
             array (
                 'id' => 1294,
                 'contact_id' => 1305,
@@ -15870,7 +15402,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            219 => 
+            183 => 
             array (
                 'id' => 1295,
                 'contact_id' => 1156,
@@ -15883,7 +15415,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            220 => 
+            184 => 
             array (
                 'id' => 1296,
                 'contact_id' => 1498,
@@ -15896,7 +15428,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            221 => 
+            185 => 
             array (
                 'id' => 1297,
                 'contact_id' => 1498,
@@ -15909,7 +15441,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            222 => 
+            186 => 
             array (
                 'id' => 1298,
                 'contact_id' => 1498,
@@ -15922,7 +15454,33 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            223 => 
+            187 => 
+            array (
+                'id' => 1299,
+                'contact_id' => 1488,
+                'name' => 'Informazioni generli',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'info@mondospedizioni.com',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            188 => 
+            array (
+                'id' => 1300,
+                'contact_id' => 955,
+                'name' => 'Alessandra Ponticelli',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'a.ponticelli@engine.it',
+                'created_at' => '2025-07-15 16:20:44',
+                'updated_at' => '2025-07-15 16:20:44',
+            ),
+            189 => 
             array (
                 'id' => 1301,
                 'contact_id' => 955,
@@ -15935,7 +15493,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            224 => 
+            190 => 
             array (
                 'id' => 1302,
                 'contact_id' => 1509,
@@ -15948,7 +15506,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            225 => 
+            191 => 
             array (
                 'id' => 1303,
                 'contact_id' => 1171,
@@ -15961,7 +15519,7 @@ class ReferentsTableSeeder extends Seeder
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
             ),
-            226 => 
+            192 => 
             array (
                 'id' => 1304,
                 'contact_id' => 1510,
@@ -15973,6 +15531,162 @@ class ReferentsTableSeeder extends Seeder
                 'email' => '',
                 'created_at' => '2025-07-15 16:20:44',
                 'updated_at' => '2025-07-15 16:20:44',
+            ),
+            193 => 
+            array (
+                'id' => 1305,
+                'contact_id' => 1294,
+                'name' => 'Geometra Curnis Nicoletta',
+                'title' => '',
+            'phone' => '035 718111 (interno 5)',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'tributi@comune.cene.bg.it',
+                'created_at' => '2025-07-30 16:04:08',
+                'updated_at' => '2025-07-30 16:04:08',
+            ),
+            194 => 
+            array (
+                'id' => 1306,
+                'contact_id' => 668,
+                'name' => 'Protocollo/Anagrafe',
+                'title' => 'I',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'anagrafe@comune.sancolombanocertenoli.ge.it',
+                'created_at' => '2025-07-31 09:40:19',
+                'updated_at' => '2025-07-31 09:40:27',
+            ),
+            195 => 
+            array (
+                'id' => 1307,
+                'contact_id' => 325,
+                'name' => 'Lara Demarzo',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'l.demarzo@aellege.com',
+                'created_at' => '2025-08-06 08:03:56',
+                'updated_at' => '2025-08-06 08:03:56',
+            ),
+            196 => 
+            array (
+                'id' => 1308,
+                'contact_id' => 937,
+                'name' => 'Servizio clienti',
+                'title' => '',
+                'phone' => '02 95080950',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'servizio.clienti@lyreco.com',
+                'created_at' => '2025-08-06 13:45:53',
+                'updated_at' => '2025-08-06 13:46:07',
+            ),
+            197 => 
+            array (
+                'id' => 1309,
+                'contact_id' => 145,
+                'name' => 'Consuelo Dessena',
+                'title' => 'Ragioniera dal 01/08/2025',
+                'phone' => 'interno 7',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'ragioneria@comune.bargagli.ge.it',
+                'created_at' => '2025-08-08 09:52:44',
+                'updated_at' => '2025-08-27 10:19:31',
+            ),
+            198 => 
+            array (
+                'id' => 1310,
+                'contact_id' => 1514,
+                'name' => 'Giuseppe Terranova',
+                'title' => '',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '3409404400',
+                'email' => 'giuseppe.terranova@veloceindustry.it',
+                'created_at' => '2025-08-22 12:45:40',
+                'updated_at' => '2025-08-22 12:46:13',
+            ),
+            199 => 
+            array (
+                'id' => 1311,
+                'contact_id' => 1514,
+                'name' => 'Francesco Giusti',
+                'title' => 'Responsabile servizio stampa',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '3911402938',
+                'email' => 'francesco.giusti@veloceindustry.it',
+                'created_at' => '2025-08-27 08:19:01',
+                'updated_at' => '2025-08-27 08:19:01',
+            ),
+            200 => 
+            array (
+                'id' => 1312,
+                'contact_id' => 1514,
+                'name' => 'Anamaria Paduraru',
+                'title' => 'Amministrazione',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '3498637906',
+                'email' => 'anamaria.paduraru@veloceindustry.it',
+                'created_at' => '2025-08-27 08:20:45',
+                'updated_at' => '2025-08-27 08:20:45',
+            ),
+            201 => 
+            array (
+                'id' => 1313,
+                'contact_id' => 298,
+                'name' => 'Monica Parodi',
+                'title' => 'Ragioniera',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-09-02 09:50:16',
+                'updated_at' => '2025-09-02 09:50:16',
+            ),
+            202 => 
+            array (
+                'id' => 1315,
+                'contact_id' => 234,
+                'name' => 'Antonella',
+                'title' => 'Amministrativo',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-09-05 08:30:34',
+                'updated_at' => '2025-09-05 08:30:34',
+            ),
+            203 => 
+            array (
+                'id' => 1316,
+                'contact_id' => 151,
+                'name' => 'Antonella Lavagnino',
+                'title' => 'Amministrativo',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => '',
+                'created_at' => '2025-09-05 09:10:53',
+                'updated_at' => '2025-09-05 09:10:53',
+            ),
+            204 => 
+            array (
+                'id' => 1317,
+                'contact_id' => 994,
+                'name' => 'Alessandra Di Virgilio',
+                'title' => 'Tributi - Assistente Dott.ssa Carrabba',
+                'phone' => '',
+                'fax' => '',
+                'smart' => '',
+                'email' => 'tributi@comune.basiglio.mi.it',
+                'created_at' => '2025-09-05 10:48:24',
+                'updated_at' => '2025-09-05 10:48:24',
             ),
         ));
         

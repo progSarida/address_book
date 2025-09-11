@@ -31,6 +31,7 @@ enum Titles: string implements HasLabel
     case UFFICIALE_RISCOSSIONE = "ufficiale_riscossione";
     case COMUNE = "comune";
     case AFFISSATORE = "affissatore";
+    case STUDIO_LEGALE = "studio_legale";
 
     public function getLabel(): string
     {
@@ -59,7 +60,8 @@ enum Titles: string implements HasLabel
             self::AMICI => 'Amici',
             self::UFFICIALE_RISCOSSIONE => 'Ufficiale della riscossione',
             self::COMUNE => 'Comune',
-            self::AFFISSATORE => 'Affissatore'
+            self::AFFISSATORE => 'Affissatore',
+            self::STUDIO_LEGALE => 'Studio Legale',
         };
     }
 
@@ -90,7 +92,8 @@ enum Titles: string implements HasLabel
             self::AMICI => 'AM',
             self::UFFICIALE_RISCOSSIONE => 'UF',
             self::COMUNE => 'COM',
-            self::AFFISSATORE => 'AF'
+            self::AFFISSATORE => 'AF',
+            self::STUDIO_LEGALE => 'S.L.',
         };
     }
 
@@ -121,7 +124,8 @@ enum Titles: string implements HasLabel
             self::COMUNE => 25,
             self::UFFICIALE_RISCOSSIONE => 26,
             self::AFFISSATORE => 27,
-            self::GUARDIA_FINANZA => 28
+            self::GUARDIA_FINANZA => 28,
+            self::STUDIO_LEGALE => 29,
         };
     }
 }
