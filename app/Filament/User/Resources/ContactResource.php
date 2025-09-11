@@ -97,10 +97,6 @@ class ContactResource extends Resource
                                                     ->hiddenLabel()
                                                     ->content('')
                                                     ->columnSpan(3),
-                                                Forms\Components\TextInput::make('cap')
-                                                    ->hiddenLabel()
-                                                    ->placeholder('Cap')
-                                                    ->maxLength(5),
                                                 Forms\Components\Select::make('city')
                                                     ->hiddenLabel()
                                                     ->searchable()
@@ -130,6 +126,10 @@ class ContactResource extends Resource
                                                         return City::find($state)?->name;
                                                     })
                                                     ->columnSpan(5),
+                                                Forms\Components\TextInput::make('cap')
+                                                    ->hiddenLabel()
+                                                    ->placeholder('Cap')
+                                                    ->maxLength(5),
                                                 Forms\Components\TextInput::make('province')
                                                     ->hiddenLabel()
                                                     ->placeholder('Provincia')
@@ -310,24 +310,24 @@ class ContactResource extends Resource
                         ->modalDescription('Sei sicuro di voler eliminare i contatti selezionati? Questa azione non può essere annullata.')
                         ->modalSubmitActionLabel('Elimina')
                         ->modalCancelActionLabel('Annulla'),
-                    // Tables\Actions\BulkAction::make('Stampa')
-                    //     ->icon('heroicon-m-arrow-down-tray')
-                    //     ->openUrlInNewTab()
-                    //     ->deselectRecordsAfterCompletion()
-                    //     ->action(function (Collection $records, array $data, $livewire) {
-                    //         $activeFilters = $livewire->tableFilters ?? [];
-                    //         $searchTerm = $livewire->tableSearch ?? null;           // controllare
-                    //         return response()->streamDownload(function () use ($records, $activeFilters) {
-                    //             echo Pdf::loadHTML(
-                    //                 Blade::render('pdf.contacts', [
-                    //                     'contacts' => $records,
-                    //                     'filters' => $activeFilters,
-                    //                 ])
-                    //             )
-                    //             ->setPaper('A4', 'landscape')
-                    //             ->stream();
-                    //         }, 'Contatti.pdf');
-                    //     }),
+                    Tables\Actions\BulkAction::make('Stampa')
+                        ->icon('heroicon-m-arrow-down-tray')
+                        ->openUrlInNewTab()
+                        ->deselectRecordsAfterCompletion()
+                        ->action(function (Collection $records, array $data, $livewire) {
+                            $activeFilters = $livewire->tableFilters ?? [];
+                            $searchTerm = $livewire->tableSearch ?? null;           // controllare
+                            return response()->streamDownload(function () use ($records, $activeFilters) {
+                                echo Pdf::loadHTML(
+                                    Blade::render('pdf.contacts', [
+                                        'contacts' => $records,
+                                        'filters' => $activeFilters,
+                                    ])
+                                )
+                                ->setPaper('A4', 'landscape')
+                                ->stream();
+                            }, 'Contatti.pdf');
+                        }),
                 ]),
             ])
             ->searchable()
