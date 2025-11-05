@@ -76,12 +76,16 @@ class UserResource extends Resource
                     ->searchable(),
                 Tables\Columns\TextColumn::make('email')
                     ->searchable(),
-                Tables\Columns\ToggleColumn::make('is_admin')
-                    ->label('Admin')
-                    ->onIcon('heroicon-s-shield-check')
-                    ->offIcon('heroicon-s-shield-exclamation')
-                    ->onColor('success')
-                    ->offColor('danger'),
+                // Tables\Columns\ToggleColumn::make('is_admin')
+                //     ->label('Admin')
+                //     ->onIcon('heroicon-s-shield-check')
+                //     ->offIcon('heroicon-s-shield-exclamation')
+                //     ->onColor('success')
+                //     ->offColor('danger'),
+                Tables\Columns\TextColumn::make('roles.name')
+                    ->label('Ruolo')
+                    ->badge()
+                    ->separator(', '),
                 Tables\Columns\SelectColumn::make('company')
                     ->label('Azienda')
                     ->options(Companies::options())
