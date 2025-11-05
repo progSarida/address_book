@@ -59,6 +59,7 @@ class UserResource extends Resource
                 //     ->dehydrated(fn ($state) => filled($state)) // Only save if filled
                 //     ->helperText(fn ($livewire) => $livewire instanceof \Filament\Resources\Pages\EditRecord ? '' : ''),
                 Forms\Components\Select::make('roles')
+                    ->label('Ruolo')
                     ->relationship('roles', 'name')
                     // ->multiple()
                     ->preload()
