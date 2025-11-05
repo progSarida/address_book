@@ -61,7 +61,8 @@ class UserPanelProvider extends PanelProvider
                     ->label('Admin')
                     ->url('/admin')
                     ->icon('ri-admin-fill')
-                    ->visible(fn () => auth()->check() && auth()->user()->is_admin === 1),
+                    // ->visible(fn () => auth()->check() && auth()->user()->is_admin === 1),
+                    ->visible(fn () => auth()->check() && auth()->user()->hasRole('super_admin')),
                 // ...
             ]);
     }

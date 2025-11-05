@@ -29,11 +29,9 @@ use Stevebauman\Purify\Facades\Purify;
 class ContactResource extends Resource
 {
     protected static ?string $model = Contact::class;
-
     public static ?string $pluralModelLabel = 'Elenco contatti';                             // titolo List
-
     protected static ?string $navigationLabel = 'Elenco contatti';
-
+    public static ?string $modelLabel = 'Contatto';
     protected static ?string $navigationIcon = 'far-address-book';
 
     public static function form(Form $form): Form

@@ -19,9 +19,8 @@ use Illuminate\Support\Facades\Hash;
 class UserResource extends Resource
 {
     protected static ?string $model = User::class;
-
     public static ?string $pluralModelLabel = 'Elenco utenti';
-
+    public static ?string $modelLabel = 'Utente';
     protected static ?string $navigationIcon = 'fas-users';
 
     public static function form(Form $form): Form
@@ -55,10 +54,15 @@ class UserResource extends Resource
                     ->mutateDehydratedStateUsing(fn ($state) => Hash::make($state))
                     ->placeholder(fn ($livewire) => $livewire instanceof \Filament\Resources\Pages\EditRecord ? '' : 'Inserisci password')
                     ->maxLength(255),
-                Forms\Components\Toggle::make('is_admin')
-                    ->label('Amministratore')
-                    ->dehydrated(fn ($state) => filled($state)) // Only save if filled
-                    ->helperText(fn ($livewire) => $livewire instanceof \Filament\Resources\Pages\EditRecord ? '' : ''),
+                // Forms\Components\Toggle::make('is_admin')
+                //     ->label('Amministratore')
+                //     ->dehydrated(fn ($state) => filled($state)) // Only save if filled
+                //     ->helperText(fn ($livewire) => $livewire instanceof \Filament\Resources\Pages\EditRecord ? '' : ''),
+                Forms\Components\Select::make('roles')
+                    ->relationship('roles', 'name')
+                    // ->multiple()
+                    ->preload()
+                    ->searchable(),
             ]);
     }
 

@@ -17,7 +17,7 @@ class CityResource extends Resource
 {
     protected static ?string $model = City::class;
     public static ?string $pluralModelLabel = 'Comuni';
-    public static ?string $modelLabel = 'Comuni';
+    public static ?string $modelLabel = 'Comune';
     protected static ?string $navigationIcon = 'fas-city';
 
     public static function form(Form $form): Form
