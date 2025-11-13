@@ -287,6 +287,7 @@ class ContactResource extends Resource
                     ->multiple()
             ])
             ->actions([
+                Tables\Actions\ViewAction::make(),
                 Tables\Actions\EditAction::make()
                     ->tooltip('Modifica contatto')
                     // ->iconButton()                                  // mostro solo icona
@@ -361,6 +362,7 @@ class ContactResource extends Resource
             'index' => Pages\ListContacts::route('/'),
             'create' => Pages\CreateContact::route('/create'),
             'edit' => Pages\EditContact::route('/{record}/edit'),
+            'view' => Pages\ViewContact::route('/{record}'),
         ];
     }
 }
