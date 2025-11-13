@@ -288,10 +288,10 @@ class ContactResource extends Resource
             ])
             ->actions([
                 Tables\Actions\ViewAction::make(),
-                Tables\Actions\EditAction::make()
-                    ->tooltip('Modifica contatto')
-                    // ->iconButton()                                  // mostro solo icona
-                    ,
+                // Tables\Actions\EditAction::make()
+                //     ->tooltip('Modifica contatto')
+                //     ->iconButton()                                  // mostro solo icona
+                //     ,
                 Tables\Actions\DeleteAction::make()
                     ->tooltip('Elimina contatto')
                     // ->iconButton()                                  // mostro solo icona
