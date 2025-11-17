@@ -6,6 +6,7 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
@@ -142,23 +143,27 @@ class SsoController extends Controller
 
         // 6. Acquisizione e Sincronizzazione del Ruolo tramite Spatie
         $ssoScope = $config['scope'];
-        $ssoRoleName = $ssoUserData['application_roles'][$ssoScope] ?? null; 
-        
+        $ssoRole = $ssoUserData['application_roles'][$ssoScope] ?? null;
+
         // Verifica l'esistenza della classe SpatieRole prima di tentare l'assegnazione
-        if ($ssoRoleName=="super_admin" && class_exists('Spatie\Permission\Models\Role')) {
+        if ($ssoRole['name'] == "super_admin" && class_exists('Spatie\Permission\Models\Role')) {
             $user->syncRoles([]); 
             
             // Crea il ruolo se non esiste prima di assegnarlo
             $role = SpatieRole::firstOrCreate(
-                ['name' => $ssoRoleName, 'guard_name' => 'web']
+                ['name' => $ssoRole['name'], 'guard_name' => 'web']
             );
             
-            $user->assignRole($role->name);
-            Log::info("SSO Login: User {$user->email} assigned role: {$role->name} (Created if non-existent).");
+
+            $user->assignRole($role);
+            $user->is_admin = true;
+            $user->save();
+
+            Log::info("SSO Login: User {$user->email} assigned role: {$ssoRole['name']} (Created if non-existent).");
         }
 
         // 7. Logga e Reindirizza a Filament
-        Auth::login($user, true); 
-        return redirect('/admin'); 
+        Auth::login($user, true);
+        return $user->loginRedirect();
     }
 }

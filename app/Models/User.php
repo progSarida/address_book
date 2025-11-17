@@ -4,12 +4,14 @@ namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 
+use Filament\Facades\Filament;
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Panel;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Spatie\Permission\Traits\HasRoles;
+use Symfony\Component\HttpFoundation\Response;
 
 class User extends Authenticatable implements FilamentUser
 {
@@ -53,7 +55,7 @@ class User extends Authenticatable implements FilamentUser
         ];
     }
 
-    public function canAccessPanel(\Filament\Panel $panel): bool
+    public function canAccessPanel(Panel $panel): bool
     {
         if ($panel->getId() === 'admin') {
             // return $this->is_admin;
@@ -63,5 +65,19 @@ class User extends Authenticatable implements FilamentUser
         if ($panel->getId() === 'user') {
             return true;                                                    // tutti gli utenti con login hanno accesso al pane operatore
         }
+    }
+
+    public function loginRedirect(): ?Response
+    {
+        $destinationPanelId = null;
+        if ($this->hasRole('super_admin'))
+            $destinationPanelId = 'admin';
+        else
+            $destinationPanelId = 'user';
+        
+        if (!$destinationPanelId)
+            return abort(403, 'Accesso non autorizzato a nessun pannello.');
+        
+        return redirect()->to(Filament::getPanel($destinationPanelId)->getUrl());
     }
 }
