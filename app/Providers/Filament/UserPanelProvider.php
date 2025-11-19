@@ -3,7 +3,8 @@
 namespace App\Providers\Filament;
 
 use App\Filament\User\Pages\Login;
-use App\Http\Middlewares\CheckDbSession;
+use App\Http\Middleware\EnsureUserCanAccessPanel;
+use App\Http\Middleware\CheckDbSession;
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
 use Filament\Http\Middleware\DisableBladeIconComponents;
@@ -51,6 +52,7 @@ class UserPanelProvider extends PanelProvider
                 AuthenticateSession::class,
                 ShareErrorsFromSession::class,
                 VerifyCsrfToken::class,
+                EnsureUserCanAccessPanel::class,
                 SubstituteBindings::class,
                 DisableBladeIconComponents::class,
                 DispatchServingFilamentEvent::class,
