@@ -63,6 +63,9 @@ class UserPanelProvider extends PanelProvider
                     ->icon('ri-admin-fill')
                     // ->visible(fn () => auth()->check() && auth()->user()->is_admin === 1),
                     ->visible(fn () => auth()->check() && auth()->user()->hasRole('super_admin')),
+                'logout'=>MenuItem::make()
+                    ->label('Vai al Portale')
+                    ->icon('heroicon-o-arrow-left-start-on-rectangle'),
                 // ...
             ]);
     }

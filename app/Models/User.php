@@ -65,6 +65,8 @@ class User extends Authenticatable implements FilamentUser
         if ($panel->getId() === 'user') {
             return true;                                                    // tutti gli utenti con login hanno accesso al pane operatore
         }
+
+        return false;
     }
 
     public function loginRedirect(): ?Response
