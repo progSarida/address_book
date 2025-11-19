@@ -175,7 +175,9 @@ class SsoController extends Controller
         // 1. CONFIGURAZIONE E RECUPERO DATI INIZIALI
         $sloKey = config('services.sso.slo_key');
         $incomingKey = $request->header('X-SLO-AUTH-KEY');
-        $userId = filter_var($request->input('user_id'), FILTER_VALIDATE_INT);
+        $userEmail = filter_var($request->input('user_email'), FILTER_VALIDATE_INT);
+        $user = User::where('email', $userEmail)->first();
+        $userId = $user ? $user->id : null;
         
         $rememberGuardName = config('auth.defaults.guard'); // Es. 'web'
         $sessionCookieName = config('session.cookie'); 
