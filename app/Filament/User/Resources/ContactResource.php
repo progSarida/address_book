@@ -43,7 +43,7 @@ class ContactResource extends Resource
                         Forms\Components\Tabs\Tab::make('Contatto')
                             ->schema([
                                 Forms\Components\Fieldset::make('Contatto')
-                                    ->columnSpan(5)
+                                    ->columns(10)
                                     ->schema([
                                         Forms\Components\Grid::make(10)
                                             ->schema([
@@ -51,24 +51,24 @@ class ContactResource extends Resource
                                                     ->hiddenLabel()
                                                     ->placeholder('Seleziona titolo')
                                                     ->options(Titles::class)
-                                                    ->columnSpan(3)
+                                                    ->columnSpan(['sm' => 'full', 'md' => 3])
                                                     ->searchable()
                                                     ->preload(),
                                                 Forms\Components\TextInput::make('surname')
                                                     ->hiddenLabel()
                                                     ->placeholder('Cognome/Denominazione')
-                                                    ->columnSpan(4)
+                                                    ->columnSpan(['sm' => 'full', 'md' => 4])
                                                     ->required()
                                                     ->maxLength(255),
                                                 Forms\Components\TextInput::make('name')
                                                     ->hiddenLabel()
                                                     ->placeholder('Nome')
-                                                    ->columnSpan(3)
+                                                    ->columnSpan(['sm' => 'full', 'md' => 3])
                                                     ->maxLength(255),
                                             ]),
                                     ]),
                                 Forms\Components\Fieldset::make('Indirizzo')
-                                    ->columnSpan(5)
+                                    ->columns(10)
                                     ->schema([
                                         Forms\Components\Grid::make(10)
                                             ->schema([
@@ -76,13 +76,13 @@ class ContactResource extends Resource
                                                     ->hiddenLabel()
                                                     ->placeholder('Seleziona toponimo')
                                                     ->options(Toponyms::class)
-                                                    ->columnSpan(3)
+                                                    ->columnSpan(['sm' => 'full', 'md' => 3])
                                                     ->searchable()
                                                     ->preload(),
                                                 Forms\Components\TextInput::make('addr')
                                                     ->hiddenLabel()
                                                     ->placeholder('Indirizzo')
-                                                    ->columnSpan(5)
+                                                    ->columnSpan(['sm' => 'full', 'md' => 5])
                                                     ->maxLength(255),
                                                 Forms\Components\TextInput::make('num')
                                                     ->hiddenLabel()
@@ -95,7 +95,7 @@ class ContactResource extends Resource
                                                 Forms\Components\Placeholder::make('spacer')
                                                     ->hiddenLabel()
                                                     ->content('')
-                                                    ->columnSpan(3),
+                                                    ->columnSpan(['sm' => 'full', 'md' => 3]),
                                                 Forms\Components\Select::make('city')
                                                     ->hiddenLabel()
                                                     ->searchable()
@@ -124,7 +124,7 @@ class ContactResource extends Resource
                                                     ->dehydrateStateUsing(function ($state) {
                                                         return City::find($state)?->name;
                                                     })
-                                                    ->columnSpan(5),
+                                                    ->columnSpan(['sm' => 'full', 'md' => 5]),
                                                 Forms\Components\TextInput::make('cap')
                                                     ->hiddenLabel()
                                                     ->placeholder('Cap')
@@ -136,66 +136,66 @@ class ContactResource extends Resource
                                             ]),
                                     ]),
                                 Forms\Components\Fieldset::make('Contatti')
-                                    ->columnSpan(5)
+                                    ->columns(10)
                                     ->schema([
                                         Forms\Components\Grid::make(6)
                                             ->schema([
                                                 Forms\Components\TextInput::make('phone_1')
                                                     ->hiddenLabel()
                                                     ->placeholder('Telefono 1')
-                                                    ->columnSpan(2)
+                                                    ->columnSpan(['sm' => 'full', 'md' => 2])
                                                     ->maxLength(255),
                                                 Forms\Components\TextInput::make('phone_2')
                                                     ->hiddenLabel()
                                                     ->placeholder('Telefono 2')
-                                                    ->columnSpan(2)
+                                                    ->columnSpan(['sm' => 'full', 'md' => 2])
                                                     ->maxLength(255),
                                                 Forms\Components\TextInput::make('fax')
                                                     ->hiddenLabel()
                                                     ->placeholder('Fax')
-                                                    ->columnSpan(2),
+                                                    ->columnSpan(['sm' => 'full', 'md' => 2]),
                                                 Forms\Components\TextInput::make('smart_1')
                                                     ->hiddenLabel()
                                                     ->placeholder('Cellulare 1')
-                                                    ->columnSpan(2)
+                                                    ->columnSpan(['sm' => 'full', 'md' => 2])
                                                     ->maxLength(255),
                                                 Forms\Components\TextInput::make('smart_2')
                                                     ->hiddenLabel()
                                                     ->placeholder('Cellulare 2')
-                                                    ->columnSpan(2)
+                                                    ->columnSpan(['sm' => 'full', 'md' => 2])
                                                     ->maxLength(255),
                                                 Forms\Components\Placeholder::make('spacer')
                                                     ->hiddenLabel()
                                                     ->content('')
-                                                    ->columnSpan(2),
+                                                    ->columnSpan(['sm' => 'full', 'md' => 2]),
                                                 Forms\Components\TextInput::make('email_1')
                                                     ->hiddenLabel()
                                                     ->placeholder('Email 1')
-                                                    ->columnSpan(2)
+                                                    ->columnSpan(['sm' => 'full', 'md' => 2])
                                                     ->maxLength(255),
                                                 Forms\Components\TextInput::make('email_2')
                                                     ->hiddenLabel()
                                                     ->placeholder('Email 2')
-                                                    ->columnSpan(2)
+                                                    ->columnSpan(['sm' => 'full', 'md' => 2])
                                                     ->maxLength(255),
                                                 Forms\Components\Placeholder::make('spacer')
                                                     ->hiddenLabel()
                                                     ->content('')
-                                                    ->columnSpan(2),
+                                                    ->columnSpan(['sm' => 'full', 'md' => 2]),
                                                 Forms\Components\TextInput::make('site')
                                                     ->hiddenLabel()
                                                     ->placeholder('Sito')
-                                                    ->columnSpan(4)
+                                                    ->columnSpan(['sm' => 'full', 'md' => 4])
                                                     ->maxLength(255),
                                                 Forms\Components\Placeholder::make('spacer')
                                                     ->hiddenLabel()
                                                     ->content('')
-                                                    ->columnSpan(2),
+                                                    ->columnSpan(['sm' => 'full', 'md' => 2]),
                                                 Forms\Components\Textarea::make('note')
                                                     ->hiddenLabel()
                                                     ->placeholder('Note')
                                                     ->rows(4)
-                                                    ->columnSpan(6)
+                                                    ->columnSpan(['sm' => 'full', 'md' => 6])
                                                     ->dehydrateStateUsing(function ($state) {
                                                         if (empty($state)) {
                                                             return null; // Gestisce il caso in cui il campo è vuoto
