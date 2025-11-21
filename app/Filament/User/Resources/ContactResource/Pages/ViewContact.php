@@ -17,11 +17,8 @@ class ViewContact extends ViewRecord
         return [
             Actions\Action::make('back')
                 ->label('Indietro')
-                // ->url($this->getResource()::getUrl('index'))
-                ->color('gray')
-                ->action(function () {
-                    return redirect()->to(url()->previous());
-                }),
+                ->url($this->getResource()::getUrl('index'))
+                ->color('gray'),
             Actions\EditAction::make()
                 ->icon('heroicon-o-pencil'),
             Actions\Action::make('stampa')
