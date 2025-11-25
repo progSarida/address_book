@@ -68,7 +68,7 @@ class AdminPanelProvider extends PanelProvider
                     ->label('Rubrica')
                     ->url('/user')
                     ->icon('ri-user-fill'),
-                    'logout'=>MenuItem::make()
+                'logout'=>MenuItem::make()
                     ->label('Vai al Portale')
                     ->icon('heroicon-o-arrow-left-start-on-rectangle'),
                 // ...

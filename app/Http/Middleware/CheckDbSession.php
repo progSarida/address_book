@@ -48,6 +48,6 @@ class CheckDbSession
         $request->session()->regenerateToken();
 
         // 2. Reindirizza al login
-        return redirect()->guest(route('filament.admin.auth.login')); 
+        return redirect()->route('sso.login');
     }
 }
