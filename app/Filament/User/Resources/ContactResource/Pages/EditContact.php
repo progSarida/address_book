@@ -7,6 +7,7 @@ use Barryvdh\DomPDF\Facade\Pdf;
 use Filament\Actions;
 use Filament\Actions\DeleteAction;
 use Filament\Resources\Pages\EditRecord;
+use Filament\Support\Colors\Color;
 use Illuminate\Support\Facades\Blade;
 
 class EditContact extends EditRecord
@@ -20,7 +21,7 @@ class EditContact extends EditRecord
                 ->icon('heroicon-o-printer')
                 ->label('Stampa')
                 ->tooltip('Stampa contatto')
-                ->color('primary')
+                ->color(Color::rgb('rgb(128, 128, 128)'))
                 ->action(function () {
                     // Recupera il contatto corrente
                     $contact = $this->record;

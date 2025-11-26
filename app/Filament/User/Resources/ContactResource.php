@@ -15,6 +15,7 @@ use Filament\Forms\Components\Section;
 use Filament\Forms\Form;
 use Filament\Forms\Components\Hidden;
 use Filament\Resources\Resource;
+use Filament\Support\Colors\Color;
 use Filament\Tables;
 use Filament\Tables\Filters\Filter;
 use Filament\Tables\Filters\SelectFilter;
@@ -311,6 +312,7 @@ class ContactResource extends Resource
                         ->modalCancelActionLabel('Annulla'),
                     Tables\Actions\BulkAction::make('Stampa')
                         ->icon('heroicon-m-arrow-down-tray')
+                        ->color(Color::rgb('rgb(128, 128, 128)'))
                         ->openUrlInNewTab()
                         ->deselectRecordsAfterCompletion()
                         ->action(function (Collection $records, array $data, $livewire) {

@@ -6,6 +6,7 @@ use App\Filament\User\Resources\ContactResource;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Filament\Actions;
 use Filament\Resources\Pages\ViewRecord;
+use Filament\Support\Colors\Color;
 use Illuminate\Support\Facades\Blade;
 
 class ViewContact extends ViewRecord
@@ -25,7 +26,7 @@ class ViewContact extends ViewRecord
                 ->icon('heroicon-o-printer')
                 ->label('Stampa')
                 ->tooltip('Stampa contatto')
-                ->color('primary')
+                ->color(Color::rgb('rgb(128, 128, 128)'))
                 ->action(function () {
                     // Recupera il contatto corrente
                     $contact = $this->record;

@@ -7,6 +7,7 @@ use Barryvdh\DomPDF\Facade\Pdf;
 use Filament\Actions;
 use Filament\Notifications\Notification;
 use Filament\Resources\Pages\ListRecords;
+use Filament\Support\Colors\Color;
 use Filament\Support\Enums\MaxWidth;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
@@ -31,7 +32,7 @@ class ListContacts extends ListRecords
                 ->label('Stampa')
                 ->tooltip('Stampa elenco contatti')
                 // ->iconButton()                                                                  // mostro solo icona
-                ->color('primary')
+                ->color(Color::rgb('rgb(128, 128, 128)'))
                 ->action(function ($livewire) {
                     $records = $livewire->getFilteredTableQuery()->get();                       // recupero risultato della query
                     $filters = $livewire->tableFilters ?? [];                                   // recupero i filtri
