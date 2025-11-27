@@ -312,7 +312,7 @@ class ContactResource extends Resource
                         ->modalCancelActionLabel('Annulla'),
                     Tables\Actions\BulkAction::make('Stampa')
                         ->icon('heroicon-m-arrow-down-tray')
-                        ->color(Color::rgb('rgb(128, 128, 128)'))
+                        ->color(Color::rgb('rgb(255, 0, 0)'))
                         ->openUrlInNewTab()
                         ->deselectRecordsAfterCompletion()
                         ->action(function (Collection $records, array $data, $livewire) {

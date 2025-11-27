@@ -21,7 +21,7 @@ class EditContact extends EditRecord
                 ->icon('heroicon-o-printer')
                 ->label('Stampa')
                 ->tooltip('Stampa contatto')
-                ->color(Color::rgb('rgb(128, 128, 128)'))
+                ->color(Color::rgb('rgb(255, 0, 0)'))
                 ->action(function () {
                     // Recupera il contatto corrente
                     $contact = $this->record;

@@ -32,7 +32,7 @@ class ListContacts extends ListRecords
                 ->label('Stampa')
                 ->tooltip('Stampa elenco contatti')
                 // ->iconButton()                                                                  // mostro solo icona
-                ->color(Color::rgb('rgb(128, 128, 128)'))
+                ->color(Color::rgb('rgb(255, 0, 0)'))
                 ->action(function ($livewire) {
                     $records = $livewire->getFilteredTableQuery()->get();                       // recupero risultato della query
                     $filters = $livewire->tableFilters ?? [];                                   // recupero i filtri
