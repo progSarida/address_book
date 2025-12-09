@@ -63,6 +63,16 @@
             display: block;
         }
 
+        .note {
+            break-inside: avoid !important;
+            page-break-inside: avoid !important;
+        }
+
+        .note-text {
+            break-inside: avoid !important;
+            page-break-inside: avoid !important;
+        }
+
         @media print {
             @page {
                 margin: 2cm;
@@ -78,10 +88,6 @@
                 break-inside: avoid !important;
                 page-break-inside: avoid !important;
                 margin-bottom: 20px;
-            }
-            .note {
-                break-inside: avoid !important;
-                page-break-inside: avoid !important;
             }
         }
     </style>
@@ -225,6 +231,12 @@
                     <span class="value">{{ $referent?->email ?? '' }}</span>
                 </div>
             </div>
+            @if(!empty($referent?->note))
+                <div class="linea"><strong>Note:</strong></div>
+                <div class="note-text">
+                    {!! Purify::clean(html_entity_decode($referent->note)) !!}
+                </div>
+            @endif
         </div>
     @endforeach
 </body>

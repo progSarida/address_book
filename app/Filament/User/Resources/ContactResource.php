@@ -22,8 +22,10 @@ use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Blade;
+use Illuminate\Support\Facades\Request;
 use Stevebauman\Purify\Facades\Purify;
 
 
@@ -219,33 +221,47 @@ class ContactResource extends Resource
                         Forms\Components\Tabs\Tab::make('Referenti')
                             ->schema([
                                 Forms\Components\Repeater::make('referents')
-                                    ->hiddenLabel()
+                                    ->label('')
                                     ->relationship('referents')
                                     ->schema([
                                         Forms\Components\TextInput::make('name')
                                             ->label('Nome')
-                                            ->required(),
+                                            ->required()
+                                            ->columnSpan(['default' => 'full', 'md' => 4]),
+
                                         Forms\Components\TextInput::make('title')
-                                            ->label('Qualifica'),
+                                            ->label('Qualifica')
+                                            ->columnSpan(['default' => 'full', 'md' => 4]),
+
                                         Forms\Components\TextInput::make('phone')
-                                            ->label('Telefono'),
+                                            ->label('Telefono')
+                                            ->columnSpan(['default' => 'full', 'md' => 2]),
                                         Forms\Components\TextInput::make('smart')
-                                            ->label('Cellulare'),
+                                            ->label('Cellulare')
+                                            ->columnSpan(['default' => 'full', 'md' => 2]),
+
                                         Forms\Components\TextInput::make('email')
                                             ->label('Email')
-                                            ->email(),
+                                            ->maxLength(255)
+                                            ->columnSpanFull(),
+                                        Forms\Components\Textarea::make('note')
+                                            ->label('Note')
+                                            ->rows(3)
+                                            ->columnSpanFull(),
                                     ])
-                                    ->columns(3)
+                                    ->columns(12)
+                                    ->columnSpanFull()
                                     ->collapsible()
                                     ->collapsed()
                                     ->createItemButtonLabel('Aggiungi referente')
                                     ->defaultItems(0)
-                                    ->grid(1)
-                                    ->itemLabel(fn (array $state): ?string => $state['name'] . ' - ' . $state['title'] ?? null)
+                                    ->itemLabel(fn (array $state): ?string =>
+                                        trim($state['name'] ?? '' . ' ' . $state['title'] ?? '')
+                                    )
                                     ->deleteAction(
                                         fn ($action) => $action->requiresConfirmation()
                                             ->modalHeading('Conferma eliminazione')
-                                            ->modalDescription('Sei sicuro di voler eliminare questo referente? Questa azione non può essere annullata.')
+                                            ->modalDescription('Sei sicuro di voler eliminare questo referente?')
                                             ->modalSubmitActionLabel('Elimina')
                                             ->modalCancelActionLabel('Annulla')
                                     ),
@@ -260,6 +276,9 @@ class ContactResource extends Resource
     public static function table(Table $table): Table
     {
         return $table
+            ->defaultSort('surname', 'asc', [
+                'name' => 'asc',
+            ])
             ->columns([
                 Tables\Columns\TextColumn::make('title')
                     ->label('Tipo')
@@ -332,14 +351,31 @@ class ContactResource extends Resource
                 ]),
             ])
             ->searchable()
-            ->modifyQueryUsing(function (Builder $query) use ($table): Builder {
-                $search = $table->getLivewire()->getTableSearch();
-                if ($search) {
-                    $query->where(function ($query) use ($search) {
-                        $query->where('surname', 'LIKE', "%{$search}%")
-                            ->orWhere('name', 'LIKE', "%{$search}%");
+            ->deferLoading()
+            ->modifyQueryUsing(function (Builder $query, $livewire): Builder {
+
+                // Ricerca testuale
+                $search = $livewire->tableSearch ?? null;
+
+                // Filtri
+                $filters = $livewire->tableFilters ?? [];
+                $titleFilter = Arr::flatten($filters['title'] ?? []);
+                // Nessuna ricerca e nessun filtro → mostra tabella vuota
+                if (empty($search) && empty($titleFilter)) {
+                    return $query->whereRaw('1 = 0');
+                }
+                // Ricerca libera
+                if (!empty($search)) {
+                    $query->where(function ($q) use ($search) {
+                        $q->where('surname', 'LIKE', "%{$search}%")
+                        ->orWhere('name', 'LIKE', "%{$search}%");
                     });
                 }
+                // Filtro title
+                if (!empty($titleFilter)) {
+                    $query->whereIn('title', $titleFilter);
+                }
+
                 return $query;
             });
     }

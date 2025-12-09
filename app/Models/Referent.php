@@ -13,6 +13,7 @@ class Referent extends Model
         'fax',
         'smart',
         'email',
+        'note',
     ];
 
     public function contact()
