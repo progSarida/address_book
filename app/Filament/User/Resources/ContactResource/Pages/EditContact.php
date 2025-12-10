@@ -9,11 +9,17 @@ use Filament\Actions;
 use Filament\Actions\DeleteAction;
 use Filament\Resources\Pages\EditRecord;
 use Filament\Support\Colors\Color;
+use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Support\Facades\Blade;
 
 class EditContact extends EditRecord
 {
     protected static string $resource = ContactResource::class;
+
+    public function getTitle(): string | Htmlable
+    {
+        return $this->record->surname . ' ' . $this->record->name;
+    }
 
     protected function getHeaderActions(): array
     {

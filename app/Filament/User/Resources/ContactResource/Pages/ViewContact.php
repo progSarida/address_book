@@ -8,11 +8,17 @@ use Barryvdh\DomPDF\Facade\Pdf;
 use Filament\Actions;
 use Filament\Resources\Pages\ViewRecord;
 use Filament\Support\Colors\Color;
+use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Support\Facades\Blade;
 
 class ViewContact extends ViewRecord
 {
     protected static string $resource = ContactResource::class;
+
+    public function getTitle(): string | Htmlable
+    {
+        return $this->record->surname . ' ' . $this->record->name;
+    }
 
     protected function getHeaderActions(): array
     {
