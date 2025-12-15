@@ -32,4 +32,19 @@ class Contact extends Model
     {
         return $this->hasMany(Referent::class);
     }
+
+    protected static function booted()
+    {
+        static::creating(function ($contact) {
+            $contact->company = 'sarida';
+        });
+
+        static::saving(function ($contact) {
+            $contact->name = $contact->name ? $contact->name : '';
+        });
+
+        static::deleted(function ($contact) {
+            $contact->referents()->delete();
+        });
+    }
 }
