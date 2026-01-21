@@ -11,6 +11,7 @@ use App\Models\Contact;
 use App\Models\Province;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Filament\Forms;
+use Filament\Forms\Components\Checkbox;
 use Filament\Forms\Components\Section;
 use Filament\Forms\Form;
 use Filament\Forms\Components\Hidden;
@@ -24,6 +25,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Request;
 use Stevebauman\Purify\Facades\Purify;
@@ -300,8 +302,17 @@ class ContactResource extends Resource
                     ->label('Email'),
             ])
             ->filters([
+                Filter::make('all')
+                    ->form([
+                        Checkbox::make('all')
+                            ->label('Mostra tutti i contatti'),
+                    ])
+                    ->indicateUsing(function (array $data): ?string {
+                        return empty($data['show_past_deadline']) ? '' : 'Incluse scadute';
+                    }),
                 SelectFilter::make('title')
                     ->label('Tipo')
+                    ->placeholder('')
                     ->options(Titles::class)
                     ->searchable()
                     ->multiple()
@@ -359,7 +370,11 @@ class ContactResource extends Resource
 
                 // Filtri
                 $filters = $livewire->tableFilters ?? [];
+                $all = $filters['all']['all'];
                 $titleFilter = Arr::flatten($filters['title'] ?? []);
+                if($all) {
+                    return $query->whereRaw('1 = 1');
+                }
                 // Nessuna ricerca e nessun filtro → mostra tabella vuota
                 if (empty($search) && empty($titleFilter)) {
                     return $query->whereRaw('1 = 0');
@@ -383,7 +398,8 @@ class ContactResource extends Resource
     public static function getEloquentQuery(): Builder
     {
         return parent::getEloquentQuery()
-            ->where('company', auth()->user()->company);
+            // ->where('company', auth()->user()->company);
+            ->where('company', Auth::user()->company);
 
     }
 
