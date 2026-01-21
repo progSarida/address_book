@@ -364,31 +364,42 @@ class ContactResource extends Resource
             ->searchable()
             ->deferLoading()
             ->modifyQueryUsing(function (Builder $query, $livewire): Builder {
-
-                // Ricerca testuale
+                // Estrazione sicura dei dati
                 $search = $livewire->tableSearch ?? null;
-
-                // Filtri
                 $filters = $livewire->tableFilters ?? [];
-                $all = $filters['all']['all'];
-                $titleFilter = Arr::flatten($filters['title'] ?? []);
-                if($all) {
-                    return $query->whereRaw('1 = 1');
+
+                // Accedo in modo sicuro al checkbox 'all' dentro il filtro 'all'
+                $showAll = $filters['all']['all'] ?? false;
+
+                // Accedo in modo sicuro ai titoli
+                $titleFilter = isset($filters['title']['values'])
+                    ? Arr::flatten($filters['title']['values'])
+                    : (isset($filters['title']) ? Arr::flatten((array)$filters['title']) : []);
+
+                // Se l'utente ha spuntato "Mostra tutti i contatti"
+                if ($showAll) {
+                    return $query;
                 }
-                // Nessuna ricerca e nessun filtro → mostra tabella vuota
+
+                // Logica Tabella Vuota (Se non c'è ricerca E non c'è filtro titolo)
                 if (empty($search) && empty($titleFilter)) {
                     return $query->whereRaw('1 = 0');
                 }
-                // Ricerca libera
+
+                // Se arrivo qui, applico i filtri attivi
                 if (!empty($search)) {
                     $query->where(function ($q) use ($search) {
                         $q->where('surname', 'LIKE', "%{$search}%")
                         ->orWhere('name', 'LIKE', "%{$search}%");
                     });
                 }
-                // Filtro title
+
                 if (!empty($titleFilter)) {
-                    $query->whereIn('title', $titleFilter);
+                    // Rimuovo eventuali valori nulli o stringhe vuote dall'array
+                    $cleanTitles = array_filter($titleFilter, fn($value) => !empty($value));
+                    if (!empty($cleanTitles)) {
+                        $query->whereIn('title', $cleanTitles);
+                    }
                 }
 
                 return $query;
