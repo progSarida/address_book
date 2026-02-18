@@ -32,6 +32,7 @@ enum Titles: string implements HasLabel
     case COMUNE = "comune";
     case AFFISSATORE = "affissatore";
     case STUDIO_LEGALE = "studio_legale";
+    case GEOMETRA = "geometra";
 
     public function getLabel(): string
     {
@@ -62,6 +63,7 @@ enum Titles: string implements HasLabel
             self::COMUNE => 'Comune',
             self::AFFISSATORE => 'Affissatore',
             self::STUDIO_LEGALE => 'Studio Legale',
+            self::GEOMETRA => 'Geometra',
         };
     }
 
@@ -94,6 +96,7 @@ enum Titles: string implements HasLabel
             self::COMUNE => 'COM',
             self::AFFISSATORE => 'AF',
             self::STUDIO_LEGALE => 'S.L.',
+            self::GEOMETRA => 'Geom.',
         };
     }
 
@@ -126,6 +129,7 @@ enum Titles: string implements HasLabel
             self::AFFISSATORE => 27,
             self::GUARDIA_FINANZA => 28,
             self::STUDIO_LEGALE => 29,
+            self::GEOMETRA => '0',
         };
     }
 }
