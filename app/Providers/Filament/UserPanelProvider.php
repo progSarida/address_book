@@ -14,6 +14,7 @@ use Filament\Pages;
 use Filament\Panel;
 use Filament\PanelProvider;
 use Filament\Support\Colors\Color;
+use Filament\View\PanelsRenderHook;
 use Filament\Widgets;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
 use Illuminate\Cookie\Middleware\EncryptCookies;
@@ -60,6 +61,10 @@ class UserPanelProvider extends PanelProvider
             ->authMiddleware([
                 Authenticate::class,
             ])
+            ->renderHook(
+                PanelsRenderHook::TOPBAR_END,
+                fn (): string => view('filament.topbar.ticket-button')->render()
+            )
             ->userMenuItems([
                 MenuItem::make()
                     ->label('Admin')
@@ -67,6 +72,11 @@ class UserPanelProvider extends PanelProvider
                     ->icon('ri-admin-fill')
                     // ->visible(fn () => auth()->check() && auth()->user()->is_admin === 1),
                     ->visible(fn () => auth()->check() && auth()->user()->hasRole('super_admin')),
+                    MenuItem::make()
+                    ->label('Pannello Utente')
+                    ->url(config('services.sso.user_dashboard'))
+                    ->icon('heroicon-o-cog-6-tooth')
+                    ->openUrlInNewTab(),
                 'logout'=>MenuItem::make()
                     ->label('Vai al Portale')
                     ->icon('heroicon-o-arrow-left-start-on-rectangle'),
