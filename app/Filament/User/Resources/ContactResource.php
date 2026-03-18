@@ -257,9 +257,18 @@ class ContactResource extends Resource
                                     ->collapsed()
                                     ->createItemButtonLabel('Aggiungi referente')
                                     ->defaultItems(0)
-                                    ->itemLabel(fn (array $state): ?string =>
-                                        trim($state['name'] ?? '' . ' ' . $state['title'] ?? '')
-                                    )
+                                    // ->itemLabel(fn (array $state): ?string =>
+                                    //     trim($state['name'] ?? '' . ' ' . $state['title'] ?? '')
+                                    // )
+                                    ->itemLabel(function (array $state) {
+                                        $nome = $state['name'] ? $state['name'] : '';
+                                        $title = $state['title'] ? " (" . $state['title'] . ")" : '';
+                                        $phone = $state['phone'] ? " - Tel: " . $state['phone'] : '';
+                                        $smart = $state['smart'] ? " - Cell: " . $state['smart'] : '';
+                                        $email = $state['email'] ? " - Email: " . $state['email'] : '';
+                                        return "{$nome} {$title} {$phone} {$smart} {$email}";
+                                        // return trim($state['name'] ?? '' . ' ' . $state['title'] ?? '');
+                                    })
                                     ->deleteAction(
                                         fn ($action) => $action->requiresConfirmation()
                                             ->modalHeading('Conferma eliminazione')
