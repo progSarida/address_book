@@ -148,25 +148,36 @@ class ContactResource extends Resource
                                                 Forms\Components\TextInput::make('phone_1')
                                                     ->hiddenLabel()
                                                     ->placeholder('Telefono 1')
+                                                    ->tel()
+                                                    ->suffixAction(
+                                                        Forms\Components\Actions\Action::make('call')
+                                                            ->icon('heroicon-m-phone')
+                                                            ->color('success')
+                                                            ->url(fn ($state) => $state ? "tel:{$state}" : null)
+                                                    )
                                                     ->columnSpan(['sm' => 'full', 'md' => 2])
                                                     ->maxLength(255),
                                                 Forms\Components\TextInput::make('phone_2')
                                                     ->hiddenLabel()
                                                     ->placeholder('Telefono 2')
+                                                    ->tel()
                                                     ->columnSpan(['sm' => 'full', 'md' => 2])
                                                     ->maxLength(255),
                                                 Forms\Components\TextInput::make('fax')
                                                     ->hiddenLabel()
                                                     ->placeholder('Fax')
+                                                    ->tel()
                                                     ->columnSpan(['sm' => 'full', 'md' => 2]),
                                                 Forms\Components\TextInput::make('smart_1')
                                                     ->hiddenLabel()
                                                     ->placeholder('Cellulare 1')
+                                                    ->tel()
                                                     ->columnSpan(['sm' => 'full', 'md' => 2])
                                                     ->maxLength(255),
                                                 Forms\Components\TextInput::make('smart_2')
                                                     ->hiddenLabel()
                                                     ->placeholder('Cellulare 2')
+                                                    ->tel()
                                                     ->columnSpan(['sm' => 'full', 'md' => 2])
                                                     ->maxLength(255),
                                                 Forms\Components\Placeholder::make('spacer')
