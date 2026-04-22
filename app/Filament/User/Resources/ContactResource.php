@@ -387,6 +387,18 @@ class ContactResource extends Resource
 
                 // Se l'utente ha spuntato "Mostra tutti i contatti"
                 if ($showAll) {
+                    if (!empty($search)) {
+                        $query->where(function ($q) use ($search) {
+                            $q->where('surname', 'LIKE', "%{$search}%")
+                            ->orWhere('name', 'LIKE', "%{$search}%");
+                        });
+                    }
+                    if (!empty($titleFilter)) {
+                        $cleanTitles = array_filter($titleFilter, fn($value) => !empty($value));
+                        if (!empty($cleanTitles)) {
+                            $query->whereIn('title', $cleanTitles);
+                        }
+                    }
                     return $query;
                 }
 
