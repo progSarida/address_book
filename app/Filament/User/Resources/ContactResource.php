@@ -161,23 +161,40 @@ class ContactResource extends Resource
                                                     ->hiddenLabel()
                                                     ->placeholder('Telefono 2')
                                                     ->tel()
+                                                    ->suffixAction(
+                                                        Forms\Components\Actions\Action::make('call')
+                                                            ->icon('heroicon-m-phone')
+                                                            ->color('success')
+                                                            ->url(fn ($state) => $state ? "tel:{$state}" : null)
+                                                    )
                                                     ->columnSpan(['sm' => 'full', 'md' => 2])
                                                     ->maxLength(255),
                                                 Forms\Components\TextInput::make('fax')
                                                     ->hiddenLabel()
                                                     ->placeholder('Fax')
-                                                    ->tel()
                                                     ->columnSpan(['sm' => 'full', 'md' => 2]),
                                                 Forms\Components\TextInput::make('smart_1')
                                                     ->hiddenLabel()
                                                     ->placeholder('Cellulare 1')
                                                     ->tel()
+                                                    ->suffixAction(
+                                                        Forms\Components\Actions\Action::make('call')
+                                                            ->icon('heroicon-m-phone')
+                                                            ->color('success')
+                                                            ->url(fn ($state) => $state ? "tel:{$state}" : null)
+                                                    )
                                                     ->columnSpan(['sm' => 'full', 'md' => 2])
                                                     ->maxLength(255),
                                                 Forms\Components\TextInput::make('smart_2')
                                                     ->hiddenLabel()
                                                     ->placeholder('Cellulare 2')
                                                     ->tel()
+                                                    ->suffixAction(
+                                                        Forms\Components\Actions\Action::make('call')
+                                                            ->icon('heroicon-m-phone')
+                                                            ->color('success')
+                                                            ->url(fn ($state) => $state ? "tel:{$state}" : null)
+                                                    )
                                                     ->columnSpan(['sm' => 'full', 'md' => 2])
                                                     ->maxLength(255),
                                                 Forms\Components\Placeholder::make('spacer')
