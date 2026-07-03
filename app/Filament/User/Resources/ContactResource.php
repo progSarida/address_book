@@ -255,7 +255,7 @@ class ContactResource extends Resource
                                     ->relationship('referents')
                                     ->schema([
                                         Forms\Components\TextInput::make('name')
-                                            ->label('Nome')
+                                            ->label('Cognome e Nome')
                                             ->required()
                                             ->columnSpan(['default' => 'full', 'md' => 4]),
 
