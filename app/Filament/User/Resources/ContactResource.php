@@ -315,9 +315,7 @@ class ContactResource extends Resource
     public static function table(Table $table): Table
     {
         return $table
-            ->defaultSort('surname', 'asc', [
-                'name' => 'asc',
-            ])
+            ->defaultSort('denominazione', 'asc')
             ->columns([
                 Tables\Columns\TextColumn::make('title')
                     ->label('Tipo')
@@ -326,7 +324,7 @@ class ContactResource extends Resource
                         return \App\Enum\Titles::tryFrom($state)?->getLabel() ?? $state;
                     }),
                 Tables\Columns\TextColumn::make('denominazione')
-                    ->label('Denominazione')
+                    ->label('🔍 Denominazione')
                     ->sortable(['surname', 'name'])
                     ->state(function ($record) {
                         return trim($record->surname . ' ' . $record->name);
